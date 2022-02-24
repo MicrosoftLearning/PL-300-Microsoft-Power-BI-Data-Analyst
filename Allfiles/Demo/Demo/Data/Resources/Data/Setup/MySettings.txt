@@ -1,0 +1,10 @@
+Instructor account: 
+Instructor password: 
+---
+Recipient (Ty Johnson) account: 
+Recipient (Ty Johnson) password: 
+---
+Database Server: DATA-AI
+---
+Shared data folder: \\DATA-AI\Data
+---

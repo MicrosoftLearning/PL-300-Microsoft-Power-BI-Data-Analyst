@@ -1,0 +1,28 @@
+>> Date calculated table
+==================================================
+Date = CALENDARAUTO()
+
+
+>> Date table: Year calculated column
+==================================================
+Year = "CY" & YEAR('Date'[Date])
+
+
+>> Date table: Month calculated column
+==================================================
+Month = FORMAT('Date'[Date], "YYYY-MM")
+
+
+>> Sales table: Cost calculated column
+==================================================
+Cost = 'Sales'[Quantity] * RELATED('Product'[Cost])
+
+
+>> Sales table: Profit Margin measure
+==================================================
+Profit Margin = DIVIDE([Profit], SUM('Sales'[Sales]))
+
+
+>> Sales table: Sales YTD measure
+==================================================
+Sales YTD = TOTALYTD(SUM('Sales'[Sales]), 'Date'[Date])
