@@ -1,0 +1,3 @@
+>> Cost custom column expression
+==================================================
+if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]
