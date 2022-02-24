@@ -1,3 +1,0 @@
->> Footer text box expression
-==================================================
-="Page " & Globals!PageNumber & " of " & Globals!TotalPages
