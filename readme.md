@@ -1,14 +1,16 @@
-# INF99X: Sample Course
+# PL-300: Microsoft Power BI Data Analyst
 
-- **[Download Latest Student Handbook and AllFiles Content](../../releases/latest)**
+This repository contains the hands-on lab exercises for Microsoft course [PL-300: Microsoft Power BI Data Analyst](https://docs.microsoft.com/en-us/learn/certifications/courses/PL-300T00). The labs are designed to accompany the learning materials and enable learners to practice using the technologies they describe.
+
 - **Are you a MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
 - **Need to manually build the lab instructions?** - Instructions are available in the [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) repository
+- **Do you need a refresher on which labs go with which module?** - Check out the [GitHub Page](https://microsoftlearning.github.io/DA-100-Analyzing-Data-with-Power-BI/)
 
 ## What are we doing?
 
-- To support this course, we will need to make frequent updates to the course content to keep it current with the Azure services used in the course.  We are publishing the lab instructions and lab files on GitHub to allow for open contributions between the course authors and MCTs to keep the content current with changes in the Azure platform.
+- To support this course, we will need to make frequent updates to the course content to keep it current with the Power BI services used in the course.  We are publishing the lab instructions and lab files on GitHub to allow for open contributions between the course authors and MCTs to keep the content current with changes in the Power BI platform.
 
-- We hope that this brings a sense of collaboration to the labs like we've never had before - when Azure changes and you find it first during a live delivery, go ahead and make an enhancement right in the lab source.  Help your fellow MCTs.
+- We hope that this brings a sense of collaboration to the labs like we've never had before - when Power BI changes and you find it first during a live delivery, go ahead and make an enhancement right in the lab source.  Help your fellow MCTs.
 
 ## How should I use these files relative to the released MOC files?
 
@@ -26,7 +28,7 @@
 
 - Any MCT can submit a pull request to the code or content in the GitHub repro, Microsoft and the course author will triage and include content and lab code changes as needed.
 
-- You can submit bugs, changes, improvement and ideas.  Find a new Azure feature before we have?  Submit a new demo!
+- You can submit bugs, changes, improvement and ideas.  Find a new Power BI feature before we have?  Submit a new demo!
 
 ## Notes
 
