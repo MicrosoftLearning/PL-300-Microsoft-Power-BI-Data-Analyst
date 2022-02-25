@@ -25,9 +25,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 2. Load Data in Power BI Desktop
 
-3. Model Data in Power BI Desktop, Part 1
-
-4. Model Data in Power BI Desktop, Part 2
+3. Model Data in Power BI Desktop
 
 5. Create DAX Calculations in Power BI Desktop, Part 1
 
@@ -71,7 +69,7 @@ In this task you will setup the environment for the lab.
 
     ![Picture 9](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image4.png)
 
-1. In the **Open** window, navigate to the **D:\DA100\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Starter** folder.
+1. In the **Open** window, navigate to the **D:\PL300\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Starter** folder.
 
 1. Select the **Sales Analysis** file.
 
@@ -91,7 +89,7 @@ In this task you will setup the environment for the lab.
 
     ![Picture 6](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image7.png)
 
-1. In the **Save As** window, navigate to the **D:\DA100\MySolution** folder.
+1. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
 
 1. Click **Save**.
 
@@ -149,7 +147,7 @@ In this task you will create several measures with DAX expressions that use the 
 
 1. Add a measure to the **Sales** table, based on the following expression:
 
-    *For your convenience, all DAX definitions in this lab can be copied from the **D:\DA100\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** file.*
+    *For your convenience, all DAX definitions in this lab can be copied from the **D:\PL300\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** file.*
 
 
     **DAX**

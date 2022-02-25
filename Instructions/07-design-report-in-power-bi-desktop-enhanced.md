@@ -29,9 +29,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 2. Load Data in Power BI Desktop
 
-3. Model Data in Power BI Desktop, Part 1
-
-4. Model Data in Power BI Desktop, Part 2
+3. Model Data in Power BI Desktop
 
 5. Create DAX Calculations in Power BI Desktop, Part 1
 
@@ -115,7 +113,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 	![Picture 6](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image8.png)
 
-8. In the **Open** window, navigate to the **D:\DA100\Labs\08-design-report-in-power-bi-desktop-enhanced\Starter** folder.
+8. In the **Open** window, navigate to the **D:\PL300\Labs\08-design-report-in-power-bi-desktop-enhanced\Starter** folder.
 
 9. Select the **Sales Analysis** file.
 
@@ -135,7 +133,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 	![Picture 3](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image11.png)
 
-15. In the **Save As** window, navigate to the **D:\DA100\MySolution** folder.
+15. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
 
 16. Click **Save**.
 

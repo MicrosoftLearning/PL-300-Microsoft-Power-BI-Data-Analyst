@@ -17,8 +17,6 @@ In this lab you learn how to:
 
 - Use Q&A to create dashboard tiles
 
-- Configure a dashboard tile alert
-
 ### **Lab story**
 
 This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
@@ -27,9 +25,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 2. Load Data in Power BI Desktop
 
-3. Model Data in Power BI Desktop, Part 1
-
-4. Model Data in Power BI Desktop, Part 2
+3. Model Data in Power BI Desktop
 
 5. Create DAX Calculations in Power BI Desktop, Part 1
 
@@ -115,7 +111,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
     ![Picture 34](Linked_image_Files/09-create-power-bi-dashboard_image9.png)
 
-8. In the **Open** window, navigate to the **D:\DA100\Labs\09-create-power-bi-dashboard\Starter** folder.
+8. In the **Open** window, navigate to the **D:\PL300\Labs\09-create-power-bi-dashboard\Starter** folder.
 
 9. Select the **Sales Analysis** file.
 
@@ -135,7 +131,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
     ![Picture 10](Linked_image_Files/09-create-power-bi-dashboard_image12.png)
 
-15. In the **Save As** window, navigate to the **D:\DA100\MySolution** folder.
+15. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
 
 16. Click **Save**.
 
@@ -159,7 +155,7 @@ In this task you will setup the environment for the lab by creating a dataset.
 
     ![Picture 5](Linked_image_Files/09-create-power-bi-dashboard_image16.png)
 
-4. In the **Open** window, navigate to the **D:\DA100\Labs\08-design-report-in-power-bi-desktop-enhanced\Solution** folder.
+4. In the **Open** window, navigate to the **D:\PL300\Labs\08-design-report-in-power-bi-desktop-enhanced\Solution** folder.
 
 5. Select the **Sales Analysis.pbix** file, and then click **Open**.
 
@@ -257,7 +253,7 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 
     ![Picture 48](Linked_image_Files/09-create-power-bi-dashboard_image33.png)
 
-24. In the **Add Image Tile** pane, in the **URL** box, enter the complete URL found in the **D:\DA100\Resources\AdventureWorksLogo_DataURL.txt** file.
+24. In the **Add Image Tile** pane, in the **URL** box, enter the complete URL found in the **D:\PL300\Resources\AdventureWorksLogo_DataURL.txt** file.
 
     *You can embed an image by using its URL, or you can use a data URL, which embeds content inline.*
 
@@ -305,31 +301,7 @@ In this task you will edit the details of two tiles.
 
 8. Notice that the tile describes the last refresh time (which done when loading the data model in Power BI Desktop).
 
-    *You’ll simulate a data refresh later in this lab and see that the refresh time updates.*
 
-### **Task 6: Configure an alert**
-
-In this task you will configure a data alert.
-
-Data alerts can only be configured on dashboard tiles, and specifically tiles that display a single numeric value.
-
-1. Hover the cursor over the **Sales YTD** tile, click the ellipsis, and then select **Manage Alerts**.
-
-    ![Picture 53](Linked_image_Files/09-create-power-bi-dashboard_image42.png)
-
-2. In the **Manage Alerts** pane (located at the right), click **Add Alert Rule**.
-
-    ![Picture 25](Linked_image_Files/09-create-power-bi-dashboard_image43.png)
-
-3. In the **Threshold** box, replace the value with **35000000** (35 million).
-
-    ![Picture 26](Linked_image_Files/09-create-power-bi-dashboard_image44.png)
-
-    *This configuration ensures you’ll be notified whenever the tile updates to a value above 35 million.*
-
-4. At the bottom of the pane, click **Save and Close**.
-
-    ![Picture 27](Linked_image_Files/09-create-power-bi-dashboard_image45.png)
 
     *You’ll refresh the dataset in the next exercise. Typically, this would be achieved by using scheduled refresh, in which case Power BI would use a gateway to connect to the SQL Server database. However, due to constraints in the classroom setup, there is no gateway. So, you’ll open Power BI Desktop, perform a manual data refresh, and then upload the file to your workspace.*
 
@@ -341,7 +313,7 @@ In this exercise you will first load sales order data for June 2020 into the **A
 
 In this task you will run a PowerShell script to update data in the **AdventureWorksDW2020** database.
 
-1. In File Explorer, inside the **D:\DA100\Setup** folder, right-click the **UpdateDatabase-2-AddSales.ps1** file, and then select **Run with PowerShell**.
+1. In File Explorer, inside the **D:\PL300\Setup** folder, right-click the **UpdateDatabase-2-AddSales.ps1** file, and then select **Run with PowerShell**.
 
     ![Picture 28](Linked_image_Files/09-create-power-bi-dashboard_image46.png)
 

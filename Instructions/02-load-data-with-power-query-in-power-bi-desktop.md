@@ -24,9 +24,8 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 2. **Load Data in Power BI Desktop**
 
-3. Model Data in Power BI Desktop, Part 1
+3. Model Data in Power BI Desktop
 
-4. Model Data in Power BI Desktop, Part 2
 
 5. Create DAX Calculations in Power BI Desktop, Part 1
 
@@ -70,7 +69,7 @@ In this task you will setup the environment for the lab.
 
     ![Picture 11](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image4.png)
 
-1. In the **Open** window, navigate to the **D:\DA100\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter** folder.
+1. In the **Open** window, navigate to the **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter** folder.
 
 1. Select the **Sales Analysis** file.
 
@@ -98,7 +97,7 @@ In this task you will setup the environment for the lab.
 
     ![Picture 22](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image8.png)
 
-1. In the **Save As** window, navigate to the **D:\DA100\MySolution** folder.
+1. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
 
 1. Click **Save**.
 
@@ -461,7 +460,7 @@ In this task you will configure the **Sales** query.
 
 7. In the **Custom Column Formula** box, enter the following expression (after the equals symbol):
 
-8. For your convenience, you can copy the expression from the **D:\DA100\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** file.
+8. For your convenience, you can copy the expression from the **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** file.
 
 
    **Power Query**

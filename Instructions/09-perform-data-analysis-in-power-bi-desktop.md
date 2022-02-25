@@ -17,9 +17,7 @@ In this lab you learn how to:
 
 - Use a visual to forecast values
 
-- Work with the decomposition tree visual
 
-- Work with the key influencers visual
 
 ### **Lab story**
 
@@ -29,9 +27,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 2. Load Data in Power BI Desktop
 
-3. Model Data in Power BI Desktop, Part 1
-
-4. Model Data in Power BI Desktop, Part 2
+3. Model Data in Power BI Desktop
 
 5. Create DAX Calculations in Power BI Desktop, Part 1
 
@@ -103,7 +99,7 @@ In this task you will setup the environment for the lab by creating a dataset.
 
 	![Picture 11](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image6.png)
 
-4. In the **Open** window, navigate to the **D:\DA100\Labs\09-create-power-bi-dashboard\Solution** folder.
+4. In the **Open** window, navigate to the **D:\PL300\Labs\09-create-power-bi-dashboard\Solution** folder.
 
 5. Select the **Sales Analysis.pbix** file, and then click **Open**.
 
@@ -135,7 +131,7 @@ In this task you will create the **Sales Exploration** report.
 
 	![Picture 12](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image10.png)
 
-7. In the **Save As** window, navigate to the **D:\DA100\MySolution** folder.
+7. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
 
 8. In the **File Name** box, enter **Sales Exploration**.
 
@@ -293,125 +289,6 @@ In this task you will create a forecast to determine possible future sales reven
 
 14. Save the Power BI Desktop file.
 
-## **Exercise 4: Work with a Decomposition Tree**
-
-In this exercise you will create a decomposition tree to explore the relationships between reseller geography and profit margin.
-
-### **Task 1: Work with a decomposition tree**
-
-In this task you will create a decomposition tree to explore the relationships between reseller geography and profit margin.
-
-1. Add a new page, and then rename the page to **Decomposition Tree**.
-
-	![Picture 65](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image30.png)
-
-2. On the **Insert** ribbon, from inside the **AI Visuals** group, click **Decomposition Tree**.
-
-	*Tip: The AI visuals are also available in the **Visualizations** pane.*
-
-	![Picture 54](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image31.png)
-
-3. Position and resize the visual so it fills the entire page.
-
-	![Picture 73](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image32.png)
-
-4. Add the following fields to the visual wells/areas:
-
-	- Analyze: **Sales \| Profit Margin**
-
-	- Explain By: **Reseller \| Geography** (the entire hierarchy)
-
-	![Picture 57](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image33.png)
-
-5. In the **Filters** pane, add the **Date \| Year** field to the **Filters On This Page**, and set the filter to **FY2020**.
-
-	![Picture 59](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image34.png)
-
-6. In the decomposition tree visual, notice the root of the tree: **Profit Margin** at -0.94%
-
-	![Picture 21](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image35.png)
-
-7. Click the plus icon, and in the context menu, select **High Value**.
-
-	![Picture 61](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image36.png)
-
-8. Notice that the decomposition tree presents resellers, ordered from highest profit margin.
-
-9. To remove the level, at the top of visual, beside the **Reseller** label, click **X**.
-
-	![Picture 62](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image37.png)
-
-10. Click the plus icon again, and then expand to the **Country-Region** level.
-
-11. Expand from the **United States** to the **State-Province** level.
-
-12. Use the down-arrow located at the bottom of the visual for **State-Province**, and then scroll to the lower profitable states.
-
-13. Notice that **New York** state has negative profitability.
-
-14. Expand from **New York** to the **Reseller** level.
-
-15. Notice that it is easy to isolate root cause.
-
-	![Picture 22](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image38.png)
-
-	***United States** is not producing profit in **FY2020**. **New York** is one state that’s not achieving positive profit, and it’s due to four resellers paying less than standard costs for their goods.*
-
-16. Save the Power BI Desktop file.
-
-## **Exercise 5: Work with Key Influencers**
-
-In this exercise you will use the Key Influencers AI visual to determine what influences profitability within reseller business types and geography.
-
-### **Task 1: Work with key influencers**
-
-In this task you will use the Key Influencers AI visual to determine what influences profitability within reseller business types and geography.
-
-1. Add a new page, and then rename the page to **Key Influencers**.
-
-	![Picture 64](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image39.png)
-
-2. On the **Insert** ribbon, from inside the **AI Visuals** group, click **Key Influencers**.
-
-	*Tip: The AI visuals are also available in the **Visualizations** pane.*
-
-	![Picture 71](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image40.png)
-
-3. Position and resize the visual so it fills the entire page.
-
-	![Picture 72](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image41.png)
-
-4. Add the following fields to the visual wells:
-
-	- Analyze: **Sales \| Profit Margin**
-
-	- Explain By: **Reseller \| Business Type** and **Reseller \| Geography** (the entire hierarchy)
-
-	- Expand By: **Sales \| Quantity**
-
-	![Picture 3](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image42.png)
-
-5. At the top-left of the visual, notice that **Key Influencers** is in focus, and the specific influence is set to understand what influences profit margin to increase.
-
-	![Picture 76](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image43.png)
-
-6. Review the result, which is that the city of **Bothell** is more likely to increase.
-
-7. Modify the target to determine what influences profit margin to decrease.
-
-	![Picture 77](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image44.png)
-
-8. Review the result.
-
-9. To detect segments, at the top-left, select **Top Segments**.
-
-	![Picture 78](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image45.png)
-
-10. Notice that the target is now to determine segments when profit margin is likely to be high.
-
-11. When the visual displays the segments (as circles), click one of them to reveal information about it.
-
-12. Review the segment results.
 
 ### **Task 2: Finish up**
 
