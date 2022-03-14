@@ -1,10 +1,3 @@
----
-lab:
-    title: 'Model Data in Power BI Desktop, Part 1'
-    module: 'Module 4 - Design a Data Model in Power BI'
----
-
-
 # **Model Data in Power BI Desktop, Part 1**
 
 **The estimated time to complete the lab is 45 minutes**
@@ -72,7 +65,7 @@ In this task you will setup the environment for the lab.
 
  	![Picture 8](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image4.png)
 
-1. In the **Open** window, navigate to the **D:\PL300\Labs\03-configure-data-model-in-power-bi-desktop\Starter** folder.
+1. In the **Open** window, navigate to the **03-configure-data-model-in-power-bi-desktop\Starter** folder.
 
 1. Select the **Sales Analysis** file.
 
@@ -92,7 +85,7 @@ In this task you will setup the environment for the lab.
 
  	![Picture 15](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image7.png)
 
-1. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
+1. In the **Save As** window, navigate to the folder you're using for this course.
 
 1. Click **Save**.
 

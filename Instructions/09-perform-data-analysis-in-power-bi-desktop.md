@@ -1,10 +1,3 @@
----
-lab:
-    title: 'Perform Data Analysis in Power BI Desktop'
-    module: 'Module 10 - Perform Advanced Analytics'
----
-
-
 # **Perform Data Analysis in Power BI Desktop**
 
 **The estimated time to complete the lab is 45 minutes**
@@ -47,41 +40,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 In this exercise you will create the **Sales Exploration** report.
 
-### **Task 1: Get started – Sign in**
-
-In this task you will setup the environment for the lab by signing in to Power BI.
-
-*Important: If you have already signed in to Power BI in a previous lab, continue from the next task.*
-
-1. To open Microsoft Edge, on the taskbar, click the Microsoft Edge program shortcut.
-
- 	![Picture 7](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image1.png)
-
-1. In the Microsoft Edge browser window, navigate to **https://powerbi.com**.
-
- 	*Tip: You can also use the Power BI Service favorite on the Microsoft Edge favorites bar.*
-
-1. Click **Sign In** (located at the top-right corner).
-
- 	![Picture 5](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image2.png)
-
-1. Enter the account details provided to you.
-
-1. If prompted to update the password, reenter the provided password, and then enter and confirm a new password.
-
- 	*Important: Be sure to record your new password.*
-
-1. Complete the sign in process.
-
-1. If prompted by Microsoft Edge to stay signed in, click **Yes**.
-
-1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, expand **My Workspace**.
-
- 	![Picture 4](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image3.png)
-
-1. Leave the Microsoft Edge browser window open.
-
-### **Task 2: Get started – Create a dataset**
+### **Task 1: Get started – Create a dataset**
 
 In this task you will setup the environment for the lab by creating a dataset.
 
@@ -99,13 +58,13 @@ In this task you will setup the environment for the lab by creating a dataset.
 
 	![Picture 11](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image6.png)
 
-4. In the **Open** window, navigate to the **D:\PL300\Labs\09-create-power-bi-dashboard\Solution** folder.
+4. In the **Open** window, navigate to the **09-perform-data-analysis-in-power-bi-desktop\Starter** folder.
 
 5. Select the **Sales Analysis.pbix** file, and then click **Open**.
 
 6. If prompted to replace the dataset, click **Replace**.
 
-### **Task 3: Create the report**
+### **Task 2: Create the report**
 
 In this task you will create the **Sales Exploration** report.
 
@@ -131,7 +90,7 @@ In this task you will create the **Sales Exploration** report.
 
 	![Picture 12](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image10.png)
 
-7. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
+7. In the **Save As** window, navigate to a folder you're using for the labs in this course.
 
 8. In the **File Name** box, enter **Sales Exploration**.
 

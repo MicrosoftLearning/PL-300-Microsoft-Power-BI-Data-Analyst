@@ -1,10 +1,3 @@
----
-lab:
-    title: 'Design a Report in Power BI Desktop, Part 2'
-    module: 'Module 7 - Create Reports'
----
-
-
 # **Design a Report in Power BI Desktop, Part 2**
 
 **The estimated time to complete the lab is 45 minutes**
@@ -113,7 +106,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 	![Picture 6](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image8.png)
 
-8. In the **Open** window, navigate to the **D:\PL300\Labs\08-design-report-in-power-bi-desktop-enhanced\Starter** folder.
+8. In the **Open** window, navigate to the **08-design-report-in-power-bi-desktop-enhanced\Starter** folder.
 
 9. Select the **Sales Analysis** file.
 
@@ -133,7 +126,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 	![Picture 3](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image11.png)
 
-15. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
+15. In the **Save As** window, navigate to a folder you're using for the labs in this course.
 
 16. Click **Save**.
 

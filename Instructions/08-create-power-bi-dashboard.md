@@ -1,10 +1,3 @@
----
-lab:
-    title: 'Create a Power BI Dashboard'
-    module: 'Module 8 - Create Dashboards'
----
-
-
 # **Create a Power BI Dashboard**
 
 **The estimated time to complete the lab is 45 minutes**
@@ -111,7 +104,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
     ![Picture 34](Linked_image_Files/09-create-power-bi-dashboard_image9.png)
 
-8. In the **Open** window, navigate to the **D:\PL300\Labs\09-create-power-bi-dashboard\Starter** folder.
+8. In the **Open** window, navigate to the **09-create-power-bi-dashboard\Starter** folder.
 
 9. Select the **Sales Analysis** file.
 
@@ -131,7 +124,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
     ![Picture 10](Linked_image_Files/09-create-power-bi-dashboard_image12.png)
 
-15. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
+15. In the **Save As** window, navigate to a folder you're using for the labs in this course.
 
 16. Click **Save**.
 
@@ -155,7 +148,7 @@ In this task you will setup the environment for the lab by creating a dataset.
 
     ![Picture 5](Linked_image_Files/09-create-power-bi-dashboard_image16.png)
 
-4. In the **Open** window, navigate to the **D:\PL300\Labs\08-design-report-in-power-bi-desktop-enhanced\Solution** folder.
+4. In the **Open** window, navigate to the **08-design-report-in-power-bi-desktop-enhanced\Solution** folder.
 
 5. Select the **Sales Analysis.pbix** file, and then click **Open**.
 
@@ -253,7 +246,7 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 
     ![Picture 48](Linked_image_Files/09-create-power-bi-dashboard_image33.png)
 
-24. In the **Add Image Tile** pane, in the **URL** box, enter the complete URL found in the **D:\PL300\Resources\AdventureWorksLogo_DataURL.txt** file.
+24. In the **Add Image Tile** pane, in the **URL** box, enter the complete URL found in the **Resources\AdventureWorksLogo_DataURL.txt** file.
 
     *You can embed an image by using its URL, or you can use a data URL, which embeds content inline.*
 
@@ -307,23 +300,9 @@ In this task you will edit the details of two tiles.
 
 ## **Exercise 2: Refresh the Dataset**
 
-In this exercise you will first load sales order data for June 2020 into the **AdventureWorksDW2020** database. You will then open your Power BI Desktop file, perform a data refresh, and then upload the file to your workspace.
+Since the time we first designed this report, new data has been added to the database. In this exercise you will open your Power BI Desktop file, perform a data refresh, and then upload the file to your workspace. You will then receive an alert on your Power BI Dashboard, because sales have exceeded $ 35M.
 
-### **Task 1: Update the lab database**
-
-In this task you will run a PowerShell script to update data in the **AdventureWorksDW2020** database.
-
-1. In File Explorer, inside the **D:\PL300\Setup** folder, right-click the **UpdateDatabase-2-AddSales.ps1** file, and then select **Run with PowerShell**.
-
-    ![Picture 28](Linked_image_Files/09-create-power-bi-dashboard_image46.png)
-
-2. If prompted to change the execution policy, press **A**.
-
-3. When prompted to press any key to close, press **Enter** again.
-
-    *The **AdventureWorksDW2020** database now includes sales orders made in June 2020.*
-
-### **Task 2: Refresh the Power BI Desktop file**
+### **Task 1: Refresh the Power BI Desktop file**
 
 In this task you will open the **Sales Analysis** Power BI Desktop file, perform a data refresh, and then upload the file to your **Sales Analysis** workspace.
 
@@ -345,7 +324,7 @@ In this task you will open the **Sales Analysis** Power BI Desktop file, perform
 
 5. Close Power BI Desktop.
 
-## **Exercise 3: Review the Dashboard**
+## **Exercise 2: Review the Dashboard**
 
 In this exercise you will review the dashboard to notice updated sales, and that the alert was triggered.
 

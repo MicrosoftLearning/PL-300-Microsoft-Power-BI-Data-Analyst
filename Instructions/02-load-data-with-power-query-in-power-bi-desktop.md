@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Load Data in Power BI Desktop'
-    module: 'Module 3 - Clean, Transform, and Load Data in Power BI'
----
-
 # **Load Data in Power BI Desktop**
 
 **The estimated time to complete the lab is 45 minutes**
@@ -51,13 +45,10 @@ In this task you will setup the environment for the lab.
 
 *Important: If you are continuing on from the previous lab (and you completed that lab successfully), do not complete this task; instead, continue from the next task.*
 
-1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
+1. Open Power BI Desktop
+1. If the getting started window is opened, close it by clicking the **X** at the top-right of the window.
 
-    ![Picture 8](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
-
-1. To close the getting started window, at the top-left of the window, click **X**.
-
-    ![Picture 7](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image2.png)
+ 	![Picture 3](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image2.png)
 
 1. To open the starter Power BI Desktop file, click the **File** ribbon tab to open the backstage view.
 
@@ -69,7 +60,7 @@ In this task you will setup the environment for the lab.
 
     ![Picture 11](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image4.png)
 
-1. In the **Open** window, navigate to the **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter** folder.
+1. In the **Open** window, navigate to the **Starter** folder (if you view this instruction on GitHub, you can download the file here: [Sales Analysis.pbix](../../Allfiles/DA-100-Allfiles/Labs/02-load-data-with-power-query-in-power-bi-desktop/Starter/Sales%20Analysis.pbix)).
 
 1. Select the **Sales Analysis** file.
 
@@ -97,7 +88,7 @@ In this task you will setup the environment for the lab.
 
     ![Picture 22](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image8.png)
 
-1. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
+1. In the **Save As** window, navigate to the folder you're using for this course.
 
 1. Click **Save**.
 
@@ -460,7 +451,7 @@ In this task you will configure the **Sales** query.
 
 7. In the **Custom Column Formula** box, enter the following expression (after the equals symbol):
 
-8. For your convenience, you can copy the expression from the **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** file.
+8. For your convenience, you can copy the expression from the **Assets\Snippets.txt** file.
 
 
    **Power Query**
@@ -669,7 +660,7 @@ In this task you will update the **Product** query by merging the **ColorFormats
 
 	![Picture 5692](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image75.png)
 
-8. In the **Merge** window, use the default **Join Kind** - maintaining the selection of Left Outer and click **OK**.
+8. In the **Merge** window, click **OK**.
 
 	![Picture 5693](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image76.png)
 

@@ -1,10 +1,3 @@
----
-lab:
-    title: 'Design a Report in Power BI Desktop, Part 1'
-    module: 'Module 7 - Create Reports'
----
-
-
 # **Design a Report in Power BI Desktop, Part 1**
 
 **The estimated time to complete the lab is 45 minutes**
@@ -137,7 +130,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 	![Picture 30](Linked_image_Files/07-design-report-in-power-bi-desktop_image7.png)
 
-8. In the **Open** window, navigate to the **D:\PL300\Labs\07-design-report-in-power-bi-desktop\Starter** folder.
+8. In the **Open** window, navigate to the **07-design-report-in-power-bi-desktop\Starter** folder.
 
 9. Select the **Sales Analysis** file.
 
@@ -157,7 +150,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 	![Picture 5](Linked_image_Files/07-design-report-in-power-bi-desktop_image10.png)
 
-15. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
+15. In the **Save As** window, navigate to a folder you're using for the labs in this course.
 
 16. Click **Save**.
 
@@ -183,7 +176,7 @@ In this task you will design the first report page. When you’ve completed the 
 
 	![Picture 1](Linked_image_Files/07-design-report-in-power-bi-desktop_image15.png)
 
-4. In the **Open** window, navigate to the **D:\PL300\Resources** folder.
+4. In the **Open** window, navigate to the **07-design-report-in-power-bi\Resources** folder.
 
 5. Select the **AdventureWorksLogo.jpg** file, and then click **Open**.
 
