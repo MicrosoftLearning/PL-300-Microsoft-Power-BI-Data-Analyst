@@ -383,6 +383,8 @@ In this task you will design the second report page. When you’ve completed the
 
 10. From the **Fields** pane, drag the **Product \| Category** field into the **Filter On This Page** well/area.
 
+**Note* You will need to reorder the items in the filter box to match the image in the lab guide.**
+
 11. Inside the filter card, at the top-right, click the arrow to collapse the card.
 
 	![Picture 58](Linked_image_Files/07-design-report-in-power-bi-desktop_image45.png)
