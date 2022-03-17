@@ -296,6 +296,8 @@ In this task you will design the first report page. When you’ve completed the 
 
 	- Size: **Sales \| Sales**
 
+**NOTE** The security for maps and visuals is disabled. You will need to enable it before you can create the visual.
+
 34. De-select the chart by clicking an empty area of the report page.
 
 35. To add a chart to the page, in the **Visualizations** pane, click the **Stacked Bar Chart** visual type.
