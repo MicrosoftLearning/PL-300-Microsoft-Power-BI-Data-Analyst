@@ -228,7 +228,7 @@ In this task you will design the first report page. When you’ve completed the 
 
 17. To format the slicer, beneath the **Visualizations** pane, open the **Format** pane.
 
-	![Picture 50](Linked_image_Files/07-design-report-in-power-bi-desktop_image23.png)
+	![Picture 50](Linked_image_Files/07-design-report-in-power-bi-desktop_image23.png) **Change this image.**
 
 18. Expand the **Selection Controls** group.
 
