@@ -230,9 +230,9 @@ In this task you will design the first report page. When you’ve completed the 
 
 	![Picture 50](Linked_image_Files/07-design-report-in-power-bi-desktop_image23.png) **Change this image.**
 
-18. Expand the **Selection Controls** group.
+18. Expand the **Selection Controls** group. Note: The security maps and visuals are disabled. You will need to enable before you can crate the visuals.
 
-	![Picture 23](Linked_image_Files/07-design-report-in-power-bi-desktop_image24.png)
+	![Picture 23](Linked_image_Files/07-design-report-in-power-bi-desktop_image24.png) 
 
 19. Set the **Show “Select All” Option** to **On**.
 
