@@ -1,4 +1,3 @@
-![2022-03-17_19-06-16](https://user-images.githubusercontent.com/31896372/158890571-fb03b6d9-9bd8-4018-ac6a-017bf5ec2f71.png)
 ---
 lab:
     title: 'Design a Report in Power BI Desktop, Part 1'
