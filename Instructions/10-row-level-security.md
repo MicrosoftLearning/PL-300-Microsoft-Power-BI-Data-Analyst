@@ -181,7 +181,7 @@ In this task you will enforce row-level security to ensure a salesperson can onl
 
 	![Picture 18](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image35.png)
 
-### **Task 2: Finish up**
+### **Task 3: Finish up**
 
 In this task you will complete the lab.
 
