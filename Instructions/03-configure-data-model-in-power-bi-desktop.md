@@ -1,11 +1,11 @@
 ---
 lab:
-    title: 'Model Data in Power BI Desktop, Part 1'
+    title: 'Model Data in Power BI Desktop'
     module: 'Module 4 - Design a Data Model in Power BI'
 ---
 
 
-# **Model Data in Power BI Desktop, Part 1**
+# **Model Data in Power BI Desktop**
 
 **The estimated time to complete the lab is 45 minutes**
 
