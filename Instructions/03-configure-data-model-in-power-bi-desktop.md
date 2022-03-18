@@ -1,11 +1,11 @@
 ---
 lab:
-    title: 'Model Data in Power BI Desktop, Part 1'
+    title: 'Model Data in Power BI Desktop'
     module: 'Module 4 - Design a Data Model in Power BI'
 ---
 
 
-# **Model Data in Power BI Desktop, Part 1**
+# **Model Data in Power BI Desktop**
 
 **The estimated time to complete the lab is 45 minutes**
 
@@ -158,15 +158,15 @@ In this task you will create model relationships.
 
 14. In the **Cardinality** dropdown list, notice that **One To Many (1:*)** is selected.
 
-	*The cardinality was automatically detected, because Power BI understands that the **ProductKey** column from the **Product** table contains unique values. One-to-many relationships are the most common cardinality, and all relationship you create in this lab will be this type. You’ll work with a Many-to-many cardinality in the **Model Data in Power BI Desktop, Part 2** lab.*
+	*The cardinality was automatically detected, because Power BI understands that the **ProductKey** column from the **Product** table contains unique values. One-to-many relationships are the most common cardinality, and all relationship you create in this lab will be this type.*
 
 15. In the **Cross Filter Direction** dropdown list, notice that **Single** is selected.
 
-	*Single filter direction means that filters propagate from the “one side” to the “many side”. In this case, it means filters applied to the **Product** table will propagate to the **Sales** table, but not in the opposite direction. You’ll work with a bi-directional relationship in the **Model Data in Power BI Desktop, Part 2** lab.*
+	*Single filter direction means that filters propagate from the “one side” to the “many side”. In this case, it means filters applied to the **Product** table will propagate to the **Sales** table, but not in the opposite direction.*
 
 16. Notice that the **Mark This Relationship Active** is checked.
 
-	*Active relationships propagate filters. It’s possible to mark a relationship as inactive so filters don’t propagate. Inactive relationships can exist when there are multiple relationship paths between tables. In this case, model calculations can use special functions to activate them. You’ll work with an inactive relationship in the **Model Data in Power BI Desktop, Part 2** lab.*
+	*Active relationships propagate filters. It’s possible to mark a relationship as inactive so filters don’t propagate. Inactive relationships can exist when there are multiple relationship paths between tables. In this case, model calculations can use special functions to activate them.*
 
 17. Click **OK**.
 
@@ -205,8 +205,6 @@ In this task you will create model relationships.
 	- **Region \| SalesTerritoryKey** to **Sales \| SalesTerritoryKey**
 
 	- **Salesperson \| EmployeeKey** to **Sales \| EmployeeKey**
-
-	*In this lab the **SalespersonRegion** and **Targets** tables will remain disconnected. There’s a many-to-many relationship between salespeople and regions, and you’ll work with this advanced scenario in the **Model Data in Power BI Desktop, Part 2** lab.*
 
 25. In the diagram, arrange the tables so that the **Sales** table is positioned in the center of the diagram, and the related tables are arranged about it. Position the disconnected tables to the side.
 
@@ -386,7 +384,7 @@ In this task you will update multiple columns using single bulk updates. You wil
 
 	*The columns were hidden because they’re either used by relationships or will be used in row-level security configuration or calculation logic.*
 
-	*You’ll define row-level security in the **Model Data in Power BI Desktop, Part 2** lab using the **UPN** column. You’ll use the **SalesOrderNumber** in a calculation in the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
+	*You’ll use the **SalesOrderNumber** in a calculation in the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
 
 4. Multi-select the following three columns:
 
@@ -465,5 +463,3 @@ In this task you will complete the lab.
 2. If prompted to apply queries, click **Apply Later**.
 
 3. If you intend to start the next lab, leave Power BI Desktop open.
-
-	*You’ll enhance the data model by configuring a many-to-many relationship and row-level security in the **Model Data in Power BI Desktop, Part 2** lab.*
