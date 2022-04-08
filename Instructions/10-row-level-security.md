@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Enforce Row-Level Security'
-    module: 'Module 13 - Row-Level Security'
+    module: 'Module 12 - Row-Level Security'
 ---
 
 
@@ -69,7 +69,7 @@ In this task you will setup the environment for the lab.
 
 	![Picture 5](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image4.png)
 
-1. In the **Open** window, navigate to the **D:\PL300\Labs\12-row-level-security\Starter** folder.
+1. In the **Open** window, navigate to the **D:\PL300\Labs\10-row-level-security\Starter** folder.
 
 1. Select the **Sales Analysis** file.
 

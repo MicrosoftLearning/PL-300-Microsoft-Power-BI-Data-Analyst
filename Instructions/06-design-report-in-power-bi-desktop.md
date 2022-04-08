@@ -137,7 +137,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 	![Picture 30](Linked_image_Files/07-design-report-in-power-bi-desktop_image7.png)
 
-8. In the **Open** window, navigate to the **D:\PL300\Labs\07-design-report-in-power-bi-desktop\Starter** folder.
+8. In the **Open** window, navigate to the **D:\PL300\Labs\06-design-report-in-power-bi-desktop\Starter** folder.
 
 9. Select the **Sales Analysis** file.
 

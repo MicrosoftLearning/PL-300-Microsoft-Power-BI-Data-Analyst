@@ -128,6 +128,8 @@ In this task you will create queries based on SQL Server tables.
 
 	![Picture 22](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image13.png)
 
+4. If prompted for credentials, in the **SQL Server Database** window, select **Use my current credentials**. Then **Connect**.
+
 4. In the **Navigator** window, at the left, expand the **AdventureWorksDW2020** database.
 
 	The **AdventureWorksDW2020** database is based on the **AdventureWorksDW2017** sample database. It has been modified to support the learning objectives of the course labs.

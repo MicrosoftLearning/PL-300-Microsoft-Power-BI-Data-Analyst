@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Perform Data Analysis in Power BI Desktop'
-    module: 'Module 10 - Perform Advanced Analytics'
+    module: 'Module 9 - Identify Patterns and Trends'
 ---
 
 
@@ -149,7 +149,7 @@ In this task you will create the **Sales Exploration** report.
 
 12. Save the Power BI Desktop file.
 
-	*You’ll now create four report pages, and on each page you’ll work with a different visual to analyze and explore data.*
+	*You’ll now create two report pages, and on each page you’ll work with a different visual to analyze and explore data.*
 
 ## **Exercise 2: Create a Scatter Chart**
 
@@ -298,7 +298,7 @@ In this task you will complete the lab.
 
 2. Save the Power BI Desktop file.
 
-3. To publish the file to your workspace, on the **Home** ribbon tab, from inside the **Share** group, click **Publish**.
+3. To publish the file to your **My workspace**, on the **Home** ribbon tab, from inside the **Share** group, click **Publish**.
 
 	![Picture 23](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image46.png)
 

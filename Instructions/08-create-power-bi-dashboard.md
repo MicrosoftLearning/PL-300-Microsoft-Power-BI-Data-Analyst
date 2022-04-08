@@ -111,7 +111,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
     ![Picture 34](Linked_image_Files/09-create-power-bi-dashboard_image9.png)
 
-8. In the **Open** window, navigate to the **D:\PL300\Labs\09-create-power-bi-dashboard\Starter** folder.
+8. In the **Open** window, navigate to the **D:\PL300\Labs\08-create-power-bi-dashboard\Starter** folder.
 
 9. Select the **Sales Analysis** file.
 
@@ -347,11 +347,11 @@ In this task you will open the **Sales Analysis** Power BI Desktop file, perform
 
 ## **Exercise 3: Review the Dashboard**
 
-In this exercise you will review the dashboard to notice updated sales, and that the alert was triggered.
+In this exercise you will review the dashboard to notice updated sales.
 
 ### **Task 1: Review the dashboard**
 
-In this task you will review the dashboard to notice updated sales, and that the alert was triggered.
+In this task you will review the dashboard to notice updated sales.
 
 1. In the Microsoft Edge browser window, in the Power BI service, review the **Sales Monitoring** dashboard.
 
@@ -363,22 +363,6 @@ In this task you will review the dashboard to notice updated sales, and that the
 
     ![Picture 33](Linked_image_Files/09-create-power-bi-dashboard_image50.png)
 
-    *The alert on the **Sales YTD** tile should have triggered also. After a short while, the alert should notify you that sales now exceeds the configured threshold value.*
+    
 
-4. Notice that the **Sales YTD** tile has updated to **$37M**.
-
-5. Verify that the **Sales YTD** tile displays an alert notification icon.
-
-    *If you don’t see the notification, you might need to press **F5** to reload the browser. If you still don’t see the notification, wait some minutes longer.*
-
-    ![Picture 35](Linked_image_Files/09-create-power-bi-dashboard_image51.png)
-
-    *Alert notifications appear on the dashboard tile, and can be delivered by email, and push notifications to mobile apps including the Apple Watch.*
-
-6. At the top-right corner of the web page, click the **Notifications** icon.
-
-    ![Picture 58](Linked_image_Files/09-create-power-bi-dashboard_image52.png)
-
-7. In the **All Notifications** pane, review the details of the alert notification.
-
-8. To close the pane, click **Close**.
+4. To close the pane, click **Close**.
