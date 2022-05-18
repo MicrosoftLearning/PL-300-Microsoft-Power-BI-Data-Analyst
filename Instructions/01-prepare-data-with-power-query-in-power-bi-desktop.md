@@ -109,7 +109,7 @@ In this task you will create queries based on SQL Server tables.
 
 	![Picture 19](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image11.png)
 
-1. In the **SQL Server Database** window, in the **Server** box, enter **sigmadatalearning.database.windows.net**.
+1. In the **SQL Server Database** window, in the **Server** box, enter **wortellsmartlearning.databas.windows.net**.
 
 	![Picture 21](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image12.png)
 
