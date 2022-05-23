@@ -336,7 +336,7 @@ In this task you will configure the **Sales** table.
 
 5. Select the **Unit Price** column.
 
-6. In the **Properties** pane, from inside the **Formatting** section, slide the **Decimal Places** property to **2**.
+6. In the **Properties** pane, from inside the **Formatting** section, set the **Decimal Places** property to **2**.
 
 7. In the **Advanced** group (you may need to scroll down to locate it), in the **Summarize By** dropdown list, select **Average**.
 
