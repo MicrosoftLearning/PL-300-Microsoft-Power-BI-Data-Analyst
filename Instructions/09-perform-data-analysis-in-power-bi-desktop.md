@@ -269,7 +269,9 @@ In this task you will create a forecast to determine possible future sales reven
 
 10. Configure the following forecast properties:
 
-	- Forecast length: 1 month
+	- Units: Months
+
+	- Forecast length: 1
 
 	- Confidence interval: 80%
 
