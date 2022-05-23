@@ -330,7 +330,7 @@ In this task you will configure the **Sales** table.
 
 3. Select the **Quantity** column.
 
-4. In the **Properties** pane, from inside the **Formatting** section, slide the **Thousands Separator** property to **On**.
+4. In the **Properties** pane, from inside the **Formatting** section, slide the **Thousands Separator** property to **Yes**.
 
 	![Picture 357](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image36.png)
 
