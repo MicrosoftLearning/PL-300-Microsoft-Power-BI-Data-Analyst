@@ -77,7 +77,7 @@ In this task you will setup the environment for the lab by signing in to Power B
 
 1. If prompted by Microsoft Edge to stay signed in, click **Yes**.
 
-1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, expand **My Workspace**.
+1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, select **My Workspace**.
 
  	![Picture 22](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image3.png)
 
