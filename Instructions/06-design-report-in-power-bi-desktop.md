@@ -230,7 +230,7 @@ In this task you will design the first report page. When you’ve completed the 
 
 	![Picture 50](Linked_image_Files/07-design-report-in-power-bi-desktop_image23.png)
 
-18. Expand the **Selection Controls** group.
+18. Expand the **Selection** group.
 
 	![Picture 23](Linked_image_Files/07-design-report-in-power-bi-desktop_image24.png)
 
