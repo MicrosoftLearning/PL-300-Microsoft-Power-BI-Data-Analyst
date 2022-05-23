@@ -509,7 +509,7 @@ In this exercise you will explore the report that was published to Power BI.
 
 In this task you will explore the report that was published to Power BI.
 
-1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane (located at the left, and it could be collapsed), expand **My Workspace**.
+1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane (located at the left, and it could be collapsed), select **My Workspace**.
 
 	![Picture 93](Linked_image_Files/07-design-report-in-power-bi-desktop_image62.png)
 
