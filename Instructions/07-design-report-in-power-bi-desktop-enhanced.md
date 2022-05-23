@@ -307,7 +307,7 @@ In this task you will enhance the drill through page with conditional formatting
 
 	![Picture 113](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image35.png)
 
-11. In the **Based on Field** dropdown list, select **Product \| Formatting \| Background Color Format**.
+11. In the **What field should we base this on?** dropdown list, select **Product \| Formatting \| Background Color Format**.
 
 	![Picture 114](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image36.png)
 
