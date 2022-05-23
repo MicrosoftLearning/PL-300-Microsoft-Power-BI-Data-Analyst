@@ -137,7 +137,7 @@ In this task you will create the **Salesperson** table (direct relationship to *
 
 	![Picture 2](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image12.png)
 
-8. When prompted to confirm the deletion, click **Delete**.
+8. When prompted to confirm the deletion, click **OK**.
 
 	![Picture 3](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image13.png)
 
