@@ -263,7 +263,7 @@ In this task you will create a forecast to determine possible future sales reven
 
 	*If the **Forecast** section is not available, it’s probably because the visual hasn’t been correctly configured. Forecasting is only available when two conditions are met: the axis has a single field of type date, and there’s only one value field.*
 
-9. Click **Add**.
+9. Turn **Forecast** On.
 
 	![Picture 51](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image28.png)
 
