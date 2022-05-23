@@ -159,7 +159,7 @@ In this task you will setup the environment for the lab by creating a dataset.
 
 5. Select the **Sales Analysis.pbix** file, and then click **Open**.
 
-6. If prompted to replace the dataset, click **Replace**.
+6. If prompted to replace the dataset, click **Replace it**.
 
 ### **Task 4: Create a dashboard**
 
