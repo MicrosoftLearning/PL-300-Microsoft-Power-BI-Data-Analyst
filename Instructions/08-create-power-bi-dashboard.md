@@ -189,7 +189,7 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 
     ![Picture 1](Linked_image_Files/09-create-power-bi-dashboard_image20.png)
 
-8. Open the **Navigation** pane, and then open the **Sales Monitoring** dashboard.
+8. Open the **Navigation** pane, select **My Workspace** and then open the **Sales Monitoring** dashboard.
 
     ![Picture 44](Linked_image_Files/09-create-power-bi-dashboard_image21.png)
 
