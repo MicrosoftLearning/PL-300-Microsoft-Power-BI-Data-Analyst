@@ -371,7 +371,7 @@ In this task you will update multiple columns using single bulk updates. You wil
 
 	- Targets \| EmployeeID
 
-3. In the **Properties** pane, slide the **Is Hidden** property to **On**.
+3. In the **Properties** pane, slide the **Is Hidden** property to **Yes**.
 
 	![Picture 355](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image38.png)
 
