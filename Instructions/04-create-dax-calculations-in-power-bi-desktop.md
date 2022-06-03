@@ -371,7 +371,7 @@ In this task you will create simple measures. Simple measures aggregate values i
 
 	![Picture 27](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image35.png)
 
-	*You may recall that in the **Model Data in Power BI Desktop, Part 2** lab, you set the **Unit Price** column to summarize by **Average**. The result you see in the matrix visual is the monthly average unit price (sum of unit price values divided by the count of unit prices).*
+	*You may recall that in the **Model Data in Power BI Desktop** lab, you set the **Unit Price** column to summarize by **Average**. The result you see in the matrix visual is the monthly average unit price (sum of unit price values divided by the count of unit prices).*
 
 2. In the visual fields pane (located beneath the **Visualizations** pane), in the **Values** field well/area, notice that **Unit Price** is listed.
 
@@ -469,9 +469,96 @@ In this task you will create simple measures. Simple measures aggregate values i
 
 	![Picture 39](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image43.png)
 
+### **Task 2: Create additional measures**
+
+In this task you will create additional measures that use more complex formulas.
+
+1. In Report view, select **Page 1**.
+
+	![Picture 40](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image44.png)
+
+2. Review the table visual, noticing the total for the **Target** column.
+
+	![Picture 41](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image45.png)
+
+	
+
+3. Select the table visual, and then in the **Visualizations** pane, remove the **Target** field.
+
+	![Picture 42](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image46.png)
+
+4. Rename the **Targets \| Target** column as **Targets \| TargetAmount**.
+
+	*Tip: There are several ways to rename the column in Report view: In the **Fields** pane, you can right-click the column, and then select **Rename**—or, double-click the column, or press **F2**.*
+
+	*You’re about to create a measure named **Target**. It’s not possible to have a column and measure in the same table with the same name.*
+
+5. Create the following measure on the **Targets** table:
 
 
-### **Task 2: Finish up**
+	**DAX**
+
+
+	```
+	Target =
+
+	IF(
+
+	HASONEVALUE('Salesperson (Performance)'[Salesperson]),
+
+	SUM(Targets[TargetAmount])
+
+	)
+	```
+
+
+	*The HASONEVALUE() function tests whether a single value in the **Salesperson** column is filtered. When true, the expression returns the sum of target amounts (for just that salesperson). When false, BLANK is returned.*
+
+6. Format the **Target** measure for zero decimal places.
+
+	*Tip: You can use the **Measure Tools** contextual ribbon.*
+
+7. Hide the **TargetAmount** column.
+
+	*Tip: You can right-click the column in the **Fields** pane, and then select **Hide**.*
+
+8. Add the **Target** measure to the table visual.
+
+9. Notice that the **Target** column total is now BLANK.
+
+	![Picture 43](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image47.png)
+
+10. Use the snippets file definitions to create the following two measures for the **Targets** table:
+
+	- Variance
+
+	- Variance Margin
+
+11. Format the **Variance** measure for zero decimal places.
+
+12. Format the **Variance Margin** measure as percentage with two decimal places.
+
+13. Add the **Variance** and **Variance Margin** measures to the table visual.
+
+14. Resize the table visual so all columns and rows can be seen.
+
+	![Picture 44](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image48.png)
+
+	*While it appears all salespeople are not meeting target, remember that the table visual isn’t yet filtered by a specific time period. You’ll produce sales performance reports that filter by a user-selected time period in the **Design a Report in Power BI Desktop, Part 1** lab.*
+
+15. At the top-right corner of the **Fields** pane, collapse and then expand open the pane.
+
+	![Picture 45](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image49.png)
+
+	*Collapsing and re-opening the pane resets the content.*
+
+16. Notice that the **Targets** table now appears at the top of the list.
+
+	![Picture 46](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image50.png)
+
+	*Tables that comprise only visible measures are automatically listed at the top of the list.*
+
+### **Task 3: Finish up**
 
 In this task you will complete the lab.
 
