@@ -210,6 +210,7 @@ In this task you will create model relationships.
 
 	![Picture 340](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image23.png)
 
+
 26. Save the Power BI Desktop file.
 
 ## **Exercise 2: Configure Tables**
@@ -446,6 +447,115 @@ In this task you will switch to Report view, and review the model interface.
 	![Picture 363](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image45.png)
 
 
+### **Task 2: Create a many-to-many relationship**
+
+In this task you will create a many-to-many relationship between the **Salesperson** table and the **Sales** table.
+
+1. In Power BI Desktop, in Report view, in the **Fields** pane, check the follow two fields to create a table visual:
+
+	- Salesperson \| Salesperson
+
+	- Sales \| Sales
+
+	*The labs use a shorthand notation to reference a field. It will look like this: **Salesperson \| Salesperson** . In this example, **Salesperson**  is the table name and **Salesperson**  is the field name.*
+
+	![Picture 1](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image9.png)
+
+	*The table displays sales made by each salesperson. However, there’s another relationship between salespeople and sales. Some salespeople belong to one, two, or possibly more sales regions. In addition, sales regions can have multiple salespeople assigned to them.*
+
+	*From a performance management perspective, a salesperson’s sales (based on their assigned territories) need to be analyzed and compared with sales targets. You’ll create relationships to support this analysis in the next exercise.*
+
+2. Notice that Michael Blythe has sold almost $9 million.
+
+3. Switch to Model view.
+
+	![Picture 10](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image10.png)
+
+4. Drag the **SalespersonRegion** table to position it between the **Region** and **Salesperson** tables.
+
+5. Use the drag-and-drop technique to create the following two model relationships:
+
+	- **Salesperson \| EmployeeKey** to **SalespersonRegion \| EmployeeKey**
+
+	- **Region \| SalesTerritoryKey** to **SalespersonRegion \| SalesTerritoryKey**
+
+	*The **SalespersonRegion** table can be considered to be a bridging table.*
+
+6. Switch to Report view, and then notice that the visual has not updated—the sales result for Michael Blythe has not changed.
+
+7. Switch back to Model view, and then follow the relationship filter directions (arrowhead) from the **Salesperson** table.
+
+	*Consider that the **Salesperson** table filters the **Sales** table. It also filters the **SalespersonRegion** table, but it does not continue by propagating filters to the **Region** table (the arrowhead is pointing the wrong direction).*
+
+	![Picture 380](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image11.png)
+
+8. To edit the relationship between the **Region** and **SalespersonRegion** tables, double-click the relationship.
+
+9. In the **Edit Relationship** window, in the **Cross Filter Direction** dropdown list, select **Both**.
+
+10. Check the **Apply Security Filter in Both Directions** checkbox.
+
+	![Picture 381](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image12.png)
+
+11. Click **OK**.
+
+	![Picture 335](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image13.png)
+
+12. Notice that the relationship has a double arrowhead.
+
+	![Picture 382](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image14.png)
+
+13. Switch to Report view, and then notice that the sales values have still not changed.
+
+	*The issue now relates to the fact that there are two possible filter propagation paths between the **Salesperson** and **Sales** tables. This ambiguity is internally resolved, based on a “least number of tables” assessment. To be clear, you shouldn’t design models with this type of ambiguity—the issue will be addressed in part later in this lab, and by the completion of the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
+
+14. Switch to Model view.
+
+15. To force filter propagation via the bridging table, edit (double-click) the relationship between the **Salesperson** and **Sales** tables.
+
+16. In the **Edit Relationship** window, uncheck the **Make This Relationship Active** checkbox.
+
+	![Picture 383](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image15.png)
+
+17. Click **OK**.
+
+	![Picture 5696](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image16.png)
+
+	*The filter propagation will now follow the only active path.*
+
+18. In the diagram, notice that the inactive relationship is represented by a dashed line.
+
+	![Picture 5697](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image17.png)
+
+19. Switch to Report view, and then notice that the sales for Michael Blythe is now nearly $22 million.
+
+	![Picture 5698](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image18.png)
+
+20. Notice also, that the sales for each salesperson—if added—would exceed the table total.
+
+	*It’s a common observation of a many-to-many relationship due to the double, triple, etc. counting of regional sales results. Consider Brian Welcker, the second salesperson listed. His sales amount equals the total sales amount. It’s the correct result simply due to the fact the he’s the Director of Sales; his sales are measured by the sales of all regions.*
+
+	*While the many-to-many relationship is now working, it’s now not possible to analyze sales made by a salesperson (because the relationship is inactive). You’ll be able to reactivate the relationship when you introduce a calculated table that will allow analyzing sales made in the sales region(s) assigned to the salesperson (for performance analysis) in the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
+
+21. Switch to Modeling view, and then in the diagram, select the **Salesperson** table.
+
+22. In the **Properties** pane, in the **Name** box, replace the text with **Salesperson (Performance)**.
+
+	*The renamed table now reflects its purpose: it’s used to report and analyze the performance of salespeople based on the sales of their assigned sales regions.*
+
+### **Task 3: Relate the Targets table**
+
+In this task you will create a relationship to the **Targets** table
+
+1. Create a relationship from the **Salesperson (Performance) \| EmployeeID** column and the **Targets \| EmployeeID** column.
+
+2. In Report view, add the **Targets \| Target** field to the table visual.
+
+3. Resize the table visual so all columns are visible.
+
+	![Picture 5699](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image19.png)
+
+	*It’s now possible to visualize sales and targets—but take care for two reasons. First, there’s no filter on a time period, and so targets also include future target amounts. Second, targets are not additive, and so the total should not be displayed. They can either be disabled by formatting the visual or removed by using calculation logic. You’ll follow the second approach by creating a target measure in the **Create DAX Calculations in Power BI Desktop, Part 2** lab that’ll return BLANK when more than one salesperson is filtered.*
 
 ### **Task 2: Finish up**
 
