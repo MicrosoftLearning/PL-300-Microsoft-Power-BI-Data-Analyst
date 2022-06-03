@@ -121,13 +121,11 @@ In this task you will create a matrix visual to support testing your new measure
 
     *You may recall that the **Regions** hierarchy has the levels **Group**, **Country**, and **Region**.*
 
-7. To format the visual, beneath the **Visualizations** pane, select the **Format** pane.
+7. To format the visual, in the **Visualizations** pane, select the **Format** pane.
 
     ![Picture 14](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image12.png)
 
 8. In the **Search** box, enter **Stepped**.
-
-    ![Picture 15](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image13.png)
 
 9. Set the **Stepped Layout** property to **Off**.
 
