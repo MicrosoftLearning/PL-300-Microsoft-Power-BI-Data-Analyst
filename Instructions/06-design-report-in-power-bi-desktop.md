@@ -226,21 +226,6 @@ In this task you will design the first report page. When you’ve completed the 
 
 	![Picture 21](Linked_image_Files/07-design-report-in-power-bi-desktop_image22.png)
 
-17. To format the slicer, beneath the **Visualizations** pane, open the **Format** pane.
-
-	![Picture 50](Linked_image_Files/07-design-report-in-power-bi-desktop_image23.png)
-
-18. Expand the **Selection Controls** group.
-
-	![Picture 23](Linked_image_Files/07-design-report-in-power-bi-desktop_image24.png)
-
-19. Set the **Show “Select All” Option** to **On**.
-
-	![Picture 24](Linked_image_Files/07-design-report-in-power-bi-desktop_image25.png)
-
-20. In the **Region** slicer, notice that the first item is now **Select All**.
-
-	*When selected, this item either selects all or de-selects all items. It makes it easier for report users to set the required slicer items.*
 
 21. De-select the slicer by clicking an empty area of the report page.
 
@@ -258,13 +243,13 @@ In this task you will design the first report page. When you’ve completed the 
 
 	- Sales \| Sales
 
-25. In the visual fields pane (not the **Fields** pane—the visual fields pane is located beneath the **Visualizations** pane), notice that the fields are assigned to the **Shared Axis** and **Column Values** wells/areas.
+25. In the visual fields pane (not the **Fields** pane—the visual fields pane is located beneath the **Visualizations** pane), notice that the fields are assigned to the **X-axis** and **Column y-axis** wells/areas.
 
 	![Picture 27](Linked_image_Files/07-design-report-in-power-bi-desktop_image28.png)
 
 	*By dragging fields into a visual, they will be added to default wells/areas. For precision, you can drag fields directly into the wells/areas, as you will do next.*
 
-26. From the **Fields** pane, drag the **Sales \| Profit Margin** field into the **Line Values** well/area.
+26. From the **Fields** pane, drag the **Sales \| Profit Margin** field into the **Line y-axis** well/area.
 
 	![Picture 28](Linked_image_Files/07-design-report-in-power-bi-desktop_image29.png)
 
@@ -272,7 +257,7 @@ In this task you will design the first report page. When you’ve completed the 
 
 	*The last month of the year, 2020 June, does not have any sales (yet). By default, the visual has eliminated months with BLANK sales. You will now configure the visual to show all months.*
 
-28. In the visual fields pane, in the **Shared Axis** well/area, for the **Month** field, click the down-arrow, and then select **Show Items With No Data**.
+28. In the visual fields pane, in the **X-axis** well/area, for the **Month** field, click the down-arrow, and then select **Show Items With No Data**.
 
 	![Picture 52](Linked_image_Files/07-design-report-in-power-bi-desktop_image30.png)
 
