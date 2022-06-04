@@ -331,7 +331,7 @@ In this task you will design the second report page. When you’ve completed the
 
 3. Add a slicer based on the **Region \| Region** field.
 
-4. Use the **Format** pane to enable the “Select All” option (in the **Selection Controls** group).
+4. Use the **Format** pane to enable the “Select All” option (in the **Selection** group).
 
 5. Resize and position the slicer so it sits at the left side of the report page, and so it is about half the page height.
 
