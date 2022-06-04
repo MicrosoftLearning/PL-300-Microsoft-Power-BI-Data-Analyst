@@ -425,7 +425,7 @@ In this task you will design the third—and final—report page. When you’ve 
 
 1. Format the visual:
 
-	- In the **Data Labels** group, increase the **Text Size** property to **28pt**
+	- In the **Callout values** group, increase the **Text Size** property to **28pt**
 
 	- In the **Background** group, set the **Color** to a light gray color
 
