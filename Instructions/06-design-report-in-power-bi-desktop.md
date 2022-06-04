@@ -328,7 +328,6 @@ In this task you will design the second report page. When you’ve completed the
 	![Picture 43](Linked_image_Files/07-design-report-in-power-bi-desktop_image39.png)
 
   
-‎ 
 
 3. Add a slicer based on the **Region \| Region** field.
 
