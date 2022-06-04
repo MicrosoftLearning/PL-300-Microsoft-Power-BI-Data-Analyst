@@ -301,7 +301,7 @@ In this task you will design the first report page. When you’ve completed the 
 
 	![Picture 3](Linked_image_Files/07-design-report-in-power-bi-desktop_image35.png)
 
-39. Expand the **Data Colors** group, and then set the **Default Color** property to a suitable color (to complement the column/line chart).
+39. Expand the **Bars** and then the **Colors** group, and then set the **Default Color** property to a suitable color (to complement the column/line chart).
 
 40. Set the **Data Labels** property to **On**.
 
