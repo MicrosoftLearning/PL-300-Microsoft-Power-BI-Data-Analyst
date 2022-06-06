@@ -57,7 +57,7 @@ In this task you will setup the environment for the lab by signing in to Power B
 
  	![Picture 7](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image1.png)
 
-1. In the Microsoft Edge browser window, navigate to **https://powerbi.com**.
+1. In the Microsoft Edge browser window, navigate to **https://powerbi.microsoft.com**.
 
  	*Tip: You can also use the Power BI Service favorite on the Microsoft Edge favorites bar.*
 
