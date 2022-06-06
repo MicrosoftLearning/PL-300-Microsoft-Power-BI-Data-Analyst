@@ -304,7 +304,7 @@ In this task you will complete the lab.
 
 2. Save the Power BI Desktop file.
 
-3. To publish the file to your **My workspace**, on the **Home** ribbon tab, from inside the **Share** group, click **Publish** and then click **Select to Publish**.
+3. To publish the file to your **My workspace**, on the **Home** ribbon tab, from inside the **Share** group, click **Publish** and then click **Select** to publish.
 
 	![Picture 23](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image46.png)
 
