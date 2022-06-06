@@ -303,7 +303,7 @@ In this task you will enhance the drill through page with conditional formatting
 
 9. Configure background color conditional formatting for the **Color** field.
 
-10. In the **Background Color – Color** window, in the **Format By** dropdown list, select **Field Value**.
+10. In the **Background Color – Color** window, in the **Format Style** dropdown list, select **Field Value**.
 
 	
 
