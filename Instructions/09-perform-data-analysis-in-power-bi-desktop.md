@@ -143,7 +143,7 @@ In this task you will create the **Sales Exploration** report.
 
 10. In the **Select a Dataset to Create a Report** window, select the **Sales Analysis** dataset.
 
-11. Click **Create**.
+11. Click **Connect**.
 
 	![Picture 17](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image13.png)
 
@@ -173,11 +173,13 @@ In this task you will create a scatter chart that can be animated.
 
 	The labs use a shorthand notation to reference a field. It will look like this: **Reseller** **\|** **Business Type**. In this example, **Reseller** is the table name and **Business Type** is the field name.
 
-	- Legend: **Reseller \| Business Type**
+	
 
 	- X Axis: **Sales \| Sales** 
 
 	- Y Axis: **Sales \| Profit Margin**
+
+	- Legend: **Reseller \| Business Type**
 
 	- Size: **Sales \| Quantity**
 
@@ -233,9 +235,9 @@ In this task you will create a forecast to determine possible future sales reven
 
 3. Add the following fields to the visual wells/areas:
 
-	- Axis: **Date \| Date**
+	- X-axis: **Date \| Date**
 
-	- Values: **Sales \| Sales** 
+	- Y-axis: **Sales \| Sales** 
 
 	![Picture 46](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image23.png)
 
@@ -259,21 +261,25 @@ In this task you will create a forecast to determine possible future sales reven
 
 8. Expand the **Forecast** section.
 
-	![Picture 50](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image27.png)
+
 
 	*If the **Forecast** section is not available, it’s probably because the visual hasn’t been correctly configured. Forecasting is only available when two conditions are met: the axis has a single field of type date, and there’s only one value field.*
 
-9. Click **Add**.
+9. Turn the **Forecast** option to **On**.
 
 	![Picture 51](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image28.png)
 
 10. Configure the following forecast properties:
 
+	- Units: Months
+
 	- Forecast length: 1 month
 
+	- Seasonality: 365
+	
 	- Confidence interval: 80%
 
-	- Seasonality: 365
+
 
 11. Click **Apply**.
 
