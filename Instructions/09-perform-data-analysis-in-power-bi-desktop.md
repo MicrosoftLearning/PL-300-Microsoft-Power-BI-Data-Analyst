@@ -133,7 +133,7 @@ In this task you will create the **Sales Exploration** report.
 
 7. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
 
-8. In the **File Name** box, enter **Sales Exploration**.
+8. In the **File Name** box, enter **Sales Exploration** and click **Save**.
 
 	![Picture 1](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image11.png)
 
