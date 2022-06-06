@@ -57,7 +57,7 @@ In this task you will setup the environment for the lab by signing in to Power B
 
     ![Picture 42](Linked_image_Files/09-create-power-bi-dashboard_image2.png)
 
-2. In the Microsoft Edge browser window, navigate to **https://powerbi.com**.
+2. In the Microsoft Edge browser window, navigate to **https://powerbi.microsoft.com**.
 
     *Tip: You can also use the Power BI Service favorite on the Microsoft Edge favorites bar.*
 
