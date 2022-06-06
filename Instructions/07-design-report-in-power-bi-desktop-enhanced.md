@@ -305,7 +305,7 @@ In this task you will enhance the drill through page with conditional formatting
 
 10. In the **Background Color – Color** window, in the **Format By** dropdown list, select **Field Value**.
 
-	![Picture 113](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image35.png)
+	
 
 11. In the **Based on Field** dropdown list, select **Product \| Formatting \| Background Color Format**.
 
@@ -397,15 +397,15 @@ In this task you will add two buttons, and assign bookmark actions to each.
 
 2. Position the button directly beneath the **Year** slicer.
 
-3. Select the button, and then in the **Format button** pane, turn the **Button Text** property to **On**.
+3. Select the button, and then in the **Format button** pane, click **General** and turn the **Title** property to **On**.
 
 	![Picture 126](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image49.png)
 
-4. Expand the **Button Text** section, and then in the **Button Text** box, enter **Bar Chart**.
+4. Expand the **Title** section, and then in the **Text** box, enter **Bar Chart**.
 
 5. Expand the **Background** section, and then set a background color using a complementary color.
 
-6. Turn the **Action** property to **On** (located near the bottom of the list).
+6. Click **Button** and turn the **Action** property to **On**.
 
 	![Picture 127](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image50.png)
 
