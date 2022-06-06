@@ -241,7 +241,7 @@ In this task you will create a new page and configure it as a drill through page
 
 	- Sales \| Profit Margin
 
-12. Configure the format options for the visual, and in the **Grid** section, set the **Text Size** property to **20pt**.
+12. Configure the format options for the visual, and in the **Values** section, set the **Text Size** property to **20pt**.
 
 	*The design of the drill through page is almost complete. You’ll enhance the page with conditional formatting in the next exercise.*
 
