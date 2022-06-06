@@ -447,6 +447,82 @@ In this task you will switch to Report view, and review the model interface.
 	![Picture 363](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image45.png)
 
 
+## **Exercise 4: Create Quick Measures**
+
+In this exercise you will create two quick measures.
+
+### **Task 1: Create quick measures**
+
+In this task you will create two quick measures to calculate profit and profit margin.
+
+1. In the **Fields** pane, right-click the **Sales** table, and then select **New Quick Measure**.
+
+	![Picture 366](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image46.png)
+
+2. In the **Quick Measures** window, in the **Calculation** dropdown list, from inside the **Mathematical Operations** group, select **Subtraction**.
+
+	![Picture 367](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image47.png)
+
+3. In the **Fields** pane of the **Quick Measures** window, expand the **Sales** table.
+
+4. Drag the **Sales** field into the **Base Value** box.
+
+5. Drag the **Cost** field into the **Value to Subtract** box.
+
+	![Picture 368](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image48.png)
+
+6. Click **OK**.
+
+	![Picture 369](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image49.png)
+
+	*A quick measure creates the calculation formula for you. They’re easy and fast to create for simple and common calculations. You’ll create measures without using this tool in the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
+
+7. In the **Fields** pane, inside the **Sales** table, notice that new measure.
+
+	![Picture 370](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image50.png)
+
+	*Measures are adorned with the calculator icon.*
+
+8. To rename the measure, right-click it, and then select **Rename**.
+
+	![Picture 371](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image51.png)
+
+	*Tip: To rename a field, you can also double-click it, or select it and press **F2**.*
+
+9. Rename the measure to **Profit**, and then press **Enter**.
+
+10. In the **Sales** table, add a second quick measure, based on the following requirements:
+
+	- Use the **Division** mathematical operation
+
+	- Set the **Numerator** to the **Sales \| Profit** field
+
+	- Set the **Denominator** to **Sales \| Sales** field
+
+	- Rename the measure as **Profit Margin**
+
+	![Picture 372](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image52.png)
+
+	![Picture 373](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image53.png)
+
+11. Ensure the **Profit Margin** measure is selected, and then on the **Measure Tools** contextual ribbon, set the format to **Percentage**, with two decimal places.
+
+	![Picture 374](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image54.png)
+
+12. To test the two measures, first select the table visual on the report page.
+
+13. In the **Fields** pane, check the two measures.
+
+	![Picture 375](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image55.png)
+
+14. Click and drag the right guide to widen the table visual.
+
+	![Picture 376](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image56.png)
+
+15. Verify that the measures produce reasonable results that are correctly formatted.
+
+	![Picture 378](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image57.png)
+
 ### **Task 2: Create a many-to-many relationship**
 
 In this task you will create a many-to-many relationship between the **Salesperson** table and the **Sales** table.
