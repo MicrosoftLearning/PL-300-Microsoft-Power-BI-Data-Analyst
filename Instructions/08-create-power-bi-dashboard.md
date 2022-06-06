@@ -333,7 +333,7 @@ In this task you will open the **Sales Analysis** Power BI Desktop file, perform
 
 2. When the refresh completes, save the Power BI Desktop file.
 
-3. To publish the file to your workspace, on the **Home** ribbon tab, from inside the **Share** group, click **Publish**.
+3. To publish the file to your workspace, on the **Home** ribbon tab, from inside the **Share** group, click **Publish** and then click **Select to Publish**.
 
     ![Picture 59](Linked_image_Files/09-create-power-bi-dashboard_image48.png)
 
