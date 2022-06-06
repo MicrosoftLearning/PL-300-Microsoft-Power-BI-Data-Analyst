@@ -177,7 +177,7 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 
 4. To create a dashboard and pin a visual, hover the cursor over the **Sales and Profit Margin by Month** (column/line) visual.
 
-5. At the top-right corner, click the pushpin.
+5. At the bottom-right corner, click the pushpin.
 
     ![Picture 43](Linked_image_Files/09-create-power-bi-dashboard_image18.png)
 
