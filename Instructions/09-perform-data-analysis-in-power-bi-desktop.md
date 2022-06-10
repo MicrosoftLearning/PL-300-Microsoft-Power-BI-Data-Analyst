@@ -143,7 +143,7 @@ In this task you will create the **Sales Exploration** report.
 
 10. In the **Select a Dataset to Create a Report** window, select the **Sales Analysis** dataset.
 
-11. Click **Connect**.
+11. Click **Create**.
 
 	![Picture 17](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image13.png)
 

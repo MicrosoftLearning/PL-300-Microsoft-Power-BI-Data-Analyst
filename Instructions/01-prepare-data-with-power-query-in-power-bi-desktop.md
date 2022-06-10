@@ -272,7 +272,6 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 	Missing **TotalProductCost** column values is a data quality issue. To address the issue, in the **Load Data in Power BI Desktop** lab, you’ll apply transformations to fill in missing values by using the product standard cost, which is stored in the related **DimProduct** table.
 
-25. Close the **Power Query Editor** window. Select **Not now**, to return to the **Power BI Desktop**.
 
 ### **Task 5: Get data from a CSV file**
 

@@ -309,6 +309,7 @@ In this task you will configure the **Reseller** table.
 
 	![Picture 353](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image34.png)
 
+3. Set the **Data Category** for the **Country-Region**, **State-Province**, and **City** columns (not the hierarchy level) to **Country/Region**, **State or Province**, and **City**, respectively. 
 
 ### **Task 4: Configure the Sales table**
 
