@@ -14,7 +14,7 @@ In this lab you learn how to:
 
 ### **Lab story**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, we suggest you do them in the following order:
 
 1. Prepare Data in Power BI Desktop
 
@@ -62,7 +62,7 @@ In this task you will setup the environment for the lab by creating a dataset.
 
 5. Select the **Sales Analysis.pbix** file, and then click **Open**.
 
-6. If prompted to replace the dataset, click **Replace**.
+6. If prompted to replace the dataset, click **Replace it**.
 
 ### **Task 2: Create the report**
 
@@ -92,7 +92,7 @@ In this task you will create the **Sales Exploration** report.
 
 7. In the **Save As** window, navigate to a folder you're using for the labs in this course.
 
-8. In the **File Name** box, enter **Sales Exploration**.
+8. In the **File Name** box, enter **Sales Exploration** and click **Save**.
 
 	![Picture 1](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image11.png)
 
@@ -108,7 +108,7 @@ In this task you will create the **Sales Exploration** report.
 
 12. Save the Power BI Desktop file.
 
-	*You’ll now create four report pages, and on each page you’ll work with a different visual to analyze and explore data.*
+	*You’ll now create two report pages, and on each page you’ll work with a different visual to analyze and explore data.*
 
 ## **Exercise 2: Create a Scatter Chart**
 
@@ -132,11 +132,13 @@ In this task you will create a scatter chart that can be animated.
 
 	The labs use a shorthand notation to reference a field. It will look like this: **Reseller** **\|** **Business Type**. In this example, **Reseller** is the table name and **Business Type** is the field name.
 
-	- Legend: **Reseller \| Business Type**
+	
 
 	- X Axis: **Sales \| Sales** 
 
 	- Y Axis: **Sales \| Profit Margin**
+
+	- Legend: **Reseller \| Business Type**
 
 	- Size: **Sales \| Quantity**
 
@@ -192,9 +194,9 @@ In this task you will create a forecast to determine possible future sales reven
 
 3. Add the following fields to the visual wells/areas:
 
-	- Axis: **Date \| Date**
+	- X-axis: **Date \| Date**
 
-	- Values: **Sales \| Sales** 
+	- Y-axis: **Sales \| Sales** 
 
 	![Picture 46](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image23.png)
 
@@ -218,21 +220,25 @@ In this task you will create a forecast to determine possible future sales reven
 
 8. Expand the **Forecast** section.
 
-	![Picture 50](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image27.png)
+
 
 	*If the **Forecast** section is not available, it’s probably because the visual hasn’t been correctly configured. Forecasting is only available when two conditions are met: the axis has a single field of type date, and there’s only one value field.*
 
-9. Click **Add**.
+9. Turn the **Forecast** option to **On**.
 
 	![Picture 51](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image28.png)
 
 10. Configure the following forecast properties:
 
+	- Units: Months
+
 	- Forecast length: 1 month
 
+	- Seasonality: 365
+	
 	- Confidence interval: 80%
 
-	- Seasonality: 365
+
 
 11. Click **Apply**.
 
@@ -257,7 +263,7 @@ In this task you will complete the lab.
 
 2. Save the Power BI Desktop file.
 
-3. To publish the file to your workspace, on the **Home** ribbon tab, from inside the **Share** group, click **Publish**.
+3. To publish the file to your **My workspace**, on the **Home** ribbon tab, from inside the **Share** group, click **Publish** and then click **Select** to publish.
 
 	![Picture 23](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image46.png)
 

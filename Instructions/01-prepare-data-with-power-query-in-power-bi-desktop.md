@@ -18,7 +18,7 @@ In this lab you learn how to:
 
 ### **Lab story**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, we suggest you do them in the following order:
 
 1. **Prepare Data in Power BI Desktop**
 
@@ -207,13 +207,13 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 	![Picture 43](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image26.png)
 
-	When the distinct and unique counts are the same, it means the column contains unique values. When modeling, it’s important that some model tables have unique columns. These unique columns can be used to create one-to-many relationships, which you will do in the **Model Data in Power BI Desktop, Part 1** lab.
+	When the distinct and unique counts are the same, it means the column contains unique values. When modeling, it’s important that some model tables have unique columns. These unique columns can be used to create one-to-many relationships, which you will do in the **Model Data in Power BI Desktop** lab.
 
 1. In the **Queries** pane, select the **DimEmployeeSalesTerritory** query.
 
 	![Picture 44](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image27.png)
 
-	The **DimEmployeeSalesTerritory** table stores one row for each employee and the sales territory regions they manage. The table supports relating many regions to a single employee. Some employees manage one, two, or possibly more regions. When you model this data, you’ll need to define a many-to-many relationship, which you’ll do in the **Model Data in Power BI Desktop, Part 2** lab.
+	The **DimEmployeeSalesTerritory** table stores one row for each employee and the sales territory regions they manage. The table supports relating many regions to a single employee. Some employees manage one, two, or possibly more regions. When you model this data, you’ll need to define a many-to-many relationship.
 
 1. In the **Queries** pane, select the **DimProduct** query.
 
@@ -255,7 +255,7 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 	![Picture 52](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image32.png)
 
-	The **DimSalesTerritory** table contains one row per sales region, including **Corporate HQ** (headquarters). Regions are assigned to a country, and countries are assigned to groups. In the **Model Data in Power BI Desktop, Part 1** lab, you’ll create a hierarchy to support analysis at region, country, or group level.
+	The **DimSalesTerritory** table contains one row per sales region, including **Corporate HQ** (headquarters). Regions are assigned to a country, and countries are assigned to groups. In the **Model Data in Power BI Desktop** lab, you’ll create a hierarchy to support analysis at region, country, or group level.
 
 1. In the **Queries** pane, select the **FactResellerSales** query.
 
@@ -268,6 +268,7 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 	![Picture 63](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image34.png)
 
 	Missing **TotalProductCost** column values is a data quality issue. To address the issue, in the **Load Data in Power BI Desktop** lab, you’ll apply transformations to fill in missing values by using the product standard cost, which is stored in the related **DimProduct** table.
+
 
 ### **Task 5: Get data from a CSV file**
 
@@ -286,9 +287,7 @@ In this task you will create a query based on a CSV file: `ResellerSalesTargets.
 1. Click **OK**.
 
 	![Picture 71](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image36.png)
-
-  
-‎ 
+ 
 
 1. In the **Queries** pane, notice the addition of the **ResellerSalesTargets** query.
 

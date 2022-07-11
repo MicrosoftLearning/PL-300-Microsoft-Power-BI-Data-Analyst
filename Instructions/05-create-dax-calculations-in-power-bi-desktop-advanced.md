@@ -12,7 +12,7 @@ In this lab you learn how to:
 
 ### **Lab story**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, we suggest you do them in the following order:
 
 1. Prepare Data in Power BI Desktop
 
@@ -114,13 +114,11 @@ In this task you will create a matrix visual to support testing your new measure
 
     *You may recall that the **Regions** hierarchy has the levels **Group**, **Country**, and **Region**.*
 
-7. To format the visual, beneath the **Visualizations** pane, select the **Format** pane.
+7. To format the visual, in the **Visualizations** pane, select the **Format** pane.
 
     ![Picture 14](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image12.png)
 
 8. In the **Search** box, enter **Stepped**.
-
-    ![Picture 15](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image13.png)
 
 9. Set the **Stepped Layout** property to **Off**.
 
@@ -141,7 +139,6 @@ In this task you will create several measures with DAX expressions that use the 
 1. Add a measure to the **Sales** table, based on the following expression:
 
     *For your convenience, all DAX definitions in this lab can be copied from the **06-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** file.*
-
 
     **DAX**
 
