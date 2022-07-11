@@ -12,7 +12,7 @@ In this lab you learn how to:
 
 ### **Lab story**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, we suggest you do them in the following order:
 
 1. Prepare Data in Power BI Desktop
 
@@ -48,7 +48,7 @@ In this task you will setup the environment for the lab by signing in to Power B
 
  	![Picture 65](Linked_image_Files/07-design-report-in-power-bi-desktop_image1.png)
 
-1. In the Microsoft Edge browser window, navigate to **https://powerbi.com**.
+1. In the Microsoft Edge browser window, navigate to **https://powerbi.microsoft.com**.
 
  	*Tip: You can also use the Power BI Service favorite on the Microsoft Edge favorites bar.*
 
@@ -219,21 +219,6 @@ In this task you will design the first report page. When you’ve completed the 
 
 	![Picture 21](Linked_image_Files/07-design-report-in-power-bi-desktop_image22.png)
 
-17. To format the slicer, beneath the **Visualizations** pane, open the **Format** pane.
-
-	![Picture 50](Linked_image_Files/07-design-report-in-power-bi-desktop_image23.png)
-
-18. Expand the **Selection Controls** group.
-
-	![Picture 23](Linked_image_Files/07-design-report-in-power-bi-desktop_image24.png)
-
-19. Set the **Show “Select All” Option** to **On**.
-
-	![Picture 24](Linked_image_Files/07-design-report-in-power-bi-desktop_image25.png)
-
-20. In the **Region** slicer, notice that the first item is now **Select All**.
-
-	*When selected, this item either selects all or de-selects all items. It makes it easier for report users to set the required slicer items.*
 
 21. De-select the slicer by clicking an empty area of the report page.
 
@@ -251,13 +236,13 @@ In this task you will design the first report page. When you’ve completed the 
 
 	- Sales \| Sales
 
-25. In the visual fields pane (not the **Fields** pane—the visual fields pane is located beneath the **Visualizations** pane), notice that the fields are assigned to the **Shared Axis** and **Column Values** wells/areas.
+25. In the visual fields pane (not the **Fields** pane—the visual fields pane is located beneath the **Visualizations** pane), notice that the fields are assigned to the **X-axis** and **Column y-axis** wells/areas.
 
 	![Picture 27](Linked_image_Files/07-design-report-in-power-bi-desktop_image28.png)
 
 	*By dragging fields into a visual, they will be added to default wells/areas. For precision, you can drag fields directly into the wells/areas, as you will do next.*
 
-26. From the **Fields** pane, drag the **Sales \| Profit Margin** field into the **Line Values** well/area.
+26. From the **Fields** pane, drag the **Sales \| Profit Margin** field into the **Line y-axis** well/area.
 
 	![Picture 28](Linked_image_Files/07-design-report-in-power-bi-desktop_image29.png)
 
@@ -265,7 +250,7 @@ In this task you will design the first report page. When you’ve completed the 
 
 	*The last month of the year, 2020 June, does not have any sales (yet). By default, the visual has eliminated months with BLANK sales. You will now configure the visual to show all months.*
 
-28. In the visual fields pane, in the **Shared Axis** well/area, for the **Month** field, click the down-arrow, and then select **Show Items With No Data**.
+28. In the visual fields pane, in the **X-axis** well/area, for the **Month** field, click the down-arrow, and then select **Show Items With No Data**.
 
 	![Picture 52](Linked_image_Files/07-design-report-in-power-bi-desktop_image30.png)
 
@@ -309,7 +294,7 @@ In this task you will design the first report page. When you’ve completed the 
 
 	![Picture 3](Linked_image_Files/07-design-report-in-power-bi-desktop_image35.png)
 
-39. Expand the **Data Colors** group, and then set the **Default Color** property to a suitable color (to complement the column/line chart).
+39. Expand the **Bars** and then the **Colors** group, and then set the **Default Color** property to a suitable color (to complement the column/line chart).
 
 40. Set the **Data Labels** property to **On**.
 
@@ -336,11 +321,10 @@ In this task you will design the second report page. When you’ve completed the
 	![Picture 43](Linked_image_Files/07-design-report-in-power-bi-desktop_image39.png)
 
   
-‎ 
 
 3. Add a slicer based on the **Region \| Region** field.
 
-4. Use the **Format** pane to enable the “Select All” option (in the **Selection Controls** group).
+4. Use the **Format** pane to enable the “Select All” option (in the **Selection** group).
 
 5. Resize and position the slicer so it sits at the left side of the report page, and so it is about half the page height.
 
@@ -434,7 +418,7 @@ In this task you will design the third—and final—report page. When you’ve 
 
 1. Format the visual:
 
-	- In the **Data Labels** group, increase the **Text Size** property to **28pt**
+	- In the **Callout values** group, increase the **Text Size** property to **28pt**
 
 	- In the **Background** group, set the **Color** to a light gray color
 

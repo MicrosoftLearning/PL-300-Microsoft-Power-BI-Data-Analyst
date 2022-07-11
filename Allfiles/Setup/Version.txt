@@ -1,3 +1,1 @@
-Power BI Service v13.0.14788.65
-Power BI Desktop v2.87.684.0 64-bit (November 2020)
-Power BI Report Builder v15.6.01340.0002
+Power BI Desktop v2.102.683.0 64-bit (February 2022)

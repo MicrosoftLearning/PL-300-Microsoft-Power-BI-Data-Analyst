@@ -2,17 +2,16 @@
 
 **The estimated time to complete the lab is 45 minutes**
 
-In this lab you will create a many-to-many relationship between the **Salesperson** table and the **Sales** table. You will also enforce row-level security to ensure that a salesperson can only analyze sales data for their assigned region(s).
+In this lab you will enforce row-level security to ensure that a salesperson can only analyze sales data for their assigned region(s).
 
 In this lab you learn how to:
 
-- Configure many-to-many relationships
 
 - Enforce row-level security
 
 ### **Lab story**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, we suggest you do them in the following order:
 
 1. Prepare Data in Power BI Desktop
 
@@ -174,7 +173,7 @@ In this task you will enforce row-level security to ensure a salesperson can onl
 
 	![Picture 18](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image35.png)
 
-### **Task 2: Finish up**
+### **Task 3: Finish up**
 
 In this task you will complete the lab.
 

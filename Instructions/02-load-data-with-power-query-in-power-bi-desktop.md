@@ -12,7 +12,7 @@ In this lab you learn how to:
 
 ### **Lab story**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, we suggest you do them in the following order:
 
 1. Prepare Data in Power BI Desktop
 
@@ -116,7 +116,7 @@ In this task you will configure the **Salesperson** query.
 
 	*You’ll now filter the query rows to retrieve only employees who are salespeople.*
 
-4. To locate a specific column, on the **Home** ribbon tab, from inside the **Manage Columns** group, click the **Choose Columns** down-arrow, and then select **Go to Column**.
+4. To locate a specific column, on the **Home** ribbon tab, click the **Manage Columns** down-arrow, click the **Choose Columns** down-arrow, and then select **Go to Column**.
 
 	![Picture 88](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image13.png)
 
@@ -142,7 +142,7 @@ In this task you will configure the **Salesperson** query.
 
 	*Each transformation you create results in additional step logic. It’s possible to edit or delete steps. It’s also possible to select a step to preview the query results at that stage of the query transformation.*
 
-10. To remove columns, on the **Home** ribbon tab, from inside the **Manage Columns** group, click the **Choose Columns** icon.
+10. To remove columns, on the **Home** ribbon tab, click the **Manage Columns** group, click the **Choose Columns** icon.
 
 	![Picture 99](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image18.png)
 
@@ -202,7 +202,7 @@ In this task you will configure the **Salesperson** query.
 
 23. Use the previous steps to rename the **EmailAddress** column to **UPN**.
 
-	*UPN is an acronym for User Principal Name. The values in this column will be used when you configure row-level security in the **Model Data in Power BI Desktop, Part 2** lab.*
+	*UPN is an acronym for User Principal Name.*
 
 24. At the bottom-left, in the status bar, verify that the query has five columns and 18 rows.
 
@@ -335,7 +335,6 @@ In this task you will configure the **Reseller** query.
 	![Picture 2](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image38.png)
 
   
-‎ 
 
 6. Right-click the **Business Type** column header, and then select **Replace Values**.
 
@@ -634,7 +633,7 @@ In this task you will update the **Product** query by merging the **ColorFormats
 
 	![Picture 5690](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image70.png)
 
-2. To merge the **ColorFormats** query, on the **Home** ribbon tab, from inside the **Combine** group, click **Merge Queries**.
+2. To merge the **ColorFormats** query, on the **Home** ribbon tab, click the **Combine** down-arrow, then click **Merge Queries**.
 
 	![Picture 5654](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image71.png)
 
@@ -734,4 +733,4 @@ In this task you will complete the lab.
 
 5. If you intend to start the next lab, leave Power BI Desktop open.
 
-	*You’ll configure data model tables and relationships in the **Model Data in Power BI Desktop, Part 1** lab.*
+	*You’ll configure data model tables and relationships in the **Model Data in Power BI Desktop** lab.*

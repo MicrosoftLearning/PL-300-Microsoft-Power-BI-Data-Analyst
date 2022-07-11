@@ -16,7 +16,7 @@ In this lab you learn how to:
 
 ### **Lab story**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, we suggest you do them in the following order:
 
 1. Prepare Data in Power BI Desktop
 
@@ -52,7 +52,7 @@ In this task you will setup the environment for the lab by signing in to Power B
 
  	![Picture 12](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image1.png)
 
-1. In the Microsoft Edge browser window, navigate to **https://powerbi.com**.
+1. In the Microsoft Edge browser window, navigate to **https://powerbi.microsoft.com**.
 
  	*Tip: You can also use the Power BI Service favorite on the Microsoft Edge favorites bar.*
 
@@ -234,7 +234,7 @@ In this task you will create a new page and configure it as a drill through page
 
 	- Sales \| Profit Margin
 
-12. Configure the format options for the visual, and in the **Grid** section, set the **Text Size** property to **20pt**.
+12. Configure the format options for the visual, and in the **Values** section, set the **Text Size** property to **20pt**.
 
 	*The design of the drill through page is almost complete. You’ll enhance the page with conditional formatting in the next exercise.*
 
@@ -296,11 +296,11 @@ In this task you will enhance the drill through page with conditional formatting
 
 9. Configure background color conditional formatting for the **Color** field.
 
-10. In the **Background Color – Color** window, in the **Format By** dropdown list, select **Field Value**.
+10. In the **Background Color – Color** window, in the **Format Style** dropdown list, select **Field Value**.
 
-	![Picture 113](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image35.png)
+	
 
-11. In the **Based on Field** dropdown list, select **Product \| Formatting \| Background Color Format**.
+11. In the **What field should we base this on?** dropdown list, select **Product \| Formatting \| Background Color Format**.
 
 	![Picture 114](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image36.png)
 
@@ -390,15 +390,15 @@ In this task you will add two buttons, and assign bookmark actions to each.
 
 2. Position the button directly beneath the **Year** slicer.
 
-3. Select the button, and then in the **Format button** pane, turn the **Button Text** property to **On**.
+3. Select the button, and then in the **Format button** pane, click **General** and turn the **Title** property to **On**.
 
 	![Picture 126](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image49.png)
 
-4. Expand the **Button Text** section, and then in the **Button Text** box, enter **Bar Chart**.
+4. Expand the **Title** section, and then in the **Text** box, enter **Bar Chart**.
 
 5. Expand the **Background** section, and then set a background color using a complementary color.
 
-6. Turn the **Action** property to **On** (located near the bottom of the list).
+6. Click **Button** and turn the **Action** property to **On**.
 
 	![Picture 127](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image50.png)
 
@@ -460,7 +460,7 @@ In this exercise you will explore the report in the Power BI service.
 
 In this task you will explore the report in the Power BI service.
 
-1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, click the **Sales Analysis** report.
+1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, select **My Workspace** and then click the **Sales Analysis** report.
 
 2. To test the drill through report, in the **Overview** page, in the **Quantity by Category** visual, right-click the **Clothing** bar, and then select **Drill Through \| Product Details**.
 

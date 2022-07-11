@@ -15,7 +15,7 @@ In this lab you learn how to:
 
 ### **Lab story**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, we suggest you do them in the following order:
 
 1. Prepare Data in Power BI Desktop
 
@@ -151,15 +151,15 @@ In this task you will create model relationships.
 
 14. In the **Cardinality** dropdown list, notice that **One To Many (1:*)** is selected.
 
-	*The cardinality was automatically detected, because Power BI understands that the **ProductKey** column from the **Product** table contains unique values. One-to-many relationships are the most common cardinality, and all relationship you create in this lab will be this type. You’ll work with a Many-to-many cardinality in the **Model Data in Power BI Desktop, Part 2** lab.*
+	*The cardinality was automatically detected, because Power BI understands that the **ProductKey** column from the **Product** table contains unique values. One-to-many relationships are the most common cardinality, and all relationship you create in this lab will be this type.*
 
 15. In the **Cross Filter Direction** dropdown list, notice that **Single** is selected.
 
-	*Single filter direction means that filters propagate from the “one side” to the “many side”. In this case, it means filters applied to the **Product** table will propagate to the **Sales** table, but not in the opposite direction. You’ll work with a bi-directional relationship in the **Model Data in Power BI Desktop, Part 2** lab.*
+	*Single filter direction means that filters propagate from the “one side” to the “many side”. In this case, it means filters applied to the **Product** table will propagate to the **Sales** table, but not in the opposite direction.*
 
 16. Notice that the **Mark This Relationship Active** is checked.
 
-	*Active relationships propagate filters. It’s possible to mark a relationship as inactive so filters don’t propagate. Inactive relationships can exist when there are multiple relationship paths between tables. In this case, model calculations can use special functions to activate them. You’ll work with an inactive relationship in the **Model Data in Power BI Desktop, Part 2** lab.*
+	*Active relationships propagate filters. It’s possible to mark a relationship as inactive so filters don’t propagate. Inactive relationships can exist when there are multiple relationship paths between tables. In this case, model calculations can use special functions to activate them.*
 
 17. Click **OK**.
 
@@ -199,11 +199,10 @@ In this task you will create model relationships.
 
 	- **Salesperson \| EmployeeKey** to **Sales \| EmployeeKey**
 
-	*In this lab the **SalespersonRegion** and **Targets** tables will remain disconnected. There’s a many-to-many relationship between salespeople and regions, and you’ll work with this advanced scenario in the **Model Data in Power BI Desktop, Part 2** lab.*
-
 25. In the diagram, arrange the tables so that the **Sales** table is positioned in the center of the diagram, and the related tables are arranged about it. Position the disconnected tables to the side.
 
 	![Picture 340](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image23.png)
+
 
 26. Save the Power BI Desktop file.
 
@@ -303,13 +302,7 @@ In this task you will configure the **Reseller** table.
 
 	![Picture 353](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image34.png)
 
-3. Categorize the following three columns:
-
-	- **Country-Region** as **Country/Region**
-
-	- **State-Province** as **State or Province**
-
-	- **City** as **City**
+3. Set the **Data Category** for the **Country-Region**, **State-Province**, and **City** columns (not the hierarchy level) to **Country/Region**, **State or Province**, and **City**, respectively. 
 
 ### **Task 4: Configure the Sales table**
 
@@ -325,13 +318,13 @@ In this task you will configure the **Sales** table.
 
 3. Select the **Quantity** column.
 
-4. In the **Properties** pane, from inside the **Formatting** section, slide the **Thousands Separator** property to **On**.
+4. In the **Properties** pane, from inside the **Formatting** section, slide the **Thousands Separator** property to **Yes**.
 
 	![Picture 357](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image36.png)
 
 5. Select the **Unit Price** column.
 
-6. In the **Properties** pane, from inside the **Formatting** section, slide the **Decimal Places** property to **2**.
+6. In the **Properties** pane, from inside the **Formatting** section, set the **Decimal Places** property to **2**.
 
 7. In the **Advanced** group (you may need to scroll down to locate it), in the **Summarize By** dropdown list, select **Average**.
 
@@ -373,13 +366,13 @@ In this task you will update multiple columns using single bulk updates. You wil
 
 	- Targets \| EmployeeID
 
-3. In the **Properties** pane, slide the **Is Hidden** property to **On**.
+3. In the **Properties** pane, slide the **Is Hidden** property to **Yes**.
 
 	![Picture 355](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image38.png)
 
 	*The columns were hidden because they’re either used by relationships or will be used in row-level security configuration or calculation logic.*
 
-	*You’ll define row-level security in the **Model Data in Power BI Desktop, Part 2** lab using the **UPN** column. You’ll use the **SalesOrderNumber** in a calculation in the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
+	*You’ll use the **SalesOrderNumber** in a calculation in the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
 
 4. Multi-select the following three columns:
 
@@ -448,8 +441,193 @@ In this task you will switch to Report view, and review the model interface.
 	![Picture 363](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image45.png)
 
 
+## **Exercise 4: Create Quick Measures**
 
-### **Task 2: Finish up**
+In this exercise you will create two quick measures.
+
+### **Task 1: Create quick measures**
+
+In this task you will create two quick measures to calculate profit and profit margin.
+
+1. In the **Fields** pane, right-click the **Sales** table, and then select **New Quick Measure**.
+
+	![Picture 366](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image46.png)
+
+2. In the **Quick Measures** window, in the **Calculation** dropdown list, from inside the **Mathematical Operations** group, select **Subtraction**.
+
+	![Picture 367](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image47.png)
+
+3. In the **Fields** pane of the **Quick Measures** window, expand the **Sales** table.
+
+4. Drag the **Sales** field into the **Base Value** box.
+
+5. Drag the **Cost** field into the **Value to Subtract** box.
+
+	![Picture 368](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image48.png)
+
+6. Click **OK**.
+
+	![Picture 369](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image49.png)
+
+	*A quick measure creates the calculation formula for you. They’re easy and fast to create for simple and common calculations. You’ll create measures without using this tool in the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
+
+7. In the **Fields** pane, inside the **Sales** table, notice that new measure.
+
+	![Picture 370](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image50.png)
+
+	*Measures are adorned with the calculator icon.*
+
+8. To rename the measure, right-click it, and then select **Rename**.
+
+	![Picture 371](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image51.png)
+
+	*Tip: To rename a field, you can also double-click it, or select it and press **F2**.*
+
+9. Rename the measure to **Profit**, and then press **Enter**.
+
+10. In the **Sales** table, add a second quick measure, based on the following requirements:
+
+	- Use the **Division** mathematical operation
+
+	- Set the **Numerator** to the **Sales \| Profit** field
+
+	- Set the **Denominator** to **Sales \| Sales** field
+
+	- Rename the measure as **Profit Margin**
+
+	![Picture 372](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image52.png)
+
+	![Picture 373](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image53.png)
+
+11. Ensure the **Profit Margin** measure is selected, and then on the **Measure Tools** contextual ribbon, set the format to **Percentage**, with two decimal places.
+
+	![Picture 374](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image54.png)
+
+12. To test the two measures, first select the table visual on the report page.
+
+13. In the **Fields** pane, check the two measures.
+
+	![Picture 375](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image55.png)
+
+14. Click and drag the right guide to widen the table visual.
+
+	![Picture 376](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image56.png)
+
+15. Verify that the measures produce reasonable results that are correctly formatted.
+
+	![Picture 378](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image57.png)
+
+### **Task 2: Create a many-to-many relationship**
+
+In this task you will create a many-to-many relationship between the **Salesperson** table and the **Sales** table.
+
+1. In Power BI Desktop, in Report view, in the **Fields** pane, check the follow two fields to create a table visual:
+
+	- Salesperson \| Salesperson
+
+	- Sales \| Sales
+
+	*The labs use a shorthand notation to reference a field. It will look like this: **Salesperson \| Salesperson** . In this example, **Salesperson**  is the table name and **Salesperson**  is the field name.*
+
+	![Picture 1](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image9.png)
+
+	*The table displays sales made by each salesperson. However, there’s another relationship between salespeople and sales. Some salespeople belong to one, two, or possibly more sales regions. In addition, sales regions can have multiple salespeople assigned to them.*
+
+	*From a performance management perspective, a salesperson’s sales (based on their assigned territories) need to be analyzed and compared with sales targets. You’ll create relationships to support this analysis in the next exercise.*
+
+2. Notice that Michael Blythe has sold almost $9 million.
+
+3. Switch to Model view.
+
+	![Picture 10](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image10.png)
+
+4. Drag the **SalespersonRegion** table to position it between the **Region** and **Salesperson** tables.
+
+5. Use the drag-and-drop technique to create the following two model relationships:
+
+	- **Salesperson \| EmployeeKey** to **SalespersonRegion \| EmployeeKey**
+
+	- **Region \| SalesTerritoryKey** to **SalespersonRegion \| SalesTerritoryKey**
+
+	*The **SalespersonRegion** table can be considered to be a bridging table.*
+
+6. Switch to Report view, and then notice that the visual has not updated—the sales result for Michael Blythe has not changed.
+
+7. Switch back to Model view, and then follow the relationship filter directions (arrowhead) from the **Salesperson** table.
+
+	*Consider that the **Salesperson** table filters the **Sales** table. It also filters the **SalespersonRegion** table, but it does not continue by propagating filters to the **Region** table (the arrowhead is pointing the wrong direction).*
+
+	![Picture 380](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image11.png)
+
+8. To edit the relationship between the **Region** and **SalespersonRegion** tables, double-click the relationship.
+
+9. In the **Edit Relationship** window, in the **Cross Filter Direction** dropdown list, select **Both**.
+
+10. Check the **Apply Security Filter in Both Directions** checkbox.
+
+	![Picture 381](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image12.png)
+
+11. Click **OK**.
+
+	![Picture 335](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image13.png)
+
+12. Notice that the relationship has a double arrowhead.
+
+	![Picture 382](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image14.png)
+
+13. Switch to Report view, and then notice that the sales values have still not changed.
+
+	*The issue now relates to the fact that there are two possible filter propagation paths between the **Salesperson** and **Sales** tables. This ambiguity is internally resolved, based on a “least number of tables” assessment. To be clear, you shouldn’t design models with this type of ambiguity—the issue will be addressed in part later in this lab, and by the completion of the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
+
+14. Switch to Model view.
+
+15. To force filter propagation via the bridging table, edit (double-click) the relationship between the **Salesperson** and **Sales** tables.
+
+16. In the **Edit Relationship** window, uncheck the **Make This Relationship Active** checkbox.
+
+	![Picture 383](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image15.png)
+
+17. Click **OK**.
+
+	![Picture 5696](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image16.png)
+
+	*The filter propagation will now follow the only active path.*
+
+18. In the diagram, notice that the inactive relationship is represented by a dashed line.
+
+	![Picture 5697](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image17.png)
+
+19. Switch to Report view, and then notice that the sales for Michael Blythe is now nearly $22 million.
+
+	![Picture 5698](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image18.png)
+
+20. Notice also, that the sales for each salesperson—if added—would exceed the table total.
+
+	*It’s a common observation of a many-to-many relationship due to the double, triple, etc. counting of regional sales results. Consider Brian Welcker, the second salesperson listed. His sales amount equals the total sales amount. It’s the correct result simply due to the fact the he’s the Director of Sales; his sales are measured by the sales of all regions.*
+
+	*While the many-to-many relationship is now working, it’s now not possible to analyze sales made by a salesperson (because the relationship is inactive). You’ll be able to reactivate the relationship when you introduce a calculated table that will allow analyzing sales made in the sales region(s) assigned to the salesperson (for performance analysis) in the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
+
+21. Switch to Modeling view, and then in the diagram, select the **Salesperson** table.
+
+22. In the **Properties** pane, in the **Name** box, replace the text with **Salesperson (Performance)**.
+
+	*The renamed table now reflects its purpose: it’s used to report and analyze the performance of salespeople based on the sales of their assigned sales regions.*
+
+### **Task 3: Relate the Targets table**
+
+In this task you will create a relationship to the **Targets** table
+
+1. Create a relationship from the **Salesperson (Performance) \| EmployeeID** column and the **Targets \| EmployeeID** column.
+
+2. In Report view, add the **Targets \| Target** field to the table visual.
+
+3. Resize the table visual so all columns are visible.
+
+	![Picture 5699](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image19.png)
+
+	*It’s now possible to visualize sales and targets—but take care for two reasons. First, there’s no filter on a time period, and so targets also include future target amounts. Second, targets are not additive, and so the total should not be displayed. They can either be disabled by formatting the visual or removed by using calculation logic. You’ll follow the second approach by creating a target measure in the **Create DAX Calculations in Power BI Desktop, Part 2** lab that’ll return BLANK when more than one salesperson is filtered.*
+
+### **Task 4: Finish up**
 
 In this task you will complete the lab.
 
@@ -458,5 +636,3 @@ In this task you will complete the lab.
 2. If prompted to apply queries, click **Apply Later**.
 
 3. If you intend to start the next lab, leave Power BI Desktop open.
-
-	*You’ll enhance the data model by configuring a many-to-many relationship and row-level security in the **Model Data in Power BI Desktop, Part 2** lab.*
