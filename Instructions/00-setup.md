@@ -24,7 +24,6 @@ Ideally, you should complete these labs in a hosted lab environment. If you want
 
 2. Apply all available updates.
 
-
 --- Verify if they need SSMS or just install
 ### SQL Server Management Studio
 
@@ -32,6 +31,7 @@ Ideally, you should complete these labs in a hosted lab environment. If you want
 
     - Use the default options in the installer.
 --->
+
 ### SQL Server Database Engine
 
 1. The lab connects to a localhost SQL Server instance. The following instructions will help you install SQL Server and configure the default options. You only need to install the Database Engine feature.
@@ -39,15 +39,14 @@ Ideally, you should complete these labs in a hosted lab environment. If you want
     - Download the free [Developer copy of install media](https://www.microsoft.com/sql-server/sql-server-downloads?SilentAuth=1&f=255&MSPPError=-2147217396&rtc=1)
     - [Install SQL Server from the Installation Wizard (Setup)](https://learn.microsoft.com/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup)
 
-> [!NOTE]
-> You can use an existing SQL Server instance if you have access, instead of installing a local version. However, you'll need to modify the connection string from "localhost" to your instance name.
+> &#128221; You can use an existing SQL Server instance if you have access, instead of installing a local version. However, you'll need to modify the connection string from "localhost" to your instance name.
 
 ### Power BI Desktop
 
-1. Download and install from the Microsoft store. If you do not have access to the Microsoft store, download from the [web](https://www.microsoft.com/download/details.aspx?id=58494).
+1. Download and install from the Microsoft store. If you do not have access to the Microsoft store, download from the [web](https://www.microsoft.com/download/details.aspx?id=58494). Power BI Desktop is the primary application for these labs.
 
     - Use the default options in the installer.
 
 ### Microsoft Edge
 
-1. Install the latest version of [Microsoft Edge](https://microsoft.com/edge).
+1. Install the latest version of [Microsoft Edge](https://microsoft.com/edge) to access Power BI service online.
