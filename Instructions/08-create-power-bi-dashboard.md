@@ -5,9 +5,9 @@ lab:
 ---
 
 
-# **Create a Power BI Dashboard**
+# Create a Power BI Dashboard
 
-**The estimated time to complete the lab is 45 minutes**
+**The estimated time to complete the lab is 45 minutes.**
 
 In this lab you will create the **Sales Monitoring** dashboard.
 
@@ -25,21 +25,21 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 2. Load Data in Power BI Desktop
 
-3. Model Data in Power BI Desktop
+3. Design a Data Model in Power BI
 
-5. Create DAX Calculations in Power BI Desktop, Part 1
+4. Create DAX Calculations in Power BI Desktop, Part 1
 
-6. Create DAX Calculations in Power BI Desktop, Part 2
+5. Create DAX Calculations in Power BI Desktop, Part 2
 
-7. Design a Report in Power BI Desktop, Part 1
+6. Design a Report in Power BI Desktop, Part 1
 
-8. Design a Report in Power BI Desktop, Part 2
+7. Design a Report in Power BI Desktop, Part 2
 
-9. **Create a Power BI Dashboard**
+8. **Create a Power BI Dashboard**
 
-10. Perform Data Analysis in Power BI Desktop
+9. Analyze Data with AI Visuals
 
-11. Enforce Row-Level Security
+10. Enforce Row-Level Security
 
 ## **Exercise 1: Create a Dashboard**
 
@@ -65,21 +65,15 @@ In this task you will setup the environment for the lab by signing in to Power B
 
     ![Picture 41](Linked_image_Files/09-create-power-bi-dashboard_image3.png)
 
-4. Enter the account details provided to you.
+4. Complete the sign in process.
 
-5. If prompted to update the password, reenter the provided password, and then enter and confirm a new password.
+5. If prompted by Microsoft Edge to stay signed in, click **Yes**.
 
-    *Important: Be sure to record your new password.*
-
-6. Complete the sign in process.
-
-7. If prompted by Microsoft Edge to stay signed in, click **Yes**.
-
-8. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, expand **My Workspace**.
+6. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, expand **My Workspace**.
 
     ![Picture 40](Linked_image_Files/09-create-power-bi-dashboard_image4.png)
 
-9. Leave the Microsoft Edge browser window open.
+7. Leave the Microsoft Edge browser window open.
 
 ### **Task 2: Get started – Open report**
 

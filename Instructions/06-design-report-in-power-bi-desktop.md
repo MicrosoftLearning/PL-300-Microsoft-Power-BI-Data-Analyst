@@ -1,13 +1,13 @@
 ---
 lab:
     title: 'Design a Report in Power BI Desktop, Part 1'
-    module: 'Module 7 - Create Reports'
+    module: 'Module 6 - Create Reports'
 ---
 
 
-# **Design a Report in Power BI Desktop, Part 1**
+# Design a Report in Power BI Desktop, Part 1
 
-**The estimated time to complete the lab is 45 minutes**
+**The estimated time to complete the lab is 45 minutes.**
 
 In this lab you will create a three-page report. You will then publish it to Power BI, whereupon you will open and interact with the report.
 
@@ -25,21 +25,21 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 2. Load Data in Power BI Desktop
 
-3. Model Data in Power BI Desktop
+3. Design a Data Model in Power BI
 
-5. Create DAX Calculations in Power BI Desktop, Part 1
+4. Create DAX Calculations in Power BI Desktop, Part 1
 
-6. Create DAX Calculations in Power BI Desktop, Part 2
+5. Create DAX Calculations in Power BI Desktop, Part 2
 
-7. **Design a Report in Power BI Desktop, Part 1**
+6. **Design a Report in Power BI Desktop, Part 1**
 
-8. Design a Report in Power BI Desktop, Part 2
+7. Design a Report in Power BI Desktop, Part 2
 
-9. Create a Power BI Dashboard
+8. Create a Power BI Dashboard
 
-10. Perform Data Analysis in Power BI Desktop
+9. Analyze Data with AI Visuals
 
-11. Enforce Row-Level Security
+10. Enforce Row-Level Security
 
 ## **Exercise 1: Create a Report**
 
@@ -62,12 +62,6 @@ In this task you will setup the environment for the lab by signing in to Power B
 1. Click **Sign In** (located at the top-right corner).
 
  	![Picture 63](Linked_image_Files/07-design-report-in-power-bi-desktop_image2.png)
-
-1. Enter the account details provided to you (check out the **Resources**).
-
-1. If prompted to update the password, reenter the provided password, and then enter and confirm a new password.
-
- 	*Important: Be sure to record your new password.*
 
 1. Complete the sign in process.
 

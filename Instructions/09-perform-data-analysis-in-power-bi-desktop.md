@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Perform Data Analysis in Power BI Desktop'
+    title: 'Analyze Data with AI Visuals'
     module: 'Module 9 - Identify Patterns and Trends'
 ---
 
 
-# **Perform Data Analysis in Power BI Desktop**
+# Analyze Data with AI Visuals
 
-**The estimated time to complete the lab is 45 minutes**
+**The estimated time to complete the lab is 45 minutes.**
 
 In this lab you will create the **Sales Exploration** report.
 
@@ -27,21 +27,21 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 2. Load Data in Power BI Desktop
 
-3. Model Data in Power BI Desktop
+3. Design a Data Model in Power BI
 
-5. Create DAX Calculations in Power BI Desktop, Part 1
+4. Create DAX Calculations in Power BI Desktop, Part 1
 
-6. Create DAX Calculations in Power BI Desktop, Part 2
+5. Create DAX Calculations in Power BI Desktop, Part 2
 
-7. Design a Report in Power BI Desktop, Part 1
+6. Design a Report in Power BI Desktop, Part 1
 
-8. Design a Report in Power BI Desktop, Part 2
+7. Design a Report in Power BI Desktop, Part 2
 
-9. Create a Power BI Dashboard
+8. Create a Power BI Dashboard
 
-10. **Perform Data Analysis in Power BI Desktop**
+9.  **Analyze Data with AI Visuals**
 
-11. Enforce Row-Level Security
+10. Enforce Row-Level Security
 
 ## **Exercise 1: Create the Report**
 
@@ -57,29 +57,23 @@ In this task you will setup the environment for the lab by signing in to Power B
 
  	![Picture 7](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image1.png)
 
-1. In the Microsoft Edge browser window, navigate to **https://powerbi.microsoft.com**.
+2. In the Microsoft Edge browser window, navigate to **https://powerbi.microsoft.com**.
 
  	*Tip: You can also use the Power BI Service favorite on the Microsoft Edge favorites bar.*
 
-1. Click **Sign In** (located at the top-right corner).
+3. Click **Sign In** (located at the top-right corner).
 
  	![Picture 5](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image2.png)
 
-1. Enter the account details provided to you.
+4. Complete the sign in process.
 
-1. If prompted to update the password, reenter the provided password, and then enter and confirm a new password.
+5. If prompted by Microsoft Edge to stay signed in, click **Yes**.
 
- 	*Important: Be sure to record your new password.*
-
-1. Complete the sign in process.
-
-1. If prompted by Microsoft Edge to stay signed in, click **Yes**.
-
-1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, expand **My Workspace**.
+6. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, expand **My Workspace**.
 
  	![Picture 4](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image3.png)
 
-1. Leave the Microsoft Edge browser window open.
+7. Leave the Microsoft Edge browser window open.
 
 ### **Task 2: Get started – Create a dataset**
 

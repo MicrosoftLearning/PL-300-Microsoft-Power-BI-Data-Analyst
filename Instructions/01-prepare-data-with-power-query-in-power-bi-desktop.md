@@ -4,9 +4,9 @@ lab:
     module: 'Module 2 - Get Data in Power BI'
 ---
 
-# **Prepare Data in Power BI Desktop**
+# Prepare Data in Power BI Desktop
 
-**The estimated time to complete the lab is 45 minutes**
+**The estimated time to complete the lab is 45 minutes.**
 
 In this lab you commence the development of a Power BI Desktop solution for the Adventure Works company. It involves connecting to source data, previewing the data, and using data preview techniques to understand the characteristics and quality of the source data.
 
@@ -30,21 +30,21 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 2. Load Data in Power BI Desktop
 
-3. Model Data in Power BI Desktop
+3. Design a Data Model in Power BI
 
-5. Create DAX Calculations in Power BI Desktop, Part 1
+4. Create DAX Calculations in Power BI Desktop, Part 1
 
-6. Create DAX Calculations in Power BI Desktop, Part 2
+5. Create DAX Calculations in Power BI Desktop, Part 2
 
-7. Design a Report in Power BI Desktop, Part 1
+6. Design a Report in Power BI Desktop, Part 1
 
-8. Design a Report in Power BI Desktop, Part 2
+7. Design a Report in Power BI Desktop, Part 2
 
-9. Create a Power BI Dashboard
+8. Create a Power BI Dashboard
 
-10. Perform Data Analysis in Power BI Desktop
+9.  Analyze Data with AI Visuals
 
-11. Enforce Row-Level Security
+10. Enforce Row-Level Security
 
 ## **Exercise 1: Prepare Data**
 
