@@ -299,8 +299,7 @@ In this task you will edit the details of two tiles.
 
     ![Picture 23](Linked_image_Files/09-create-power-bi-dashboard_image41.png)
 
-8. Notice that the tile describes the last refresh time (which done when loading the data model in Power BI Desktop).
-
+8. Notice that the tile describes the last refresh time (which occurs when the data model is loaded into Power BI Desktop).
 
 
     *You’ll refresh the dataset in the next exercise. Typically, this would be achieved by using scheduled refresh, in which case Power BI would use a gateway to connect to the SQL Server database. However, due to constraints in the classroom setup, there is no gateway. So, you’ll open Power BI Desktop, perform a manual data refresh, and then upload the file to your workspace.*
