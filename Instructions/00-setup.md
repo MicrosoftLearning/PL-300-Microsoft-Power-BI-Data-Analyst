@@ -50,3 +50,7 @@ Ideally, you should complete these labs in a hosted lab environment. If you want
 ### Microsoft Edge
 
 1. Install the latest version of [Microsoft Edge](https://microsoft.com/edge) to access Power BI service online.
+
+### M365 Developer Account
+
+For some of the exercises, you will need to log into Power BI with an organizational account. You can use your own, but if you don't have access, you can create a free [M365 Developer account](https://developer.microsoft.com/en-us/microsoft-365/dev-program). 
