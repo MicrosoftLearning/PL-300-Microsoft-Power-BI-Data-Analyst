@@ -6,7 +6,7 @@ lab:
 
 # Setup local lab environment
 
-- All setup and resource files can be [downloaded from GitHub](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/AllfilesDownload.zip).
+- All setup and resource files can be [downloaded from GitHub](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/AllfilesDownload.zip).
 
 Ideally, you should complete these labs in a hosted lab environment. If you want to complete them on your own computer, you can do so by installing the following software.
 
@@ -38,3 +38,4 @@ Ideally, you should complete these labs in a hosted lab environment. If you want
 ### M365 Developer Account
 
 For some of the exercises, you will need to log into Power BI with an organizational account. You can use your own, but if you don't have access, you can create a free [M365 Developer account](https://developer.microsoft.com/en-us/microsoft-365/dev-program).
+
