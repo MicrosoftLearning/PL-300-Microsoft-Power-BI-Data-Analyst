@@ -5,9 +5,9 @@ lab:
 ---
 
 
-# **Create DAX Calculations in Power BI Desktop, Part 2**
+# Create DAX Calculations in Power BI Desktop, Part 2
 
-**The estimated time to complete the lab is 45 minutes**
+**The estimated time to complete the lab is 45 minutes.**
 
 In this lab you will create measures with DAX expressions involving filter context manipulation.
 
@@ -25,21 +25,21 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 2. Load Data in Power BI Desktop
 
-3. Model Data in Power BI Desktop
+3. Design a Data Model in Power BI
 
-5. Create DAX Calculations in Power BI Desktop, Part 1
+4. Create DAX Calculations in Power BI Desktop, Part 1
 
-6. **Create DAX Calculations in Power BI Desktop, Part 2**
+5. **Create DAX Calculations in Power BI Desktop, Part 2**
 
-7. Design a Report in Power BI Desktop, Part 1
+6. Design a Report in Power BI Desktop, Part 1
 
-8. Design a Report in Power BI Desktop, Part 2
+7. Design a Report in Power BI Desktop, Part 2
+
+8. Analyze Data with AI Visuals
 
 9. Create a Power BI Dashboard
 
-10. Perform Data Analysis in Power BI Desktop
-
-11. Enforce Row-Level Security
+10. Enforce Row-Level Security
 
 ## **Exercise 1: Work with Filter Context**
 

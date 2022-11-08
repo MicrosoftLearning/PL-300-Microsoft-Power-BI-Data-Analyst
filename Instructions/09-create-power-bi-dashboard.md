@@ -5,9 +5,9 @@ lab:
 ---
 
 
-# Create a Power BI Dashboard
+# **Create a Power BI Dashboard**
 
-**The estimated time to complete the lab is 45 minutes.**
+**The estimated time to complete the lab is 45 minutes**
 
 In this lab you will create the **Sales Monitoring** dashboard.
 
@@ -25,7 +25,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 2. Load Data in Power BI Desktop
 
-3. Design a Data Model in Power BI
+3. Model Data in Power BI Desktop
 
 4. Create DAX Calculations in Power BI Desktop, Part 1
 
@@ -35,9 +35,9 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 7. Design a Report in Power BI Desktop, Part 2
 
-8. **Create a Power BI Dashboard**
+8. Analyze Data with AI Visuals
 
-9. Analyze Data with AI Visuals
+9. **Create a Power BI Dashboard**
 
 10. Enforce Row-Level Security
 
@@ -65,15 +65,21 @@ In this task you will setup the environment for the lab by signing in to Power B
 
     ![Picture 41](Linked_image_Files/09-create-power-bi-dashboard_image3.png)
 
-4. Complete the sign in process.
+4. Enter the account details provided to you.
 
-5. If prompted by Microsoft Edge to stay signed in, click **Yes**.
+5. If prompted to update the password, reenter the provided password, and then enter and confirm a new password.
 
-6. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, expand **My Workspace**.
+    *Important: Be sure to record your new password.*
+
+6. Complete the sign in process.
+
+7. If prompted by Microsoft Edge to stay signed in, click **Yes**.
+
+8. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, expand **My Workspace**.
 
     ![Picture 40](Linked_image_Files/09-create-power-bi-dashboard_image4.png)
 
-7. Leave the Microsoft Edge browser window open.
+9. Leave the Microsoft Edge browser window open.
 
 ### **Task 2: Get started – Open report**
 
@@ -293,7 +299,8 @@ In this task you will edit the details of two tiles.
 
     ![Picture 23](Linked_image_Files/09-create-power-bi-dashboard_image41.png)
 
-8. Notice that the tile describes the last refresh time (which occurs when the data model is loaded into Power BI Desktop).
+8. Notice that the tile describes the last refresh time (which done when loading the data model in Power BI Desktop).
+
 
 
     *You’ll refresh the dataset in the next exercise. Typically, this would be achieved by using scheduled refresh, in which case Power BI would use a gateway to connect to the SQL Server database. However, due to constraints in the classroom setup, there is no gateway. So, you’ll open Power BI Desktop, perform a manual data refresh, and then upload the file to your workspace.*

@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Setup your own environment'
-    module: 'Setup your own environment'
+    title: 'Set up your own environment'
+    module: 'Set up your own environment'
 ---
 
 # Setup local lab environment
@@ -15,22 +15,6 @@ Ideally, you should complete these labs in a hosted lab environment. If you want
 ## Instructions using Windows 11
 
 > &#128221; The instructions below are for a Windows 11 computer. Connecting from a different OS may not result in the same experience.
-
-<!--- 
---- Do we really need to include this? Just tell them to use Windows.
-### Windows 11 (OS)
-
-1. Install Windows 11.
-
-2. Apply all available updates.
-
---- Verify if they need SSMS or just install
-### SQL Server Management Studio
-
-1. Download and install from [https://aka.ms/ssmsfullsetup].
-
-    - Use the default options in the installer.
---->
 
 ### SQL Server Database Engine
 
@@ -53,4 +37,5 @@ Ideally, you should complete these labs in a hosted lab environment. If you want
 
 ### M365 Developer Account
 
-For some of the exercises, you will need to log into Power BI with an organizational account. You can use your own, but if you don't have access, you can create a free [M365 Developer account](https://developer.microsoft.com/en-us/microsoft-365/dev-program). 
+For some of the exercises, you will need to log into Power BI with an organizational account. You can use your own, but if you don't have access, you can create a free [M365 Developer account](https://developer.microsoft.com/en-us/microsoft-365/dev-program).
+
