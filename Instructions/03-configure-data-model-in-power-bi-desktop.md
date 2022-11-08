@@ -38,9 +38,9 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 7. Design a Report in Power BI Desktop, Part 2
 
-8. Create a Power BI Dashboard
+8. Analyze Data with AI Visuals
 
-9.  Analyze Data with AI Visuals
+9. Create a Power BI Dashboard
 
 10. Enforce Row-Level Security
 
