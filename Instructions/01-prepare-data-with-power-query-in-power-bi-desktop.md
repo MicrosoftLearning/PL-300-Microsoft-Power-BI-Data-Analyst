@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Prepare Data in Power BI Desktop'
-    module: '[Module 2 - Get Data in Power BI](https://learn.microsoft.com/en-us/training/modules/get-data/)'
+    module: '2 - Get Data in Power BI'
 ---
 
 # Prepare Data in Power BI Desktop
@@ -22,7 +22,7 @@ In this lab you learn how to:
 
 - Use data preview techniques to better understand the data
 
-### **Lab story**
+## **Lab story**
 
 This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, we suggest you do them in the following order:
 

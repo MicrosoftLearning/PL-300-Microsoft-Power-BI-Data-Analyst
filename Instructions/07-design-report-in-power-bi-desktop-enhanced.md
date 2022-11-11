@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Design a Report in Power BI Desktop, Part 2'
-    module: 'Module 7 - Create Reports'
+    module: '7 - Create Reports'
 ---
 
 
@@ -213,9 +213,11 @@ In this task you will create a new page and configure it as a drill through page
 
 8. Configure the format options for the visual, and then turn the **Category Label** property to **Off**.
 
-	![Picture 103](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image25.png)
+	![Picture 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image36b.png)
 
-9. Set the **Background Color** property to a light shade of gray.
+9. Set the **Effects > Background** color property to a light shade of gray.
+    
+    ![Picture 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image36c.png)
 
 10. Add a **Table** visual to the page, and then resize and position it so it sits beneath the card visual and fills the remaining space on the page.
 
@@ -393,7 +395,7 @@ In this task you will add two buttons, and assign bookmark actions to each.
 
 3. Select the button, and then in the **Format button** pane, click **General** and turn the **Title** property to **On**.
 
-	![Picture 126](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image49.png)
+	![Picture 126](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image49b.png)
 
 4. Expand the **Title** section, and then in the **Text** box, enter **Bar Chart**.
 

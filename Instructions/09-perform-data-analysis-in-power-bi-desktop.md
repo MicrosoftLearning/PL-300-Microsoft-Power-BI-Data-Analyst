@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Analyze Data with AI Visuals'
-    module: 'Module 9 - Identify Patterns and Trends'
+    module: '8 - Identify Patterns and Trends'
 ---
 
 

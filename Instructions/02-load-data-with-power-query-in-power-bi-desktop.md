@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Load Data in Power BI Desktop'
-    module: 'Module 3 - Clean, Transform, and Load Data in Power BI'
+    module: '3 - Clean, Transform, and Load Data in Power BI'
 ---
 
 # Load Data in Power BI Desktop
@@ -16,7 +16,7 @@ In this lab you learn how to:
 
 - Apply queries to load them to the data model
 
-### **Lab story**
+## **Lab story**
 
 This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, we suggest you do them in the following order:
 
@@ -384,11 +384,7 @@ In this task you will configure the **Region** query.
 
 2. Rename the query to **Region**.
 
-3. Apply a filter to the **SalesTerritoryAlternateKey** column to remove the value 0 (zero).
-
-	![Picture 5660](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image44.png)
-
-4. Remove all columns, except the following:
+3. Remove all columns, except the following:
 
 	- SalesTerritoryKey
 
@@ -398,7 +394,7 @@ In this task you will configure the **Region** query.
 
 	- SalesTerritoryGroup
 
-5. Rename the following three columns:
+4. Rename the following three columns:
 
 	- **SalesTerritoryRegion** to **Region**
 
@@ -406,7 +402,7 @@ In this task you will configure the **Region** query.
 
 	- **SalesTerritoryGroup** to **Group**
 
-6. In the status bar, verify that the query has four columns and 10 rows.
+5. In the status bar, verify that the query has four columns and 10 rows.
 
 	![Picture 5661](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image45.png)
 
@@ -458,28 +454,25 @@ In this task you will configure the **Sales** query.
 
 7. In the **Custom Column Formula** box, enter the following expression (after the equals symbol):
 
-8. For your convenience, you can copy the expression from the **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** file.
-
-
-   **Power Query**
-   ```
+   `
    if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]
-   ```
+   `
 
+    For your convenience, you can copy the expression from the **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** file.
 
-*This expression tests if the **TotalProductCost** value is missing. If it is, produces a value by multiplying the **OrderQuantity** value by the **StandardCost** value; otherwise, it uses the existing **TotalProductCost** value.*
-
-9. Click **OK**.
+8. Click **OK**.
 
 	![Picture 5666](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image49.png)
 
-10. Remove the following two columns:
+*This expression tests if the **TotalProductCost** value is missing. If it is, produces a value by multiplying the **OrderQuantity** value by the **StandardCost** value; otherwise, it uses the existing **TotalProductCost** value.*
+
+9. Remove the following two columns:
 
 	- TotalProductCost
 
 	- StandardCost
 
-11. Rename the following three columns:
+10. Rename the following three columns:
 
 	- **OrderQuantity** to **Quantity**
 
@@ -487,13 +480,13 @@ In this task you will configure the **Sales** query.
 
 	- **SalesAmount** to **Sales**
 
-12. To modify the column data type, in the **Quantity** column header, at the left of the column name, click the **1.2** icon, and then select **Whole Number**.
+11. To modify the column data type, in the **Quantity** column header, at the left of the column name, click the **1.2** icon, and then select **Whole Number**.
 
 	![Picture 5667](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image50.png)
 
 	*Configuring the correct data type is important. When the column contains numeric value, it’s also important to choose the correct type if you expect to perform mathematic calculations.*
 
-13. Modify the following three column data types to **Fixed Decimal Number**.
+12. Modify the following three column data types to **Fixed Decimal Number**.
 
 	- Unit Price
 
@@ -505,7 +498,7 @@ In this task you will configure the **Sales** query.
 
 	*The fixed decimal number data type stores values with full precision, and so requires more storage space that decimal number. It’s important to use the fixed decimal number type for financial values, or rates (like exchange rates).*
 
-14. In the status bar, verify that the query has 10 columns and 999+ rows.
+13. In the status bar, verify that the query has 10 columns and 999+ rows.
 
 	![Picture 5669](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image52.png)
 
@@ -563,7 +556,7 @@ In this task you will configure the **Targets** query.
 
 13. Notice that the first row is for year **2017** and month number **7**.
 
-14. In the **Column1** column, in the first grid cell, commence entering **7/1/2017**, and then press **Enter**.
+14. In the **Column1** column, in the first grid cell, commence entering **07/01/2017**, and then press **Enter**.
 
 	*The virtual machine uses US regional settings, so this date is in fact July 1, 2017.*
 

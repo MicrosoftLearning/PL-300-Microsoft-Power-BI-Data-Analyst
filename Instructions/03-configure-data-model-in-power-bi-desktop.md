@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Design a Data Model in Power BI'
-    module: 'Module 4 - Design a Data Model in Power BI'
+    module: '4 - Design a Data Model in Power BI'
 ---
 
 

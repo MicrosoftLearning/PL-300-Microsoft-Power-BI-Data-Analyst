@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Design a Report in Power BI Desktop, Part 1'
-    module: 'Module 6 - Create Reports'
+    module: '7 - Create Reports'
 ---
 
 
@@ -71,35 +71,36 @@ In this task you will setup the environment for the lab by signing in to Power B
 
 ### **Task 2: Get started – Enable Map and filled map visuals**
 
-In this task you will enable map and filled map visuals in the environment for the lab by updating the Integration settings in the Power BI Admin portal. 
+In this task you will enable map and filled map visuals in the environment for the lab by updating Global settings in Power BI Desktop and the Integration settings in the Power BI Admin portal.
 
+1. In Power BI Desktop, navigate to **Options > Options and Settings > Global** and check the box for **Use Map and Filled Map visuals**.
 
-1. To open the Power BI Admin portal, at the top-right of the browser, click the **Settings** icon.
+![Picture103b](Linked_image_Files/07-design-report-in-power-bi-desktop_image103b.png)
+
+2. To open the Power BI Admin portal, at the top-right of the Edge browser, click the **Settings** icon.
 
  	![Picture 101](Linked_image_Files/07-design-report-in-power-bi-desktop_image101.png)
 
-1. Select **Admin portal**.
+3. Select **Admin portal**.
 
  	![Picture 102](Linked_image_Files/07-design-report-in-power-bi-desktop_image102.png)
 
-1. Scroll down the page to Integration settings. Click the arrow to expand the Map and filled map visuals option.
+4. Scroll down the page to Integration settings. Click the arrow to expand the Map and filled map visuals option.
 
  	![Picture 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image103.png)
 
-1. Set the Map and filled map visuals option to **Enabled**.
+5. Set the Map and filled map visuals option to **Enabled**.
 
-1. Click **Apply**, to apply the changes. 
+6. Click **Apply**, to apply the changes. 
 
 	![Picture 104](Linked_image_Files/07-design-report-in-power-bi-desktop_image104.png)
 
-1. A message will appear at the top-right of the browser stating the Tenant settings changes will be applied within the next 15 minutes. 
+7. A message will appear at the top-right of the browser stating the Tenant settings changes will be applied within the next 15 minutes.
 
 
 	![Picture 105](Linked_image_Files/07-design-report-in-power-bi-desktop_image105.png)
 
-
-
-1. Leave the Microsoft Edge browser window open.
+8. Leave the Microsoft Edge browser window open.
 
 ### **Task 3: Get started – Open report**
 
@@ -239,7 +240,7 @@ In this task you will design the first report page. When you’ve completed the 
 
 25. In the visual fields pane (not the **Fields** pane—the visual fields pane is located beneath the **Visualizations** pane), notice that the fields are assigned to the **X-axis** and **Column y-axis** wells/areas.
 
-	![Picture 27](Linked_image_Files/07-design-report-in-power-bi-desktop_image28.png)
+	![Picture 27](Linked_image_Files/07-design-report-in-power-bi-desktop_image28_N.png)
 
 	*By dragging fields into a visual, they will be added to default wells/areas. For precision, you can drag fields directly into the wells/areas, as you will do next.*
 
@@ -501,7 +502,9 @@ In this task you will explore the report that was published to Power BI.
 
 3. To open the report, click the **Sales Analysis** report.
 
-4. At the left, in the **Pages** pane, select the **Overview** page. 
+4. At the left, in the **Pages** pane, select the **Overview** page.
+ 
+    ***Note**: if you see an error that the map visual is disabled, please refresh your browser.*
 
 5. In the **Regions** slicer, while pressing the **Ctrl** key, select multiple regions.
 
