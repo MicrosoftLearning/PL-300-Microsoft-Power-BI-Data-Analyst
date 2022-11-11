@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Create DAX Calculations in Power BI Desktop, Part 1'
-    module: 'Module 5 - Create Model Calculations using DAX in Power BI'
+    module: '5 - Create Model Calculations using DAX in Power BI'
 ---
 
 

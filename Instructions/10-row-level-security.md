@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Enforce Row-Level Security'
-    module: 'Module 10 - Row-Level Security'
+    module: '12 - Row-Level Security'
 ---
 
 
