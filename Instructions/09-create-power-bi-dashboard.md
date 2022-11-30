@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Create a Power BI Dashboard'
-    module: '11 - Create Dashboards'
+    module: '9 - Create Dashboards'
 ---
 
 
