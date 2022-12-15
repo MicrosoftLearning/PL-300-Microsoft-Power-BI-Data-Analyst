@@ -434,9 +434,9 @@ In this task you will design the third—and final—report page. When you’ve 
 
 1. Add the following fields to the visual wells/areas:
 
-	- Axis: **Date \| Month**
+	- Y-Axis: **Date \| Month**
 
-	- Value: **Sales \| Sales** and **Targets \| Target**
+	- X-Axis: **Sales \| Sales** and **Targets \| Target**
 
 	![Picture 80](Linked_image_Files/07-design-report-in-power-bi-desktop_image56.png)
 
