@@ -1,11 +1,11 @@
 ---
 lab:
-    title: 'Analyze data with AI visuals'
+    title: 'Perform Data Analysis in Power BI'
     module: '8 - Identify Patterns and Trends'
 ---
 
 
-# **Analyze data with AI visuals**
+# **Perform Data Analysis in Power BI**
 
 **The estimated time to complete the lab is 45 minutes**
 
@@ -37,7 +37,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 8. Design a Report in Power BI Desktop, Part 2
 
-8. **Analyze Data with AI Visuals**
+8. **Perform Data Analysis in Power BI**
 
 9. Create a Power BI Dashboard
 
@@ -99,7 +99,7 @@ In this task you will setup the environment for the lab by creating a dataset.
 
 	![Picture 11](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image6.png)
 
-4. In the **Open** window, navigate to the **D:\PL300\Labs\08-create-power-bi-dashboard\Solution** folder.
+4. In the **Open** window, navigate to the **D:\PL300\Labs\08-perform-data-analysis-in-power-bi-desktop\Starter** folder.
 
 5. Select the **Sales Analysis.pbix** file, and then click **Open**.
 
