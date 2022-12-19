@@ -32,17 +32,16 @@ This lab is designed to introduce you to Power BI Desktop application and how to
 
 ## **Exercise 1: Prepare Data**
 
-In this exercise you will create eight Power BI Desktop queries. Six queries will source data from SQL Server, and two from CSV files.
+In this exercise, you'll create eight Power BI Desktop queries. Six queries will source data from SQL Server, and two from CSV files.
 
 ### **Task 1: Get started with Power BI Desktop**
 
 In this task, we start by opening a blank file. The starter file has some non-default configurations already applied. The following settings are enabled by default, but disabled in the starter file:
 
-- Global > Data Load > Auto Date/Time
 - Report > Data Load > Import relationships from data sources on first load
 - Report > Data Load > Autodetect new relationships after data is loaded
 
-*Note: While having these two options enabled can be helpful when developing a data model, you disabled them earlier to support the lab experience. When you create relationships in the **Load Data in Power BI Desktop** lab, you’ll learn why you are adding each one.*
+*Note: While having these two options enabled can be helpful when developing a data model, you disabled them earlier to support the lab experience. When you create relationships in the **Load Data in Power BI Desktop** lab, you’ll learn why you're adding each one.*
 
 <br/>
 
@@ -52,7 +51,7 @@ In this task, we start by opening a blank file. The starter file has some non-de
 
     *Tip: By default, the Getting Started dialog box opens in front of Power BI Desktop. You can choose to sign-in, and then close the pop-up.*
 
-1. To open the starter Power BI Desktop file, click the **File > Open Report > Browse Reports**.
+1. To open the starter Power BI Desktop file, select the **File > Open Report > Browse Reports**.
 
 1. In the **Open** window, navigate to the **D:\PL300\Labs\01-prepare-data-with-power-query-in-power-bi-desktop\Starter** folder.
 
@@ -66,14 +65,14 @@ This task teaches you how to connect to a SQL Server database and import tables,
 
 <br/>
 
-1. On the **Home** ribbon tab, from inside the **Data** group, click **SQL Server**.
+1. On the **Home** ribbon tab, from inside the **Data** group, select **SQL Server**.
 
  ![SQL Server Get Data icon](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image11.png)
 
 1. In the **SQL Server Database** window, in the **Server** box, enter **localhost**.
-    1. *Note: In this lab you’ll connect to the SQL Server database by using **localhost** because gateway data sources cannot resolve **localhost**. This isn’t a recommended practice when creating your own solutions.*
+    1. *Note: In this lab, you’ll connect to the SQL Server database by using **localhost** because gateway data sources can't resolve **localhost**. This isn’t a recommended practice when creating your own solutions.*
 
-1. Click **OK**.
+1. Select **OK**.
 
 1. If prompted for credentials, in the **SQL Server Database** window, select **Use my current credentials**. Then **Connect**.
 
@@ -112,7 +111,7 @@ This task introduces the Power Query Editor and allows you to review and profile
 
     1. The **DimEmployee** table in the SQL Server database stores one row for each employee. A subset of the rows from this table represents the salespeople, which will be relevant to the model you’ll develop.*
 
-1. At the bottom left corner of the status bar, some table statistics are provided — the table has 33 columns, and 296 rows.
+1. At the bottom left corner of the status bar, some table statistics are provided—the table has 33 columns, and 296 rows.
 
      ![Count of 33 columns, 296 rows](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image22.png)
 
@@ -134,7 +133,7 @@ This task introduces the Power Query Editor and allows you to review and profile
 
 1. Review the column distribution for the **EmployeeKey** column—there are 296 distinct values, and 296 unique values.
 
-     *Tip: When the distinct and unique counts are the same, it means the column contains unique values. When modeling, it’s important that some model tables have unique columns. These unique columns can be used to create one-to-many relationships, which you will do in the **Model Data in Power BI Desktop** lab.*
+     *Tip: When the distinct and unique counts are the same, it means the column contains unique values. When modeling, it’s important that some model tables have unique columns. These unique columns can be used to create one-to-many relationships, which you'll do in the **Model Data in Power BI Desktop** lab.*
 
      ![Column distribution showing 296 distinct, 296 unique values](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image26.png)
 
@@ -147,7 +146,7 @@ This task introduces the Power Query Editor and allows you to review and profile
 
      *Tip: When you add transformations to this query in the **Load Data in Power BI Desktop** lab, you’ll use the **DimProductSubcategory** column to join tables.*
 
-1. In the **Queries** pane, select the **DimReseller** query. 
+1. In the **Queries** pane, select the **DimReseller** query.
     1. The **DimReseller** table contains one row per reseller. Resellers sell, distribute, or value add to the Adventure Works products.
 
 1. To view column values, on the **View** ribbon tab, from inside the **Data Preview** group, check **Column Profile**.
@@ -174,18 +173,18 @@ This task introduces the Power Query Editor and allows you to review and profile
 
 ### **Task 4: Get data from a CSV file**
 
-In this task you will create a new query based on a CSV file.
+In this task, you'll create a new query based on a CSV file.
 
 <br/>
 
-1. To add a new query, in the **Power Query Editor** window, on the **Home** ribbon tab, from inside the **New Query** group, click the **New Source** down-arrow, and then select **Text/CSV**.
+1. To add a new query, in the **Power Query Editor** window, on the **Home** ribbon tab, from inside the **New Query** group, select the **New Source** down-arrow, and then select **Text/CSV**.
 
-1. In the **Open** window, navigate to the **D:\PL300\Resources** folder, and select the **ResellerSalesTargets.csv** file. Click **Open**.
+1. In the **Open** window, navigate to the **D:\PL300\Resources** folder, and select the **ResellerSalesTargets.csv** file. Select **Open**.
 
-1. In the **ResellerSalesTargets.csv** window, review the preview data. Click **OK**.
+1. In the **ResellerSalesTargets.csv** window, review the preview data. Select **OK**.
 
 1. In the **Queries** pane, notice the addition of the **ResellerSalesTargets** query.
-    1. The **ResellerSalesTargets** CSV file contains one row per salesperson, per year. Each row records 12 monthly sales targets (expressed in thousands). Note that the business year for the Adventure Works company commences on July 1.
+    1. The **ResellerSalesTargets** CSV file contains one row per salesperson, per year. Each row records 12 monthly sales targets (expressed in thousands). The business year for the Adventure Works company commences on July 1.
 
 1. Notice that no column contains empty values.  When there isn’t a monthly sales target, a hyphen character is stored instead.
 
@@ -198,7 +197,7 @@ In this task you will create a new query based on a CSV file.
 
 ### **Task 5: Finish up**
 
-In this task you will complete the lab.
+In this task, you'll complete the lab.
 
 1. On the **View** ribbon tab, from inside the **Data Preview** group, uncheck the three data preview options that were previously enabled in this lab:
 
@@ -208,6 +207,6 @@ In this task you will complete the lab.
 
      ![Picture 76](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image40.png)
 
-1. **Save** the Power BI Desktop file. When prompted to apply the pending changes, click **Apply Later**.
+1. **Save** the Power BI Desktop file. When prompted to apply the pending changes, select **Apply Later**.
 
     *Tip: Applying the queries will load their data to the data model. You’re not ready to do that, as there are many transformations that must be applied first.*
