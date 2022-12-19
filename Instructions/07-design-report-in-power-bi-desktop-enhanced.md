@@ -9,7 +9,7 @@ lab:
 
 **The estimated time to complete the lab is 45 minutes.**
 
-In this lab you will enhance the **Sales Analysis** with advanced design features.
+In this lab, you'll enhance the **Sales Analysis** with advanced design features.
 
 In this lab you learn how to:
 
@@ -26,128 +26,78 @@ In this lab you learn how to:
 This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, we suggest you do them in the following order:
 
 1. Prepare Data in Power BI Desktop
-
-2. Load Data in Power BI Desktop
-
-3. Design a Data Model in Power BI
-
-4. Create DAX Calculations in Power BI Desktop, Part 1
-
-5. Create DAX Calculations in Power BI Desktop, Part 2
-
-6. Design a Report in Power BI Desktop, Part 1
-
-7. **Design a Report in Power BI Desktop, Part 2**
-
-8. Analyze Data with AI Visuals
-
-9. Create a Power BI Dashboard
-
-10. Enforce Row-Level Security
+1. Load Data in Power BI Desktop
+1. Design a Data Model in Power BI
+1. Create DAX Calculations in Power BI Desktop, Part 1
+1. Create DAX Calculations in Power BI Desktop, Part 2
+1. Design a Report in Power BI Desktop, Part 1
+1. **Design a Report in Power BI Desktop, Part 2**
+1. Perform Data Analysis in Power BI
+1. Create a Power BI Dashboard
+1. Enforce Row-Level Security
 
 ## **Exercise 1: Configure Sync Slicers**
 
-In this exercise you will sync the report page slicers.
+In this exercise, you'll sync the report page slicers.
 
 ### Task 1: Get started – Sign in
 
-In this task you will setup the environment for the lab by signing in to Power BI.
+In this task, you'll set up the environment for the lab by signing in to Power BI.
 
-*Important: If you have already signed in to Power BI, continue from the next task.*
+*Note: If you've already signed in to Power BI, skip to the next task.*
 
-1. To open Microsoft Edge, on the taskbar, click the Microsoft Edge program shortcut.
+1. To open Microsoft Edge, on the taskbar, select the Microsoft Edge program shortcut.
 
- 	![Picture 12](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image1.png)
+     ![Picture 12](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image1.png)
 
-2. In the Microsoft Edge browser window, navigate to **https://powerbi.microsoft.com**.
+1. In the Microsoft Edge browser window, navigate to **https://app.powerbi.com**.
 
- 	*Tip: You can also use the Power BI Service favorite on the Microsoft Edge favorites bar.*
+    *Tip: You can also use the Power BI Service favorite on the Microsoft Edge favorites bar.*
 
-3. Click **Sign In** (located at the top-right corner).
+1. Complete the sign-in process with your organizational credentials (or those provided to you). If prompted by Microsoft Edge to stay signed in, select **Yes**.
 
- 	![Picture 11](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image2.png)
+1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, expand **My Workspace**. Leave the Microsoft Edge browser window open.
 
-4. Complete the sign in process.
-
-5. If prompted by Microsoft Edge to stay signed in, click **Yes**.
-
-6. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, expand **My Workspace**.
-
- 	![Picture 22](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image3.png)
-
-7. Leave the Microsoft Edge browser window open.
+     ![Picture 22](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image3.png)
 
 ### Task 2: Get started – Open report
 
-In this task you will setup the environment for the lab by opening the starter report.
+In this task, you'll set up the environment for the lab by opening the starter report.
 
-*Important: If you are continuing on from the previous lab (and you completed that lab successfully), do not complete this task; instead, continue from the next task.*
+*Important: If you're continuing on from the previous lab (and you completed that lab successfully), don't complete this task; instead, skip to the next task.*
 
-1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
+1. Open Power BI Desktop.
 
-	![Picture 10](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image4.png)
+    ![Power BI Desktop icon](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-2. To close the getting started window, at the top-left of the window, click **X**.
+    *Tip: By default, the Getting Started dialog box opens in front of Power BI Desktop. You can choose to sign-in, and then close the pop-up.*
 
-	![Picture 9](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image5.png)
+1. To open the starter Power BI Desktop file, select the **File > Open Report > Browse Reports**.
 
-3. To sign in to the Power BI service, at the top-right, click **Sign In**.
+1. In the **Open** window, navigate to the **D:\PL300\Labs\07-design-report-in-power-bi-desktop-enhanced\Starter** folder, and open the **Sales Analysis** file.
 
-	![Picture 8](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image6.png)
+1. Close any informational windows that may open.
 
-4. Complete the sign in process using the same account used to sign in to the Power BI service.
+1. Notice the yellow warning message beneath the ribbon. *This message alerts you to the fact that the queries haven't been applied to load as model tables. You’ll apply the queries later in this lab.*
+    1. To dismiss the warning message, at the right of the yellow warning message, select **X**.
 
-5. To open the starter Power BI Desktop file, click the **File** ribbon tab to open the backstage view.
+1. To create a copy of the file, go to **File > Save As** and save to **D:\PL300\MySolution** folder.
 
-6. Select **Open Report**.
-
-	![Picture 7](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image7.png)
-
-7. Click **Browse Reports**.
-
-	![Picture 6](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image8.png)
-
-8. In the **Open** window, navigate to the **D:\PL300\Labs\07-design-report-in-power-bi-desktop-enhanced\Starter** folder.
-
-9. Select the **Sales Analysis** file.
-
-10. Click **Open**.
-
-	![Picture 5](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image9.png)
-
-11. Close any informational windows that may open.
-
-12. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
-
-13. Select **Save As**.
-
-	![Picture 4](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image10.png)
-
-14. If prompted to apply changes, click **Apply**.
-
-	![Picture 3](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image11.png)
-
-15. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
-
-16. Click **Save**.
-
-	![Picture 2](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image12.png)
+1. If prompted to apply changes, select **Apply Later**.
 
 ### **Task 3: Sync slicers**
 
-In this task you will sync the **Year** and **Region** slicers.
-
-*You will continue the development of the report created in the **Design a Report in Power BI Desktop, Part 1** lab.*
+In this task, you'll sync the **Year** and **Region** slicers, continuing the development of the report created in the **Design a Report in Power BI Desktop, Part 1** lab.*
 
 1. In Power BI Desktop, on the **Overview** page, set the **Year** slicer to **FY2018**.
 
 2. Go to the **My Performance** page, and then notice that the **Year** slicer is a different value.
 
-	*When slicers aren’t synced it can contribute to misrepresentation of data and frustration for report users. You’ll now sync the report slicers.*
+	*When slicers aren’t synced, it can contribute to misrepresentation of data and frustration for report users. You’ll now sync the report slicers.*
 
 3. Return to the **Overview** page, and then select the **Year** slicer.
 
-4. On the **View** ribbon tab, from inside the **Show Panes** group, click **Sync Slicers**.
+4. On the **View** ribbon tab, from inside the **Show Panes** group, select **Sync Slicers**.
 
 	![Picture 1](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image13.png)
 
@@ -163,19 +113,19 @@ In this task you will sync the **Year** and **Region** slicers.
 
 8. Test the sync slicers by selecting different filter options, and then verifying that the synced slicers filter by the same selection.
 
-9. To close the **Sync Slicer** page, click the **X** located at the top-right of the pane.
+9. To close the **Sync Slicer** page, select the **X** located at the top-right of the pane.
 
 	![Picture 98](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image16.png)
 
 ## **Exercise 2: Configure Drill Through**
 
-In this exercise you will create a new page and configure it as a drill through page. When you’ve completed the design, the page will look like the following:
+In this exercise, you'll create a new page and configure it as a drill through page. When you’ve completed the design, the page will look like the following:
 
 ![Image of the new page, comprising a card visual and table visual.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image17.png)
 
 ### **Task 1: Create a drill through page**
 
-In this task you will create a new page and configure it as a drill through page.
+In this task, you'll create a new page and configure it as a drill through page.
 
 1. Add a new report page named **Product Details**.
 
@@ -243,17 +193,17 @@ In this task you will create a new page and configure it as a drill through page
 
 ## **Exercise 3: Add Conditional Formatting**
 
-In this exercise you will enhance the drill through page with conditional formatting. When you’ve completed the design, the page will look like the following:
+In this exercise, you'll enhance the drill through page with conditional formatting. When you’ve completed the design, the page will look like the following:
 
 ![Image of an updated page, revealing color formatted values and icons.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image28.png)
 
 ### **Task 1: Add conditional formatting**
 
-In this task you will enhance the drill through page with conditional formatting.
+In this task, you'll enhance the drill through page with conditional formatting.
 
 1. Select the table visual.
 
-2. In the visualization pane, click the down-arrow on the **Profit Margin** value, and then select **Conditional Formatting \| Icons**.
+2. In the visualization pane, select the down-arrow on the **Profit Margin** value, and then select **Conditional Formatting \| Icons**.
 
 	![Picture 107](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image29.png)
 
@@ -261,7 +211,7 @@ In this task you will enhance the drill through page with conditional formatting
 
 	![Picture 108](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image30.png)
 
-4. To delete the middle rule, at the left of the yellow triangle, click **X**.
+4. To delete the middle rule, at the left of the yellow triangle, select **X**.
 
 	![Picture 109](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image31.png)
 
@@ -289,11 +239,11 @@ In this task you will enhance the drill through page with conditional formatting
 
 	*The rules can be interpreted as follows: display a red diamond if the profit margin value is less than 0; otherwise if the value is great or equal to zero, display a green circle.*
 
-7. Click **OK**.
+7. Select **OK**.
 
 	![Picture 111](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image33.png)
 
-8. In the table visual, verify that the that the correct icons are displayed.
+8. In the table visual, verify that the correct icons are displayed.
 
 	![Picture 112](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image34.png)
 
@@ -307,7 +257,7 @@ In this task you will enhance the drill through page with conditional formatting
 
 	![Picture 114](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image36.png)
 
-12. Click **OK**.
+12. Select **OK**.
 
 	![Picture 115](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image37.png)
 
@@ -317,29 +267,29 @@ In this task you will enhance the drill through page with conditional formatting
 
 ## **Exercise 4: Add Bookmarks and Buttons**
 
-In this exercise you will enhance the **My Performance** page with buttons, allowing the report user to select the visual type to display. When you’ve completed the design, the page will look like the following:
+In this exercise you'll enhance the **My Performance** page with buttons, allowing the report user to select the visual type to display. When you’ve completed the design, the page will look like the following:
 
 ![Image of an updated page 3, showing two buttons and now just two visuals.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image38.png)
 
 ### **Task 1: Add bookmarks**
 
-In this task you will add two bookmarks, one to display each of the monthly sales/targets visuals.
+In this task you'll add two bookmarks, one to display each of the monthly sales/targets visuals.
 
 1. Go to the **My Performance** page.
 
-2. On the **View** ribbon tab, from inside the **Show Panes** group, click **Bookmarks**.
+2. On the **View** ribbon tab, from inside the **Show Panes** group, select **Bookmarks**.
 
 	![Picture 118](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image39.png)
 
-3. On the **View** ribbon tab, from inside the **Show Panes** group, click **Selection**.
+3. On the **View** ribbon tab, from inside the **Show Panes** group, select **Selection**.
 
 	![Picture 119](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image40.png)
 
-4. In the **Selection** pane, beside one of the **Sales and Target by Month** items, to hide the visual, click the eye icon.
+4. In the **Selection** pane, beside one of the **Sales and Target by Month** items, to hide the visual, select the eye icon.
 
 	![Picture 120](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image41.png)
 
-5. In the **Bookmarks** pane, click **Add**.
+5. In the **Bookmarks** pane, select **Add**.
 
 	![Picture 121](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image42.png)
 
@@ -347,13 +297,13 @@ In this task you will add two bookmarks, one to display each of the monthly sale
 
 7. If the visible chart is the bar chart, rename the bookmark as **Bar Chart ON**, otherwise rename the bookmark as **Column Chart ON**.
 
-8. To edit the bookmark, in the **Bookmarks** pane, hover the cursor over the bookmark, click the ellipsis, and then select **Data**.
+8. To edit the bookmark, in the **Bookmarks** pane, hover the cursor over the bookmark, select the ellipsis, and then select **Data**.
 
 	![Picture 16](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image43.png)
 
 	*Disabling the **Data** option means the bookmark won’t use the current filter state. That’s important because otherwise the bookmark would permanently lock in the filter currently applied by the **Year** slicer.*
 
-9. To update the bookmark, click the ellipsis again, and then select **Update**.
+9. To update the bookmark, select the ellipsis again, and then select **Update**.
 
 	![Picture 18](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image44.png)
 
@@ -385,15 +335,15 @@ In this task you will add two bookmarks, one to display each of the monthly sale
 
 ### **Task 2: Add buttons**
 
-In this task you will add two buttons, and assign bookmark actions to each.
+In this task you'll add two buttons, and assign bookmark actions to each.
 
-1. On the **Insert** ribbon, from inside the **Elements** group, click **Button**, and then select **Blank**.
+1. On the **Insert** ribbon, from inside the **Elements** group, select **Button**, and then select **Blank**.
 
 	![Picture 125](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image48.png)
 
 2. Position the button directly beneath the **Year** slicer.
 
-3. Select the button, and then in the **Format button** pane, click **General** and turn the **Title** property to **On**.
+3. Select the button, and then in the **Format button** pane, select **General** and turn the **Title** property to **On**.
 
 	![Picture 126](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image49b.png)
 
@@ -401,7 +351,7 @@ In this task you will add two buttons, and assign bookmark actions to each.
 
 5. Expand the **Background** section, and then set a background color using a complementary color.
 
-6. Click **Button** and turn the **Action** property to **On**.
+6. Select **Button** and turn the **Action** property to **On**.
 
 	![Picture 127](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image50.png)
 
@@ -423,7 +373,7 @@ In this task you will add two buttons, and assign bookmark actions to each.
 
 ### **Task 3: Publish the report**
 
-In this task you will publish the report.
+In this task, you'll publish the report.
 
 1. Select the **Overview** page.
 
@@ -435,19 +385,19 @@ In this task you will publish the report.
 
 	*The file must always be saved prior to publishing to the Power BI service.*
 
-5. On the **Home** ribbon tab, from inside the **Share** group, click **Publish**.
+5. On the **Home** ribbon tab, from inside the **Share** group, select **Publish**.
 
 	![Picture 21](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image52.png)
 
 6. In the **Publish to Power** BI window, notice that **My Workspace** is selected.
 
-7. To publish the report, click **Select**.
+7. To publish the report, select **Select**.
 
 	![Picture 20](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image53.png)
 
-8. If prompted to replace the dataset, click **Replace**.
+8. If prompted to replace the dataset, select **Replace**.
 
-9. When the publication has succeeded, click **Got It**.
+9. When the publication has succeeded, select **Got It**.
 
 	![Picture 19](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image54.png)
 
@@ -457,13 +407,13 @@ In this task you will publish the report.
 
 ## **Exercise 5: Explore the Report**
 
-In this exercise you will explore the report in the Power BI service.
+In this exercise, you'll explore the report in the Power BI service.
 
 ### **Task 1: Explore the report**
 
-In this task you will explore the report in the Power BI service.
+In this task, you'll explore the report in the Power BI service.
 
-1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, select **My Workspace** and then click the **Sales Analysis** report.
+1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, select **My Workspace** and then select the **Sales Analysis** report.
 
 2. To test the drill through report, in the **Overview** page, in the **Quantity by Category** visual, right-click the **Clothing** bar, and then select **Drill Through \| Product Details**.
 
@@ -471,17 +421,17 @@ In this task you will explore the report in the Power BI service.
 
 3. Notice that the **Product Details** page is for **Clothing**.
 
-4. To return to the source page, at the top-left corner of the page, click the arrow button.
+4. To return to the source page, at the top-left corner of the page, select the arrow button.
 
 5. Select the **My Performance** page.
 
-6. Click each of the buttons, and then notice that a different visual is displayed.
+6. Select each of the buttons, and then notice that a different visual is displayed.
 
 ### **Task 2: Finish up**
 
-In this task you will complete the lab.
+In this task, you'll complete the lab.
 
-1. To return to your workspace, in the banner across the window web page, click **My Workspace**.
+1. To return to your workspace, in the banner across the window web page, select **My Workspace**.
 
 	![Picture 23](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image56.png)
 
