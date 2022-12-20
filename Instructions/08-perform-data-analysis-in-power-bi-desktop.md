@@ -9,7 +9,7 @@ lab:
 
 **The estimated time to complete the lab is 45 minutes**
 
-In this lab you will create the **Sales Exploration** report.
+In this lab, you'll create the **Sales Exploration** report.
 
 In this lab you learn how to:
 
@@ -33,7 +33,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 ## **Exercise 1: Create the Report**
 
-In this exercise you will create the **Sales Exploration** report.
+In this exercise, you'll create the **Sales Exploration** report.
 
 ### **Task 1: Get started – Sign in**
 
@@ -49,7 +49,7 @@ In this task, you'll set up the environment for the lab by signing in to Power B
 
     *Tip: You can also use the Power BI Service favorite on the Microsoft Edge favorites bar.*
 
-1. Complete the sign-in process with your organizational credentials (or those provided to you). If prompted by Microsoft Edge to stay signed in, select **Yes**.
+1. Complete the sign-in process with your organizational (or provided) credentials. If prompted by Microsoft Edge to stay signed in, select **Yes**.
 
 1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, expand **My Workspace**. Leave the Microsoft Edge browser window open.
 
@@ -57,9 +57,9 @@ In this task, you'll set up the environment for the lab by signing in to Power B
 
 ### **Task 2: Get started – Create a dataset**
 
-In this task you will setup the environment for the lab by creating a dataset.
+In this task, you'll set up the environment for the lab by creating a dataset.
 
-*Important: If you have already published the dataset in the **Create a Power BI Dashboard** lab, continue from the next task.*
+*Important: If you've already published the dataset in the **Create a Power BI Dashboard** lab, continue from the next task.*
 
 1. In the Microsoft Edge browser window, in the Power BI service, navigate to **My Workspace**.
 
@@ -67,12 +67,12 @@ In this task you will setup the environment for the lab by creating a dataset.
 
 1. Select the **Local file** option, and navigate to **D:\PL300\Labs\08-perform-data-analysis-in-power-bi-desktop\Starter** folder.
 
-1. Select the **Sales Analysis.pbix** file, and then click **Open**.
-    1. If prompted to replace the dataset, click **Replace it**.
+1. Select the **Sales Analysis.pbix** file, and then select **Open**.
+    1. If prompted to replace the dataset, select **Replace it**.
 
 ### **Task 3: Create the report**
 
-In this task you will create the **Sales Exploration** report.
+In this task, you'll create the **Sales Exploration** report.
 
 *Important: If you already have Power BI Desktop open (from a previous lab), close that instance.*
 
@@ -84,7 +84,7 @@ In this task you will create the **Sales Exploration** report.
 
 1. Navigate to **File > Save**, then the **D:\PL300\MySolution** folder.
 
-1. Save the file name as **Sales Exploration** and click **Save**.
+1. Save the file name as **Sales Exploration** and select **Save**.
 
 1. Next, we repeat the steps to **Get Data** from lab 1. From the **Home** ribbon tab > **Data** group, select **Power BI Datasets**.
 
@@ -98,11 +98,11 @@ In this task you will create the **Sales Exploration** report.
 
 ## **Exercise 2: Create a Scatter Chart**
 
-In this exercise you will create a scatter chart that can be animated.
+In this exercise, you'll create a scatter chart that can be animated.
 
 ### **Task 1: Create an animated scatter chart**
 
-In this task you will create a scatter chart that can be animated.
+In this task, you'll create a scatter chart that can be animated.
 
 1. Rename **Page 1** as **Scatter Chart**.
 
@@ -126,7 +126,7 @@ In this task you will create a scatter chart that can be animated.
 
 1. In the filter card, filter by **Bikes**.
 
-1. To animate the chart, at the bottom left corner, click **Play**.
+1. To animate the chart, at the bottom left corner, select **Play**.
 
 	![Picture 41](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image19.png)
 
@@ -134,7 +134,7 @@ In this task you will create a scatter chart that can be animated.
     1. *The scatter chart allows understanding the measure values simultaneously: in this case, order quantity, sales revenue, and profit margin.*
     1. *Each bubble represents a reseller business type. Changes in the bubble size reflect increased or decreased order quantities. While horizontal movements represent increases/decreases in sales revenue, and vertical movements represent increases/decreases in profitability.*
 
-1. When the animation stops, click one of the bubbles to reveal its tracking over time.
+1. When the animation stops, select one of the bubbles to reveal its tracking over time.
 
 1. Hover the cursor over any bubble to reveal a tooltip describing the measure values for the reseller type at that point in time.
 
@@ -144,11 +144,11 @@ In this task you will create a scatter chart that can be animated.
 
 ## **Exercise 3: Create a Forecast**
 
-In this exercise you will create a forecast to determine possible future sales revenue.
+In this exercise, you'll create a forecast to determine possible future sales revenue.
 
 ### **Task 1: Create a forecast**
 
-In this task you will create a forecast to determine possible future sales revenue.
+In this task, you'll create a forecast to determine possible future sales revenue.
 
 1. Add a new page, and then rename the page to **Forecast**.
 
@@ -166,7 +166,7 @@ In this task you will create a forecast to determine possible future sales reven
 1. In the **Filters** pane, add the **Date \| Year** field to the **Filters On This Page** well/area.
 
 1. In the filter card, filter by two years: **FY2019** and **FY2020**.
-	1. *When forecasting over a time line, you will need at least two cycles (years) of data to produce an accurate and stable forecast.*
+	1. *When forecasting over a time line, you'll need at least two cycles (years) of data to produce an accurate and stable forecast.*
 
 1. Add also the **Product \| Category** field to the **Filters On This Page** well/area, and filter by **Bikes**.
 
@@ -175,7 +175,7 @@ In this task you will create a forecast to determine possible future sales reven
 	 ![Picture 20](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image26.png)
 
 8. Expand the **Forecast** section.
-    1. *If the **Forecast** section is not available, it’s probably because the visual hasn’t been correctly configured. Forecasting is only available when two conditions are met: the axis has a single field of type date, and there’s only one value field.*
+    1. *If the **Forecast** section isn't available, it’s probably because the visual hasn’t been correctly configured. Forecasting is only available when two conditions are met: the axis has a single field of type date, and there’s only one value field.*
 
 1. Turn the **Forecast** option to **On**.
 
@@ -196,13 +196,13 @@ In this task you will create a forecast to determine possible future sales reven
 
 ### **Task 2: Finish up**
 
-In this task you will complete the lab.
+In this task, you'll complete the lab.
 
 1. Select the **Scatter Chart** page.
 
 1. Save the Power BI Desktop file.
 
-1. To publish the file to your **My workspace**, on the **Home** ribbon tab, from inside the **Share** group, click **Publish** and then click **Select** to publish.
+1. To publish the file to your **My workspace**, on the **Home** ribbon tab, from inside the **Share** group, select **Publish** and then select **Select** to publish.
 
 	![Picture 23](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image46.png)
 
