@@ -150,7 +150,7 @@ In this task, you'll create a new page and configure it as a drill through page.
 
 	 ![Picture 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image36b.png)
 
-1. Set the **Effects > Background** color property to a light shade of gray.
+1. Set the **Effects > Background** color property to a light shade of gray such as *White, 20% darker*.
 
      ![Picture 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image36c.png)
 

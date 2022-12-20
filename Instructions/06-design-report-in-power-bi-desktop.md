@@ -71,7 +71,7 @@ In this task, you'll design the first report page. When you’ve completed the d
 
      ![Picture 49](Linked_image_Files/07-design-report-in-power-bi-desktop_image18.png)
 
-1. In the **Fields** pane, drag the **Date \| Year** field (not the **Year** level of the hierarchy) into the slicer **Field** in Visualizations pane. 
+1. In the **Fields** pane, drag the **Date \| Year** field (not the **Year** level of the hierarchy) into the slicer **Field** in Visualizations pane.
     1. *The labs use a shorthand notation to reference a field. It will look like this: **Date \| Year**. In this example, **Date** is the table name and **Year** is the field name.*
 
 1. To convert the slicer from a list to a dropdown, at the top-right of the slicer, select the down-arrow, and then select **Dropdown**.
