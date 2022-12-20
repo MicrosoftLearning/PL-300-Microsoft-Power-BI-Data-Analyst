@@ -385,7 +385,7 @@ In this task, you'll create a sales YoY growth measure.
 
     ![Picture 62](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image23.png)
 
-    *The YoY growth measure identifies almost 400% (or 4x) increase over sales during the same period of the previous year.*
+    *The YoY growth measure identifies almost 400% (or 4x) increase of sales during the same period of the previous year.*
 
 1. In Model view, place the two new measures into a display folder named **Time Intelligence**.
 
