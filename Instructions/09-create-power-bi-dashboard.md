@@ -111,7 +111,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
     ![Picture 34](Linked_image_Files/09-create-power-bi-dashboard_image9.png)
 
-8. In the **Open** window, navigate to the **D:\PL300\Labs\08-create-power-bi-dashboard\Starter** folder.
+8. In the **Open** window, navigate to the **D:\PL300\Labs\09-create-power-bi-dashboard\Starter** folder.
 
 9. Select the **Sales Analysis** file.
 
