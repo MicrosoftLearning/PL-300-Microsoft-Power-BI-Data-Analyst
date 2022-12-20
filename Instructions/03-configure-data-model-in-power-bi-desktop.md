@@ -25,9 +25,9 @@ This lab is one of many in a series of labs that was designed as a complete stor
 1. Load Data in Power BI Desktop
 1. **Design a Data Model in Power BI**
 1. Create DAX Calculations in Power BI Desktop, Part 1
-1. Create DAX Calculations in Power BI Desktop, Part 2
+1. Create Advanced DAX Calculations in Power BI Desktop, Part 2
 1. Design a Report in Power BI Desktop, Part 1
-1. Design a Report in Power BI Desktop, Part 2
+1. Enhance a Report in Power BI Desktop, Part 2
 1. Perform Data Analysis in Power BI
 1. Create a Power BI Dashboard
 1. Enforce Row-Level Security
@@ -464,7 +464,7 @@ In this task, you'll create a relationship to the **Targets** table
 
      ![Picture 5699](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image19.png)
 
- *It’s now possible to visualize sales and targets—but take care for two reasons. First, there’s no filter on a time period, and so targets also include future target amounts. Second, targets aren't additive, and so the total shouldn't be displayed. They can either be disabled by formatting the visual or removed by using calculation logic. You’ll follow the second approach by creating a target measure in the **Create DAX Calculations in Power BI Desktop, Part 2** lab that will return BLANK when more than one salesperson is filtered.*
+ *It’s now possible to visualize sales and targets—but take care for two reasons. First, there’s no filter on a time period, and so targets also include future target amounts. Second, targets aren't additive, and so the total shouldn't be displayed. They can either be disabled by formatting the visual or removed by using calculation logic. You’ll follow the second approach by creating a target measure in the **Create Advanced DAX Calculations in Power BI Desktop, Part 2** lab that will return BLANK when more than one salesperson is filtered.*
 
 ### **Task 4: Finish up**
 

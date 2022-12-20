@@ -23,9 +23,9 @@ This lab is one of many in a series of labs that was designed as a complete stor
 1. **Load Data in Power BI Desktop**
 1. Design a Data Model in Power BI
 1. Create DAX Calculations in Power BI Desktop, Part 1
-1. Create DAX Calculations in Power BI Desktop, Part 2
+1. Create Advanced DAX Calculations in Power BI Desktop, Part 2
 1. Design a Report in Power BI Desktop, Part 1
-1. Design a Report in Power BI Desktop, Part 2
+1. Enhance a Report in Power BI Desktop, Part 2
 1. Perform Data Analysis in Power BI
 1. Create a Power BI Dashboard
 1. Enforce Row-Level Security
@@ -38,13 +38,12 @@ In this exercise, you'll apply transformations to each of the queries created in
 
 In this task, you'll set up the environment for the lab.
 
-*Important: If you're continuing on from the previous lab (and you completed that lab successfully), don't complete this task; instead, continue from the next task.*
+*Important: If you completed the previous lab in the same VM, skip to the next task.*
 
 1. Open Power BI Desktop.
+    1. *Tip: By default, the Getting Started dialog box opens in front of Power BI Desktop. You can choose to sign-in, and then close the pop-up.*
 
     ![Power BI Desktop icon](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
-
-    *Tip: By default, the Getting Started dialog box opens in front of Power BI Desktop. You can choose to sign-in, and then close the pop-up.*
 
 1. To open the starter Power BI Desktop file, select the **File > Open Report > Browse Reports**.
 
@@ -63,6 +62,8 @@ In this task, you'll set up the environment for the lab.
 
 In this task, you'll use Power Query Editor to configure the **Salesperson** query.
 
+*Important: When instructed to rename columns, it’s important that you rename them exactly as described.*
+
 1. To open the **Power Query Editor** window, on the **Home** ribbon tab, from inside the **Queries** group, select the **Transform Data** icon.
 
      ![Transform Data on Home ribbon](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image10.png)
@@ -74,7 +75,7 @@ In this task, you'll use Power Query Editor to configure the **Salesperson** que
 1. To rename the query, in the **Query Settings** pane (located at the right), in the **Name** box, replace the text with **Salesperson**, and then press **Enter**. Then verify the name has been updated in **Queries** pane.
     1. *The query name determines the model table name. It’s recommended to define concise and user-friendly names.*
 
-1. To locate a specific column, on the **Home** ribbon tab, select the **Manage Columns** down-arrow, select the **Choose Columns** down-arrow, and then select **Go to Column**.   
+1. To locate a specific column, on the **Home** ribbon tab, select the **Manage Columns** down-arrow, select the **Choose Columns** down-arrow, and then select **Go to Column**.
     1. *Go to Column is a useful feature with many columns. Otherwise, you can horizontally scroll find columns.*
 
      ![Manage columns > Choose columns > Go to column](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image13.png)
@@ -97,12 +98,12 @@ In this task, you'll use Power Query Editor to configure the **Salesperson** que
 
 1. To include columns, check the following six columns:
 
-- EmployeeKey
-- EmployeeNationalIDAlternateKey
-- FirstName
-- LastName
-- Title
-- EmailAddress
+    - EmployeeKey
+    - EmployeeNationalIDAlternateKey
+    - FirstName
+    - LastName
+    - Title
+    - EmailAddress
 
 1. In the **Applied Steps** list, notice the addition of another query step.
 
@@ -113,15 +114,13 @@ In this task, you'll use Power Query Editor to configure the **Salesperson** que
      ![Multi-select two columns to create single column](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image22.png)
 
 1. Right-click either of the select column headers, and then in the context menu, select **Merge Columns**.
+    1. *Many common transformations can be applied by right-clicking the column header, and then choosing them from the context menu. Note, however, more transformations are available in the ribbon.*
 
- *Tip: Many common transformations can be applied by right-clicking the column header, and then choosing them from the context menu. Note, however, more transformations are available in the ribbon.*
-18. In the **Merge Columns** window, in the **Separator** dropdown list, select **Space**.
+1. In the **Merge Columns** window, in the **Separator** dropdown list, select **Space**.
 
 1. In the **New Column Name** box, replace the text with **Salesperson**.
 
 1. To rename the **EmployeeNationalIDAlternateKey** column, double-click the **EmployeeNationalIDAlternateKey** column header and replace the text with **EmployeeID**, and then press **Enter**.
-
-     *Important: When instructed to rename columns, it’s important that you rename them exactly as described.*
 
 1. Use the previous steps to rename the **EmailAddress** column to **UPN**.
     1. *UPN is an acronym for User Principal Name.*
@@ -169,15 +168,13 @@ In this task, you'll configure the **Product** query.
     ![Column expand icon](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image31.png)
 
 1. Remove all columns, **except**:
+    1. *By selecting these two columns, a transformation will be applied to join to the **DimProductSubcategory** table, and then include these columns. The **DimProductCategory** column is, in fact, another related table in the data source.*
 
     - **EnglishProductSubcategoryName**
     - **DimProductCategory**
 
-    *By selecting these two columns, a transformation will be applied to join to the **DimProductSubcategory** table, and then include these columns. The **DimProductCategory** column is, in fact, another related table in the data source.*
-
 1. Uncheck the **Use Original Column Name as Prefix** checkbox.
-
-     *Query column names must always be unique. If left checked, this checkbox would prefix each column with the expanded column name (in this case **DimProductSubcategory**). Because it’s known that the selected column names don’t collide with column names in the **Product** query, the option is deselected.*
+    1. *Query column names must always be unique. If left checked, this checkbox would prefix each column with the expanded column name (in this case **DimProductSubcategory**). Because it’s known that the selected column names don’t collide with column names in the **Product** query, the option is deselected.*
 
 1. Notice that the transformation resulted in the addition of two columns, and that the **DimProductSubcategory** column has been removed.
 
@@ -274,14 +271,13 @@ In this task, you'll configure the **Sales** query.
     - TotalProductCost
     - SalesAmount
     - DimProduct
-
- *Note: You may recall in the **Prepare Data in Power BI Desktop** lab that a small percentage of **FactResellerSales** rows had missing **TotalProductCost** values. The **DimProduct** column has been included to retrieve the product standard cost column to assist fixing the missing values.*
+        - *Note: You may recall in the **Prepare Data in Power BI Desktop** lab that a small percentage of **FactResellerSales** rows had missing **TotalProductCost** values. The **DimProduct** column has been included to retrieve the product standard cost column to assist fixing the missing values.*
 
 1. Expand the **DimProduct** column, uncheck all columns, and then include only the **StandardCost** column.
 
 1. To create a custom column, on the **Add Column** ribbon tab, from inside the **General** group, select **Custom Column**.
 
- ![Picture 5664](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image47.png)
+     ![Picture 5664](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image47.png)
 
 1. In the **Custom Column** window, in the **New Column Name** box, replace the text with **Cost**.
 
@@ -289,9 +285,9 @@ In this task, you'll configure the **Sales** query.
     1. You can copy the expression from the **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** file.
     1. *This expression tests if the **TotalProductCost** value is missing. If missing, it produces a value by multiplying the **OrderQuantity** value by the **StandardCost** value; otherwise, it uses the existing **TotalProductCost** value.*
 
-   `
-   if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]
-   `
+       `
+       if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]
+       `
 
 1. Remove the following two columns:
 
@@ -339,9 +335,8 @@ In this task, you'll configure the **Targets** query.
     - **Attribute** to **MonthNumber** (there's no space)
     - **Value** to **Target**
 
- *You’ll now apply transformations to produce a date column. The date will be derived from the **Year** and **MonthNumber** columns. You’ll create the column by using the **Columns From Examples** feature.*
-
 1. To prepare the **MonthNumber** column values, right-click the **MonthNumber** column header, and then select **Replace Values**.
+    1. *You’ll now apply transformations to produce a date column. The date will be derived from the **Year** and **MonthNumber** columns. You’ll create the column by using the **Columns From Examples** feature.*
 
 1. In the **Replace Values** window, in the **Value To Find** box, enter **M** and leave the **Replace with** empty.
 
@@ -353,10 +348,10 @@ In this task, you'll configure the **Targets** query.
 
 1. Notice that the first row is for year **2017** and month number **7**.
 
-14. In the **Column1** column, in the first grid cell, commence entering **7/1/2017**, and then press **Enter**.
+1. In the **Column1** column, in the first grid cell, commence entering **7/1/2017**, and then press **Enter**.
     1. *The virtual machine uses US regional settings, so this date is in fact July 1, 2017. Other regional settings may require a **0** before the date.*
 
-1. Notice that the grid cells update with predicted values. 
+1. Notice that the grid cells update with predicted values.
     1. *The feature has accurately predicted that you're combining values from the **Year** and **MonthNumber** columns.*
 
 1. Notice also the formula presented above the query grid.
@@ -472,6 +467,4 @@ In this task, you'll complete the lab.
 
 1. Save the Power BI Desktop file.
 
-1. If you intend to start the next lab, leave Power BI Desktop open.
-
- *You’ll configure data model tables and relationships in the **Model Data in Power BI Desktop** lab.*
+*You’ll configure data model tables and relationships in the **Model Data in Power BI Desktop** lab.*

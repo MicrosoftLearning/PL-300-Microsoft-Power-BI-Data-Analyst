@@ -25,9 +25,9 @@ This lab is one of many in a series of labs that was designed as a complete stor
 1. Load Data in Power BI Desktop
 1. Design a Data Model in Power BI
 1. **Create DAX Calculations in Power BI Desktop, Part 1**
-1. Create DAX Calculations in Power BI Desktop, Part 2
+1. Create Advanced DAX Calculations in Power BI Desktop, Part 2
 1. Design a Report in Power BI Desktop, Part 1
-1. Design a Report in Power BI Desktop, Part 2
+1. Enhance a Report in Power BI Desktop, Part 2
 1. Perform Data Analysis in Power BI
 1. Create a Power BI Dashboard
 1. Enforce Row-Level Security
@@ -285,7 +285,7 @@ In this task, you'll mark the **Date** table as a date table.
 
 1. Save the Power BI Desktop file.
 
-	*Power BI Desktop now understands that this table defines date (time). It’s important when relying on time intelligence calculations. You’ll work with time intelligence calculations in the **Create DAX Calculations in Power BI Desktop, Part 2** lab.*
+	*Power BI Desktop now understands that this table defines date (time). It’s important when relying on time intelligence calculations. You’ll work with time intelligence calculations in the **Create Advanced DAX Calculations in Power BI Desktop, Part 2** lab.*
 
 	*This design approach for a date table is suitable when you don’t have a date table in your data source. If you have a data warehouse, it would be appropriate to load date data from its date dimension table rather than “redefining” date logic in your data model.*
 
@@ -473,4 +473,4 @@ In this task, you'll complete the lab.
 
 1. Save the Power BI Desktop file.
 
-	*You’ll enhance the data model with more advanced calculations using DAX in the **Create DAX Calculations in Power BI Desktop, Part 2** lab.*
+	*You’ll enhance the data model with more advanced calculations using DAX in the **Create Advanced DAX Calculations in Power BI Desktop, Part 2** lab.*
