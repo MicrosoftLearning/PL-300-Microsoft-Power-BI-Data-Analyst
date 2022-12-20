@@ -7,6 +7,7 @@ lab:
 # Setup local lab environment
 
 - All setup and resource files can be [downloaded from GitHub](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/AllfilesDownload.zip).
+- Extract the 'AllFiles' to D:/ and rename it to PL300.
 
 Ideally, you should complete these labs in a hosted lab environment. If you want to complete them on your own computer, you can do so by installing the following software.
 
