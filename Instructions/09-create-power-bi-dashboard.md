@@ -64,7 +64,8 @@ In this task, you'll set up the environment for the lab by opening the starter r
 *Important: If you're continuing on from the previous lab (and you completed that lab successfully), don't complete this task; instead, continue from the next task.*
 
 1. Open Power BI Desktop.
-    1. *By default, the Getting Started dialog box opens in front of Power BI Desktop. Sign-in, and then close the pop-up.*
+    
+	*By default, the Getting Started dialog box opens in front of Power BI Desktop. Sign-in, and then close the pop-up.*
 
     ![Power BI Desktop icon](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
@@ -75,7 +76,8 @@ In this task, you'll set up the environment for the lab by opening the starter r
 1. Close any informational windows that may open.
 
 1. Notice the yellow warning message beneath the ribbon. *This message alerts you to the fact that the queries haven't been applied to load as model tables. You’ll apply the queries later in the lab.*
-    1. To dismiss the warning message, at the right of the yellow warning message, select **X**.
+    
+	*To dismiss the warning message, at the right of the yellow warning message, select **X**.*
 
 1. To create a copy of the file, go to **File > Save As** and save to **D:\PL300\MySolution** folder.
 
@@ -94,7 +96,8 @@ In this task, you'll set up the environment for the lab by creating a dataset.
 1. Select the **Local file** option, and navigate to **D:\PL300\Labs\09-create-power-bi-dashboard\Solution** folder.
 
 1. Select the **Sales Analysis.pbix** file, and then select **Open**.
-    1. If prompted to replace the dataset, select **Replace it**.
+    
+	*If prompted to replace the dataset, select **Replace it**.*
 
 ### **Task 4: Create a dashboard**
 
@@ -107,7 +110,8 @@ In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a vis
     ![Picture 4](Linked_image_Files/09-create-power-bi-dashboard_image17.png)
 
 1. Set the **Region** slicer to **Select All**.
-    1. *Pinned visuals are set with the filter context at time of pin. If the underlying visual changes, you'll need to update the dashboard tile as well. For time-based filters, it’s a better idea to use a relative date slicer (or, Q&A using a relative time-based question).*
+    
+	*Pinned visuals are set with the filter context at time of pin. If the underlying visual changes, you'll need to update the dashboard tile as well. For time-based filters, it’s a better idea to use a relative date slicer (or, Q&A using a relative time-based question).*
 
 1. To create a dashboard and pin a visual, hover the cursor over the **Sales and Profit Margin by Month** (column/line) visual.
 
@@ -126,7 +130,8 @@ In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a vis
     ![Picture 45](Linked_image_Files/09-create-power-bi-dashboard_image22.png)
 
 1. To add a tile based on a question, at the top-left of the dashboard, select **Ask a Question About Your Data**.
-    1. *You can use the Q&A feature to ask a question, and Power BI will respond will a visual.*
+    
+	*You can use the Q&A feature to ask a question, and Power BI will respond will a visual.*
 
     ![Picture 7](Linked_image_Files/09-create-power-bi-dashboard_image23.png)
 
@@ -135,7 +140,8 @@ In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a vis
 1. Remove all text from the Q&A box, and enter the following: **Sales YTD**
 
 1. Notice the response of **(Blank)**.
-    1. *You may recall you added the **Sales YTD** measure in the **Create Advanced DAX Calculations in Power BI Desktop, Part 2** lab. This measure is a Time Intelligence expression and it so requires a filter on the **Date** table to produce a result.*
+    
+	*You may recall you added the **Sales YTD** measure in the **Create Advanced DAX Calculations in Power BI Desktop, Part 2** lab. This measure is a Time Intelligence expression and it so requires a filter on the **Date** table to produce a result.*
 
     ![Picture 14](Linked_image_Files/09-create-power-bi-dashboard_image25.png)
 
@@ -154,15 +160,18 @@ In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a vis
 1. To return to the dashboard, at the top-left corner, select **Exit Q&amp;A**.
 
 1. To add the company logo, on the menu bar, select **Edit**, and then select **Add a Tile**.
-    1. *Using this technique to add a dashboard tile lets you enhance your dashboard with media, including web content, images, richly formatted text boxes, and video (using YouTube or Vimeo links).*
+    
+	*Using this technique to add a dashboard tile lets you enhance your dashboard with media, including web content, images, richly formatted text boxes, and video (using YouTube or Vimeo links).*
 
 1. In the **Add a Tile** pane (located at the right), select the **Image** tile, then **Next**.
 
 1. In the **Add Image Tile** pane, in the **URL** box, enter the complete URL found in the **D:\PL300\Resources\AdventureWorksLogo_DataURL.txt** file, and then **Apply**.
-    1. *You can embed an image by using its URL, or you can use a data URL, which embeds content inline.*
+    
+	*You can embed an image by using its URL, or you can use a data URL, which embeds content inline.*
 
 1. To resize the logo tile, drag the bottom-right corner, and resize the tile to become one unit wide, and two units high.
-    1. *Tile sizes are limited to a rectangular shape.*
+    
+	*Tile sizes are limited to a rectangular shape.*
 
 1. Organize the tiles so that the logo appears at the top-left, with the **Sales YTD** tile beneath it, and the **Sales, Profit Margin** tile at the right.
 
@@ -243,6 +252,7 @@ In this task, you'll review the dashboard to notice updated sales.
 2. In the **Sales, Profit Margin** tile, in line with the subtitle, notice that the data was **Refreshed: NOW**.
 
 3. Notice also that there's now a column for **2020 Jun**.
-    1. *If you don’t see the June 2020 data, you might need to press **F5** to reload the web browser.*
+    
+	*If you don’t see the June 2020 data, you might need to press **F5** to reload the web browser.*
 
     ![Picture 33](Linked_image_Files/09-create-power-bi-dashboard_image50.png)
