@@ -72,7 +72,8 @@ In this task, you'll design the first report page. When you’ve completed the d
      ![Picture 49](Linked_image_Files/07-design-report-in-power-bi-desktop_image18.png)
 
 1. In the **Fields** pane, drag the **Date \| Year** field (not the **Year** level of the hierarchy) into the slicer **Field** in Visualizations pane.
-    1. *The labs use a shorthand notation to reference a field. It will look like this: **Date \| Year**. In this example, **Date** is the table name and **Year** is the field name.*
+    
+	*The labs use a shorthand notation to reference a field. It will look like this: **Date \| Year**. In this example, **Date** is the table name and **Year** is the field name.*
 
 1. To convert the slicer from a list to a dropdown, at the top-right of the slicer, select the down-arrow, and then select **Dropdown**.
 
@@ -111,7 +112,8 @@ In this task, you'll design the first report page. When you’ve completed the d
      - Sales \| Sales
 
 1. In the visual fields pane (not the **Fields** pane—the visual fields pane is located beneath the **Visualizations** pane), notice that the fields are assigned to the **X-axis** and **Column y-axis** wells/areas.
-    1. *By dragging fields into a visual, they'll be added to default wells/areas. For precision, you can drag fields directly into the wells/areas, as you'll do next.*
+    
+	*By dragging fields into a visual, they'll be added to default wells/areas. For precision, you can drag fields directly into the wells/areas, as you'll do next.*
 
      ![Picture 27](Linked_image_Files/07-design-report-in-power-bi-desktop_image28_N.png)
 
@@ -120,10 +122,12 @@ In this task, you'll design the first report page. When you’ve completed the d
      ![Picture 28](Linked_image_Files/07-design-report-in-power-bi-desktop_image29.png)
 
 1. Notice that the visual has 11 months only.
-    1.  *The last month of the year, 2020 June, doesn't have any sales (yet). By default, the visual has eliminated months with BLANK sales. You'll now configure the visual to show all months.*
+    
+	*The last month of the year, 2020 June, doesn't have any sales (yet). By default, the visual has eliminated months with BLANK sales. You'll now configure the visual to show all months.*
 
 1. In the visual fields pane, in the **X-axis** well/area, for the **Month** field, select the down-arrow, and then select **Show Items With No Data**.
-    1. Notice that the month **2020 June** now appears.
+    
+	*Notice that the month **2020 June** now appears.*
 
      ![Picture 52](Linked_image_Files/07-design-report-in-power-bi-desktop_image30.png)
 
@@ -213,7 +217,8 @@ In this task, you'll design the second report page. When you’ve completed the 
      ![Picture 57](Linked_image_Files/07-design-report-in-power-bi-desktop_image44.png)
 
 1. From the **Fields** pane, drag the **Product \| Category** field into the **Filter On This Page** well/area.
-    1. *Fields added to the **Filters** pane can achieve the same result as a slicer. One difference is they don’t take up space on the report page. Another difference is that they can be configured to achieve more sophisticated filtering requirements.*
+    
+	*Fields added to the **Filters** pane can achieve the same result as a slicer. One difference is they don’t take up space on the report page. Another difference is that they can be configured to achieve more sophisticated filtering requirements.*
 
 1. Inside the filter card, at the top-right, select the arrow to collapse the card.
 
@@ -310,15 +315,17 @@ In this task, you'll publish the report to the Power BI service.
 1. Select the **Overview** page, then save the Power BI Desktop file.
 
 1. On the **Home** ribbon tab, from inside the **Share** group, select **Publish**.
-    1. *If you're not signed into Power BI Desktop already, you'll need to sign-in to publish.*
+    
+	*If you're not signed into Power BI Desktop already, you'll need to sign-in to publish.*
 
      ![Picture 67](Linked_image_Files/07-design-report-in-power-bi-desktop_image59.png)
 
 1. In the **Publish to Power** BI window, notice that **My Workspace** is selected.
-    1. *We won't go into detail about the different items within the Power BI service in this lab.*
+    
+	*We won't go into detail about the different items within the Power BI service in this lab.*
 
 1. To publish the report, select **Select**. This may take a few moments. 
-    1. When the publication has succeeded, select **Got It**.
+1. When the publication has succeeded, select **Got It**.
 
 ### **Task 2: Explore the report**
 
@@ -331,7 +338,7 @@ In this task, you'll explore the report that was published to Power BI.
     ![Picture 93](Linked_image_Files/06-my-workspace-new.png)
 
 1. Review the contents of the workspace. Notice the navigation options of All, Content, and Datasets + dataflows.
-    1. There are four types of items that can exist in a workspace, and we'll talk about **reports** and **datasets**.
+    1. *There are four types of items that can exist in a workspace, and we'll talk about **reports** and **datasets**.*
     1. *You may need to refresh your Microsoft Edge browser if the dataset is not visible.*
     1. *When you published the Power BI Desktop file, the data model was published as a dataset.*
 
@@ -350,14 +357,16 @@ In this task, you'll explore the report that was published to Power BI.
 1. Notice that the bar chart is filtered and highlighted, with the bold portion of the bars representing the filtered months.
 
 1. Hover the cursor over the bar chart visual, and then at the top-right, hover the cursor over the filter icon. 
-    1. *The filter icon allows you to understand all filters that are applied to the visual, including slicers and cross filters from other visual.*
+    
+	*The filter icon allows you to understand all filters that are applied to the visual, including slicers and cross filters from other visual.*
 
 1. Hover the cursor over a bar, and then notice the tooltip information.
 
 1. To undo the cross filter, in the column/line chart, select an empty area of the visual.
 
 1. Hover the cursor over the stacked column chart visual, and then at the top-right, select the **Focus mode** icon.
-    1. *Focus mode zooms the visual to full page size.*
+    
+	*Focus mode zooms the visual to full page size.*
 
      ![Picture 96](Linked_image_Files/07-design-report-in-power-bi-desktop_image65.png)
 
@@ -376,10 +385,12 @@ In this task, you'll explore the report that was published to Power BI.
      ![Picture 84](Linked_image_Files/07-design-report-in-power-bi-desktop_image68.png)
 
 1. Notice that the **Region** slicer has a different selection to the **Region** slicer on the **Overview** page.
-    1. *The slicers aren't synchronized. You’ll modify the report design to ensure they sync between pages in the **Enhance a Report in Power BI Desktop, Part 2** lab.*
+    
+	*The slicers aren't synchronized. You’ll modify the report design to ensure they sync between pages in the **Enhance a Report in Power BI Desktop, Part 2** lab.*
 
 1. In the **Filters** pane (located at the right), expand a filter card, and apply some filters.
-    1. *The **Filters** pane allows you to define more filters than could possibly fit on a page as slicers.*
+    
+	*The **Filters** pane allows you to define more filters than could possibly fit on a page as slicers.*
 
 1. In the matrix visual, use the plus (+) button to drill into the **Fiscal** hierarchy.
 
@@ -403,6 +414,6 @@ In this task, you'll explore the report that was published to Power BI.
 
 In this task, you'll complete the lab.
 
-1. To return to "My Workspace", select **My Workspace** in the banner across the window web page.
+To return to "My Workspace", select **My Workspace** in the banner across the window web page.
 
  *You'll enhance the report design with advanced features in the **Enhance a Report in Power BI Desktop, Part 2** lab.*
