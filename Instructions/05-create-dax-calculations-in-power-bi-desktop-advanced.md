@@ -54,8 +54,11 @@ In this task, you'll set up the environment for the lab.
 
 1. Close any informational windows that may open.
 
-1. Notice the yellow warning message beneath the ribbon. *This message alerts you to the fact that the queries haven't been applied to load as model tables. You’ll apply the queries later in this lab.*
-    1. To dismiss the warning message, at the right of the yellow warning message, select **X**.
+1. Notice the yellow warning message beneath the ribbon. 
+
+	*This message alerts you to the fact that the queries haven't been applied to load as model tables. You’ll apply the queries later in this lab.*
+    
+	*To dismiss the warning message, at the right of the yellow warning message, select **X**.*
 
 1. To create a copy of the file, go to **File > Save As** and save to **D:\PL300\MySolution** folder.
 
@@ -72,12 +75,14 @@ In this task, you'll create a matrix visual to support testing your new measures
 1. Resize the matrix visual to fill the entire page.
 
 1. To configure the matrix visual fields, from the **Fields** pane, drag the **Region \| Regions** hierarchy, and drop it inside the visual.
-    1. *The labs use a shorthand notation to reference a field or hierarchy. It will look like this: **Region \| Regions**. In this example, **Region** is the table name and **Regions** is the hierarchy name.*
+    
+	*The labs use a shorthand notation to reference a field or hierarchy. It will look like this: **Region \| Regions**. In this example, **Region** is the table name and **Regions** is the hierarchy name.*
 
 1. Add also the **Sales \| Sales** field.
 
 1. To expand the entire hierarchy, at the top-right of the matrix visual, select the forked-double arrow icon twice.
-    1. *You may recall that the **Regions** hierarchy has the levels **Group**, **Country**, and **Region**.*
+    
+	*You may recall that the **Regions** hierarchy has the levels **Group**, **Country**, and **Region**.*
 
     ![Picture 47](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image11.png)
 
@@ -104,7 +109,8 @@ In this task, you'll create a matrix visual to support testing your new measures
 In this task, you'll create several measures with DAX expressions that use the CALCULATE() function to manipulate filter context.
 
 1. Add a measure to the **Sales** table, based on the following expression:
-    1. *For your convenience, all DAX definitions in this lab can be copied from the **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** file.*
+    
+	 *For your convenience, all DAX definitions in this lab can be copied from the **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** file.*
 
 
     **DAX**
@@ -183,7 +189,8 @@ In this task, you'll create several measures with DAX expressions that use the C
 1. Add the **Sales % Country** measure to the matrix visual.
 
 1. Notice that only the United States’ regions produce a value that isn't 100%.
-    1. *You may recall that only the United States has multiple regions. All other countries comprise a single region, which explains why they're all 100%.*
+    
+	*You may recall that only the United States has multiple regions. All other countries comprise a single region, which explains why they're all 100%.*
 
     ![Picture 54](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image18.png)
 
