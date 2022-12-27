@@ -54,8 +54,11 @@ In this task, you'll set up the environment for the lab.
 
 1. Close any informational windows that may open.
 
-1. Notice the yellow warning message beneath the ribbon. *This message alerts you to the fact that the queries haven't been applied to load as model tables. You’ll apply the queries later in this lab.*
-    1. To dismiss the warning message, at the right of the yellow warning message, select **X**.
+1. Notice the yellow warning message beneath the ribbon. 
+
+	*This message alerts you to the fact that the queries haven't been applied to load as model tables. You’ll apply the queries later in this lab.*
+    
+	*To dismiss the warning message, at the right of the yellow warning message, select **X**.*
 
 1. To create a copy of the file, go to **File > Save As** and save to **D:\PL300\MySolution** folder.
 
@@ -74,7 +77,8 @@ The formula bar supports entering a valid DAX formula. It includes features like
      ![Picture 1](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image9.png)
 
 2. In the formula bar (which opens directly beneath the ribbon when creating or editing calculations), type **Salesperson =**, press **Shift+Enter**, type **'Salesperson (Performance)'**, and then press **Enter**.
-    1. *For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **D:\PL300\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
+    
+	*For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **D:\PL300\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
 
 	 ![Picture 4](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png)
 
@@ -105,7 +109,8 @@ The formula bar supports entering a valid DAX formula. It includes features like
 1. In the model diagram, select the **Salesperson** table.
 
 1. In the **Properties** pane, in the **Description** box, enter: **Salesperson related to Sales**
-    1. *You may recall that descriptions appear as tooltips in the **Fields** pane when the user hovers their cursor over a table or field.*
+    
+	*You may recall that descriptions appear as tooltips in the **Fields** pane when the user hovers their cursor over a table or field.*
 
 1. For the **Salesperson (Performance)** table, set the description to: **Salesperson related to region(s)**
 
@@ -471,6 +476,6 @@ In this task, you'll create more measures that use more complex formulas.
 
 In this task, you'll complete the lab.
 
-1. Save the Power BI Desktop file.
+Save the Power BI Desktop file.
 
-	*You’ll enhance the data model with more advanced calculations using DAX in the **Create Advanced DAX Calculations in Power BI Desktop, Part 2** lab.*
+*You’ll enhance the data model with more advanced calculations using DAX in the **Create Advanced DAX Calculations in Power BI Desktop, Part 2** lab.*
