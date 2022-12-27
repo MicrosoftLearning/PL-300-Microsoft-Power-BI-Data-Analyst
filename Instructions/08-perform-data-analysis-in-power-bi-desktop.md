@@ -68,7 +68,8 @@ In this task, you'll set up the environment for the lab by creating a dataset.
 1. Select the **Local file** option, and navigate to **D:\PL300\Labs\08-perform-data-analysis-in-power-bi-desktop\Starter** folder.
 
 1. Select the **Sales Analysis.pbix** file, and then select **Open**.
-    1. If prompted to replace the dataset, select **Replace it**.
+    
+	*If prompted to replace the dataset, select **Replace it**.*
 
 ### **Task 3: Create the report**
 
@@ -107,14 +108,16 @@ In this task, you'll create a scatter chart that can be animated.
 1. Rename **Page 1** as **Scatter Chart**.
 
 1. Add a **Scatter Chart** visual to the report page, and then position and resize it so it fills the entire page.
-    1. *The chart can be animated when a field is added to the **Play Axis** well/area.*
+    
+	*The chart can be animated when a field is added to the **Play Axis** well/area.*
 
 	 ![Picture 18](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image15.png)
 
 	 ![Picture 75](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image16.png)
 
 1. Add the following fields to the visual wells/areas:
-    1. *The labs use a shorthand notation to reference a field. It will look like this: **Reseller** **\|** **Business Type**. In this example, **Reseller** is the table name and **Business Type** is the field name.*
+    
+	*The labs use a shorthand notation to reference a field. It will look like this: **Reseller** **\|** **Business Type**. In this example, **Reseller** is the table name and **Business Type** is the field name.*
 
 	 - X Axis: **Sales \| Sales**
 	 - Y Axis: **Sales \| Profit Margin**
@@ -131,8 +134,10 @@ In this task, you'll create a scatter chart that can be animated.
 	![Picture 41](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image19.png)
 
 1. Watch the entire animation cycle from **FY2018 Q1** to **FY2020 Q4**.
-    1. *The scatter chart allows understanding the measure values simultaneously: in this case, order quantity, sales revenue, and profit margin.*
-    1. *Each bubble represents a reseller business type. Changes in the bubble size reflect increased or decreased order quantities. While horizontal movements represent increases/decreases in sales revenue, and vertical movements represent increases/decreases in profitability.*
+    
+	*The scatter chart allows understanding the measure values simultaneously: in this case, order quantity, sales revenue, and profit margin.*
+    
+	*Each bubble represents a reseller business type. Changes in the bubble size reflect increased or decreased order quantities. While horizontal movements represent increases/decreases in sales revenue, and vertical movements represent increases/decreases in profitability.*
 
 1. When the animation stops, select one of the bubbles to reveal its tracking over time.
 
@@ -166,7 +171,8 @@ In this task, you'll create a forecast to determine possible future sales revenu
 1. In the **Filters** pane, add the **Date \| Year** field to the **Filters On This Page** well/area.
 
 1. In the filter card, filter by two years: **FY2019** and **FY2020**.
-	1. *When forecasting over a time line, you'll need at least two cycles (years) of data to produce an accurate and stable forecast.*
+	
+	*When forecasting over a time line, you'll need at least two cycles (years) of data to produce an accurate and stable forecast.*
 
 1. Add also the **Product \| Category** field to the **Filters On This Page** well/area, and filter by **Bikes**.
 
@@ -175,7 +181,8 @@ In this task, you'll create a forecast to determine possible future sales revenu
 	 ![Picture 20](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image26.png)
 
 8. Expand the **Forecast** section.
-    1. *If the **Forecast** section isn't available, it’s probably because the visual hasn’t been correctly configured. Forecasting is only available when two conditions are met: the axis has a single field of type date, and there’s only one value field.*
+    
+	*If the **Forecast** section isn't available, it’s probably because the visual hasn’t been correctly configured. Forecasting is only available when two conditions are met: the axis has a single field of type date, and there’s only one value field.*
 
 1. Turn the **Forecast** option to **On**.
 
@@ -189,8 +196,10 @@ In this task, you'll create a forecast to determine possible future sales revenu
 	![Picture 52](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image29.png)
 
 1. In the line visual, notice that the forecast has extended one month beyond the history data.
-    1. *The gray area represents the confidence. The wider the confidence, the less stable—and therefore the less accurate—the forecast is likely to be.*
-    1. *When you know the length of the cycle, in this case annual, you should enter the seasonality points. Sometimes it could be weekly (7), or monthly (30).*
+    
+	*The gray area represents the confidence. The wider the confidence, the less stable—and therefore the less accurate—the forecast is likely to be.*
+    
+	*When you know the length of the cycle, in this case annual, you should enter the seasonality points. Sometimes it could be weekly (7), or monthly (30).*
 
 1. In the **Filters** pane, filter by **Clothing** only, and notice that it produces a different result.
 
