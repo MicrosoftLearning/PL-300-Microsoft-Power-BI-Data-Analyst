@@ -75,8 +75,11 @@ In this task, you'll set up the environment for the lab by opening the starter r
 
 1. Close any informational windows that may open.
 
-1. Notice the yellow warning message beneath the ribbon. *This message alerts you to the fact that the queries haven't been applied to load as model tables. You’ll apply the queries later in this lab.*
-    1. To dismiss the warning message, at the right of the yellow warning message, select **X**.
+1. Notice the yellow warning message beneath the ribbon. 
+
+	*This message alerts you to the fact that the queries haven't been applied to load as model tables. You’ll apply the queries later in this lab.*
+
+	*To dismiss the warning message, at the right of the yellow warning message, select **X**.*
 
 1. To create a copy of the file, go to **File > Save As** and save to **D:\PL300\MySolution** folder.
 
@@ -84,12 +87,13 @@ In this task, you'll set up the environment for the lab by opening the starter r
 
 ### **Task 3: Sync slicers**
 
-In this task, you'll sync the **Year** and **Region** slicers, continuing the development of the report created in the **Design a Report in Power BI Desktop, Part 1** lab.*
+In this task, you'll sync the **Year** and **Region** slicers, continuing the development of the report created in the **Design a Report in Power BI Desktop, Part 1** lab.
 
 1. In Power BI Desktop, on the **Overview** page, set the **Year** slicer to **FY2018**.
 
-1. Go to the **My Performance** page, and then notice that the **Year** slicer is a different value. 
-    1. *When slicers aren’t synced, it can contribute to misrepresentation of data and frustration for report users. You’ll now sync the report slicers.*
+1. Go to the **My Performance** page, and then notice that the **Year** slicer is a different value.
+    
+ 	*When slicers aren’t synced, it can contribute to misrepresentation of data and frustration for report users. You’ll now sync the report slicers.*
 
 1. Return to the **Overview** page, and then select the **Year** slicer.
 
@@ -124,10 +128,12 @@ In this task, you'll create a new page and configure it as a drill through page.
 1. Add a new report page named **Product Details**.
 
 1. Right-click the **Product Details** page tab, and then select **Hide Page**.
-    1. *Report users won’t be able to go to the drill through page directly. They’ll need to access it from visuals on other pages. You’ll learn how to drill through to the page in the final exercise of this lab.*
+    
+	*Report users won’t be able to go to the drill through page directly. They’ll need to access it from visuals on other pages. You’ll learn how to drill through to the page in the final exercise of this lab.*
 
 1. Beneath the **Visualizations** pane, in the **Drill Through** section, add the **Product \| Category** field to the **Add Drill-Through Fields Here** box.
-    1. *The labs use a shorthand notation to reference a field. It will look like this: **Product \| Category**. In this example, **Product** is the table name and **Category** is the field name.*
+    
+	*The labs use a shorthand notation to reference a field. It will look like this: **Product \| Category**. In this example, **Product** is the table name and **Category** is the field name.*
 
 	 ![Picture 96](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image20.png)
 
@@ -136,7 +142,8 @@ In this task, you'll create a new page and configure it as a drill through page.
 	 ![Picture 99](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image21.png)
 
 1. At the top-left of the report page, notice the arrow button.
-    1. *An arrow button is added automatically when a field is added to the drill through well/area. It allows report users to navigate back to the page from which they drilled through.*
+    
+	*An arrow button is added automatically when a field is added to the drill through well/area. It allows report users to navigate back to the page from which they drilled through.*
 
 1. Add a **Card** visual to the page, and then resize and position it so it sits to the right of the button and fills the remaining width of the page.
 
@@ -202,7 +209,8 @@ In this task, you'll enhance the drill through page with conditional formatting.
     - In the sixth control, select **Number**
 
 1. Configure the second rule (green circle) as follows, then select **OK**:
-    1. *The rules can be interpreted as follows: display a red diamond if the profit margin value is less than 0; otherwise if the value is great or equal to zero, display a green circle.*
+    
+	*The rules can be interpreted as follows: display a red diamond if the profit margin value is less than 0; otherwise if the value is great or equal to zero, display a green circle.*
 
 	 - In the second control, enter **0**
 	 - In the third control, select **Number**
@@ -248,22 +256,26 @@ In this task you'll add two bookmarks, one to display each of the monthly sales/
 	 ![Picture 120](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image41.png)
 
 1. In the **Bookmarks** pane, select **Add**.
-    1. To rename the bookmark, double-click the bookmark.
+    
+	*To rename the bookmark, double-click the bookmark.*
 
 	 ![Picture 121](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image42.png)
 
 1. If the visible chart is the bar chart, rename the bookmark as **Bar Chart ON**, otherwise rename the bookmark as **Column Chart ON**.
 
 1. To edit the bookmark, in the **Bookmarks** pane, hover the cursor over the bookmark, select the ellipsis, and then select **Data**.
-	 1. *Disabling the **Data** option means the bookmark won’t use the current filter state. That’s important because otherwise the bookmark would permanently lock in the filter currently applied by the **Year** slicer.*
+	 
+	 *Disabling the **Data** option means the bookmark won’t use the current filter state. That’s important because otherwise the bookmark would permanently lock in the filter currently applied by the **Year** slicer.*
 
      ![Picture 16](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image43.png)
 
 1. To update the bookmark, select the ellipsis again, and then select **Update**.
-     1. *In the following steps, you’ll create and configure a second bookmark to show the second visual.*
+     
+	 *In the following steps, you’ll create and configure a second bookmark to show the second visual.*
 
 1. In the **Selection** pane, toggle the visibility of the two **Sales and Target by Month** items.
-     1. *In other words, make the visible visual hidden, and make the hidden visual visible.*
+     
+	 *In other words, make the visible visual hidden, and make the hidden visual visible.*
 
 	 ![Picture 122](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image45.png)
 
@@ -276,7 +288,8 @@ In this task you'll add two bookmarks, one to display each of the monthly sales/
 1. In the **Selection** pane, to make both visuals visible, simply show the hidden visual.
 
 1. Resize and reposition both visuals so they fill the page beneath the multi-card visual, and completely overlap one another.
-    1. *To select the visual that is covered up, select it in the **Selection** pane.*
+    
+	*To select the visual that is covered up, select it in the **Selection** pane.*
 
 	![Picture 124](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image47.png)
 
@@ -332,7 +345,8 @@ In this task, you'll publish the report.
 1. In the **Region** slicer, select **Select All**.
 
 1. Save the Power BI Desktop file.
-    1. *The file must always be saved prior to publishing to the Power BI service.*
+    
+	*The file must always be saved prior to publishing to the Power BI service.*
 
 1. On the **Home** ribbon tab, from inside the **Share** group, select **Publish**.
 
@@ -367,12 +381,13 @@ In this task, you'll explore the report in the Power BI service.
 1. To return to the source page, at the top-left corner of the page, select the arrow button.
 
 1. Select the **My Performance** page.
-    1. Select each of the buttons, and then notice that a different visual is displayed.
+    
+	*Select each of the buttons, and then notice that a different visual is displayed.*
 
 ### **Task 2: Finish up**
 
 In this task, you'll complete the lab.
 
-1. To return to your workspace, in the banner across the window web page, select **My Workspace**.
+To return to your workspace, in the banner across the window web page, select **My Workspace**.
 
-	 ![Picture 23](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image56.png)
+ ![Picture 23](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image56.png)
