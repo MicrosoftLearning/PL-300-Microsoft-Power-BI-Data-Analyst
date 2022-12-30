@@ -9,12 +9,11 @@ lab:
 
 **The estimated time to complete the lab is 45 minutes.**
 
-In this lab you will create a three-page report. You will then publish it to Power BI, whereupon you will open and interact with the report.
+In this lab, you'll create a three-page report. You'll then publish it to Power BI, whereupon you'll open and interact with the report.
 
 In this lab you learn how to:
 
 - Design a report
-
 - Configure visual fields and format properties
 
 ### **Lab story**
@@ -22,566 +21,399 @@ In this lab you learn how to:
 This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, we suggest you do them in the following order:
 
 1. Prepare Data in Power BI Desktop
-
-2. Load Data in Power BI Desktop
-
-3. Design a Data Model in Power BI
-
-4. Create DAX Calculations in Power BI Desktop, Part 1
-
-5. Create DAX Calculations in Power BI Desktop, Part 2
-
-6. **Design a Report in Power BI Desktop, Part 1**
-
-7. Design a Report in Power BI Desktop, Part 2
-
-8. Analyze Data with AI Visuals
-
-9. Create a Power BI Dashboard
-
-10. Enforce Row-Level Security
+1. Load Data in Power BI Desktop
+1. Design a Data Model in Power BI
+1. Create DAX Calculations in Power BI Desktop, Part 1
+1. Create Advanced DAX Calculations in Power BI Desktop, Part 2
+1. **Design a Report in Power BI Desktop, Part 1**
+1. Enhance a Report in Power BI Desktop, Part 2
+1. Perform Data Analysis in Power BI
+1. Create a Power BI Dashboard
+1. Enforce Row-Level Security
 
 ## **Exercise 1: Create a Report**
 
-In this exercise you will create a three-page report named **Sales Report**.
+In this exercise, you'll create a three-page report named **Sales Report**.
 
-### **Task 1: Get started – Sign in**
+### **Task 1: Get started – Open report**
 
-In this task you will setup the environment for the lab by signing in to Power BI.
+In this task, you'll set up the environment for the lab by opening the starter report.
 
-*Important: If you have already signed in to Power BI, continue from the next task.*
+1. From Power BI Desktop, navigate to **File** > **Open report** > **Browse Reports**.
 
-1. To open Microsoft Edge, on the taskbar, click the Microsoft Edge program shortcut.
+1. Open the **Sales Analysis** file in the  **D:\PL300\Labs\06-design-report-in-power-bi-desktop\Starter** folder.
 
- 	![Picture 65](Linked_image_Files/07-design-report-in-power-bi-desktop_image1.png)
+1. Create a copy of the file by going to **File** > **Save As**, and save the copy in the **D:\PL300\MySolution** folder.
 
-1. In the Microsoft Edge browser window, navigate to **https://powerbi.microsoft.com**.
+### **Task 2: Design page 1**
 
- 	*Tip: You can also use the Power BI Service favorite on the Microsoft Edge favorites bar.*
+In this task, you'll design the first report page. When you’ve completed the design, the page will look like the following:
 
-1. Click **Sign In** (located at the top-right corner).
+![Image of page 1, comprising a logo, two slicers, and three visuals.](Linked_image_Files/06-finished-report-page.png)
 
- 	![Picture 63](Linked_image_Files/07-design-report-in-power-bi-desktop_image2.png)
+1. In Power BI Desktop, to rename the page, at the bottom-left, right-click **Page 1**, then **Rename** the page as **Overview**.
 
-1. Complete the sign in process.
+    *Tip: You can also double-click the page name to rename it.*
 
-1. If prompted by Microsoft Edge to stay signed in, click **Yes**.
+1. To add an image, on the **Insert** ribbon tab, from inside the **Elements** group, select **Image**.
 
-1. Leave the Microsoft Edge browser window open.
+    ![Picture 1](Linked_image_Files/07-design-report-in-power-bi-desktop_image15.png)
 
-### **Task 2: Get started – Enable Map and filled map visuals**
+1. In the **Open** window, navigate to the **D:\PL300\Resources** folder.
 
-In this task you will enable map and filled map visuals in the environment for the lab by updating Global settings in Power BI Desktop and the Integration settings in the Power BI Admin portal.
+1. Select the **AdventureWorksLogo.jpg** file, and then select **Open**.
 
-1. In Power BI Desktop, navigate to **Options > Options and Settings > Global** and check the box for **Use Map and Filled Map visuals**.
+1. Drag the image to position it at the top-left corner, and also drag the guide markers to resize it.
 
-![Picture103b](Linked_image_Files/07-design-report-in-power-bi-desktop_image103b.png)
+     ![Picture 12](Linked_image_Files/07-design-report-in-power-bi-desktop_image17.png)
 
-2. To open the Power BI Admin portal, at the top-right of the Edge browser, click the **Settings** icon.
+1. To add a slicer, first de-select the image by clicking an empty area of the report page, then select the **Slicer** in the **Visualizations** pane.
 
- 	![Picture 101](Linked_image_Files/07-design-report-in-power-bi-desktop_image101.png)
+     ![Picture 49](Linked_image_Files/07-design-report-in-power-bi-desktop_image18.png)
 
-3. Select **Admin portal**.
-
- 	![Picture 102](Linked_image_Files/07-design-report-in-power-bi-desktop_image102.png)
-
-4. Scroll down the page to Integration settings. Click the arrow to expand the Map and filled map visuals option.
-
- 	![Picture 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image103.png)
-
-5. Set the Map and filled map visuals option to **Enabled**.
-
-6. Click **Apply**, to apply the changes. 
-
-	![Picture 104](Linked_image_Files/07-design-report-in-power-bi-desktop_image104.png)
-
-7. A message will appear at the top-right of the browser stating the Tenant settings changes will be applied within the next 15 minutes.
-
-
-	![Picture 105](Linked_image_Files/07-design-report-in-power-bi-desktop_image105.png)
-
-8. Leave the Microsoft Edge browser window open.
-
-### **Task 3: Get started – Open report**
-
-In this task you will setup the environment for the lab by opening the starter report.
-
-*Important: If you are continuing on from the previous lab (and you completed that lab successfully), do not complete this task; instead, continue from the next task.*
-
-1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
-
-	![Picture 48](Linked_image_Files/07-design-report-in-power-bi-desktop_image3.png)
-
-2. To close the getting started window, at the top-left of the window, click **X**.
-
-	![Picture 47](Linked_image_Files/07-design-report-in-power-bi-desktop_image4.png)
-
-3. To sign in to the Power BI service, at the top-right, click **Sign In**.
-
-	![Picture 66](Linked_image_Files/07-design-report-in-power-bi-desktop_image5.png)
-
-4. Complete the sign in process using the same account used to sign in to the Power BI service.
-
-5. To open the starter Power BI Desktop file, click the **File** ribbon tab to open the backstage view.
-
-6. Select **Open Report**.
-
-	![Picture 31](Linked_image_Files/07-design-report-in-power-bi-desktop_image6.png)
-
-7. Click **Browse Reports**.
-
-	![Picture 30](Linked_image_Files/07-design-report-in-power-bi-desktop_image7.png)
-
-8. In the **Open** window, navigate to the **D:\PL300\Labs\06-design-report-in-power-bi-desktop\Starter** folder.
-
-9. Select the **Sales Analysis** file.
-
-10. Click **Open**.
-
-	![Picture 16](Linked_image_Files/07-design-report-in-power-bi-desktop_image8.png)
-
-11. Close any informational windows that may open.
-
-12. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
-
-13. Select **Save As**.
-
-	![Picture 8](Linked_image_Files/07-design-report-in-power-bi-desktop_image9.png)
-
-14. If prompted to apply changes, click **Apply**.
-
-	![Picture 5](Linked_image_Files/07-design-report-in-power-bi-desktop_image10.png)
-
-15. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
-
-16. Click **Save**.
-
-	![Picture 4](Linked_image_Files/07-design-report-in-power-bi-desktop_image11.png)
-
-### **Task 4: Design page 1**
-
-In this task you will design the first report page. When you’ve completed the design, the page will look like the following:
-
-![Image of page 1, comprising a logo, two slicers, and three visuals.](Linked_image_Files/07-design-report-in-power-bi-desktop_image12.png)
-
-1. In Power BI Desktop, to rename the page, at the bottom-left, right-click **Page 1**, and then select **Rename**.
-
-	![Picture 36](Linked_image_Files/07-design-report-in-power-bi-desktop_image13.png)
-
-	*Tip: You can also double-click the page name to rename it.*
-
-2. Rename the page as **Overview**, and then press **Enter**.
-
-	![Picture 37](Linked_image_Files/07-design-report-in-power-bi-desktop_image14.png)
-
-3. To add an image, on the **Insert** ribbon tab, from inside the **Elements** group, click **Image**.
-
-	![Picture 1](Linked_image_Files/07-design-report-in-power-bi-desktop_image15.png)
-
-4. In the **Open** window, navigate to the **D:\PL300\Resources** folder.
-
-5. Select the **AdventureWorksLogo.jpg** file, and then click **Open**.
-
-	![Picture 11](Linked_image_Files/07-design-report-in-power-bi-desktop_image16.png)
-
-6. Drag the image to position it at the top-left corner, and also drag the guide markers to resize it.
-
-	![Picture 12](Linked_image_Files/07-design-report-in-power-bi-desktop_image17.png)
-
-7. To add a slicer, first de-select the image by clicking an empty area of the report page.
-8. In the **Fields** pane, select the **Date \| Year** field (not the **Year** level of the hierarchy).
-	
+1. In the **Fields** pane, drag the **Date \| Year** field (not the **Year** level of the hierarchy) into the slicer **Field** in Visualizations pane.
+    
 	*The labs use a shorthand notation to reference a field. It will look like this: **Date \| Year**. In this example, **Date** is the table name and **Year** is the field name.*
 
-9. Notice that a table of year values has been added to the report page.
+1. To convert the slicer from a list to a dropdown, at the top-right of the slicer, select the down-arrow, and then select **Dropdown**.
 
-10. To convert the visual from a table to a slicer, in the **Visualizations** pane, select the **Slicer**.
+    ![Slicer style](Linked_image_Files\06_slicer_style.png)
 
-	![Picture 49](Linked_image_Files/07-design-report-in-power-bi-desktop_image18.png)
+1. Resize and position the slicer so it sits beneath the image and is the same width as the image.
 
-11. To convert the slicer from a list to a dropdown, at the top-right of the slicer, click the down-arrow, and then select **Dropdown**.
+     ![Picture 19](Linked_image_Files/07-design-report-in-power-bi-desktop_image20.png)
 
-	![Picture 18](Linked_image_Files/07-design-report-in-power-bi-desktop_image19.png)
+1. In the **Year** slicer, open the dropdown list, select **FY2020**, and then collapse the dropdown list.
+    1. *The report page is now filtered by year **FY2020**.*
 
-12. Resize and position the slicer so it sits beneath the image and is the same width as the image.
+     ![Picture 20](Linked_image_Files/07-design-report-in-power-bi-desktop_image21.png)
 
-	![Picture 19](Linked_image_Files/07-design-report-in-power-bi-desktop_image20.png)
+1. De-select the slicer by clicking an empty area of the report page.
 
-13. In the **Year** slicer, open the dropdown list, select **FY2020**, and then collapse the dropdown list.
+1. Create a second slicer, based on the **Region \| Region** field (not the **Region** level of the hierarch).
 
-	![Picture 20](Linked_image_Files/07-design-report-in-power-bi-desktop_image21.png)
+1. Leave the slicer as a list, and then resize and position the slicer beneath the **Year** slicer.
 
-	*The report page is now filtered by year **FY2020**.*
+     ![Picture 21](Linked_image_Files/07-design-report-in-power-bi-desktop_image22.png)
 
-14. De-select the slicer by clicking an empty area of the report page.
+1. De-select the slicer by clicking an empty area of the report page.
 
-15. Create a second slicer, based on the **Region \| Region** field (not the **Region** level of the hierarch).
+1. To add a chart to the page, in the **Visualizations** pane, select the **Line and Stacked Column Chart** visual type.
 
-16. Leave the slicer as a list, and then resize and position the slicer beneath the **Year** slicer.
+     ![Picture 51](Linked_image_Files/07-design-report-in-power-bi-desktop_image26.png)
 
-	![Picture 21](Linked_image_Files/07-design-report-in-power-bi-desktop_image22.png)
+1. Resize and position the visual so it sits to the right of the logo, and so it fills the width of the report page.
 
+     ![Picture 26](Linked_image_Files/07-design-report-in-power-bi-desktop_image27.png)
 
-21. De-select the slicer by clicking an empty area of the report page.
+1. Drag and drop the following fields into the visual:
 
-22. To add a chart to the page, in the **Visualizations** pane, click the **Line and Stacked Column Chart** visual type.
+     - Date \| Month
+     - Sales \| Sales
 
-	![Picture 51](Linked_image_Files/07-design-report-in-power-bi-desktop_image26.png)
+1. In the visual fields pane (not the **Fields** pane—the visual fields pane is located beneath the **Visualizations** pane), notice that the fields are assigned to the **X-axis** and **Column y-axis** wells/areas.
+    
+	*By dragging fields into a visual, they'll be added to default wells/areas. For precision, you can drag fields directly into the wells/areas, as you'll do next.*
 
-23. Resize and position the visual so it sits to the right of the logo, and so it fills the width of the report page.
+     ![Picture 27](Linked_image_Files/07-design-report-in-power-bi-desktop_image28_N.png)
 
-	![Picture 26](Linked_image_Files/07-design-report-in-power-bi-desktop_image27.png)
+1. From the **Fields** pane, drag the **Sales \| Profit Margin** field into the **Line y-axis** well/area.
 
-24. Drag and drop the following fields into the visual:
+     ![Picture 28](Linked_image_Files/07-design-report-in-power-bi-desktop_image29.png)
 
-	- Date \| Month
+1. Notice that the visual has 11 months only.
+    
+	*The last month of the year, 2020 June, doesn't have any sales (yet). By default, the visual has eliminated months with BLANK sales. You'll now configure the visual to show all months.*
 
-	- Sales \| Sales
+1. In the visual fields pane, in the **X-axis** well/area, for the **Month** field, select the down-arrow, and then select **Show Items With No Data**.
+    
+	*Notice that the month **2020 June** now appears.*
 
-25. In the visual fields pane (not the **Fields** pane—the visual fields pane is located beneath the **Visualizations** pane), notice that the fields are assigned to the **X-axis** and **Column y-axis** wells/areas.
+     ![Picture 52](Linked_image_Files/07-design-report-in-power-bi-desktop_image30.png)
 
-	![Picture 27](Linked_image_Files/07-design-report-in-power-bi-desktop_image28_N.png)
+1. De-select the chart by clicking an empty area of the report page.
 
-	*By dragging fields into a visual, they will be added to default wells/areas. For precision, you can drag fields directly into the wells/areas, as you will do next.*
+1. To add a chart to the page, in the **Visualizations** pane, select the **Stacked Column Chart** visual type.
 
-26. From the **Fields** pane, drag the **Sales \| Profit Margin** field into the **Line y-axis** well/area.
+     ![Picture 53](Linked_image_Files/07-stacked-column-chart.png)
 
-	![Picture 28](Linked_image_Files/07-design-report-in-power-bi-desktop_image29.png)
+1. Resize and position the visual so it sits beneath the column/line chart, and so it fills half the width of the chart above.
 
-27. Notice that the visual has 11 months only.
+     ![Picture 33](Linked_image_Files/07-design-report-in-power-bi-desktop_image32.png)
 
-	*The last month of the year, 2020 June, does not have any sales (yet). By default, the visual has eliminated months with BLANK sales. You will now configure the visual to show all months.*
+1. Add the following fields to the visual wells/areas:
 
-28. In the visual fields pane, in the **X-axis** well/area, for the **Month** field, click the down-arrow, and then select **Show Items With No Data**.
+     - X-axis: **Region \| Country**
+     - Y-axis: **Sales \| Sales**
+     - Legend: **Product \| Category**
 
-	![Picture 52](Linked_image_Files/07-design-report-in-power-bi-desktop_image30.png)
+1. De-select the chart by clicking an empty area of the report page.
 
-29. Notice that the month **2020 June** now appears.
+1. To add a chart to the page, in the **Visualizations** pane, click the **Stacked Bar Chart** visual type.
 
-30. De-select the chart by clicking an empty area of the report page.
+     ![Picture 54](Linked_image_Files/07-design-report-in-power-bi-desktop_image33.png)
 
-31. To add a chart to the page, in the **Visualizations** pane, click the **Map** visual type.
+1. Resize and position the visual so it fills the remaining report page space.
 
-	![Picture 53](Linked_image_Files/07-design-report-in-power-bi-desktop_image31.png)
+     ![Picture 35](Linked_image_Files/07-design-report-in-power-bi-desktop_image34.png)
 
-32. Resize and position the visual so it sits beneath the column/line chart, and so it fills half the width of the chart above.
+1. Add the following fields to the visual wells/areas:
 
-	![Picture 33](Linked_image_Files/07-design-report-in-power-bi-desktop_image32.png)
+     - Y-axis: **Product \| Category**
+     - X-axis: **Sales \| Quantity**
 
-33. Add the following fields to the visual wells/areas:
+1. To format the visual, open the **Format** pane.
 
-	- Location: **Region \| Country**
+     ![Picture 3](Linked_image_Files/07-design-report-in-power-bi-desktop_image35.png)
 
-	- Legend: **Product \| Category**
+1. Expand the **Bars** and then the **Colors** group, and then set the **Default Color** property to a suitable color (to complement the column/line chart).
 
-	- Size: **Sales \| Sales**
+1. Set the **Data Labels** property to **On**.
 
-34. De-select the chart by clicking an empty area of the report page.
+     ![Picture 2](Linked_image_Files/07-design-report-in-power-bi-desktop_image36.png)
 
-35. To add a chart to the page, in the **Visualizations** pane, click the **Stacked Bar Chart** visual type.
+1. Save the Power BI Desktop file.
 
-	![Picture 54](Linked_image_Files/07-design-report-in-power-bi-desktop_image33.png)
+*The design of the first page is now complete.*
 
-36. Resize and position the visual so it fills the remaining report page space.
+### **Task 3: Design page 2**
 
-	![Picture 35](Linked_image_Files/07-design-report-in-power-bi-desktop_image34.png)
+In this task, you'll design the second report page. When you’ve completed the design, the page will look like the following:
 
-37. Add the following fields to the visual wells/areas:
-
-	- Axis: **Product \| Category**
-
-	- Value: **Sales \| Quantity**
-
-38. To format the visual, open the **Format** pane.
-
-	![Picture 3](Linked_image_Files/07-design-report-in-power-bi-desktop_image35.png)
-
-39. Expand the **Bars** and then the **Colors** group, and then set the **Default Color** property to a suitable color (to complement the column/line chart).
-
-40. Set the **Data Labels** property to **On**.
-
-	![Picture 2](Linked_image_Files/07-design-report-in-power-bi-desktop_image36.png)
-
-41. Save the Power BI Desktop file.
-
-	*The design of the first page is now complete.*
-
-### **Task 5: Design page 2**
-
-In this task you will design the second report page. When you’ve completed the design, the page will look like the following:
-
-![Image of page 2, comprising a slicer and matrix.](Linked_image_Files/07-design-report-in-power-bi-desktop_image37.png)
+ ![Image of page 2, comprising a slicer and matrix.](Linked_image_Files/07-design-report-in-power-bi-desktop_image37.png)
 
 *Important: When detailed instructions have already been provided in the labs, the lab steps will provide more concise instructions. If you need the detailed instructions, you can refer back to other tasks in this lab.*
 
-1. To create a new page, at the bottom-left, click the plus icon.
+1. To create a new page, at the bottom-left, select the plus icon, and rename new page to **Profit**.
 
-	![Picture 42](Linked_image_Files/07-design-report-in-power-bi-desktop_image38.png)
+1. Add a slicer based on the **Region \| Region** field.
 
-2. Rename the page to **Profit**.
+1. Use the **Format** pane to enable the “Select All” option (in the **Selection** group).
 
-	![Picture 43](Linked_image_Files/07-design-report-in-power-bi-desktop_image39.png)
+1. Resize and position the slicer so it sits at the left side of the report page, and so it is about half the page height.
 
-  
+     ![Picture 44](Linked_image_Files/07-design-report-in-power-bi-desktop_image40.png)
 
-3. Add a slicer based on the **Region \| Region** field.
+1. Add a matrix visual, and resize and position it so it fills the remaining space of the report page
 
-4. Use the **Format** pane to enable the “Select All” option (in the **Selection** group).
+     ![Picture 45](Linked_image_Files/07-design-report-in-power-bi-desktop_image41.png)
 
-5. Resize and position the slicer so it sits at the left side of the report page, and so it is about half the page height.
+1. Add the **Date \| Fiscal** hierarchy to the matrix **Rows** well/area.
 
-	![Picture 44](Linked_image_Files/07-design-report-in-power-bi-desktop_image40.png)
+     ![Picture 46](Linked_image_Files/07-design-report-in-power-bi-desktop_image42.png)
 
-6. Add a matrix visual, and resize and position it so it fills the remaining space of the report page
+1. Add the following five **Sales** table fields to the **Values** well/area:
 
-	![Picture 45](Linked_image_Files/07-design-report-in-power-bi-desktop_image41.png)
+     - Orders (from the **Counts** folder)
+     - Sales
+     - Cost
+     - Profit
+     - Profit Margin
 
-7. Add the **Date \| Fiscal** hierarchy to the matrix **Rows** well/area.
+     ![Picture 55](Linked_image_Files/07-design-report-in-power-bi-desktop_image43.png)
 
-	![Picture 46](Linked_image_Files/07-design-report-in-power-bi-desktop_image42.png)
+1. In the **Filters** pane (located at the left of the **Visualizations** pane), notice the **Filter On This Page** well/area (you may need to scroll down).
 
-8. Add the following five **Sales** table fields to the **Values** well/area:
+     ![Picture 57](Linked_image_Files/07-design-report-in-power-bi-desktop_image44.png)
 
-	- Orders (from the **Counts** folder)
-
-	- Sales
-
-	- Cost
-
-	- Profit
-
-	- Profit Margin
-
-	![Picture 55](Linked_image_Files/07-design-report-in-power-bi-desktop_image43.png)
-
-9. In the **Filters** pane (located at the left of the **Visualizations** pane), notice the **Filter On This Page** well/area (you may need to scroll down).
-
-	![Picture 57](Linked_image_Files/07-design-report-in-power-bi-desktop_image44.png)
-
-10. From the **Fields** pane, drag the **Product \| Category** field into the **Filter On This Page** well/area.
-
-11. Inside the filter card, at the top-right, click the arrow to collapse the card.
-
-	![Picture 58](Linked_image_Files/07-design-report-in-power-bi-desktop_image45.png)
-
+1. From the **Fields** pane, drag the **Product \| Category** field into the **Filter On This Page** well/area.
+    
 	*Fields added to the **Filters** pane can achieve the same result as a slicer. One difference is they don’t take up space on the report page. Another difference is that they can be configured to achieve more sophisticated filtering requirements.*
 
-12. Add each of the following **Product** table fields to the **Filter On This Page** well/area, collapsing each, directly beneath the **Category** card:
+1. Inside the filter card, at the top-right, select the arrow to collapse the card.
 
-	- Subcategory
+1. Add each of the following **Product** table fields to the **Filter On This Page** well/area, collapsing each, directly beneath the **Category** card:
 
-	- Product
+     - Subcategory
+     - Product
+     - Color
 
-	- Color
+     ![Picture 60](Linked_image_Files/07-design-report-in-power-bi-desktop_image46.png)
 
-	![Picture 60](Linked_image_Files/07-design-report-in-power-bi-desktop_image46.png)
+1. Save the Power BI Desktop file.
 
-13. Save the Power BI Desktop file.
+ *The design of the second page is now complete.*
 
-	*The design of the second page is now complete.*
+### **Task 4: Design page 3**
 
-### **Task 6: Design page 3**
+In this task, you'll design the third—and final—report page. When you’ve completed the design, the page will look like the following:
 
-In this task you will design the third—and final—report page. When you’ve completed the design, the page will look like the following:
-
-![Image of page 3, comprising a slicer and three visuals.](Linked_image_Files/07-design-report-in-power-bi-desktop_image47.png)
+ ![Image of page 3, comprising a slicer and three visuals.](Linked_image_Files/07-design-report-in-power-bi-desktop_image47.png)
 
 1. Create a new page, and then rename it as **My Performance**.
 
 1. To simulate the performance of row-level security filters, drag the **Salesperson (Performance) \| Salesperson** field to the page level filters in the filter pane.
-	
-	![Image of Salesperson field in filter pane.](Linked_image_Files/07-design-report-in-power-bi-desktop_image999.png) 
+
+     ![Image of Salesperson field in filter pane.](Linked_image_Files/07-design-report-in-power-bi-desktop_image999.png)
 
 1. Select **Michael Blythe**. Data on the **My Performance** report page will now be filtered to display data for Michael Blythe only.
 
 1. Add a dropdown slicer based on the **Date \| Year** field, and then resize and position it so it sits at the top-left corner of the page.
 
-	![Picture 70](Linked_image_Files/07-design-report-in-power-bi-desktop_image49.png)
+     ![Picture 70](Linked_image_Files/07-design-report-in-power-bi-desktop_image49.png)
 
 1. In the slicer, set the page to filter by **FY2019**.
 
-	![Picture 71](Linked_image_Files/07-design-report-in-power-bi-desktop_image50.png)
+     ![Picture 71](Linked_image_Files/07-design-report-in-power-bi-desktop_image50.png)
 
 1. Add a **Multi-row Card** visual, and then resize and reposition it so it sits to the right of the slicer and fills the remaining width of the page.
 
-	![Picture 56](Linked_image_Files/07-design-report-in-power-bi-desktop_image51.png)
+     ![Picture 56](Linked_image_Files/07-design-report-in-power-bi-desktop_image51.png)
 
-	![Picture 74](Linked_image_Files/07-design-report-in-power-bi-desktop_image52.png)
+     ![Picture 74](Linked_image_Files/07-design-report-in-power-bi-desktop_image52.png)
 
 1. Add the following four fields to the visual:
 
-	- Sales \| Sales
-
-	- Targets \| Target
-
-	- Targets \| Variance
-
-	- Targets \| Variance Margin
+     - Sales \| Sales
+     - Targets \| Target
+     - Targets \| Variance
+     - Targets \| Variance Margin
 
 1. Format the visual:
 
-	- In the **Callout values** group, increase the **Text Size** property to **28pt**
+     - In the **Callout values** group, increase the **Text Size** property to **28pt**
 
-	- In the **Background** group, set the **Color** to a light gray color
+     - In the **General > Effects > Background** group, set the **Color** to a light gray color (such as "White, 20% Darker) to give contrast
 
-	![Picture 79](Linked_image_Files/07-design-report-in-power-bi-desktop_image53.png)
+         ![Picture 79](Linked_image_Files/07-design-report-in-power-bi-desktop_image53.png)
 
 1. Add a **Clustered Bar Chart** visual, and then resize and position it so it sits beneath the multi-row card visual and fills the remaining height of the page, and half the width of the multi-row card visual.
 
-	![Picture 59](Linked_image_Files/07-design-report-in-power-bi-desktop_image54.png)
+     ![Picture 59](Linked_image_Files/07-design-report-in-power-bi-desktop_image54.png)
 
-	![Picture 78](Linked_image_Files/07-design-report-in-power-bi-desktop_image55.png)
+     ![Picture 78](Linked_image_Files/07-design-report-in-power-bi-desktop_image55.png)
 
 1. Add the following fields to the visual wells/areas:
 
-	- Y-Axis: **Date \| Month**
+     - Y-axis: **Date \| Month**
+     - X-axis: **Sales \| Sales** and **Targets \| Target**
 
-	- X-Axis: **Sales \| Sales** and **Targets \| Target**
-
-	![Picture 80](Linked_image_Files/07-design-report-in-power-bi-desktop_image56.png)
+         ![Picture 80](Linked_image_Files/07-design-report-in-power-bi-desktop_image56.png)
 
 1. To create a copy of the visual, press **Ctrl+C**, and then press **Ctrl+V**.
 
 1. Position the new visual to the right of the original visual.
 
-	![Picture 82](Linked_image_Files/07-design-report-in-power-bi-desktop_image57.png)
+     ![Picture 82](Linked_image_Files/07-design-report-in-power-bi-desktop_image57.png)
 
 1. To modify the visualization type, in the **Visualizations** pane, select **Clustered Column Chart**.
 
-	![Picture 61](Linked_image_Files/07-design-report-in-power-bi-desktop_image58.png)
+     ![Picture 61](Linked_image_Files/07-design-report-in-power-bi-desktop_image58.png)
 
-	*It’s now possible to see the same data expressed by two different visualization types. This isn’t a good use of the page layout, however, you’ll improve it in the **Design a Report in Power BI Desktop, Part 2** lab by superimposing the visuals. By adding buttons to the page, you’ll allow the report user to determine which of the two visuals is visible.*
+ *It’s now possible to see the same data expressed by two different visualization types. This isn’t a good use of the page layout, however, you’ll improve it in the **Enhance a Report in Power BI Desktop, Part 2** lab by superimposing the visuals. By adding buttons to the page, you’ll allow the report user to determine which of the two visuals is visible.*
 
-	*The design of the third—and final—page is now complete.*
-
-### **Task 7: Publish the report**
-
-In this task you will publish the report.
-
-1. Select the **Overview** page.
-
-2. Save the Power BI Desktop file.
-
-3. On the **Home** ribbon tab, from inside the **Share** group, click **Publish**.
-
-	![Picture 67](Linked_image_Files/07-design-report-in-power-bi-desktop_image59.png)
-
-4. In the **Publish to Power** BI window, notice that **My Workspace** is selected.
-
-5. To publish the report, click **Select**.
-
-	![Picture 75](Linked_image_Files/07-design-report-in-power-bi-desktop_image60.png)
-
-6. When the publication has succeeded, click **Got It**.
-
-	![Picture 76](Linked_image_Files/07-design-report-in-power-bi-desktop_image61.png)
-
-7. Leave Power BI Desktop open.
-
-	*You’ll explore the report in the Power BI service in the next exercise.*
+ *The design of the third—and final—page is now complete.*
 
 ## **Exercise 2: Explore the Report**
 
-In this exercise you will explore the report that was published to Power BI.
+In this exercise, you'll publish the report to the Power BI service and explore the read-only consumer report.
 
-### **Task 1: Explore the report**
+### **Task 1: Publish the report**
 
-In this task you will explore the report that was published to Power BI.
+In this task, you'll publish the report to the Power BI service.
+
+1. Select the **Overview** page, then save the Power BI Desktop file.
+
+1. On the **Home** ribbon tab, from inside the **Share** group, select **Publish**.
+    
+	*If you're not signed into Power BI Desktop already, you'll need to sign-in to publish.*
+
+     ![Picture 67](Linked_image_Files/07-design-report-in-power-bi-desktop_image59.png)
+
+1. In the **Publish to Power** BI window, notice that **My Workspace** is selected.
+    
+	*We won't go into detail about the different items within the Power BI service in this lab.*
+
+1. To publish the report, select **Select**. This may take a few moments. 
+1. When the publication has succeeded, select **Got It**.
+
+### **Task 2: Explore the report**
+
+In this task, you'll explore the report that was published to Power BI.
 
 1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane (located at the left, and it could be collapsed), expand **My Workspace**.
 
-	![Picture 93](Linked_image_Files/07-design-report-in-power-bi-desktop_image62.png)
+1. Open a Microsoft Edge browser, then sign-in at **https://app.powerbi.com**.
 
-2. Review the contents of the workspace, noticing the **Sales Analysis** report and dataset.
+    ![Picture 93](Linked_image_Files/06-my-workspace-new.png)
 
-	*When you published the Power BI Desktop file, the data model was published as a dataset.*
+1. Review the contents of the workspace. Notice the navigation options of All, Content, and Datasets + dataflows.
+    1. *There are four types of items that can exist in a workspace, and we'll talk about **reports** and **datasets**.*
+    1. *You may need to refresh your Microsoft Edge browser if the dataset is not visible.*
+    1. *When you published the Power BI Desktop file, the data model was published as a dataset.*
 
-	*If you don’t see it, press **F5** to reload the browser, and then expand the workspace again.*
+1. To explore the report, select the **Sales Analysis** report.
 
-	![Picture 94](Linked_image_Files/07-design-report-in-power-bi-desktop_image63.png)
+1. At the left, in the **Pages** pane, select the **Overview** page.
 
-3. To open the report, click the **Sales Analysis** report.
+1. In the **Regions** slicer, while pressing the **Ctrl** key, select multiple regions.
 
-4. At the left, in the **Pages** pane, select the **Overview** page.
- 
-    ***Note**: if you see an error that the map visual is disabled, please refresh your browser.*
+1. In the column/line chart, select any month column to cross filter the page.
 
-5. In the **Regions** slicer, while pressing the **Ctrl** key, select multiple regions.
+1. While pressing the **Ctrl** key, select another month.
 
-6. In the column/line chart, select any month column to cross filter the page.
+     *Note: By default, cross filtering filters all other visuals on the page.*
 
-7. While pressing the **Ctrl** key, select an additional month.
+1. Notice that the bar chart is filtered and highlighted, with the bold portion of the bars representing the filtered months.
 
-	*By default, cross filtering filters all other visuals on the page.*
-
-8. Notice that the bar chart is filtered and highlighted, with the bold portion of the bars representing the filtered months.
-
-9. Hover the cursor over the bar chart visual, and then at the top-right, hover the cursor over the filter icon.
-
-	![Picture 95](Linked_image_Files/07-design-report-in-power-bi-desktop_image64.png)
-
+1. Hover the cursor over the bar chart visual, and then at the top-right, hover the cursor over the filter icon. 
+    
 	*The filter icon allows you to understand all filters that are applied to the visual, including slicers and cross filters from other visual.*
 
-10. Hover the cursor over a bar, and then notice the tooltip information.
+1. Hover the cursor over a bar, and then notice the tooltip information.
 
-11. To undo the cross filter, in the column/line chart, click an empty area of the visual.
+1. To undo the cross filter, in the column/line chart, select an empty area of the visual.
 
-12. Hover the cursor over the map visual, and then at the top-right, click the **Focus mode** icon.
-
-	![Picture 96](Linked_image_Files/07-design-report-in-power-bi-desktop_image65.png)
-
+1. Hover the cursor over the stacked column chart visual, and then at the top-right, select the **Focus mode** icon.
+    
 	*Focus mode zooms the visual to full page size.*
 
-13. Hover the cursor over different segments of the bar charts to reveal tooltips.
+     ![Picture 96](Linked_image_Files/07-design-report-in-power-bi-desktop_image65.png)
 
-14. To return to the report page, at the top-left, click **Back to Report**.
+1. Hover the cursor over different segments of the bar charts to reveal tooltips.
 
-	![Picture 86](Linked_image_Files/07-design-report-in-power-bi-desktop_image66.png)
+1. To return to the report page, at the top-left, select **Back to Report**.
 
-15. Hover the cursor over the map visual again, and then at the top-right, click the ellipsis (…), and then notice the menu options.
+     ![Picture 86](Linked_image_Files/07-design-report-in-power-bi-desktop_image66.png)
 
-	![Picture 97](Linked_image_Files/07-design-report-in-power-bi-desktop_image67.png)
+1. Hover the cursor over one of the visuals again, then at the top-right, select the ellipsis (…), and then notice the menu options. Try out each of the options, except **Chat in Teams**.
 
-16. Try out each of the options, except **Chat in Teams**.
+     ![Picture 97](Linked_image_Files/07-design-report-in-power-bi-desktop_image67.png)
 
-17. At the left, in the **Pages** pane, select the **Profit** page.
+1. At the left, in the **Pages** pane, select the **Profit** page.
 
-	![Picture 84](Linked_image_Files/07-design-report-in-power-bi-desktop_image68.png)
+     ![Picture 84](Linked_image_Files/07-design-report-in-power-bi-desktop_image68.png)
 
-18. Notice that the **Region** slicer has a different selection to the **Region** slicer on the **Overview** page.
+1. Notice that the **Region** slicer has a different selection to the **Region** slicer on the **Overview** page.
+    
+	*The slicers aren't synchronized. You’ll modify the report design to ensure they sync between pages in the **Enhance a Report in Power BI Desktop, Part 2** lab.*
 
-	*The slicers are not synchronized. You’ll modify the report design to ensure they sync between pages in the **Design a Report in Power BI Desktop, Part 2** lab.*
-
-19. In the **Filters** pane (located at the right), expand a filter card, and apply some filters.
-
+1. In the **Filters** pane (located at the right), expand a filter card, and apply some filters.
+    
 	*The **Filters** pane allows you to define more filters than could possibly fit on a page as slicers.*
 
-20. In the matrix visual, use the plus (+) button to drill into the **Fiscal** hierarchy.
+1. In the matrix visual, use the plus (+) button to drill into the **Fiscal** hierarchy.
 
-21. Select the **My Performance** page.
+1. Select the **My Performance** page.
 
-	![Picture 89](Linked_image_Files/07-design-report-in-power-bi-desktop_image69.png)
+     ![Picture 89](Linked_image_Files/07-design-report-in-power-bi-desktop_image69.png)
 
-22. At the top-right on the menu bar, click **View**, and then select **Full Screen**.
+1. At the top-right on the menu bar, select **View**, and then select **Full Screen**.
 
-	![Picture 98](Linked_image_Files/07-design-report-in-power-bi-desktop_image70.png)
+     ![Picture 98](Linked_image_Files/07-design-report-in-power-bi-desktop_image70.png)
 
-23. Interact with the page by modifying the slicer, and cross filtering the page.
+1. Interact with the page by modifying the slicer, and cross filtering the page.
 
-24. At the bottom of the window, notice the commands to change page, navigate backwards or forwards between pages, or to exit full screen mode.
+1. At the bottom of the window, notice the commands to change page, navigate backwards or forwards between pages, or to exit full screen mode.
 
-25. Click the left icon to exit full screen mode.
+1. Select the left icon to exit full screen mode.
 
-	![Picture 91](Linked_image_Files/07-design-report-in-power-bi-desktop_image71.png)
+     ![Picture 91](Linked_image_Files/07-design-report-in-power-bi-desktop_image71.png)
 
-### **Task 2: Finish up**
+### **Task 3: Finish up**
 
-In this task you will complete the lab.
+In this task, you'll complete the lab.
 
-1. To return to your workspace, in the banner across the window web page, click **My Workspace**.
+To return to "My Workspace", select **My Workspace** in the banner across the window web page.
 
-	![Picture 99](Linked_image_Files/07-design-report-in-power-bi-desktop_image72.png)
-
-2. Leave the Microsoft Edge browser window open.
-
-	*You will enhance the report design with advanced features in the **Design a Report in Power BI Desktop, Part 2** lab.*
+ *You'll enhance the report design with advanced features in the **Enhance a Report in Power BI Desktop, Part 2** lab.*
