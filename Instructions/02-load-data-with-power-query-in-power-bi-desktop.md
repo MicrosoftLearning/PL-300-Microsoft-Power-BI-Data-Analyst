@@ -300,9 +300,9 @@ In this task, you'll configure the **Sales** query.
     - *This expression tests if the **TotalProductCost** value is missing. If missing, it produces a value by multiplying the **OrderQuantity** value by the **StandardCost** value; otherwise, it uses the existing **TotalProductCost** value.*
 	
 
-       `
-       if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]
-       `
+    `
+    if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]
+    `
 
 1. Remove the following two columns:
 
