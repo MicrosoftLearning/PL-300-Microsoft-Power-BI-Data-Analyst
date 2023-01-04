@@ -65,7 +65,7 @@ This task teaches you how to connect to a SQL Server database and import tables,
 
 1. On the **Home** ribbon tab, from inside the **Data** group, select **SQL Server**.
 
- ![SQL Server Get Data icon](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image11.png)
+     ![SQL Server Get Data icon](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image11.png)
 
 1. In the **SQL Server Database** window, in the **Server** box, enter **localhost**, then select **OK**.
     
@@ -92,9 +92,8 @@ This task teaches you how to connect to a SQL Server database and import tables,
     - DimSalesTerritory
     - FactResellerSales
 
-1. Complete this task by clicking **Load**.
-    
-    *Note: This lab is only intended to connect to and profile the data, not **transform data**.*
+1. Complete this task by clicking **Transform Data**, which will open Power Query Editor.
+    1. *This lab is only intended to connect to and profile the data, but not **transform data**.*
 
 ### **Task 3: Preview Data in Power Query Editor**
 
