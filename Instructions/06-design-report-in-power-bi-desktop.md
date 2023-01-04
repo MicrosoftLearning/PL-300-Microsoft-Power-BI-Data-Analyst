@@ -368,7 +368,7 @@ In this task, you'll explore the report that was published to Power BI.
     
 	*Focus mode zooms the visual to full page size.*
 
-     ![Picture 96](Linked_image_Files/07-design-report-in-power-bi-desktop_image65.png)
+     ![Picture 96](Linked_image_Files/07-published-report-visual-filter.png)
 
 1. Hover the cursor over different segments of the bar charts to reveal tooltips.
 
