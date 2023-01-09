@@ -13,9 +13,9 @@ In this lab you'll create calculated tables, calculated columns, and simple meas
 
 In this lab you learn how to:
 
-    - Create calculated tables
-    - Create calculated columns
-    - Create measures
+ - Create calculated tables
+ - Create calculated columns
+ - Create measures
 
 ### **Lab story**
 
