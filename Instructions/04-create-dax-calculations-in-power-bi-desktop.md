@@ -1,11 +1,11 @@
 ---
 lab:
-    title: 'Create DAX Calculations in Power BI Desktop, Part 1'
+    title: 'Create DAX Calculations in Power BI Desktop'
     module: '5 - Create Model Calculations using DAX in Power BI'
 ---
 
 
-# Create DAX Calculations in Power BI Desktop, Part 1
+# Create DAX Calculations in Power BI Desktop
 
 **The estimated time to complete the lab is 45 minutes.**
 
@@ -24,10 +24,10 @@ This lab is one of many in a series of labs that was designed as a complete stor
 1. Prepare Data in Power BI Desktop
 1. Load Data in Power BI Desktop
 1. Design a Data Model in Power BI
-1. **Create DAX Calculations in Power BI Desktop, Part 1**
-1. Create Advanced DAX Calculations in Power BI Desktop, Part 2
-1. Design a Report in Power BI Desktop, Part 1
-1. Enhance a Report in Power BI Desktop, Part 2
+1. **Create DAX Calculations in Power BI Desktop**
+1. Create Advanced DAX Calculations in Power BI Desktop
+1. Design a Report in Power BI Desktop
+1. Enhance a Report in Power BI Desktop
 1. Perform Data Analysis in Power BI
 1. Create a Power BI Dashboard
 1. Enforce Row-Level Security
