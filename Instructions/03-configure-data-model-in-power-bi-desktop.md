@@ -24,10 +24,10 @@ This lab is one of many in a series of labs that was designed as a complete stor
 1. Prepare Data in Power BI Desktop
 1. Load Data in Power BI Desktop
 1. **Design a Data Model in Power BI**
-1. Create DAX Calculations in Power BI Desktop, Part 1
-1. Create Advanced DAX Calculations in Power BI Desktop, Part 2
-1. Design a Report in Power BI Desktop, Part 1
-1. Enhance a Report in Power BI Desktop, Part 2
+1. Create DAX Calculations in Power BI Desktop
+1. Create Advanced DAX Calculations in Power BI Desktop
+1. Design a Report in Power BI Desktop
+1. Enhance a Report in Power BI Desktop
 1. Perform Data Analysis in Power BI
 1. Create a Power BI Dashboard
 1. Enforce Row-Level Security
@@ -285,7 +285,7 @@ In this task, you'll update multiple columns using single bulk updates. You'll u
     
 	*The columns were hidden because they’re either used by relationships or will be used in row-level security configuration or calculation logic.*
 
- 	*You’ll use the **SalesOrderNumber** in a calculation in the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
+ 	*You’ll use the **SalesOrderNumber** in a calculation in the **Create DAX Calculations in Power BI Desktop** lab.*
 
 1. Multi-select the following three columns:
 
@@ -320,7 +320,7 @@ In this task you'll switch to Report view, and review the model interface.
 
      ![Picture 359](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image40.png)
 
- You’ll now turn off this automatic behavior. In the **Create DAX Calculations in Power BI Desktop, Part 1** lab, you’ll use DAX to create a date table, and configure it define the Adventure Works’ calendar.
+ You’ll now turn off this automatic behavior. In the **Create DAX Calculations in Power BI Desktop** lab, you’ll use DAX to create a date table, and configure it define the Adventure Works’ calendar.
 
 1. To turn off auto/date time, Navigate to **File > Options and Settings > Options > Current File** group, and select **Data Load**.
     1. In the **Time Intelligence** section, uncheck **Auto Date/Time**.
@@ -339,7 +339,7 @@ In this exercise, you'll create two quick measures.
 
 In this task, you'll create two quick measures to calculate profit and profit margin.
 
-*A quick measure creates the calculation formula for you. They’re easy and fast to create for simple and common calculations. You’ll create measures without using this tool in the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
+*A quick measure creates the calculation formula for you. They’re easy and fast to create for simple and common calculations. You’ll create measures without using this tool in the **Create DAX Calculations in Power BI Desktop** lab.*
 
 1. In the **Fields** pane, right-click the **Sales** table, and then select **New Quick Measure**.
 
@@ -441,7 +441,7 @@ In this task, you'll create a many-to-many relationship between the **Salesperso
 
 1. Switch to Report view, and then notice that the sales values have still not changed.
     
-	*The issue now relates to the fact that there are two possible filter propagation paths between the **Salesperson** and **Sales** tables. This ambiguity is internally resolved, based on a “least number of tables” assessment. To be clear, you shouldn’t design models with this type of ambiguity—the issue will be addressed in part later in this lab, and by the completion of the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
+	*The issue now relates to the fact that there are two possible filter propagation paths between the **Salesperson** and **Sales** tables. This ambiguity is internally resolved, based on a “least number of tables” assessment. To be clear, you shouldn’t design models with this type of ambiguity—the issue will be addressed in part later in this lab, and by the completion of the **Create DAX Calculations in Power BI Desktop** lab.*
 
 1. Switch to Model view to force filter propagation via the bridging table. Edit (double-click) the relationship between the **Salesperson** and **Sales** tables.
 
@@ -461,7 +461,7 @@ In this task, you'll create a many-to-many relationship between the **Salesperso
 
      *It’s a common observation of a many-to-many relationship due to the double, triple, etc. counting of regional sales results. Consider Brian Welcker, the second salesperson listed. His sales amount equals the total sales amount. It’s the correct result due to the fact the he’s the Director of Sales; his sales are measured by the sales of all regions.*
 
-     *While the many-to-many relationship is now working, it’s now not possible to analyze sales made by a salesperson (because the relationship is inactive). You’ll be able to reactivate the relationship when you introduce a calculated table that will allow analyzing sales made in the sales region(s) assigned to the salesperson (for performance analysis) in the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
+     *While the many-to-many relationship is now working, it’s now not possible to analyze sales made by a salesperson (because the relationship is inactive). You’ll be able to reactivate the relationship when you introduce a calculated table that will allow analyzing sales made in the sales region(s) assigned to the salesperson (for performance analysis) in the **Create DAX Calculations in Power BI Desktop** lab.*
 
 1. Switch to Modeling view, and then in the diagram, select the **Salesperson** table.
 
@@ -481,7 +481,7 @@ In this task, you'll create a relationship to the **Targets** table
 
      ![Picture 5699](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image19.png)
 
- *It’s now possible to visualize sales and targets—but take care for two reasons. First, there’s no filter on a time period, and so targets also include future target amounts. Second, targets aren't additive, and so the total shouldn't be displayed. They can either be disabled by formatting the visual or removed by using calculation logic. You’ll follow the second approach by creating a target measure in the **Create Advanced DAX Calculations in Power BI Desktop, Part 2** lab that will return BLANK when more than one salesperson is filtered.*
+ *It’s now possible to visualize sales and targets—but take care for two reasons. First, there’s no filter on a time period, and so targets also include future target amounts. Second, targets aren't additive, and so the total shouldn't be displayed. They can either be disabled by formatting the visual or removed by using calculation logic. You’ll follow the second approach by creating a target measure in the **Create Advanced DAX Calculations in Power BI Desktop** lab that will return BLANK when more than one salesperson is filtered.*
 
 ### **Task 4: Finish up**
 

@@ -290,7 +290,7 @@ In this task, you'll mark the **Date** table as a date table.
 
 1. Save the Power BI Desktop file.
 
-	*Power BI Desktop now understands that this table defines date (time). It’s important when relying on time intelligence calculations. You’ll work with time intelligence calculations in the **Create Advanced DAX Calculations in Power BI Desktop, Part 2** lab.*
+	*Power BI Desktop now understands that this table defines date (time). It’s important when relying on time intelligence calculations. You’ll work with time intelligence calculations in the **Create Advanced DAX Calculations in Power BI Desktop** lab.*
 
 	*This design approach for a date table is suitable when you don’t have a date table in your data source. If you have a data warehouse, it would be appropriate to load date data from its date dimension table rather than “redefining” date logic in your data model.*
 
@@ -460,7 +460,7 @@ In this task, you'll create more measures that use more complex formulas.
 
 	![Picture 44](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image48.png)
 
-	*While it appears all salespeople aren't meeting target, remember that the table visual isn’t yet filtered by a specific time period. You’ll produce sales performance reports that filter by a user-selected time period in the **Design a Report in Power BI Desktop, Part 1** lab.*
+	*While it appears all salespeople aren't meeting target, remember that the table visual isn’t yet filtered by a specific time period. You’ll produce sales performance reports that filter by a user-selected time period in the **Design a Report in Power BI Desktop** lab.*
 
 1. At the top-right corner of the **Fields** pane, collapse and then expand open the pane.
 
@@ -478,4 +478,4 @@ In this task, you'll complete the lab.
 
 Save the Power BI Desktop file.
 
-*You’ll enhance the data model with more advanced calculations using DAX in the **Create Advanced DAX Calculations in Power BI Desktop, Part 2** lab.*
+*You’ll enhance the data model with more advanced calculations using DAX in the **Create Advanced DAX Calculations in Power BI Desktop** lab.*

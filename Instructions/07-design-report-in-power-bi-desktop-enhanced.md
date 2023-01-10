@@ -1,11 +1,11 @@
 ---
 lab:
-    title: 'Enhance a Report in Power BI Desktop, Part 2'
+    title: 'Enhance a Report in Power BI Desktop'
     module: '7 - Create Reports'
 ---
 
 
-# Enhance a Report in Power BI Desktop, Part 2
+# Enhance a Report in Power BI Desktop
 
 **The estimated time to complete the lab is 45 minutes.**
 
@@ -25,10 +25,10 @@ This lab is one of many in a series of labs that was designed as a complete stor
 1. Prepare Data in Power BI Desktop
 1. Load Data in Power BI Desktop
 1. Design a Data Model in Power BI
-1. Create DAX Calculations in Power BI Desktop, Part 1
-1. Create Advanced DAX Calculations in Power BI Desktop, Part 2
-1. Design a Report in Power BI Desktop, Part 1
-1. **Enhance a Report in Power BI Desktop, Part 2**
+1. Create DAX Calculations in Power BI Desktop
+1. Create Advanced DAX Calculations in Power BI Desktop
+1. Design a Report in Power BI Desktop
+1. **Enhance a Report in Power BI Desktop**
 1. Perform Data Analysis in Power BI
 1. Create a Power BI Dashboard
 1. Enforce Row-Level Security
@@ -87,7 +87,7 @@ In this task, you'll set up the environment for the lab by opening the starter r
 
 ### **Task 3: Sync slicers**
 
-In this task, you'll sync the **Year** and **Region** slicers, continuing the development of the report created in the **Design a Report in Power BI Desktop, Part 1** lab.
+In this task, you'll sync the **Year** and **Region** slicers, continuing the development of the report created in the **Design a Report in Power BI Desktop** lab.
 
 1. In Power BI Desktop, on the **Overview** page, set the **Year** slicer to **FY2018**.
 

@@ -1,11 +1,11 @@
 ---
 lab:
-    title: 'Design a Report in Power BI Desktop, Part 1'
+    title: 'Design a Report in Power BI Desktop'
     module: '7 - Create Reports'
 ---
 
 
-# Design a Report in Power BI Desktop, Part 1
+# Design a Report in Power BI Desktop
 
 **The estimated time to complete the lab is 45 minutes.**
 
@@ -23,10 +23,10 @@ This lab is one of many in a series of labs that was designed as a complete stor
 1. Prepare Data in Power BI Desktop
 1. Load Data in Power BI Desktop
 1. Design a Data Model in Power BI
-1. Create DAX Calculations in Power BI Desktop, Part 1
-1. Create Advanced DAX Calculations in Power BI Desktop, Part 2
-1. **Design a Report in Power BI Desktop, Part 1**
-1. Enhance a Report in Power BI Desktop, Part 2
+1. Create DAX Calculations in Power BI Desktop
+1. Create Advanced DAX Calculations in Power BI Desktop
+1. **Design a Report in Power BI Desktop**
+1. Enhance a Report in Power BI Desktop
 1. Perform Data Analysis in Power BI
 1. Create a Power BI Dashboard
 1. Enforce Row-Level Security
@@ -300,7 +300,7 @@ In this task, you'll design the third—and final—report page. When you’ve c
 
      ![Picture 61](Linked_image_Files/07-design-report-in-power-bi-desktop_image58.png)
 
- *It’s now possible to see the same data expressed by two different visualization types. This isn’t a good use of the page layout, however, you’ll improve it in the **Enhance a Report in Power BI Desktop, Part 2** lab by superimposing the visuals. By adding buttons to the page, you’ll allow the report user to determine which of the two visuals is visible.*
+ *It’s now possible to see the same data expressed by two different visualization types. This isn’t a good use of the page layout, however, you’ll improve it in the **Enhance a Report in Power BI Desktop** lab by superimposing the visuals. By adding buttons to the page, you’ll allow the report user to determine which of the two visuals is visible.*
 
  *The design of the third—and final—page is now complete.*
 
@@ -386,7 +386,7 @@ In this task, you'll explore the report that was published to Power BI.
 
 1. Notice that the **Region** slicer has a different selection to the **Region** slicer on the **Overview** page.
     
-	*The slicers aren't synchronized. You’ll modify the report design to ensure they sync between pages in the **Enhance a Report in Power BI Desktop, Part 2** lab.*
+	*The slicers aren't synchronized. You’ll modify the report design to ensure they sync between pages in the **Enhance a Report in Power BI Desktop** lab.*
 
 1. In the **Filters** pane (located at the right), expand a filter card, and apply some filters.
     
@@ -416,4 +416,4 @@ In this task, you'll complete the lab.
 
 To return to "My Workspace", select **My Workspace** in the banner across the window web page.
 
- *You'll enhance the report design with advanced features in the **Enhance a Report in Power BI Desktop, Part 2** lab.*
+ *You'll enhance the report design with advanced features in the **Enhance a Report in Power BI Desktop** lab.*

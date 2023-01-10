@@ -23,10 +23,10 @@ This lab is one of many in a series of labs that was designed as a complete stor
 1. Prepare Data in Power BI Desktop
 1. Load Data in Power BI Desktop
 1. Model Data in Power BI Desktop
-1. Create DAX Calculations in Power BI Desktop, Part 1
-1. Create Advanced DAX Calculations in Power BI Desktop, Part 2
-1. Design a Report in Power BI Desktop, Part 1
-1. Enhance a Report in Power BI Desktop, Part 2
+1. Create DAX Calculations in Power BI Desktop
+1. Create Advanced DAX Calculations in Power BI Desktop
+1. Design a Report in Power BI Desktop
+1. Enhance a Report in Power BI Desktop
 1. Perform Data Analysis in Power BI Desktop
 1. **Create a Power BI Dashboard**
 1. Enforce Row-Level Security
@@ -141,7 +141,7 @@ In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a vis
 
 1. Notice the response of **(Blank)**.
     
-	*You may recall you added the **Sales YTD** measure in the **Create Advanced DAX Calculations in Power BI Desktop, Part 2** lab. This measure is a Time Intelligence expression and it so requires a filter on the **Date** table to produce a result.*
+	*You may recall you added the **Sales YTD** measure in the **Create Advanced DAX Calculations in Power BI Desktop** lab. This measure is a Time Intelligence expression and it so requires a filter on the **Date** table to produce a result.*
 
     ![Picture 14](Linked_image_Files/09-create-power-bi-dashboard_image25.png)
 
