@@ -3,9 +3,11 @@ name: Feature request
 about: Suggest an idea for this project
 title: "[Feature] (Short description)"
 labels: enhancement
-assignees: ''
 
 ---
+
+#### **Which lab or demo?**
+Provide number and name of lab or demo in question.
 
 #### **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
