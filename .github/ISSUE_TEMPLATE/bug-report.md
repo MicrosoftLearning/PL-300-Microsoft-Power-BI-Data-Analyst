@@ -8,6 +8,9 @@ title: "[BUG] (Breaking/Non-breaking) (Short description)"
 #### **Priority**
 Identify if this is a **breaking** bug or not.
 
+#### **Lab/Demo Number/Name**
+The number and name of the lab or demo with a bug. 
+
 #### **Describe the bug**
 A clear and concise description of what the bug is.
 
@@ -27,6 +30,6 @@ A clear and concise description of what you expected to happen or what changes y
 #### **Additional context**
 Add any other context about the problem here.
 
-<br>
+
 
 ***Note**: To share feedback for the slides, please use the [MCT Courseware Forum](https://www.microsoft.com/learning/mct-courseware-forum.aspx).*
