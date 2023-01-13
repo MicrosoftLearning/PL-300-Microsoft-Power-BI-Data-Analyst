@@ -1,8 +1,9 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
+about: Provide feature request or improvement for a DEMO or LAB.
 title: "[Feature] (Short description)"
 labels: enhancement
+assignees: ''
 
 ---
 
