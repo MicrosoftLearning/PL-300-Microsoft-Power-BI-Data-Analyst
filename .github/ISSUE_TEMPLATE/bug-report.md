@@ -29,3 +29,7 @@ A clear and concise description of what you expected to happen or what changes y
 
 #### **Additional context**
 Add any other context about the problem here.
+
+<br>
+
+***Note**: To share feedback for the slides, please use the [MCT Courseware Forum](https://www.microsoft.com/learning/mct-courseware-forum.aspx).*
