@@ -3,9 +3,6 @@ name: Bug report
 about: Use this template to identify an issue with a DEMO or LAB. Please be as specific
   as possible.
 title: "[BUG] (Breaking/Non-breaking) (Short description)"
-labels: ''
-assignees: ''
-
 ---
 
 #### **Priority**
