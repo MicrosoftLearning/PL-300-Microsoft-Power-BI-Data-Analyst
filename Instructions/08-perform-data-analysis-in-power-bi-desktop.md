@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Perform Data Analysis in Power BI'
-    module: '8 - Identify Patterns and Trends'
+    module: '8 - Perform Data Analysis in Power BI'
 ---
 
 
