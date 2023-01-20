@@ -307,13 +307,13 @@ In this task you'll add two buttons, and assign bookmark actions to each.
 
 1. Position the button directly beneath the **Year** slicer.
 
-1. Select the button, and then in the **Format button** pane, select **General** and turn the **Title** property to **On**.
+1. Select the button, and then in the **Format button** pane, select **Button**, expand **Style** section and turn the **Text** property to **On**.
 
 	 ![Picture 126](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image49b.png)
 
-1. Expand the **Title** section, and then in the **Text** box, enter **Bar Chart**.
+1. Expand the **Text** section, and then in the **Text** box, enter **Bar Chart**.
 
-1. Expand the **Background** section, and then set a background color using a complementary color.
+1. Expand the **Fill** section, and then set a fill color using a complementary color.
 
 1. Select **Button** and turn the **Action** property to **On**.
 
