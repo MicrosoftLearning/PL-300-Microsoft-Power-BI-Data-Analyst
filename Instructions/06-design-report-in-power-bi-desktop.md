@@ -331,9 +331,9 @@ In this task, you'll publish the report to the Power BI service.
 
 In this task, you'll explore the report that was published to Power BI.
 
-1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane (located at the left, and it could be collapsed), expand **My Workspace**.
-
 1. Open a Microsoft Edge browser, then sign-in at **https://app.powerbi.com**.
+
+1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane (located at the left, and it could be collapsed), expand **My Workspace**.
 
     ![Picture 93](Linked_image_Files/06-my-workspace-new.png)
 
@@ -406,7 +406,7 @@ In this task, you'll explore the report that was published to Power BI.
 
 1. At the bottom of the window, notice the commands to change page, navigate backwards or forwards between pages, or to exit full screen mode.
 
-1. Select the left icon to exit full screen mode.
+1. Select the right icon to exit full screen mode.
 
      ![Picture 91](Linked_image_Files/07-design-report-in-power-bi-desktop_image71.png)
 

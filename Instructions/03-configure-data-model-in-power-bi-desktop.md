@@ -126,7 +126,7 @@ In this task, you'll create model relationships. The file was configured to not 
 
      ![Picture 338](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image21.png)
 
-There’s an easier way to create a relationship. In the model diagram, you can drag and drop columns to create a new relationship.
+     There’s an easier way to create a relationship. In the model diagram, you can drag and drop columns to create a new relationship.
 
 1. To create a new relationship using a different technique, from the **Reseller** table, drag the **ResellerKey** column onto the **ResellerKey** column of the **Sales** table.
     
