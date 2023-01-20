@@ -86,11 +86,11 @@ In this task, you'll use Power Query Editor to configure the **Salesperson** que
 
      ![Manage columns > Choose columns > Go to column](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image13.png)
 
-1. In the **Go to Column** window, to order the list by column name, select the **AZ** sort button, and then select **Name**.
+1. In the **Go to Column** window, to order the list by column name, select the **AZ** sort button, and then select **Name** and **SalesPersonFlag**. Click **OK**.
 
      ![Go to column sort options](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image14.png)
 
-1. Select the **SalesPersonFlag** column header, then select the down-arrow, and then uncheck **FALSE**.
+1. Select the **SalesPersonFlag** column header, then select the down-arrow, then uncheck **FALSE**, and click **OK**.
     
 	*This action filters the rows to retrieve only employees who are salespeople.*
 
