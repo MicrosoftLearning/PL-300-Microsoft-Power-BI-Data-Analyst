@@ -87,17 +87,17 @@ In this task, you'll set up the environment for the lab by opening the starter r
 
 In this task, you'll set up the environment for the lab by creating a dataset.
 
-*Important: If you're continuing from the previous lab in the same VM, skip the next task.*
+*Important: If you've already published the dataset, please move to the next task.*
 
 1. In the Microsoft Edge browser window, in the Power BI service, navigate to **My Workspace**.
 
-1. Select **New > Dataset**. This opens the **Get Data** page, and under **Create new content > Files**, select **Get**.
+1. Select **Upload > Browse**.
 
-1. Select the **Local file** option, and navigate to **D:\PL300\Labs\09-create-power-bi-dashboard\Solution** folder.
+1. Navigate to **D:\PL300\Labs\09-create-power-bi-dashboard\Starter** folder.
 
 1. Select the **Sales Analysis.pbix** file, and then select **Open**.
-    
-	*If prompted to replace the dataset, select **Replace it**.*
+
+*If prompted to replace the dataset, select **Replace it**.*
 
 ### **Task 4: Create a dashboard**
 
@@ -110,12 +110,10 @@ In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a vis
     ![Picture 4](Linked_image_Files/09-create-power-bi-dashboard_image17.png)
 
 1. Set the **Region** slicer to **Select All**.
-    
+
 	*Pinned visuals are set with the filter context at time of pin. If the underlying visual changes, you'll need to update the dashboard tile as well. For time-based filters, it’s a better idea to use a relative date slicer (or, Q&A using a relative time-based question).*
 
-1. To create a dashboard and pin a visual, hover the cursor over the **Sales and Profit Margin by Month** (column/line) visual.
-
-1. At the bottom-right corner, select the pushpin.
+1. To create a dashboard and pin a visual, hover the cursor over the **Sales and Profit Margin by Month** (column/line) visual, and select the pushpin.
 
     ![Picture 43](Linked_image_Files/09-create-power-bi-dashboard_image18.png)
 

@@ -59,41 +59,37 @@ In this task, you'll set up the environment for the lab by signing in to Power B
 
 In this task, you'll set up the environment for the lab by creating a dataset.
 
-*Important: If you've already published the dataset in the **Create a Power BI Dashboard** lab, continue from the next task.*
+*Important: If you've already published the dataset, please move to the next task.*
 
 1. In the Microsoft Edge browser window, in the Power BI service, navigate to **My Workspace**.
 
-1. Select **New > Dataset**. This opens the **Get Data** page, and under **Create new content > Files**, select **Get**.
+1. Select **Upload > Browse**.
 
-1. Select the **Local file** option, and navigate to **D:\PL300\Labs\08-perform-data-analysis-in-power-bi-desktop\Starter** folder.
+1. Navigate to **D:\PL300\Labs\08-perform-data-analysis-in-power-bi-desktop\Starter** folder.
 
 1. Select the **Sales Analysis.pbix** file, and then select **Open**.
     
 	*If prompted to replace the dataset, select **Replace it**.*
 
+*This method will create a report and a dataset. We will only use the dataset to create a new report in this exercise. This same process could be done with an existing dataset from a different report instead of uploading new. Also, if you aren't using the report, workspace best practices suggest you delete the unnecessary file.*
+
 ### **Task 3: Create the report**
 
-In this task, you'll create the **Sales Exploration** report.
-
-*Important: If you already have Power BI Desktop open (from a previous lab), close that instance.*
+In this task, you'll create a live connection to the Power BI dataset created in the last task, and then create a new **Sales Exploration** report.
 
 1. Open Power BI Desktop.
 
     ![Power BI Desktop icon](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
+    *Important: If you already have Power BI Desktop open (from a previous lab), close that instance.*
+
     *Tip: By default, the Getting Started dialog box opens in front of Power BI Desktop. You can choose to sign-in, and then close the pop-up.*
 
-1. Navigate to **File > Save**, then the **D:\PL300\MySolution** folder.
+1. In the Home ribbon, select **Get Data > Power BI datasets**.
 
-1. Save the file name as **Sales Exploration** and select **Save**.
+1. In the **Select a Dataset to Create a Report** window, select the **Sales Analysis** dataset in **My Workspace**, and then **Connect** or double-click to load the dataset.
 
-1. Next, we repeat the steps to **Get Data** from lab 1. From the **Home** ribbon tab > **Data** group, select **Power BI Datasets**.
-
-	![Picture 15](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image12.png)
-
-1. In the **Select a Dataset to Create a Report** window, select the **Sales Analysis** dataset, and then **Create**.
-
-1. Save the Power BI Desktop file.
+1. Navigate to **File > Save** and save the file name as **Sales Exploration** in the **D:\PL300\MySolution** folder.
 
 *You’ll now create two report pages, and on each page you’ll work with a different visual to analyze and explore data.*
 
@@ -205,7 +201,7 @@ In this task, you'll create a forecast to determine possible future sales revenu
 
 ### **Task 2: Finish up**
 
-In this task, you'll complete the lab.
+In this task, you'll complete the lab in Power BI Desktop.
 
 1. Select the **Scatter Chart** page.
 
