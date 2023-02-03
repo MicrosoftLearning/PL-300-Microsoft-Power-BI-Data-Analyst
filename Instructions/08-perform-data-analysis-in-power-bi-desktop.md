@@ -57,9 +57,7 @@ In this task, you'll set up the environment for the lab by signing in to Power B
 
 ### **Task 2: Get started – Create a dataset**
 
-In this task, you'll set up the environment for the lab by creating a dataset.
-
-*Important: If you've already published the dataset, please move to the next task.*
+In this task, you'll set up the environment for the lab by creating a dataset. *If you've already published the dataset, please move to the next task.*
 
 1. In the Microsoft Edge browser window, in the Power BI service, navigate to **My Workspace**.
 
@@ -68,7 +66,7 @@ In this task, you'll set up the environment for the lab by creating a dataset.
 1. Navigate to **D:\PL300\Labs\08-perform-data-analysis-in-power-bi-desktop\Starter** folder.
 
 1. Select the **Sales Analysis.pbix** file, and then select **Open**.
-    
+
 	*If prompted to replace the dataset, select **Replace it**.*
 
 *This method will create a report and a dataset. We will only use the dataset to create a new report in this exercise. This same process could be done with an existing dataset from a different report instead of uploading new. Also, if you aren't using the report, workspace best practices suggest you delete the unnecessary file.*
@@ -87,7 +85,7 @@ In this task, you'll create a live connection to the Power BI dataset created in
 
 1. In the Home ribbon, select **Get Data > Power BI datasets**.
 
-1. In the **Select a Dataset to Create a Report** window, select the **Sales Analysis** dataset in **My Workspace**, and then **Connect** or double-click to load the dataset.
+1. In the **Data hub** window, select the **Sales Analysis** dataset in **My Workspace**, and then **Connect** or double-click to load the dataset.
 
 1. Navigate to **File > Save** and save the file name as **Sales Exploration** in the **D:\PL300\MySolution** folder.
 

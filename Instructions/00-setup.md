@@ -6,16 +6,26 @@ lab:
 
 # Setup local lab environment
 
-- All setup and resource files can be [downloaded from GitHub](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/AllfilesDownload.zip).
-- Extract the 'AllFiles' to D:/ and rename it to PL300.
-
 Ideally, you should complete these labs in a hosted lab environment. If you want to complete them on your own computer, you can do so by installing the following software.
+
+- All setup and resource files can be [downloaded from GitHub](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/AllfilesDownload.zip).
+  - Extract the 'AllFiles' folder to D:/ and rename it to 'PL300'.
 
 ***You may experience unexpected dialogs and behavior when using your own environment. Due to the wide range of possible local configurations, the course team cannot support issues you may encounter in your own environment.***
 
 ## Instructions using Windows 11
 
 > &#128221; The instructions below are for a Windows 11 computer. Connecting from a different OS may not result in the same experience.
+
+### Power BI Desktop
+
+1. Download and install from the Microsoft store. If you do not have access to the Microsoft store, download from the [web](https://www.microsoft.com/download/details.aspx?id=58494). Power BI Desktop is the primary application for these labs.
+
+    - Use the default options in the installer.
+
+### M365 Developer Account
+
+For some of the exercises, you will need to log into Power BI with an organizational account. You can use your own, but if you don't have access, you can create a free [M365 Developer account](https://developer.microsoft.com/en-us/microsoft-365/dev-program).
 
 ### SQL Server Database Engine
 
@@ -26,17 +36,6 @@ Ideally, you should complete these labs in a hosted lab environment. If you want
 
 > &#128221; You can use an existing SQL Server instance if you have access, instead of installing a local version. However, you'll need to modify the connection string from "localhost" to your instance name.
 
-### Power BI Desktop
-
-1. Download and install from the Microsoft store. If you do not have access to the Microsoft store, download from the [web](https://www.microsoft.com/download/details.aspx?id=58494). Power BI Desktop is the primary application for these labs.
-
-    - Use the default options in the installer.
-
 ### Microsoft Edge
 
 1. Install the latest version of [Microsoft Edge](https://microsoft.com/edge) to access Power BI service online.
-
-### M365 Developer Account
-
-For some of the exercises, you will need to log into Power BI with an organizational account. You can use your own, but if you don't have access, you can create a free [M365 Developer account](https://developer.microsoft.com/en-us/microsoft-365/dev-program).
-

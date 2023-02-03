@@ -85,9 +85,7 @@ In this task, you'll set up the environment for the lab by opening the starter r
 
 ### **Task 3: Get started – Publish the report**
 
-In this task, you'll set up the environment for the lab by creating a dataset.
-
-*Important: If you've already published the dataset, please move to the next task.*
+In this task, you'll set up the environment for the lab by creating a dataset. *If you've already published the dataset, please move to the next task.*
 
 1. In the Microsoft Edge browser window, in the Power BI service, navigate to **My Workspace**.
 
