@@ -75,9 +75,9 @@ In this task, you'll design the first report page. When you’ve completed the d
     
 	*The labs use a shorthand notation to reference a field. It will look like this: **Date \| Year**. In this example, **Date** is the table name and **Year** is the field name.*
 
-1. To convert the slicer from a list to a dropdown, at the top-right of the slicer, select the down-arrow, and then select **Dropdown**.
+1. To convert the slicer from a list to a dropdown, navigate to **Visualizations > Format visual > Visual > Slicer Settings > Style**, and then select **Dropdown** from the dropdown menu.
 
-    ![Slicer style](Linked_image_Files\06_slicer_style.png)
+    ![Slicer style](Linked_image_Files/06_slicer_style.png)
 
 1. Resize and position the slicer so it sits beneath the image and is the same width as the image.
 
