@@ -323,7 +323,7 @@ In this task, you'll configure the **Sales** query.
 
 1. Modify the following three column data types to **Fixed Decimal Number**.
     
-	*The fixed decimal number data type stores values with full precision, and so requires more storage space that decimal number. It’s important to use the fixed decimal number type for financial values, or rates (like exchange rates).*
+	*The fixed decimal number data type allows for 19 digits, and allows for more precision to avoid rounding errors. It’s important to use the fixed decimal number type for financial values, or rates (like exchange rates).*
 
     - Unit Price
     - Sales
