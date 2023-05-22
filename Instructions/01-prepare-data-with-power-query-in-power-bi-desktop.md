@@ -193,7 +193,7 @@ In this task, you'll create a new query based on CSV files.
 
      ![Picture 74](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image38.png)
 
-1. Use the steps in the previous task to create a query based on the **D:\PL300\Resources\ColorFormats.csv** file.
+1. Repeat the steps to create a query based on the **D:\PL300\Resources\ColorFormats.csv** file.
     
     *The **ColorFormats** CSV file contains one row per product color. Each row records the HEX codes to format background and font colors.*
 
