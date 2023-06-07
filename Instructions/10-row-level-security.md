@@ -75,7 +75,7 @@ In this task, you'll enforce row-level security to ensure a salesperson can only
     
 	*You may recall that Michael Blythe is assigned to three sales regions: US Northeast, US Central, and US Southeast.*
 
-1. On the **Home** ribbon tab, from inside the **Security** group, select **Manage Roles**.
+1. On the **Modeling** ribbon tab, from inside the **Security** group, select **Manage Roles**.
 
     ![Picture 5700](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image21.png)
 
