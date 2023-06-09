@@ -6,7 +6,7 @@ lab:
 
 # Prepare Data in Power BI Desktop
 
-**The estimated time to complete the lab is 45 minutes.**
+**The estimated time to complete the lab is 30 minutes.**
 
 This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, we suggest you do them in the following order:
 
@@ -28,7 +28,7 @@ This lab is designed to introduce you to Power BI Desktop application and how to
 - Open Power BI Desktop
 - Connect to source data
 - Preview source data
-- Use data preview techniques to better understand the data
+- Use data profile tools
 
 ## **Exercise 1: Prepare Data**
 
