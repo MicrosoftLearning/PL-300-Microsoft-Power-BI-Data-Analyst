@@ -90,7 +90,8 @@ In this task, you'll use Power Query Editor to configure the **Salesperson** que
 
      ![Go to column sort options](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image14.png)
 
-1. Select the **SalesPersonFlag** column header, then select the down-arrow, then uncheck **FALSE**, and click **OK**.
+1. Select the **SalesPersonFlag** column header, then select the down-arrow, then 
+**FALSE**, and click **OK**.
     
 	*This action filters the rows to retrieve only employees who are salespeople.*
 
@@ -177,14 +178,10 @@ In this task, you'll configure the **Product** query.
 
     ![Column expand icon](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image31.png)
 
-1. Remove all columns, **except**:
+1. See the full list of columns, then select the **Select All Columns** box to unselect all columns.
+2. Select **EnglishProductSubcategoryName** and **DimProductCategory**, and uncheck the **Use Original Column Name as Prefix** checkbox before selecting **OK**.
     
 	*By selecting these two columns, a transformation will be applied to join to the **DimProductSubcategory** table, and then include these columns. The **DimProductCategory** column is, in fact, another related table in the data source.*
-
-    - **EnglishProductSubcategoryName**
-    - **DimProductCategory**
-
-1. Uncheck the **Use Original Column Name as Prefix** checkbox.
     
 	*Query column names must always be unique. If left checked, this checkbox would prefix each column with the expanded column name (in this case **DimProductSubcategory**). Because it’s known that the selected column names don’t collide with column names in the **Product** query, the option is deselected.*
 
