@@ -9,8 +9,6 @@ lab:
 
 ## **Lab story**
 
-### This lab should take approximately 30 minutes
-
 In this lab, you'll create the **Sales Exploration** report.
 
 In this lab you learn how to:
@@ -18,11 +16,9 @@ In this lab you learn how to:
 - Create animated scatter charts
 - Use a visual to forecast values
 
-## **Exercise 1: Create the Report**
+**This lab should take approximately 30 minutes.**
 
-In this exercise, you'll create the **Sales Exploration** report.
-
-### **Task 1: Get started – Sign in**
+## **Get started – Sign in**
 
 In this task, you'll set up the environment for the lab by signing in to Power BI.
 
@@ -42,7 +38,7 @@ In this task, you'll set up the environment for the lab by signing in to Power B
 
      ![Picture 22](Linked_image_Files/07-my-workspace-new.png)
 
-### **Task 2: Get started – Create a dataset**
+## **Get started – Create a dataset**
 
 In this task, you'll set up the environment for the lab by creating a dataset. *If you've already published the dataset, please move to the next task.*
 
@@ -58,7 +54,7 @@ In this task, you'll set up the environment for the lab by creating a dataset. *
 
 *This method will create a report and a dataset. We will only use the dataset to create a new report in this exercise. This same process could be done with an existing dataset from a different report instead of uploading new. Also, if you aren't using the report, workspace best practices suggest you delete the unnecessary file.*
 
-### **Task 3: Create the report**
+## **Create the report**
 
 In this task, you'll create a live connection to the Power BI dataset created in the last task, and then create a new **Sales Exploration** report.
 
@@ -78,11 +74,7 @@ In this task, you'll create a live connection to the Power BI dataset created in
 
 *You’ll now create two report pages, and on each page you’ll work with a different visual to analyze and explore data.*
 
-## **Exercise 2: Create a Scatter Chart**
-
-In this exercise, you'll create a scatter chart that can be animated.
-
-### **Task 1: Create an animated scatter chart**
+## **Create an animated scatter chart**
 
 In this task, you'll create a scatter chart that can be animated.
 
@@ -128,11 +120,8 @@ In this task, you'll create a scatter chart that can be animated.
 
 1. Save the Power BI Desktop file.
 
-## **Exercise 3: Create a Forecast**
 
-In this exercise, you'll create a forecast to determine possible future sales revenue.
-
-### **Task 1: Create a forecast**
+## **Create a forecast**
 
 In this task, you'll create a forecast to determine possible future sales revenue.
 
@@ -184,7 +173,7 @@ In this task, you'll create a forecast to determine possible future sales revenu
 
 1. In the **Filters** pane, filter by **Clothing** only, and notice that it produces a different result.
 
-### **Task 2: Finish up**
+### **Finish up**
 
 In this task, you'll complete the lab in Power BI Desktop.
 
@@ -196,4 +185,4 @@ In this task, you'll complete the lab in Power BI Desktop.
 
 	![Picture 23](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image46.png)
 
-1.  Close Power BI Desktop.
+1. Close Power BI Desktop.

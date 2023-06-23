@@ -9,8 +9,6 @@ lab:
 
 ## **Lab story**
 
-### This lab should take approximately 45 minutes
-
 In this lab, you'll create measures with DAX expressions involving filter context manipulation.
 
 In this lab you learn how to:
@@ -18,13 +16,9 @@ In this lab you learn how to:
 - Use the CALCULATE() function to manipulate filter context
 - Use Time Intelligence functions
 
-## **Exercise 1: Work with Filter Context**
+**This lab should take approximately 45 minutes.**
 
-In this exercise, you'll create measures with DAX expressions involving filter context manipulation.
-
-### **Task 1: Get started**
-
-In this task, you'll set up the environment for the lab.
+## **Work with Filter Context**
 
 *Important: If you're continuing on from the previous lab (and you completed that lab successfully), don't complete this task; instead, continue from the next task.*
 
@@ -48,7 +42,7 @@ In this task, you'll set up the environment for the lab.
 
 1. To create a copy of the file, go to **File > Save As** and save to **D:\PL300\MySolution** folder.
 
-### **Task 2: Create a matrix visual**
+## **Create a matrix visual**
 
 In this task, you'll create a matrix visual to support testing your new measures.
 
@@ -90,7 +84,7 @@ In this task, you'll create a matrix visual to support testing your new measures
 
     *You’ll create several measures in this exercise, and then test them by adding them to the matrix visual.*
 
-### **Task 3: Manipulate filter context**
+## **Manipulate filter context**
 
 In this task, you'll create several measures with DAX expressions that use the CALCULATE() function to manipulate filter context.
 
@@ -269,11 +263,11 @@ In this task, you'll create several measures with DAX expressions that use the C
 
 *The measures added to the **Sales** table have modified filter context to achieve hierarchical navigation. Notice that the pattern to achieve the calculation of a subtotal requires removing some columns from the filter context, and to arrive at a grand total, all columns must be removed.*
 
-## **Exercise 2: Work with Time Intelligence**
+## **Work with Time Intelligence**
 
 In this exercise, you'll create a sales year-to-date (YTD) measure and sales year-over-year (YoY) growth measure.
 
-### **Task 1: Create a YTD measure**
+## **Create a YTD measure**
 
 In this task, you'll create a sales YTD measure.
 
@@ -305,7 +299,7 @@ In this task, you'll create a sales YTD measure.
 
     *Many Time Intelligence functions are available in DAX to support common time filter manipulations.*
 
-### **Task 2: Create a YoY growth measure**
+## **Create a YoY growth measure**
 
 In this task, you'll create a sales YoY growth measure.
 
@@ -384,7 +378,7 @@ In this task, you'll create a sales YoY growth measure.
 
     ![Picture 63](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image24.png)
 
-### **Task 3: Finish up**
+### **Finish up**
 
 In this task, you'll complete the lab.
 

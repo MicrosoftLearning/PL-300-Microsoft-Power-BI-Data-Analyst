@@ -9,8 +9,6 @@ lab:
 
 ## **Lab story**
 
-### This lab should take approximately 20 minutes
-
 In this lab, you'll enforce row-level security to ensure that a salesperson can only analyze sales data for their assigned region(s).
 
 In this lab you learn how to:
@@ -18,11 +16,9 @@ In this lab you learn how to:
 - Enforce row-level security
 - Choose between dynamic and static methods
 
-## **Exercise 1: Enforce row-level security**
+**This lab should take approximately 45 minutes.**
 
-In this exercise, you'll enforce row-level security to ensure a salesperson can only ever see sales made in their assigned region(s).
-
-### **Task 1: Get started**
+## **Get started**
 
 In this task, you'll set up the environment for the lab.
 
@@ -48,7 +44,7 @@ In this task, you'll set up the environment for the lab.
 
 1. If prompted to apply changes, select **Apply Later**.
 
-### **Task 2: Enforce row-level security**
+## **Enforce row-level security**
 
 In this task, you'll enforce row-level security to ensure a salesperson can only see sales made in their assigned region(s).
 
@@ -114,6 +110,10 @@ In this task, you'll enforce row-level security to ensure a salesperson can only
 1. In the **Manage Roles** window, select **Delete**. When prompted to confirm the deletion, select **Yes, Delete**.
 
    ![Picture 17](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image34.png)
+
+### **Finish up**
+
+In this task, you'll complete the lab.
 
 1. Select **Save**, then save the Power BI Desktop file to end the lab.
 
