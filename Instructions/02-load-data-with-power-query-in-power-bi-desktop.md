@@ -77,10 +77,7 @@ In this task, you'll use Power Query Editor to configure the **Salesperson** que
 
      ![Go to column sort options](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image14.png)
 
-1. Select the **SalesPersonFlag** column header, then select the down-arrow, then 
-**FALSE**, and click **OK**.
-    
-	*This action filters the rows to retrieve only employees who are salespeople.*
+1. Locate the **SalesPersonFlag** column, then filter the column  to select only Salespeople (that is, **TRUE**), and click **OK**.
 
 1. In the **Query Settings** pane, in the **Applied Steps** list, notice the addition of the **Filtered Rows** step.
     
