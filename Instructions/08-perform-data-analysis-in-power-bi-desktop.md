@@ -1,13 +1,15 @@
 ---
 lab:
-    title: 'Perform Data Analysis in Power BI'
-    module: '8 - Perform Data Analysis in Power BI'
+    title: 'Perform Advanced Analytics in Power BI'
+    module: 'Perform Data Analysis in Power BI'
 ---
 
 
 # **Perform Data Analysis in Power BI**
 
-**The estimated time to complete the lab is 45 minutes**
+## **Lab story**
+
+### This lab should take approximately 30 minutes
 
 In this lab, you'll create the **Sales Exploration** report.
 
@@ -15,21 +17,6 @@ In this lab you learn how to:
 
 - Create animated scatter charts
 - Use a visual to forecast values
-
-### **Lab story**
-
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, we suggest you do them in the following order:
-
-1. Prepare Data in Power BI Desktop
-1. Load Data in Power BI Desktop
-1. Model Data in Power BI Desktop
-1. Create DAX Calculations in Power BI Desktop
-1. Create Advanced DAX Calculations in Power BI Desktop
-1. Design a Report in Power BI Desktop
-1. Enhance a Report in Power BI Desktop
-1. **Perform Data Analysis in Power BI**
-1. Create a Power BI Dashboard
-1. Enforce Row-Level Security
 
 ## **Exercise 1: Create the Report**
 

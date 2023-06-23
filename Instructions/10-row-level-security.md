@@ -1,34 +1,22 @@
 ---
 lab:
     title: 'Enforce Row-Level Security'
-    module: '12 - Row-Level Security'
+    module: 'Enforce Row-Level Security'
 ---
 
 
 # **Enforce Row-Level Security**
 
-**The estimated time to complete the lab is 45 minutes**
+## **Lab story**
+
+### This lab should take approximately 20 minutes
 
 In this lab, you'll enforce row-level security to ensure that a salesperson can only analyze sales data for their assigned region(s).
 
 In this lab you learn how to:
 
 - Enforce row-level security
-
-### **Lab story**
-
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, we suggest you do them in the following order:
-
-1. Prepare Data in Power BI Desktop
-1. Load Data in Power BI Desktop
-1. Design a Data Model in Power BI
-1. Create DAX Calculations in Power BI Desktop
-1. Create Advanced DAX Calculations in Power BI Desktop
-1. Design a Report in Power BI Desktop
-1. Enhance a Report in Power BI Desktop
-1. Perform Data Analysis in Power BI Desktop
-1. Create a Power BI Dashboard
-1. **Enforce Row-Level Security**
+- Choose between dynamic and static methods
 
 ## **Exercise 1: Enforce row-level security**
 

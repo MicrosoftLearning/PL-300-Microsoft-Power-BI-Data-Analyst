@@ -1,13 +1,15 @@
 ---
 lab:
     title: 'Design a Data Model in Power BI'
-    module: '4 - Design a Data Model in Power BI'
+    module: 'Design a Data Model in Power BI'
 ---
 
 
 # Design a Data Model in Power BI
 
-**The estimated time to complete the lab is 45 minutes.**
+## **Lab story**
+
+### This lab should take approximately 45 minutes
 
 In this lab, you'll commence developing the data model. It will involve creating relationships between tables, and then configuring table and column properties to improve the friendliness and usability of the data model. You'll also create hierarchies and create quick measures.
 
@@ -16,21 +18,6 @@ In this lab you learn how to:
 - Create model relationships
 - Configure table and column properties
 - Create hierarchies
-
-### **Lab story**
-
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, we suggest you do them in the following order:
-
-1. Prepare Data in Power BI Desktop
-1. Load Data in Power BI Desktop
-1. **Design a Data Model in Power BI**
-1. Create DAX Calculations in Power BI Desktop
-1. Create Advanced DAX Calculations in Power BI Desktop
-1. Design a Report in Power BI Desktop
-1. Enhance a Report in Power BI Desktop
-1. Perform Data Analysis in Power BI
-1. Create a Power BI Dashboard
-1. Enforce Row-Level Security
 
 ## **Exercise 1: Create Model Relationships**
 

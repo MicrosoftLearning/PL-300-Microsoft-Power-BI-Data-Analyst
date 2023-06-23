@@ -1,27 +1,14 @@
 ---
 lab:
     title: 'Prepare Data in Power BI Desktop'
-    module: '2 - Get Data in Power BI'
+    module: 'Get Data in Power BI'
 ---
 
 # Prepare Data in Power BI Desktop
 
-**The estimated time to complete the lab is 30 minutes.**
-
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, we suggest you do them in the following order:
-
-1. **Prepare Data in Power BI Desktop**
-1. Load Data in Power BI Desktop
-1. Design a Data Model in Power BI
-1. Create DAX Calculations in Power BI Desktop
-1. Create Advanced DAX Calculations in Power BI Desktop
-1. Design a Report in Power BI Desktop
-1. Enhance a Report in Power BI Desktop
-1. Perform Data Analysis in Power BI
-1. Create a Power BI Dashboard
-1. Enforce Row-Level Security
-
 ## **Lab story**
+
+### This lab should take approximately 30 minutes
 
 This lab is designed to introduce you to Power BI Desktop application and how to connect to data and how to use data preview techniques to understand the characteristics and quality of the source data. The learning objectives are:
 
