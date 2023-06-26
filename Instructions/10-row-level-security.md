@@ -1,40 +1,24 @@
 ---
 lab:
     title: 'Enforce Row-Level Security'
-    module: '12 - Row-Level Security'
+    module: 'Enforce Row-Level Security'
 ---
 
 
 # **Enforce Row-Level Security**
 
-**The estimated time to complete the lab is 45 minutes**
+## **Lab story**
 
 In this lab, you'll enforce row-level security to ensure that a salesperson can only analyze sales data for their assigned region(s).
 
 In this lab you learn how to:
 
 - Enforce row-level security
+- Choose between dynamic and static methods
 
-### **Lab story**
+**This lab should take approximately 45 minutes.**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, we suggest you do them in the following order:
-
-1. Prepare Data in Power BI Desktop
-1. Load Data in Power BI Desktop
-1. Design a Data Model in Power BI
-1. Create DAX Calculations in Power BI Desktop
-1. Create Advanced DAX Calculations in Power BI Desktop
-1. Design a Report in Power BI Desktop
-1. Enhance a Report in Power BI Desktop
-1. Perform Data Analysis in Power BI Desktop
-1. Create a Power BI Dashboard
-1. **Enforce Row-Level Security**
-
-## **Exercise 1: Enforce row-level security**
-
-In this exercise, you'll enforce row-level security to ensure a salesperson can only ever see sales made in their assigned region(s).
-
-### **Task 1: Get started**
+## **Get started**
 
 In this task, you'll set up the environment for the lab.
 
@@ -60,7 +44,7 @@ In this task, you'll set up the environment for the lab.
 
 1. If prompted to apply changes, select **Apply Later**.
 
-### **Task 2: Enforce row-level security**
+## **Enforce row-level security**
 
 In this task, you'll enforce row-level security to ensure a salesperson can only see sales made in their assigned region(s).
 
@@ -126,6 +110,10 @@ In this task, you'll enforce row-level security to ensure a salesperson can only
 1. In the **Manage Roles** window, select **Delete**. When prompted to confirm the deletion, select **Yes, Delete**.
 
    ![Picture 17](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image34.png)
+
+### **Finish up**
+
+In this task, you'll complete the lab.
 
 1. Select **Save**, then save the Power BI Desktop file to end the lab.
 

@@ -1,43 +1,24 @@
 ---
 lab:
     title: 'Create a Power BI Dashboard'
-    module: '11 - Create Dashboards'
+    module: 'Create Dashboards'
 ---
 
 
 # **Create a Power BI Dashboard**
 
-**The estimated time to complete the lab is 45 minutes**
+## **Lab story**
 
-In this lab, you'll create the **Sales Monitoring** dashboard.
+In this lab, you'll create the **Sales Monitoring** dashboard in the Power BI service using an existing report.
 
 In this lab you learn how to:
 
 - Pin visuals to a dashboard
 - Use Q&A to create dashboard tiles
 
-### **Lab story**
+**This lab should take approximately 45 minutes.**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, we suggest you do them in the following order:
-
-1. Prepare Data in Power BI Desktop
-1. Load Data in Power BI Desktop
-1. Model Data in Power BI Desktop
-1. Create DAX Calculations in Power BI Desktop
-1. Create Advanced DAX Calculations in Power BI Desktop
-1. Design a Report in Power BI Desktop
-1. Enhance a Report in Power BI Desktop
-1. Perform Data Analysis in Power BI Desktop
-1. **Create a Power BI Dashboard**
-1. Enforce Row-Level Security
-
-## **Exercise 1: Create a Dashboard**
-
-In this exercise, you'll create the **Sales Monitoring** dashboard. The completed dashboard will look like the following:
-
-![Image of the completed dashboard, comprising three tiles.](Linked_image_Files/09-create-power-bi-dashboard_image1.png)
-
-### **Task 1: Get started – Sign in**
+## **Get started – Sign in**
 
 In this task, you'll set up the environment for the lab by signing in to Power BI.
 
@@ -57,7 +38,7 @@ In this task, you'll set up the environment for the lab by signing in to Power B
 
      ![Picture 22](Linked_image_Files/07-my-workspace-new.png)
 
-### **Task 2: Get started – Open report**
+## **Get started – Open report**
 
 In this task, you'll set up the environment for the lab by opening the starter report.
 
@@ -83,7 +64,7 @@ In this task, you'll set up the environment for the lab by opening the starter r
 
 1. If prompted to apply changes, select **Apply Later**.
 
-### **Task 3: Get started – Publish the report**
+## **Get started – Publish the report**
 
 In this task, you'll set up the environment for the lab by creating a dataset. *If you've already published the dataset, please move to the next task.*
 
@@ -97,7 +78,7 @@ In this task, you'll set up the environment for the lab by creating a dataset. *
 
 *If prompted to replace the dataset, select **Replace it**.*
 
-### **Task 4: Create a dashboard**
+## **Create a dashboard**
 
 In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a visual from the report, and add a tile based on an image data URI, and use Q&A to create a tile.
 
@@ -173,7 +154,7 @@ In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a vis
 
     ![Picture 52](Linked_image_Files/09-create-power-bi-dashboard_image35.png)
 
-### **Task 5: Edit tile details**
+## **Edit tile details**
 
 In this task, you'll edit the details of two tiles.
 
@@ -197,11 +178,11 @@ In this task, you'll edit the details of two tiles.
 
 *You’ll refresh the dataset in the next exercise. Depending on your data and report, you can do an adhoc data refresh anytime or set a schedule. However, scheduled refreshes require gateways that we aren't able to configure for this lab. So from Power BI Desktop, you'll perform a manual data refresh, and then upload the file to your workspace.*
 
-## **Exercise 2: Refresh the Dataset**
+## **Refresh the Dataset**
 
 In this exercise, you'll first load sales order data for June 2020 into the **AdventureWorksDW2020** database. You'll then open your Power BI Desktop file, perform a data refresh, and then upload the file to your workspace.
 
-### **Task 1: Update the lab database**
+## **Update the lab database**
 
 In this task, you'll run a PowerShell script to update data in the **AdventureWorksDW2020** database.
 
@@ -215,7 +196,7 @@ In this task, you'll run a PowerShell script to update data in the **AdventureWo
 
 *The **AdventureWorksDW2020** database now includes sales orders made in June 2020.*
 
-### **Task 2: Refresh the Power BI Desktop file**
+## **Refresh the Power BI Desktop file**
 
 In this task you'll open the **Sales Analysis** Power BI Desktop file, perform a data refresh, and then upload the file to your **Sales Analysis** workspace.
 
@@ -235,11 +216,7 @@ In this task you'll open the **Sales Analysis** Power BI Desktop file, perform a
 
 *The dataset in the Power BI service now has June 2020 sales data.*
 
-## **Exercise 3: Review the Dashboard**
-
-In this exercise, you'll review the dashboard to notice updated sales.
-
-### **Task 1: Review the dashboard**
+### **Review the dashboard**
 
 In this task, you'll review the dashboard to notice updated sales.
 
@@ -252,3 +229,9 @@ In this task, you'll review the dashboard to notice updated sales.
 	*If you don’t see the June 2020 data, you might need to press **F5** to reload the web browser.*
 
     ![Picture 33](Linked_image_Files/09-create-power-bi-dashboard_image50.png)
+
+### **Finish up**
+
+In this task, you'll complete the lab.
+
+1. Save the report and close your browser.

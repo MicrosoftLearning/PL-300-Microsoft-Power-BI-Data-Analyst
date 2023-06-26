@@ -1,41 +1,24 @@
 ---
 lab:
     title: 'Design a Report in Power BI Desktop'
-    module: '7 - Create Reports'
+    module: 'Create Reports in Power BI Desktop'
 ---
 
 
 # Design a Report in Power BI Desktop
 
-**The estimated time to complete the lab is 45 minutes.**
+## **Lab story**
 
-In this lab, you'll create a three-page report. You'll then publish it to Power BI, whereupon you'll open and interact with the report.
+In this lab, you'll create a three-page report. You'll then publish it to Power BI, where you'll open and interact with the report.
 
 In this lab you learn how to:
 
 - Design a report
 - Configure visual fields and format properties
 
-### **Lab story**
+**This lab should take approximately 45 minutes.**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, we suggest you do them in the following order:
-
-1. Prepare Data in Power BI Desktop
-1. Load Data in Power BI Desktop
-1. Design a Data Model in Power BI
-1. Create DAX Calculations in Power BI Desktop
-1. Create Advanced DAX Calculations in Power BI Desktop
-1. **Design a Report in Power BI Desktop**
-1. Enhance a Report in Power BI Desktop
-1. Perform Data Analysis in Power BI
-1. Create a Power BI Dashboard
-1. Enforce Row-Level Security
-
-## **Exercise 1: Create a Report**
-
-In this exercise, you'll create a three-page report named **Sales Report**.
-
-### **Task 1: Get started – Open report**
+## **Create a Report**
 
 In this task, you'll set up the environment for the lab by opening the starter report.
 
@@ -45,7 +28,7 @@ In this task, you'll set up the environment for the lab by opening the starter r
 
 1. Create a copy of the file by going to **File** > **Save As**, and save the copy in the **D:\PL300\MySolution** folder.
 
-### **Task 2: Design page 1**
+## **Design page 1**
 
 In this task, you'll design the first report page. When you’ve completed the design, the page will look like the following:
 
@@ -176,7 +159,7 @@ In this task, you'll design the first report page. When you’ve completed the d
 
 *The design of the first page is now complete.*
 
-### **Task 3: Design page 2**
+## **Design page 2**
 
 In this task, you'll design the second report page. When you’ve completed the design, the page will look like the following:
 
@@ -234,7 +217,7 @@ In this task, you'll design the second report page. When you’ve completed the 
 
  *The design of the second page is now complete.*
 
-### **Task 4: Design page 3**
+## **Design page 3**
 
 In this task, you'll design the third—and final—report page. When you’ve completed the design, the page will look like the following:
 
@@ -304,11 +287,7 @@ In this task, you'll design the third—and final—report page. When you’ve c
 
  *The design of the third—and final—page is now complete.*
 
-## **Exercise 2: Explore the Report**
-
-In this exercise, you'll publish the report to the Power BI service and explore the read-only consumer report.
-
-### **Task 1: Publish the report**
+## **Publish the report**
 
 In this task, you'll publish the report to the Power BI service.
 
@@ -327,7 +306,7 @@ In this task, you'll publish the report to the Power BI service.
 1. To publish the report, select **Select**. This may take a few moments. 
 1. When the publication has succeeded, select **Got It**.
 
-### **Task 2: Explore the report**
+## **Explore the report**
 
 In this task, you'll explore the report that was published to Power BI.
 
@@ -410,7 +389,7 @@ In this task, you'll explore the report that was published to Power BI.
 
      ![Picture 91](Linked_image_Files/07-design-report-in-power-bi-desktop_image71.png)
 
-### **Task 3: Finish up**
+### **Finish up**
 
 In this task, you'll complete the lab.
 

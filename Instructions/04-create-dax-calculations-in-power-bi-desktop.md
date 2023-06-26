@@ -1,44 +1,27 @@
 ---
 lab:
     title: 'Create DAX Calculations in Power BI Desktop'
-    module: '5 - Create Model Calculations using DAX in Power BI'
+    module: 'Create Model Calculations using DAX in Power BI'
 ---
 
 
 # Create DAX Calculations in Power BI Desktop
 
-**The estimated time to complete the lab is 45 minutes.**
+## **Lab story**
 
 In this lab you'll create calculated tables, calculated columns, and simple measures using Data Analysis Expressions (DAX).
 
 In this lab you learn how to:
 
- - Create calculated tables
- - Create calculated columns
- - Create measures
+- Create calculated tables
+- Create calculated columns
+- Create measures
 
-### **Lab story**
+**This lab should take approximately 45 minutes.**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, we suggest you do them in the following order:
-
-1. Prepare Data in Power BI Desktop
-1. Load Data in Power BI Desktop
-1. Design a Data Model in Power BI
-1. **Create DAX Calculations in Power BI Desktop**
-1. Create Advanced DAX Calculations in Power BI Desktop
-1. Design a Report in Power BI Desktop
-1. Enhance a Report in Power BI Desktop
-1. Perform Data Analysis in Power BI
-1. Create a Power BI Dashboard
-1. Enforce Row-Level Security
-
-## **Exercise 1: Create Calculated Tables**
+## **Create Calculated Tables**
 
 In this exercise, you'll create two calculated tables. The first will be the **Salesperson** table, to allow a direct relationship between it and the **Sales** table. The second will be the **Date** table.
-
-### **Task 1: Get started**
-
-In this task, you'll set up the environment for the lab.
 
 *Important: If you're continuing on from the previous lab (and you completed that lab successfully), don't complete this task; instead, continue from the next task.*
 
@@ -54,17 +37,17 @@ In this task, you'll set up the environment for the lab.
 
 1. Close any informational windows that may open.
 
-1. Notice the yellow warning message beneath the ribbon. 
+1. Notice the yellow warning message beneath the ribbon.
 
 	*This message alerts you to the fact that the queries haven't been applied to load as model tables. You’ll apply the queries later in this lab.*
-    
+
 	*To dismiss the warning message, at the right of the yellow warning message, select **X**.*
 
 1. To create a copy of the file, go to **File > Save As** and save to **D:\PL300\MySolution** folder.
 
 1. If prompted to apply changes, select **Apply Later**.
 
-### **Task 2: Create the Salesperson table**
+## **Create the Salesperson table**
 
 In this task, you'll create the **Salesperson** calculated table (direct relationship to **Sales**).
 
@@ -77,7 +60,7 @@ The formula bar supports entering a valid DAX formula. It includes features like
      ![Picture 1](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image9.png)
 
 2. In the formula bar (which opens directly beneath the ribbon when creating or editing calculations), type **Salesperson =**, press **Shift+Enter**, type **'Salesperson (Performance)'**, and then press **Enter**.
-    
+
 	*For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **D:\PL300\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
 
 	 ![Picture 4](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png)
@@ -116,7 +99,7 @@ The formula bar supports entering a valid DAX formula. It includes features like
 
 *The data model now provides two alternatives when analyzing salespeople. The **Salesperson** table allows analyzing sales made by a salesperson, while the **Salesperson (Performance)** table allows analyzing sales made in the sales region(s) assigned to the salesperson.*
 
-### **Task 3: Create the Date table**
+## **Create the Date table**
 
 In this task, you'll create the **Date** table.
 
@@ -135,7 +118,7 @@ In this task, you'll create the **Date** table.
 
 	![Picture 6](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image16.png)
 
-	
+
 	*The CALENDARAUTO() function returns a single-column table consisting of date values. The “auto” behavior scans all data model date columns to determine the earliest and latest date values stored in the data model. It then creates one row for each date within this range, extending the range in either direction to ensure full years of data is stored.*
 
 	*This function can take a single optional argument that is the last month number of a year. When omitted, the value is 12, meaning that December is the last month of the year. In this case, 6 is entered, meaning that June is the last month of the year.*
@@ -150,7 +133,7 @@ In this task, you'll create the **Date** table.
 
 	![Picture 9](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image18.png)
 
-### **Task 4:** **Create calculated columns**
+## **Create calculated columns**
 
 In this task, you'll add more columns to enable filtering and grouping by different time periods. You'll also create a calculated column to control the sort order of other columns.
 
@@ -247,18 +230,20 @@ In this task, you'll add more columns to enable filtering and grouping by differ
 
 	![Picture 23](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image30.png)
 
-### **Task 5:** **Complete the Date table**
+## **Complete the Date table**
 
 In this task, you'll complete the design of the **Date** table by hiding a column and creating a hierarchy. You'll then create relationships to the **Sales** and **Targets** tables.
 
 1. Switch to Model view. In the **Date** table, hide the **MonthKey** column (set **Is Hidden** to **Yes**).
 
+
 1. On the **Data** right side pane, select the **Date** table, right select on the **Year** column, and select **create hierarchy**. 
 
-1. Rename newly created hierarchy to **Fiscal** by right select and **Rename**. 
+1. Rename newly created hierarchy to **Fiscal** by right select and **Rename**.
+
 
 1. Add the follow two remaining fields to the Fiscal hierarchy by selecting them in the **Data** pane, right clicking, selecting **Add to hierarchy** -> **Fiscal**.
-	
+
 	- Quarter
 	- Month
 
@@ -274,7 +259,7 @@ In this task, you'll complete the design of the **Date** table by hiding a colum
 	- Sales \| OrderDate
 	- Targets \| TargetMonth
 
-### **Task 6: Mark the Date table**
+## **Mark the Date table**
 
 In this task, you'll mark the **Date** table as a date table.
 
@@ -294,11 +279,7 @@ In this task, you'll mark the **Date** table as a date table.
 
 	*This design approach for a date table is suitable when you don’t have a date table in your data source. If you have a data warehouse, it would be appropriate to load date data from its date dimension table rather than “redefining” date logic in your data model.*
 
-## **Exercise 2: Create Measures**
-
-In this exercise, you'll create and format several measures.
-
-### **Task 1: Create simple measures**
+## **Create simple measures**
 
 In this task, you'll create simple measures. Simple measures aggregate values in a single column or count rows of a table.
 
@@ -395,7 +376,7 @@ In this task, you'll create simple measures. Simple measures aggregate values in
 
 	![Picture 39](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image43.png)
 
-### **Task 2: Create additional measures**
+## **Create additional measures**
 
 In this task, you'll create more measures that use more complex formulas.
 
@@ -472,9 +453,7 @@ In this task, you'll create more measures that use more complex formulas.
 
 	*Tables that comprise only visible measures are automatically listed at the top of the list.*
 
-### **Task 3: Finish up**
-
-In this task, you'll complete the lab.
+### **Finish up**
 
 Save the Power BI Desktop file.
 
