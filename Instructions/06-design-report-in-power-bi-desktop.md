@@ -71,7 +71,7 @@ In this task, you'll design the first report page. When you’ve completed the d
 
      ![Picture 49](Linked_image_Files/07-design-report-in-power-bi-desktop_image18.png)
 
-1. In the **Fields** pane, drag the **Date \| Year** field (not the **Year** level of the hierarchy) into the slicer **Field** in Visualizations pane.
+1. In the **Data** pane, drag the **Date \| Year** field (not the **Year** level of the hierarchy) into the slicer **Field** in Visualizations pane.
     
 	*The labs use a shorthand notation to reference a field. It will look like this: **Date \| Year**. In this example, **Date** is the table name and **Year** is the field name.*
 
@@ -111,13 +111,13 @@ In this task, you'll design the first report page. When you’ve completed the d
      - Date \| Month
      - Sales \| Sales
 
-1. In the visual fields pane (not the **Fields** pane—the visual fields pane is located beneath the **Visualizations** pane), notice that the fields are assigned to the **X-axis** and **Column y-axis** wells/areas.
+1. In the visual fields pane (located beneath the **Visualizations** pane), notice that the fields are assigned to the **X-axis** and **Column y-axis** wells/areas.
     
 	*By dragging fields into a visual, they'll be added to default wells/areas. For precision, you can drag fields directly into the wells/areas, as you'll do next.*
 
      ![Picture 27](Linked_image_Files/07-design-report-in-power-bi-desktop_image28_N.png)
 
-1. From the **Fields** pane, drag the **Sales \| Profit Margin** field into the **Line y-axis** well/area.
+1. From the **Data** pane, drag the **Sales \| Profit Margin** field into the **Line y-axis** well/area.
 
      ![Picture 28](Linked_image_Files/07-design-report-in-power-bi-desktop_image29.png)
 
@@ -216,7 +216,7 @@ In this task, you'll design the second report page. When you’ve completed the 
 
      ![Picture 57](Linked_image_Files/07-design-report-in-power-bi-desktop_image44.png)
 
-1. From the **Fields** pane, drag the **Product \| Category** field into the **Filter On This Page** well/area.
+1. From the **Data** pane, drag the **Product \| Category** field into the **Filter On This Page** well/area.
     
 	*Fields added to the **Filters** pane can achieve the same result as a slicer. One difference is they don’t take up space on the report page. Another difference is that they can be configured to achieve more sophisticated filtering requirements.*
 
