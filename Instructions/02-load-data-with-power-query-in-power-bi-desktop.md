@@ -465,7 +465,7 @@ In this task, you'll complete the lab.
 
      ![Picture 326](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image83.png)
 
-1. In the **Fields** pane (located at the right), notice the seven tables loaded to the data model.
+1. In the **Data** pane (located at the right), notice the seven tables loaded to the data model.
 
      ![Picture 3](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image84.png)
 

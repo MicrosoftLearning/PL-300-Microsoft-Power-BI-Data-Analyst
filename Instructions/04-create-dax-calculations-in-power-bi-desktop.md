@@ -69,7 +69,7 @@ The formula bar supports entering a valid DAX formula. It includes features like
 
      *Tip: You’re encouraged to enter “white space” (that is, carriage returns and tabs) to write formulas in an intuitive and easy-to-read format—especially when formulas are long and complex. To enter a carriage return, press **Shift+Enter**. “White space” is optional.*
 
-1. In the **Fields** pane, notice that the table icon is a shade of blue (denoting a calculated table).
+1. In the **Data** pane, notice that the table icon is a shade of blue (denoting a calculated table).
 
 	![Picture 10](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image11.png)
 
@@ -92,8 +92,8 @@ The formula bar supports entering a valid DAX formula. It includes features like
 1. In the model diagram, select the **Salesperson** table.
 
 1. In the **Properties** pane, in the **Description** box, enter: **Salesperson related to Sales**
-
-	*You may recall that descriptions appear as tooltips in the **Fields** pane when the user hovers their cursor over a table or field.*
+    
+	*You may recall that descriptions appear as tooltips in the **Data** pane when the user hovers their cursor over a table or field.*
 
 1. For the **Salesperson (Performance)** table, set the description to: **Salesperson related to region(s)**
 
@@ -182,7 +182,7 @@ In this task, you'll add more columns to enable filtering and grouping by differ
 
 	![Picture 51](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image23.png)
 
-1. In the **Fields** pane, from inside the **Date** table, drag the **Year** field into the **Rows** well/area.
+1. In the **Data** pane, from inside the **Date** table, drag the **Year** field into the **Rows** well/area.
 
 	![Picture 17](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image24.png)
 
@@ -220,7 +220,7 @@ In this task, you'll add more columns to enable filtering and grouping by differ
 
 	![Picture 21](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image28.png)
 
-1. Switch back to Report view. In the **Fields** pane, ensure that the **Month** field is selected (when selected, it will have a dark gray background).
+1. Switch back to Report view. In the **Data** pane, ensure that the **Month** field is selected (when selected, it will have a dark gray background).
 
 1. On the **Column Tools** contextual ribbon, from inside the **Sort** group, select **Sort by Column**, and then select **MonthKey**.
 
@@ -236,11 +236,13 @@ In this task, you'll complete the design of the **Date** table by hiding a colum
 
 1. Switch to Model view. In the **Date** table, hide the **MonthKey** column (set **Is Hidden** to **Yes**).
 
-1. On the **Fields** right side pane, select the **Date** table, right select on the **Year** column, and select **create hierarchy**.
+
+1. On the **Data** right side pane, select the **Date** table, right select on the **Year** column, and select **create hierarchy**. 
 
 1. Rename newly created hierarchy to **Fiscal** by right select and **Rename**.
 
-1. Add the follow two remaining fields to the Fiscal hierarchy by selecting them in the fields pane, right clicking, selecting **Add to hierarchy** -> **Fiscal**.
+
+1. Add the follow two remaining fields to the Fiscal hierarchy by selecting them in the **Data** pane, right clicking, selecting **Add to hierarchy** -> **Fiscal**.
 
 	- Quarter
 	- Month
@@ -261,7 +263,7 @@ In this task, you'll complete the design of the **Date** table by hiding a colum
 
 In this task, you'll mark the **Date** table as a date table.
 
-1. Switch to Report view. In the **Fields** pane, select the **Date** table (not the **Date** field).
+1. Switch to Report view. In the **Data** pane, select the **Date** table (not the **Date** field).
 
 1. On the **Table Tools** contextual ribbon, from inside the **Calendars** group, select **Mark as Date Table**, and then select **Mark as Date Table**.
 
@@ -281,7 +283,7 @@ In this task, you'll mark the **Date** table as a date table.
 
 In this task, you'll create simple measures. Simple measures aggregate values in a single column or count rows of a table.
 
-1. In Report view, on **Page 2**, in the **Fields** pane, drag the **Sales \| Unit Price** field into the matrix visual.
+1. In Report view, on **Page 2**, in the **Data** pane, drag the **Sales \| Unit Price** field into the matrix visual.
 
 	*The labs use a shorthand notation to reference a field. It will look like this: **Sales \| Unit Price**. In this example, **Sales** is the table name and **Unit Price** is the field name.*
 
@@ -299,7 +301,7 @@ In this task, you'll create simple measures. Simple measures aggregate values in
 
 	*Visible numeric columns allow report authors at report design time to decide how column values will summarize (or not). It can result in inappropriate reporting. Some data modelers don’t like leaving things to chance, however, and choose to hide these columns and instead expose aggregation logic defined in measures. It’s the approach you'll now take in this lab.*
 
-1. To create a measure, in the **Fields** pane, right-click the **Sales** table, and then select **New Measure**.
+1. To create a measure, in the **Data** pane, right-click the **Sales** table, and then select **New Measure**.
 
 1. In the formula bar, add the following measure definition:
 
@@ -387,7 +389,7 @@ In this task, you'll create more measures that use more complex formulas.
 
 1. Rename the **Targets \| Target** column as **Targets \| TargetAmount**.
 
-	*Tip: There are several ways to rename the column in Report view: In the **Fields** pane, you can right-click the column, and then select **Rename**—or, double-click the column, or press **F2**.*
+	*Tip: There are several ways to rename the column in Report view: In the **Data** pane, you can right-click the column, and then select **Rename**—or, double-click the column, or press **F2**.*
 
 	*You’re about to create a measure named **Target**. It’s not possible to have a column and measure in the same table with the same name.*
 
@@ -416,7 +418,7 @@ In this task, you'll create more measures that use more complex formulas.
 
 1. Hide the **TargetAmount** column.
 
-	*Tip: You can right-click the column in the **Fields** pane, and then select **Hide**.*
+	*Tip: You can right-click the column in the **Data** pane, and then select **Hide**.*
 
 1. Add the **Target** measure to the table visual.
 
@@ -441,7 +443,7 @@ In this task, you'll create more measures that use more complex formulas.
 
 	*While it appears all salespeople aren't meeting target, remember that the table visual isn’t yet filtered by a specific time period. You’ll produce sales performance reports that filter by a user-selected time period in the **Design a Report in Power BI Desktop** lab.*
 
-1. At the top-right corner of the **Fields** pane, collapse and then expand open the pane.
+1. At the top-right corner of the **Data** pane, collapse and then expand open the pane.
 
 	*Collapsing and reopening the pane resets the content.*
 

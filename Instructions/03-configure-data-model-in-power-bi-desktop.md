@@ -55,11 +55,11 @@ In this task, you'll create model relationships. The file was configured to not 
 
      ![Picture 327](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image10.png)
 
-1. To view all table fields, in the **Fields** pane, right-click an empty area, and then select **Expand All**.
+1. To view all table fields, in the **Data** pane, right-click an empty area, and then select **Expand All**.
 
-1. To create a table visual, in the **Fields** pane, from inside the **Product** table, check the **Category** field.
+1. To create a table visual, in the **Data** pane, from inside the **Product** table, check the **Category** field.
 
-1. To add another column to the table, in the **Fields** pane, check the **Sales \| Sales** field.
+1. To add another column to the table, in the **Data** pane, check the **Sales \| Sales** field.
 
 1. Notice that the table visual lists four product categories, and that the sales value is the same for each, and the same for the total.
 
@@ -142,13 +142,13 @@ In this exercise you'll configure each table by creating hierarchies, and hiding
 
 In this task, you'll configure the **Product** table.
 
-1. In Model view, in the **Fields** pane, if necessary, expand the **Product** table to reveal all fields.
+1. In Model view, in the **Data** pane, if necessary, expand the **Product** table to reveal all fields.
 
-1. To create a hierarchy, in the **Fields** pane, right-click the **Category** column, and then select **Create Hierarchy**.
+1. To create a hierarchy, in the **Data** pane, right-click the **Category** column, and then select **Create Hierarchy**.
 
      ![Create hierarchy dialog.](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image24.png)
 
-1. In the **Properties** pane (to the left of the **Fields** pane), in the **Name** box, replace the text with **Products**.
+1. In the **Properties** pane (to the left of the **Data** pane), in the **Name** box, replace the text with **Products**.
 
 1. To add the second level to the hierarchy, in the **Properties** pane, in the **Hierarchy** dropdown list, select **Subcategory** (you might need to scroll down inside the pane).
 
@@ -160,7 +160,7 @@ In this task, you'll configure the **Product** table.
 
  	*Tip: Don’t forget to select **Apply Level Changes**—it’s a common mistake to overlook this step.*
 
-1. In the **Fields** pane, notice the **Products** hierarchy.
+1. In the **Data** pane, notice the **Products** hierarchy.
 
      ![Picture 347](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image27.png)
 
@@ -168,7 +168,7 @@ In this task, you'll configure the **Product** table.
 
      ![Picture 346](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image28.png)
 
-1. To organize columns into a display folder, in the **Fields** pane, first select the **Background Color Format** column.
+1. To organize columns into a display folder, in the **Data** pane, first select the **Background Color Format** column.
 
 1. While pressing the **Ctrl** key, select the **Font Color Format** column.
 
@@ -176,9 +176,9 @@ In this task, you'll configure the **Product** table.
 
      ![Picture 348](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image29.png)
 
-1. In the **Fields** pane, notice that the two columns are now inside a folder.
-
-	*Display folders are a great way to declutter tables—especially for tables that comprise many fields. They're logical presentation only.*
+1. In the **Data** pane, notice that the two columns are now inside a folder.
+    
+   *Display folders are a great way to declutter tables—especially for tables that comprise many fields. They're logical presentation only.*
 
      ![Picture 349](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image30.png)
 
@@ -228,7 +228,7 @@ In this task, you'll configure the **Sales** table.
 
 1. In the **Properties** pane, in the **Description** box, enter: *Based on standard cost*.
 
-	*Descriptions can be applied to tables, columns, hierarchies, or measures. In the **Fields** pane, description text is revealed in a tooltip when a report author hovers their cursor over the field.*
+	*Descriptions can be applied to tables, columns, hierarchies, or measures. In the **Data** pane, description text is revealed in a tooltip when a report author hovers their cursor over the field.*
 
 1. Select the **Quantity** column.
 
@@ -246,7 +246,7 @@ In this task, you'll configure the **Sales** table.
 
 In this task, you'll update multiple columns using single bulk updates. You'll use this approach to hide columns, and format column values.
 
-1. In the **Fields** pane, select the **Product \| ProductKey** column.
+1. In the **Data** pane, select the **Product \| ProductKey** column.
 
 1. While pressing the **Ctrl** key, select the following 13 columns (spanning multiple tables):
 
@@ -288,7 +288,7 @@ In this task you'll switch to Report view, and review the model interface.
 
 1. Switch to Report view.
 
-1. In the **Fields** pane, notice the following:
+1. In the **Data** pane, notice the following:
 
      - Columns, hierarchies and their levels are fields, which can be used to configure report visuals
      - Only fields relevant to report authoring are visible
@@ -310,7 +310,7 @@ In this task you'll switch to Report view, and review the model interface.
 
      ![Picture 362](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image43.png)
 
-1. In the **Fields** pane, notice that the date hierarchies are no longer available.
+1. In the **Data** pane, notice that the date hierarchies are no longer available.
 
      ![Picture 363](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image45.png)
 
@@ -324,7 +324,7 @@ In this task, you'll create two quick measures to calculate profit and profit ma
 
 *A quick measure creates the calculation formula for you. They’re easy and fast to create for simple and common calculations. You’ll create measures without using this tool in the **Create DAX Calculations in Power BI Desktop** lab.*
 
-1. In the **Fields** pane, right-click the **Sales** table, and then select **New Quick Measure**.
+1. In the **Data** pane, right-click the **Sales** table, and then select **New Quick Measure**.
 
      ![Picture 366](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image46.png)
 
@@ -332,7 +332,7 @@ In this task, you'll create two quick measures to calculate profit and profit ma
 
      ![Picture 367](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image47.png)
 
-1. In the **Fields** pane of the **Quick Measures** window, expand the **Sales** table.
+1. In the **Data** pane of the **Quick Measures** window, expand the **Sales** table.
 
 1. Drag the **Sales** field into the **Base Value** box.
 
@@ -340,7 +340,7 @@ In this task, you'll create two quick measures to calculate profit and profit ma
 
      ![Picture 368](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image48.png)
 
-1. In the **Fields** pane, inside the **Sales** table, notice that new measure.
+1. In the **Data** pane, inside the **Sales** table, notice that new measure.
     1. *Measures use the calculator icon.*
 
      ![Picture 370](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image50.png)
@@ -362,7 +362,7 @@ In this task, you'll create two quick measures to calculate profit and profit ma
 
 1. To test the two measures, first select the **table** visual on the report page.
 
-1. In the **Fields** pane, check the two measures.
+1. In the **Data** pane, check the two measures.
 
      ![Picture 375](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image55.png)
 
@@ -380,7 +380,7 @@ In this task, you'll create a many-to-many relationship between the **Salesperso
 
  *The labs use a shorthand notation to reference a field. It will look like this: **Salesperson \| Salesperson** . In this example, **Salesperson**  is the table name and **Salesperson**  is the field name.*
 
-1. In Power BI Desktop, in Report view, in the **Fields** pane, check the follow two fields to create a **table** visual.
+1. In Power BI Desktop, in Report view, in the **Data** pane, check the follow two fields to create a **table** visual.
 
      - Salesperson \| Salesperson
      - Sales \| Sales
