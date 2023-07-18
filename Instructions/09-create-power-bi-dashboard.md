@@ -16,7 +16,7 @@ In this lab you learn how to:
 - Pin visuals to a dashboard
 - Use Q&A to create dashboard tiles
 
-**This lab should take approximately 45 minutes.**
+**This lab should take approximately 30 minutes.**
 
 ## **Get started – Sign in**
 
