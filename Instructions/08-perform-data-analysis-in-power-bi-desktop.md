@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Perform Advanced Analytics in Power BI'
+    title: 'Perform Advanced Analytics with AI Visuals'
     module: 'Perform Data Analysis in Power BI'
 ---
 
