@@ -16,7 +16,7 @@ In this lab you learn how to:
 - Enforce row-level security
 - Choose between dynamic and static methods
 
-**This lab should take approximately 45 minutes.**
+**This lab should take approximately 20 minutes.**
 
 ## **Get started**
 
