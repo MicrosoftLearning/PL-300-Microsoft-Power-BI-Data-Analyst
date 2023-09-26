@@ -1,3 +1,8 @@
+---
+demo:
+    title: 'Perform data analysis in Power BI'
+    module: 'Perform data analysis in Power BI'
+---
 # Perform data analysis
 
 ## Add a group

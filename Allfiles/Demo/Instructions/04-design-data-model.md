@@ -1,3 +1,8 @@
+---
+demo:
+    title: 'Design a data model in Power BI'
+    module: 'Design a data model in Power BI'
+---
 # Design a data model in Power BI
 
 ## Review the model
