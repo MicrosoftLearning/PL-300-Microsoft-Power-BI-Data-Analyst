@@ -1,7 +1,7 @@
 ---
 demo:
     title: 'Setup demo environment'
-    module: ''
+    module: 'Setup demo environment'
 ---
 
 # Demo Setup
