@@ -1,3 +1,8 @@
+---
+demo:
+    title: 'Create and manage workspaces in Power BI'
+    module: 'Create and manage workspaces in Power BI'
+---
 # Create and manage workspaces
 
 ## Share a dashboard
