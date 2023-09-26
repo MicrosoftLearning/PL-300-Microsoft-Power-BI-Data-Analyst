@@ -19,7 +19,7 @@ Hyperlinks to each of the lab exercises and demos are listed below.
 ## Demos
 
 {% assign demos = site.pages | where_exp:"page", "page.url contains '/Allfiles/Demo/Instructions'" %}
-| Module | Demo |
+| Section | Demo |
 | --- | --- | 
 {% for activity in demos  %}| {{ activity.demo.module }} | [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
