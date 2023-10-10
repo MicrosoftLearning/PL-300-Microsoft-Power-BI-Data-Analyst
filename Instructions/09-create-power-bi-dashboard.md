@@ -60,8 +60,6 @@ In this task, you'll set up the environment for the lab by opening the starter r
     
 	*To dismiss the warning message, at the right of the yellow warning message, select **X**.*
 
-1. To create a copy of the file, go to **File > Save As** and save to **D:\PL300\MySolution** folder.
-
 1. If prompted to apply changes, select **Apply Later**.
 
 ## **Get started – Publish the report**
