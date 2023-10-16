@@ -1,5 +1,5 @@
 ---
-demo:
+lab:
     title: 'Create measures using DAX in Power BI'
     module: 'Create measures using DAX in Power BI'
 ---

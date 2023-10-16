@@ -1,5 +1,5 @@
 ---
-demo:
+lab:
     title: 'Create reports in Power BI'
     module: 'Create reports in Power BI'
 ---

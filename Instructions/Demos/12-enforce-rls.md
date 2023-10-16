@@ -1,5 +1,5 @@
 ---
-demo:
+lab:
     title: 'Enforce Row-level security in Power BI'
     module: 'Deploy and manage Power BI service items'
 ---

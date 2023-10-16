@@ -1,5 +1,5 @@
 ---
-demo:
+lab:
     title: 'Perform data analysis in Power BI'
     module: 'Perform data analysis in Power BI'
 ---
