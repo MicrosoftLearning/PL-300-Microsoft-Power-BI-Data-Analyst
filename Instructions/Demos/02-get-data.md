@@ -1,5 +1,5 @@
 ---
-demo:
+lab:
     title: 'Get data in Power BI'
     module: 'Get data in Power BI'
 ---

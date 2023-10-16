@@ -1,5 +1,5 @@
 ---
-demo:
+lab:
     title: 'Setup demo environment'
     module: 'Setup demo environment'
 ---
