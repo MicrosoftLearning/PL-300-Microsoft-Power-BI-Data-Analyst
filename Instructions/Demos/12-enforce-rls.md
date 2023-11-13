@@ -1,8 +1,9 @@
 ---
-lab:
-    title: 'Enforce Row-level security in Power BI'
-    module: 'Deploy and manage Power BI service items'
+demo:
+     title: 'Enforce Row-level security in Power BI'
+     module: 'Deploy and manage Power BI service items'
 ---
+
 # Enforce Row-level security in Power BI
 
 ## Add a security table to the model
