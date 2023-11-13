@@ -1,7 +1,7 @@
 ---
-lab:
-    title: 'Set up your own environment'
-    module: 'Set up your own environment'
+demo:
+     title: 'Set up your own environment'
+     module: 'Set up your own environment'
 ---
 
 
