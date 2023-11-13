@@ -1,5 +1,5 @@
 ---
-lab:
+demo:
     title: 'Get started with Microsoft data analytics'
     module: 'Get started with Microsoft data analytics'
 ---
