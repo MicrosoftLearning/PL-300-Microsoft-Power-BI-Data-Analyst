@@ -56,13 +56,13 @@ demo:
 
 1. Save the Power BI Desktop file.
 
-1. Publish the Power BI Desktop file to the workspace, overwriting the dataset and report in the service.
+1. Publish the Power BI Desktop file to the workspace, overwriting the semantic model and report in the service.
 
 1. Close Power BI Desktop.
 
-## Configure dataset security
+## Configure semantic model security
 
-1. In the Power BI service for the instructor, from the Navigation pane, open the security page for the **Sales Analysis** dataset.
+1. In the Power BI service for the instructor, from the Navigation pane, open the security page for the **Sales Analysis** semantic model.
 
 1. In the Members section, enter the recipient account (representing **Ty Johnston**).
 

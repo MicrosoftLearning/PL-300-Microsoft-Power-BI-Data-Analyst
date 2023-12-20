@@ -152,7 +152,7 @@ In this task, you'll edit the details of two tiles.
 
 *You’ll refresh the semantic model in the next exercise. Depending on your data and report, you can do an adhoc data refresh anytime or set a schedule. However, scheduled refreshes require gateways that we aren't able to configure for this lab. So from Power BI Desktop, you'll perform a manual data refresh, and then upload the file to your workspace.*
 
-## **Refresh the semantic model**
+## **Refresh the Semantic model**
 
 In this exercise, you'll first load sales order data for June 2020 into the **AdventureWorksDW2020** database. You'll then open your Power BI Desktop file, perform a data refresh, and then upload the file to your workspace.
 

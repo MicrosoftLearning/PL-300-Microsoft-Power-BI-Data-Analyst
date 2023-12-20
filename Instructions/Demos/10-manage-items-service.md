@@ -1,9 +1,10 @@
 ---
-demo:
-     title: 'Manage files and datasets in Power BI'
-     module: 'Deploy and manage Power BI service items'
+lab:
+    title: 'Manage files and semantic models in Power BI'
+    module: 'Deploy and manage Power BI service items'
 ---
-# Manage files and datasets in Power BI
+
+# Manage files and semantic models in Power BI
 
 ## Prepare for gateway data refresh
 
@@ -19,11 +20,11 @@ demo:
 
 1. Save the Power BI Desktop file.
 
-1. Publish the Power BI Desktop file to the workspace, overwriting the dataset and report in the service.
+1. Publish the Power BI Desktop file to the workspace, overwriting the semantic model and report in the service.
 
 ## Setup the gateway (personal mode)
 
-1. In the Power BI service for the instructor, reload (F5) the dataset settings page.
+1. In the Power BI service for the instructor, reload (F5) the semantic model settings page.
 
 1. Expand the Gateway Connection section and point out that no gateway is installed.
 
@@ -35,7 +36,7 @@ demo:
 
 1. Complete the gateway setup by using the credentials of the instructor account.
 
-1. Once setup, return to and reload the dataset settings page.
+1. Once setup, return to and reload the semantic model settings page.
 
 1. Assign the personal gateway, and the edit the credentials for the two data sources.
 
@@ -43,14 +44,14 @@ demo:
 
 1. Optionally, expand the **Scheduled Refresh** section, and show how to configure a recurring schedule.
 
-## Refresh the dataset
+## Refresh the semantic model
 
-1. Before refreshing the dataset, open the **Sales Monitoring** dashboard.
+1. Before refreshing the semantic model, open the **Sales Monitoring** dashboard.
 
 1. Edit the details of the Sales, Profit Margin tile to display the last refresh time.
 
 1. Right-click the `D:\PL300\Demo\Resources\UpdateDatabase-LoadAdditionalSales.ps1` file, and then run with PowerShell. *This script will load December 2020 sales data into the database.*
 
-1. In the Power BI service for the instructor, from the Navigation pane, refresh the **Sales Analysis** dataset.
+1. In the Power BI service for the instructor, from the Navigation pane, refresh the **Sales Analysis** semantic model.
 
 1. When the refresh completes, point out how the dashboard tile **December 2020** column appears, and that the refresh time is **NOW**.

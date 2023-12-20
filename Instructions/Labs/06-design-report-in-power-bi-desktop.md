@@ -316,10 +316,10 @@ In this task, you'll explore the report that was published to Power BI.
 
     ![Picture 93](Linked_image_Files/06-my-workspace-new.png)
 
-1. Review the contents of the workspace. Notice the navigation options of All, Content, and Datasets + dataflows.
-    1. *There are four types of items that can exist in a workspace, and we'll talk about **reports** and **datasets**.*
-    1. *You may need to refresh your Microsoft Edge browser if the dataset is not visible.*
-    1. *When you published the Power BI Desktop file, the data model was published as a dataset.*
+1. Review the contents of the workspace. Notice the navigation options of All, Content, and Semantic models + dataflows.
+    1. *There are four types of items that can exist in a workspace, and we'll talk about **reports** and **semantic models**.*
+    1. *You may need to refresh your Microsoft Edge browser if the semantic model is not visible.*
+    1. *When you published the Power BI Desktop file, the data model was published as a semantic model.*
 
 1. To explore the report, select the **Sales Analysis** report.
 
