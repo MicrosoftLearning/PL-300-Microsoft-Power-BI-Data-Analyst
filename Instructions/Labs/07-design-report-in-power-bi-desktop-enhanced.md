@@ -338,7 +338,7 @@ In this task, you'll publish the report.
 1. In the **Publish to Power** BI window, notice that **My Workspace** is selected.
 
 1. To publish the report, select **Select**.
-    1. If prompted to replace the dataset, select **Replace**.
+    1. If prompted to replace the semantic model, select **Replace**.
     1. When the publication has succeeded, select **Got It**.
 
 1. Close Power BI Desktop.

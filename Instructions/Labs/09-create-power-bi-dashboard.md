@@ -64,7 +64,7 @@ In this task, you'll set up the environment for the lab by opening the starter r
 
 ## **Get started – Publish the report**
 
-In this task, you'll set up the environment for the lab by creating a dataset. *If you've already published the dataset, please move to the next task.*
+In this task, you'll set up the environment for the lab by creating a semantic model. *If you've already published the semantic model, please move to the next task.*
 
 1. In the Microsoft Edge browser window, in the Power BI service, navigate to **My Workspace**.
 
@@ -74,7 +74,7 @@ In this task, you'll set up the environment for the lab by creating a dataset. *
 
 1. Select the **Sales Analysis.pbix** file, and then select **Open**.
 
-*If prompted to replace the dataset, select **Replace it**.*
+*If prompted to replace the semantic model, select **Replace it**.*
 
 ## **Create a dashboard**
 
@@ -174,9 +174,9 @@ In this task, you'll edit the details of two tiles.
 
 1. Notice that the tile describes the last refresh time (which done when loading the data model in Power BI Desktop).
 
-*You’ll refresh the dataset in the next exercise. Depending on your data and report, you can do an adhoc data refresh anytime or set a schedule. However, scheduled refreshes require gateways that we aren't able to configure for this lab. So from Power BI Desktop, you'll perform a manual data refresh, and then upload the file to your workspace.*
+*You’ll refresh the semantic model in the next exercise. Depending on your data and report, you can do an adhoc data refresh anytime or set a schedule. However, scheduled refreshes require gateways that we aren't able to configure for this lab. So from Power BI Desktop, you'll perform a manual data refresh, and then upload the file to your workspace.*
 
-## **Refresh the Dataset**
+## **Refresh the Semantic model**
 
 In this exercise, you'll first load sales order data for June 2020 into the **AdventureWorksDW2020** database. You'll then open your Power BI Desktop file, perform a data refresh, and then upload the file to your workspace.
 
@@ -208,11 +208,11 @@ In this task you'll open the **Sales Analysis** Power BI Desktop file, perform a
 
     ![Picture 59](Linked_image_Files/09-create-power-bi-dashboard_image48.png)
 
-1. When prompted to replace the dataset, select **Replace**.
+1. When prompted to replace the semantic model, select **Replace**.
 
 1. Close Power BI Desktop.
 
-*The dataset in the Power BI service now has June 2020 sales data.*
+*The semantic model in the Power BI service now has June 2020 sales data.*
 
 ### **Review the dashboard**
 
