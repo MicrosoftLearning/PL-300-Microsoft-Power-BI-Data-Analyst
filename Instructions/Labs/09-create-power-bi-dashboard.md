@@ -38,30 +38,6 @@ In this task, you'll set up the environment for the lab by signing in to Power B
 
      ![Picture 22](Linked_image_Files/07-my-workspace-new.png)
 
-## **Get started – Open report**
-
-In this task, you'll set up the environment for the lab by opening the starter report.
-
-*Important: If you're continuing on from the previous lab (and you completed that lab successfully), don't complete this task; instead, continue from the next task.*
-
-1. Open Power BI Desktop.
-    
-	*By default, the Getting Started dialog box opens in front of Power BI Desktop. Sign-in, and then close the pop-up.*
-
-    ![Power BI Desktop icon](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
-
-1. To open the starter Power BI Desktop file, select the **File > Open Report > Browse Reports**.
-
-1. In the **Open** window, navigate to the **D:\PL300\Labs\09-create-power-bi-dashboard\Starter** folder, and open the **Sales Analysis** file.
-
-1. Close any informational windows that may open.
-
-1. Notice the yellow warning message beneath the ribbon. *This message alerts you to the fact that the queries haven't been applied to load as model tables. You’ll apply the queries later in the lab.*
-    
-	*To dismiss the warning message, at the right of the yellow warning message, select **X**.*
-
-1. If prompted to apply changes, select **Apply Later**.
-
 ## **Get started – Publish the report**
 
 In this task, you'll set up the environment for the lab by creating a semantic model. *If you've already published the semantic model, please move to the next task.*

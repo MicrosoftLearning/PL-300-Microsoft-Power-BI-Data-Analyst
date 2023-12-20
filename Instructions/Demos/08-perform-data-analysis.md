@@ -1,7 +1,7 @@
 ---
-lab:
-    title: 'Perform data analysis in Power BI'
-    module: 'Perform data analysis in Power BI'
+demo:
+     title: 'Perform data analysis in Power BI'
+     module: 'Perform data analysis in Power BI'
 ---
 # Perform data analysis
 

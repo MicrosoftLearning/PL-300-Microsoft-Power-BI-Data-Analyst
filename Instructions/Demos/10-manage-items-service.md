@@ -3,6 +3,7 @@ lab:
     title: 'Manage files and semantic models in Power BI'
     module: 'Deploy and manage Power BI service items'
 ---
+
 # Manage files and semantic models in Power BI
 
 ## Prepare for gateway data refresh
