@@ -1,7 +1,7 @@
 ---
-lab:
-    title: '(Optional) Optimize model performance in Power BI'
-    module: 'Optimize model performance in Power BI'
+demo:
+     title: '(Optional) Optimize model performance in Power BI'
+     module: 'Optimize model performance in Power BI'
 ---
 
 # (Optional) Optimize model performance
