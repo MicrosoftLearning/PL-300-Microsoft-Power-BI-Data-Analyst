@@ -46,7 +46,7 @@ In this task, you'll set up the environment for the lab by creating a semantic m
 
 1. Select **Upload > Browse**.
 
-1. Navigate to **D:\PL300\Labs\09-create-power-bi-dashboard\Starter** folder.
+1. Navigate to **D:\Allfiles\Labs\09-create-power-bi-dashboard\Starter** folder.
 
 1. Select the **Sales Analysis.pbix** file, and then select **Open**.
 
@@ -116,7 +116,7 @@ In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a vis
 
 1. In the **Add a Tile** pane (located at the right), select the **Image** tile, then **Next**.
 
-1. In the **Add Image Tile** pane, in the **URL** box, enter the complete URL found in the **D:\PL300\Resources\AdventureWorksLogo_DataURL.txt** file, and then **Apply**.
+1. In the **Add Image Tile** pane, in the **URL** box, enter the complete URL found in the **D:\Allfiles\Resources\AdventureWorksLogo_DataURL.txt** file, and then **Apply**.
     
 	*You can embed an image by using its URL, or you can use a data URL, which embeds content inline.*
 
@@ -160,7 +160,7 @@ In this exercise, you'll first load sales order data for June 2020 into the **Ad
 
 In this task, you'll run a PowerShell script to update data in the **AdventureWorksDW2020** database.
 
-1. In File Explorer, inside the **D:\PL300\Setup** folder, right-click the **UpdateDatabase-2-AddSales.ps1** file, and then select **Run with PowerShell**.
+1. In File Explorer, inside the **D:\Allfiles\Setup** folder, right-click the **UpdateDatabase-2-AddSales.ps1** file, and then select **Run with PowerShell**.
 
     ![Picture 28](Linked_image_Files/09-create-power-bi-dashboard_image46.png)
 

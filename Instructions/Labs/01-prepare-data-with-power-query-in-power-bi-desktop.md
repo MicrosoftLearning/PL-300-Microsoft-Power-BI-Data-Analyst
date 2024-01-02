@@ -34,11 +34,11 @@ In this task, you start by opening a starter Power BI (.pbix) file. The starter 
 
 1. To open the starter Power BI Desktop file, select the **File > Open Report > Browse Reports**.
 
-1. In the **Open** window, navigate to the **D:\PL300\Labs\01-prepare-data-with-power-query-in-power-bi-desktop\Starter** folder.
+1. In the **Open** window, navigate to the **D:\Allfiles\Labs\01-prepare-data-with-power-query-in-power-bi-desktop\Starter** folder.
 
 1. Select the **Sales Analysis** file.
 
-1. Save a copy of the file with **Save As** in to the **D:\PL300\MySolution** folder.
+1. Save a copy of the file with **Save As** in to the **D:\Allfiles\MySolution** folder.
 
 
 ## **Get data from SQL Server**
@@ -164,7 +164,7 @@ In this task, you'll create a new query based on CSV files.
 
 1. To add a new query, in the **Power Query Editor** window, on the **Home** ribbon tab, from inside the **New Query** group, select the **New Source** down-arrow, and then select **Text/CSV**.
 
-1. In the **Open** window, navigate to the **D:\PL300\Resources** folder, and select the **ResellerSalesTargets.csv** file. Select **Open**.
+1. In the **Open** window, navigate to the **D:\Allfiles\Resources** folder, and select the **ResellerSalesTargets.csv** file. Select **Open**.
 
 1. In the **ResellerSalesTargets.csv** window, review the preview data. Select **OK**.
 
@@ -178,7 +178,7 @@ In this task, you'll create a new query based on CSV files.
 
      ![Picture 74](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image38.png)
 
-1. Repeat the steps to create a query based on the **D:\PL300\Resources\ColorFormats.csv** file.
+1. Repeat the steps to create a query based on the **D:\Allfiles\Resources\ColorFormats.csv** file.
 
     *The **ColorFormats** CSV file contains one row per product color. Each row records the HEX codes to format background and font colors.*
 

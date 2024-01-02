@@ -54,17 +54,17 @@ In this task, you'll set up the environment for the lab by opening the starter r
 
 1. To open the starter Power BI Desktop file, select the **File > Open Report > Browse Reports**.
 
-1. In the **Open** window, navigate to the **D:\PL300\Labs\07-design-report-in-power-bi-desktop-enhanced\Starter** folder, and open the **Sales Analysis** file.
+1. In the **Open** window, navigate to the **D:\Allfiles\Labs\07-design-report-in-power-bi-desktop-enhanced\Starter** folder, and open the **Sales Analysis** file.
 
 1. Close any informational windows that may open.
 
-1. Notice the yellow warning message beneath the ribbon.
+1. Notice the warning message beneath the ribbon.
 
 	*This message alerts you to the fact that the queries haven't been applied to load as model tables. You’ll apply the queries later in this lab.*
 
-	*To dismiss the warning message, at the right of the yellow warning message, select **X**.*
+	*To dismiss the warning message, at the right of the warning message, select **X**.*
 
-1. To create a copy of the file, go to **File > Save As** and save to **D:\PL300\MySolution** folder.
+1. To create a copy of the file, go to **File > Save As** and save to **D:\Allfiles\MySolution** folder.
 
 1. If prompted to apply changes, select **Apply Later**.
 
