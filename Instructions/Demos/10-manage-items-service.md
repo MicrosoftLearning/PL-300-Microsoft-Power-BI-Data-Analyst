@@ -1,7 +1,7 @@
 ---
 demo:
-    title: 'Manage files and semantic models in Power BI'
-    module: 'Deploy and manage Power BI service items'
+     title: 'Manage files and semantic models in Power BI'
+     module: 'Deploy and manage Power BI service items'
 ---
 
 # Manage files and semantic models in Power BI
