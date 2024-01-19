@@ -31,11 +31,11 @@ In this task, you'll set up the environment for the lab.
 
 1. To open the starter Power BI Desktop file, select the **File > Open Report > Browse Reports**.
 
-1. Navigate to the **D:\PL300\Labs\03-configure-data-model-in-power-bi-desktop\Starter** folder and select the **Sales Analysis** file.
+1. Navigate to the **D:\Allfiles\Labs\03-configure-data-model-in-power-bi-desktop\Starter** folder and select the **Sales Analysis** file.
 
 1. Close any informational windows that may open.
 
-1. Go to **File > Save As** and save the file to the **D:\PL300\MySolution** folder.
+1. Go to **File > Save As** and save the file to the **D:\Allfiles\MySolution** folder.
 
 ## **Create model relationships**
 

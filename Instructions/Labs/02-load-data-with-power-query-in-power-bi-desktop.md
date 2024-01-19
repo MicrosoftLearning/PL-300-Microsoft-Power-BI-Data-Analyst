@@ -31,17 +31,17 @@ In this task, you'll set up the environment for the lab.
 
 1. To open the starter Power BI Desktop file, select the **File > Open Report > Browse Reports**.
 
-1. In the **Open** window, navigate to the **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter** folder, and open the **Sales Analysis** file.
+1. In the **Open** window, navigate to the **D:\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter** folder, and open the **Sales Analysis** file.
 
 1. Close any informational windows that may open.
 
-1. Notice the yellow warning message beneath the ribbon.
+1. Notice the warning message beneath the ribbon.
 
 	*This message alerts you to the fact that the queries haven't been applied to load as model tables. You’ll apply the queries later in this lab.*
 
-	To dismiss the warning message, at the right of the yellow warning message, select **X**.
+	To dismiss the warning message, at the right of the warning message, select **X**.
 
-1. To create a copy of the file, go to **File > Save As** and save to **D:\PL300\MySolution** folder.
+1. To create a copy of the file, go to **File > Save As** and save to **D:\Allfiles\MySolution** folder.
 
 1. If prompted to apply changes, select **Apply Later**.
 
@@ -273,7 +273,7 @@ In this task, you'll configure the **Sales** query.
 1. In the **Custom Column** window, in the **New Column Name** box, replace the text with **Cost**.
 
 1. In the **Custom Column Formula** box, enter the following expression (after the equals symbol):
-    - *You can copy the expression from the **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** file.*
+    - *You can copy the expression from the **D:\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** file.*
     - *This expression tests if the **TotalProductCost** value is missing. If missing, it produces a value by multiplying the **OrderQuantity** value by the **StandardCost** value; otherwise, it uses the existing **TotalProductCost** value.*
 
 

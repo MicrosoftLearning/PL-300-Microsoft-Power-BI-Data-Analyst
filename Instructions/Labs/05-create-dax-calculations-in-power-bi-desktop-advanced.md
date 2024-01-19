@@ -30,17 +30,17 @@ In this lab you learn how to:
 
 1. To open the starter Power BI Desktop file, select the **File > Open Report > Browse Reports**.
 
-1. In the **Open** window, navigate to the **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Starter**  folder, and open the **Sales Analysis** file.
+1. In the **Open** window, navigate to the **D:\Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Starter**  folder, and open the **Sales Analysis** file.
 
 1. Close any informational windows that may open.
 
-1. Notice the yellow warning message beneath the ribbon. 
+1. Notice the warning message beneath the ribbon. 
 
 	*This message alerts you to the fact that the queries haven't been applied to load as model tables. You’ll apply the queries later in this lab.*
     
-	*To dismiss the warning message, at the right of the yellow warning message, select **X**.*
+	*To dismiss the warning message, at the right of the warning message, select **X**.*
 
-1. To create a copy of the file, go to **File > Save As** and save to **D:\PL300\MySolution** folder.
+1. To create a copy of the file, go to **File > Save As** and save to **D:\Allfiles\MySolution** folder.
 
 ## **Create a matrix visual**
 
@@ -90,7 +90,7 @@ In this task, you'll create several measures with DAX expressions that use the C
 
 1. Add a measure to the **Sales** table, based on the following expression:
     
-	 *For your convenience, all DAX definitions in this lab can be copied from the **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** file.*
+	 *For your convenience, all DAX definitions in this lab can be copied from the **D:\Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** file.*
 
 
     **DAX**

@@ -10,7 +10,7 @@ lab:
 Ideally, you should complete these labs in a hosted lab environment. If you want to complete them on your own computer, you can do so by installing the following software.
 
 - All setup and resource files can be [downloaded from GitHub](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/AllfilesDownload.zip).
-  - Extract the 'AllFiles' folder to D:/ and rename it to 'PL300'.
+  - Extract the 'AllFiles' folder to D:/ and rename it to 'D:\Allfiles\'.
 
 ***You may experience unexpected dialogs and behavior when using your own environment. Due to the wide range of possible local configurations, the course team cannot support issues you may encounter in your own environment.***
 

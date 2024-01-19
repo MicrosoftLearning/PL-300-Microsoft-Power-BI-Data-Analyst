@@ -46,7 +46,7 @@ In this task, you'll set up the environment for the lab by creating a semantic m
 
 1. Select **Upload > Browse**.
 
-1. Navigate to **D:\PL300\Labs\08-perform-data-analysis-in-power-bi-desktop\Starter** folder.
+1. Navigate to **D:\Allfiles\Labs\08-perform-data-analysis-in-power-bi-desktop\Starter** folder.
 
 1. Select the **Sales Analysis.pbix** file, and then select **Open**.
 
@@ -70,7 +70,7 @@ In this task, you'll create a live connection to the Power BI semantic model cre
 
 1. In the **Data hub** window, select the **Sales Analysis** semantic model in **My Workspace**, and then **Connect** or double-click to load the semantic model.
 
-1. Navigate to **File > Save** and save the file name as **Sales Exploration** in the **D:\PL300\MySolution** folder.
+1. Navigate to **File > Save** and save the file name as **Sales Exploration** in the **D:\Allfiles\MySolution** folder.
 
 *You’ll now create two report pages, and on each page you’ll work with a different visual to analyze and explore data.*
 

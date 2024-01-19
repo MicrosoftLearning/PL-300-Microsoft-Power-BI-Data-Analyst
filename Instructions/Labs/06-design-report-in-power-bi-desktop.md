@@ -24,9 +24,9 @@ In this task, you'll set up the environment for the lab by opening the starter r
 
 1. From Power BI Desktop, navigate to **File** > **Open report** > **Browse Reports**.
 
-1. Open the **Sales Analysis** file in the  **D:\PL300\Labs\06-design-report-in-power-bi-desktop\Starter** folder.
+1. Open the **Sales Analysis** file in the  **D:\Allfiles\Labs\06-design-report-in-power-bi-desktop\Starter** folder.
 
-1. Create a copy of the file by going to **File** > **Save As**, and save the copy in the **D:\PL300\MySolution** folder.
+1. Create a copy of the file by going to **File** > **Save As**, and save the copy in the **D:\Allfiles\MySolution** folder.
 
 ## **Design page 1**
 
@@ -42,7 +42,7 @@ In this task, you'll design the first report page. When you’ve completed the d
 
     ![Picture 1](Linked_image_Files/07-design-report-in-power-bi-desktop_image15.png)
 
-1. In the **Open** window, navigate to the **D:\PL300\Resources** folder.
+1. In the **Open** window, navigate to the **D:\Allfiles\Resources** folder.
 
 1. Select the **AdventureWorksLogo.jpg** file, and then select **Open**.
 
