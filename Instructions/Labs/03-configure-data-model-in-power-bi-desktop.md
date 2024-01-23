@@ -337,7 +337,7 @@ In this task, you'll create two quick measures to calculate profit and profit ma
 
 1. Drag the **Sales** field into the **Base Value** box.
 
-1. Drag the **Cost** field into the **Value to Subtract** box.
+1. Drag the **Cost** field into the **Value to Subtract** box, then select **Add**.  
 
      ![Picture 368](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image48.png)
 
