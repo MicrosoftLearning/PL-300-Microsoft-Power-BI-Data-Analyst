@@ -1,5 +1,6 @@
 ---
 demo:
+     course: 'PL-300, DP-605'
      title: 'Get data in Power BI'
      module: 'Get data in Power BI'
 ---

@@ -1,6 +1,6 @@
 ---
 demo:
-     course: 'PL-300'
+     course: 'PL-300, DP-605'
      title: 'Set up your own environment'
      module: 'Set up your own environment'
 ---

@@ -1,5 +1,6 @@
 ---
 lab:
+    course: 'PL-300, DP-605'
     title: 'Get Data in Power BI Desktop'
     module: 'Get Data in Power BI'
 ---

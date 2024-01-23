@@ -1,5 +1,6 @@
 ---
 demo:
+     course: 'PL-300, DP-605'
      title: 'Create reports in Power BI'
      module: 'Create reports in Power BI'
 ---

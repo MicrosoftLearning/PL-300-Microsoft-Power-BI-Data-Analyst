@@ -1,5 +1,6 @@
 ---
 lab:
+    course: 'PL-300'
     title: 'Enforce Row-Level Security'
     module: 'Enforce Row-Level Security'
 ---

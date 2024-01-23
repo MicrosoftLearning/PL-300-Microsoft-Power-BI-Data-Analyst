@@ -1,5 +1,6 @@
 ---
 lab:
+    course: 'PL-300'
     title: 'Create a Power BI Dashboard'
     module: 'Create Dashboards'
 ---
