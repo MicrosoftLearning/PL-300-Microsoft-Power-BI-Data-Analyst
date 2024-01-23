@@ -1,5 +1,6 @@
 ---
 lab:
+    course: 'PL-300, DP-605'
     title: 'Load Transformed Data in Power BI Desktop'
     module: 'Clean, Transform, and Load Data in Power BI'
 ---

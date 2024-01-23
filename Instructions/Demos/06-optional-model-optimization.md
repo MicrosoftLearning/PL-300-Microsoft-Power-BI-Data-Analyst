@@ -1,5 +1,6 @@
 ---
 demo:
+     course: 'PL-300'
      title: '(Optional) Optimize model performance in Power BI'
      module: 'Optimize model performance in Power BI'
 ---

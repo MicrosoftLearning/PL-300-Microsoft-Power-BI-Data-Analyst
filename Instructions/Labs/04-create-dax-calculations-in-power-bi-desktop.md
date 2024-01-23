@@ -1,5 +1,6 @@
 ---
 lab:
+    course: 'PL-300, DP-605'
     title: 'Create DAX Calculations in Power BI Desktop'
     module: 'Create Model Calculations using DAX in Power BI'
 ---

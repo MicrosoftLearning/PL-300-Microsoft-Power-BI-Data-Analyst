@@ -1,5 +1,6 @@
 ---
 lab:
+    course: 'PL-300'
     title: 'Perform Advanced Analytics with AI Visuals'
     module: 'Perform Data Analysis in Power BI'
 ---

@@ -1,5 +1,6 @@
 ---
 lab:
+    course: 'PL-300, DP-605'
     title: 'Design a Data Model in Power BI'
     module: 'Design a Data Model in Power BI'
 ---

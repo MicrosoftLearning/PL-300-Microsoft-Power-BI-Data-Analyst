@@ -1,5 +1,6 @@
 ---
 demo:
+     course: 'PL-300'
      title: 'Manage files and semantic models in Power BI'
      module: 'Deploy and manage Power BI service items'
 ---
