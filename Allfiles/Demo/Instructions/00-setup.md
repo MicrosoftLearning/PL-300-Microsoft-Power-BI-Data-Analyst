@@ -5,15 +5,15 @@
 1. Sign in to the virtual machine environment using the Student account.
 
 1. Open Microsoft Edge, then navigate to <https://powerbi.com> and sign in using the instructor account.
-    > **Tip**: If prompted to change the password, be sure to record it in the D:\PL300\Demo\Setup\MySettings.txt file.
+    > **Tip**: If prompted to change the password, be sure to record it in the D:\Allfiles\Demo\Setup\MySettings.txt file.
 
 1. In the Power BI service, accept the Power BI Pro trial.
 
 ## First demo setup
 
-1. Create a workspace and use the D:\PL300\Demo\Resources\Icon-Star.jpg image as its icon.
+1. Create a workspace and use the D:\Allfiles\Demo\Resources\Icon-Star.jpg image as its icon.
 
-1. Open the D:\PL300\Demo\Setup\Sales Analysis.pbix file in Power BI Desktop.
+1. Open the D:\Allfiles\Demo\Setup\Sales Analysis.pbix file in Power BI Desktop.
 
 1. In Power BI Desktop, sign in by using the instructor account.
 

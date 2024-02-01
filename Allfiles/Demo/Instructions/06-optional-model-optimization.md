@@ -4,13 +4,13 @@
 
 > **Note**: This demo uses a different Power BI Desktop file.
 
-1. Open the D:\PL300\Demo\Resources\AW Sales Analysis.pbix file.
+1. Open the D:\Allfiles\Demo\Resources\AW Sales Analysis.pbix file.
 
 1. If prompted to connect to the data source, click Connect.
 
 1. At the bottom-right corner, point out that the data model comprises DirectQuery tables.
 
-1. Save the Power BI Desktop file to the D:\PL300\Demo\MySolution folder.
+1. Save the Power BI Desktop file to the D:\Allfiles\Demo\MySolution folder.
 
 1. In Model view, introduce the model design, which includes two related tables.
 

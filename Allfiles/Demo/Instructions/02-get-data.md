@@ -4,7 +4,7 @@
 
 1. Open Power BI Desktop, and then dismiss the getting started page.
 
-1. Save the file to the D:\PL300\Demo folder as Sales Analysis.
+1. Save the file to the D:\Allfiles\Demo folder as Sales Analysis.
 
 ## Connect to a SQL Server database
 

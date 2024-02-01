@@ -44,7 +44,7 @@
 
 1. Edit the details of the Sales, Profit Margin tile to display the last refresh time.
 
-1. Right-click the `D:\PL300\Demo\Resources\UpdateDatabase-LoadAdditionalSales.ps1` file, and then run with PowerShell. *This script will load December 2020 sales data into the database.*
+1. Right-click the `D:\Allfiles\Demo\Resources\UpdateDatabase-LoadAdditionalSales.ps1` file, and then run with PowerShell. *This script will load December 2020 sales data into the database.*
 
 1. In the Power BI service for the instructor, from the Navigation pane, refresh the **Sales Analysis** dataset.
 

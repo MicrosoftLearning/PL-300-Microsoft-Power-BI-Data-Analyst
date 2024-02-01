@@ -42,7 +42,7 @@
 
 ## Integrate queries
 
-1. Create a new query using the Excel connector, connecting to the D:\PL300\Demo\Data\ProductCost.xlsx file.
+1. Create a new query using the Excel connector, connecting to the D:\Allfiles\Demo\Data\ProductCost.xlsx file.
 
 1. Remove the Product column.
 

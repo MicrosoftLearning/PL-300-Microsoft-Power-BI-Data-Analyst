@@ -4,7 +4,7 @@
 
 1. First, in the Power BI service, create a new workspace.
 
-1. Select the `D:\PL300\Demo\Resources\Icon-Airplane.jpg` image for workspace icon.
+1. Select the `D:\Allfiles\Demo\Resources\Icon-Airplane.jpg` image for workspace icon.
 
 1. In Power BI Desktop, publish the **Sales Analysis** report to the new workspace.
 

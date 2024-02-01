@@ -1,6 +1,6 @@
 # Create measures using dax in Power BI
 
-> **Tip**: All calculations can be copied from the D:\PL300\Demo\Resources\Snippets-Demo-05.txt file.
+> **Tip**: All calculations can be copied from the D:\Allfiles\Demo\Resources\Snippets-Demo-05.txt file.
 
 ## Create a calculated table
 
