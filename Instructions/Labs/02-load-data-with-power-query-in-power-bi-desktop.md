@@ -273,14 +273,15 @@ In this task, you'll configure the **Sales** query.
 
 1. In the **Custom Column** window, in the **New Column Name** box, replace the text with **Cost**.
 
-1. In the **Custom Column Formula** box, enter the following expression (after the equals symbol):
-    - *You can copy the expression from the **D:\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** file.*
-    - *This expression tests if the **TotalProductCost** value is missing. If missing, it produces a value by multiplying the **OrderQuantity** value by the **StandardCost** value; otherwise, it uses the existing **TotalProductCost** value.*
+1. In the **Custom Column Formula** box, enter the following expression (after the equals symbol), then save the new column:
 
-
-    `
+        `
     if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]
     `
+
+    *You can copy the expression from the **D:\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** file.*
+
+    *This expression tests if the **TotalProductCost** value is missing. If missing, it produces a value by multiplying the **OrderQuantity** value by the **StandardCost** value; otherwise, it uses the existing **TotalProductCost** value.*
 
 1. Remove the following two columns:
 

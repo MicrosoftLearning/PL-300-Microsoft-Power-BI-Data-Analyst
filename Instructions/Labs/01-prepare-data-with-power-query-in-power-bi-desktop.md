@@ -20,7 +20,7 @@ This lab is designed to introduce you to Power BI Desktop application and how to
 
 ## **Get started with Power BI Desktop**
 
-In this task, you start by opening a starter Power BI (.pbix) file. The starter file doesn't contain any data, but has been specially configured to help you complete the lab. The following report-level settings have been disabled in the starter file:
+ In this task, you start by opening a starter Power BI (.pbix) file. The starter file doesn't contain any data, but has been specially configured to help you complete the lab. The following report-level settings have been disabled in the starter file:
 
 - Data Load > Import relationships from data sources on first load
 - Data Load > Autodetect new relationships after data is loaded
@@ -41,7 +41,6 @@ In this task, you start by opening a starter Power BI (.pbix) file. The starter 
 
 1. Save a copy of the file with **Save As** in to the **D:\Allfiles\MySolution** folder.
 
-
 ## **Get data from SQL Server**
 
 This task teaches you how to connect to a SQL Server database and import tables, which create queries in Power Query.
@@ -50,23 +49,23 @@ This task teaches you how to connect to a SQL Server database and import tables,
 
      ![SQL Server Get Data icon](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image11.png)
 
-1. In the **SQL Server Database** window, in the **Server** box, enter **localhost**, then select **OK**.
+1. In the **SQL Server Database** window, in the **Server** box, enter **localhost** and leave **Database** blank, then select **OK**.
 
     *Note: In this lab, you’ll connect to the SQL Server database by using **localhost** because gateway data sources can't resolve **localhost**. This isn’t a recommended practice when creating your own solutions.*
 
 1. If prompted for credentials, in the **SQL Server Database** window, select **Use my current credentials**, and then **Connect**.
 
-1. In the **Navigator** window, at the left, expand the **AdventureWorksDW2020** database.
+1. In the **Navigator** pane, expand the **AdventureWorksDW2020** database.
 
     *Note: The **AdventureWorksDW2020** database is based on the **AdventureWorksDW2017** sample database. It has been modified to support the learning objectives of the course labs.*
 
-1. Select—but don’t check—the **DimEmployee** table
+1. Select the **DimEmployee** table, and notice the preview of the table data.
 
      ![AdventureWorksDW2020 database with DimEmployee indicated](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image18.png)
 
-1. In the right pane, notice a preview of the table data. The preview data allows you to see the columns and a sample of rows.
+    *Note: The preview data allows you to see the columns and a sample of rows.*
 
-1. To create queries, select the checkbox next to the following six tables:
+1. To import the table data, **select the checkbox** next to the following six tables:
 
     - DimEmployee
     - DimEmployeeSalesTerritory
@@ -76,13 +75,12 @@ This task teaches you how to connect to a SQL Server database and import tables,
     - FactResellerSales
 
 1. Complete this task by selecting **Transform Data**, which will open Power Query Editor.
-    
-    1. *This lab is only intended to connect to and profile the data, but not **transform data**.*
 
+You've now imported data into Power BI and have the Power Query Editor open for the next task.
 
 ## **Preview Data in Power Query Editor**
 
-This task introduces the Power Query Editor and allows you to review and profile the data. This helps you determine how to clean and transform the data later.
+This task introduces the Power Query Editor and allows you to review and profile the data. This helps you determine how to clean and transform the data later. You'll also review both dimension tables prefixed with "Dim" and fact tables prefixed with "Fact".
 
 1. In the **Power Query Editor** window, at the left, notice the **Queries** pane. The **Queries** pane contains one query for each table you checked.
 
@@ -118,15 +116,9 @@ This task introduces the Power Query Editor and allows you to review and profile
 
      ![Column distribution showing 296 distinct, 296 unique values](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image26.png)
 
-1. In the **Queries** pane, select the **DimEmployeeSalesTerritory** query.
+1. In the **Queries** pane, select the **DimProduct** query.
 
-    *The **DimEmployeeSalesTerritory** table stores one row for each employee and the sales territory regions they manage. The table supports relating many regions to a single employee. Some employees manage one, two, or possibly more regions. When you model this data, you’ll need to define a many-to-many relationship.*
-
-1. In the **Queries** pane, select the **DimProduct** query. The **DimProduct** table contains one row per product sold by the company.
-
-1. Horizontally scroll to reveal the last columns. Notice the **DimProductSubcategory** column.
-
-    *When you add transformations to this query in the **Load Transformed Data in Power BI Desktop** lab, you’ll use the **DimProductSubcategory** column to join tables.*
+    *The **DimProduct** table contains one row per product sold by the company.*
 
 1. In the **Queries** pane, select the **DimReseller** query.
 
@@ -158,7 +150,6 @@ This task introduces the Power Query Editor and allows you to review and profile
 
     *Missing **TotalProductCost** column values is a data quality issue. To address the issue, in the **Load Transformed Data in Power BI Desktop** lab, you’ll apply transformations to fill in missing values by using the product standard cost, which is stored in the related **DimProduct** table.*
 
-
 ## **Get data from a CSV file**
 
 In this task, you'll create a new query based on CSV files.
@@ -186,7 +177,6 @@ In this task, you'll create a new query based on CSV files.
 *You should now have two new queries, **ResellerSalesTargets** and **ColorFormats**.*
 
  ![Queries list](Linked_image_Files/01-all-queries-loaded.png)
-
 
 ### **Finish up**
 
