@@ -275,9 +275,7 @@ In this task, you'll configure the **Sales** query.
 
 1. In the **Custom Column Formula** box, enter the following expression (after the equals symbol), then save the new column:
 
-        `
-    if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]
-    `
+   ` if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost] `
 
     *You can copy the expression from the **D:\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** file.*
 
