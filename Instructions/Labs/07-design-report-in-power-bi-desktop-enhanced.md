@@ -8,136 +8,109 @@ lab:
 
 ## Lab story
 
-In this lab, you'll enhance the **Sales Analysis** with advanced design features.
+In this lab, you'll enhance the _Sales Analysis_ report with advanced design features.
 
 In this lab you learn how to:
 
-- Sync slicers
 - Create a drill through page
 - Apply conditional formatting
-- Create and use bookmarks & buttons
+- Create and use bookmarks and buttons
 
 **This lab should take approximately 45 minutes.**
 
 ## Get started
 
-To complete this exercise, first open a web browser and enter the following URL to download the zip folder:
+To complete this exercise, first open a web browser and enter the following URL to download the zip file:
 
 `https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/07-design-report-in-power-bi-desktop-enhanced/07-enhanced-report.zip`
 
-Extract the folder to the **C:\Users\Student\Downloads\07-enhanced-report** folder.
+Extract the file to the **C:\Users\Student\Downloads\07-enhanced-report** folder.
 
 Open the **07-Starter-Sales Analysis.pbix** file.
 
-> ***Note**: You can dismiss the sign-in by selecting **Cancel**. Close any other informational windows. Select **Apply Later**, if prompted to apply changes.*
+> _**Note**: You can dismiss the sign-in by selecting **Cancel**. Close any other informational windows. Select **Apply Later**, if prompted to apply changes._
 
-## Sync slicers
+## Configure a drillthrough page
 
-In this task, you'll sync the **Year** and **Region** slicers, continuing the development of the report created in the **Design a Report in Power BI Desktop** lab.
+In this exercise, you'll create a new page and configure it as a drillthrough page. When you've completed the design, the page will look like the following:
 
-1. In Power BI Desktop, on the **Overview** page, set the **Year** slicer to **FY2018**.
+:::image type="content" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image17.png" alt-text="Image of the new page, comprising a card visual and table visual." border="true":::
 
-1. Go to the **My Performance** page, and then notice that the **Year** slicer is a different value.
-
-    > *When slicers aren’t synced, it can contribute to misrepresentation of data and frustration for report users. You’ll now sync the report slicers.*
-
-1. Return to the **Overview** page, and then select the **Year** slicer.
-
-1. On the **View** ribbon tab, from inside the **Show Panes** group, select **Sync Slicers**.
-
-	 ![Picture 1](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image13.png)
-
-1. In the **Sync Slicers** pane (at the left of the **Visualizations** pane), in the second column (which represents syncing), check the checkboxes for the **Overview** and **My Performance** pages.
-
-	 ![Picture 93](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image14.png)
-
-1. On the **Overview** page, select the **Region** slicer.
-
-1. Sync the slicer with the **Overview** and **Profit** pages.
-
-	 ![Picture 94](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image15.png)
-
-1. Test the sync slicers by selecting different filter options, and then verifying that the synced slicers filter by the same selection.
-
-1. To close the **Sync Slicer** page, select the **Sync Slicer** option located on the **View** ribbon tab.
-
-## Configure a drill through page
-
-In this exercise, you'll create a new page and configure it as a drill through page. When you’ve completed the design, the page will look like the following:
-
-![Image of the new page, comprising a card visual and table visual.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image17.png)
-
-1. Add a new report page named **Product Details**.
+1. Create a new page and rename it as _Product Details_.
 
 1. Right-click the **Product Details** page tab, and then select **Hide Page**.
 
-    > *Report users won’t be able to go to the drill through page directly. They’ll need to access it from visuals on other pages. You’ll learn how to drill through to the page in the final exercise of this lab.*
+    > _Report users won't be able to go to the drillthrough page directly. Instead, they'll access it from visuals on other pages. You'll learn how to drill through to the page in the final exercise of this lab._
 
-1. Beneath the **Visualizations** pane, in the **Drill Through** section, add the **Product \| Category** field to the **Add Drill-Through Fields Here** box.
+1. Beneath the **Visualizations** pane, in the **Drill Through** section, add the `Product | Category` field to the **Add drill-through fields here** box.
 
-    > *The labs use a shorthand notation to reference a field. It will look like this: **Product \| Category**. In this example, **Product** is the table name and **Category** is the field name.*
+    > _The labs use a shorthand notation to reference a field. It will look like this: `Product | Category`. In this example, `Product` is the table name and `Category` is the field name._
 
-	 ![Picture 96](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image20.png)
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image20.png" border="false":::
 
-1. To test the drill through page, in the drill through filter card, select **Bikes**.
+1. To test the drill through page, in the drill through filter card, select _Bikes_.
 
-	 ![Picture 99](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image21.png)
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image21.png" border="false":::
 
-1. At the top-left of the report page, notice the arrow button.
+1. At the top left of the report page, notice the arrow button.
 
-    > *An arrow button is added automatically when a field is added to the drill through well/area. It allows report users to navigate back to the page from which they drilled through.*
+    > _The report designer automatically adds an arrow button when a field is added to the drill through well. It allows report users to navigate back to the page from which they drilled through._
 
 1. Add a **Card** visual to the page, and then resize and position it so it sits to the right of the button and fills the remaining width of the page.
 
-	![Picture 13](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image23.png)
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image23.png" border="false":::
 
-	![Picture 101](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image24.png)
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image24.png" border="false":::
 
-1. Drag the **Product \| Category** field into the card visual.
+1. Drag the `Product | Category` field into the card visual.
 
-1. Configure the format options for the visual, and then turn the **Category Label** property to **Off**.
+1. Configure the format options for the visual to turn the **Category Label** property to **Off**.
 
-	 ![Picture 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image36b.png)
+    :::image type="icon" source="Linked_image_Files/07-design-report-in-power-bi-desktop_image36b.png" border="false":::
 
-1. Set the **Effects > Background** color property to a light shade of gray such as *White, 20% darker*.
+1. In the **General** tab, in the **Effects** section, set the background color property to a light gray color (such as _White, 10% Darker_) to provide contrast.
 
-     ![Picture 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image36c.png)
+    :::image type="icon" source="Linked_image_Files/07-design-report-in-power-bi-desktop_image36c.png" border="false":::
 
 1. Add a **Table** visual to the page, and then resize and position it so it sits beneath the card visual and fills the remaining space on the page.
 
-	 ![Picture 14](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image26.png)
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image26.png" border="false":::
 
-	 ![Picture 105](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image27.png)
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image27.png" border="false":::
 
 1. Add the following fields to the visual:
 
-	 - **Product \| Subcategory**
-	 - **Product \| Color**
-	 - **Sales \| Quantity**
-	 - **Sales \| Sales**
-	 - **Sales \| Profit Margin**
+    - `Product | Subcategory`
+    - `Product | Color`
+    - `Sales | Quantity`
+    - `Sales | Sales`
+    - `Sales | Profit Margin`
 
-1. Configure the format options for the visual, and in the **Values** and **Column headers** sections, set the **Text Size** property to **20pt**.
+1. To configure the format options for the visual, in the **Grid** section, set the **Global font size** property to **20pt**.
 
-*The design of the drill through page is almost complete. You’ll enhance the page with conditional formatting in the next exercise.*
+    > _The design of the drillthrough page is almost complete. You'll enhance the page with conditional formatting in the next exercise._
 
-## Add Conditional Formatting
+## Add conditional formatting
 
-In this exercise, you'll enhance the drill through page with conditional formatting. When you’ve completed the design, the page will look like the following:
+In this exercise, you'll enhance the drillthrough page with conditional formatting. When you've completed the design, the page will look like the following:
 
-![Image of an updated page, revealing color formatted values and icons.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image28.png)
+:::image type="content" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image28.png" alt-text="Image of an updated page, revealing color formatted values and icons." border="true":::
 
-1. Select the table visual. In the visualization pane, select the down-arrow on the **Profit Margin** value, and then select **Conditional Formatting \| Icons**.
+1. Select the table visual. In **Columns** well, select the down-arrow on the **Profit Margin** field, and then select **Conditional formatting > Icons**.
 
-	![Picture 107](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image29.png)
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image29.png" border="false":::
+
+1. In the **Icons – Profit Margin** window, in the **Apply to** dropdown list, select **Values and totals**.
+
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image30a.png" border="false":::
 
 1. In the **Icons – Profit Margin** window, in the **Icon Layout** dropdown list, select **Right of Data**.
 
-	![Picture 108](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image30.png)
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image30.png" border="false":::
 
 1. To delete the middle rule, at the right of the yellow triangle, select **X**.
 
-	![Picture 109](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image31.png)
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image31.png" border="false":::
 
 1. Configure the first rule (red diamond) as follows:
 
@@ -146,76 +119,84 @@ In this exercise, you'll enhance the drill through page with conditional formatt
     - In the fifth control, enter **0**
     - In the sixth control, select **Number**
 
-1. Configure the second rule (green circle) as follows, then select **OK**:
-
-    > *The rules can be interpreted as follows: display a red diamond if the profit margin value is less than 0; otherwise if the value is greater than or equal to zero, display a green circle.*
+1. Configure the second rule (green circle) as follows:
 
     - In the second control, enter **0**
     - In the third control, select **Number**
     - In the fifth control, remove the value
     - In the sixth control, select **Number**
 
-    ![Picture 110](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image32.png)
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image32.png" border="false":::
+
+    > _The rules can be interpreted as follows: display a red diamond if the profit margin value is less than 0; otherwise if the value is greater than or equal to zero, display a green circle._
+
+1. Select **OK**.
 
 1. In the table visual, verify that the correct icons are displayed.
 
-	![Picture 112](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image34.png)
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image34.png" border="false":::
 
 1. Configure background color conditional formatting for the **Color** field.
 
 1. In the **Background Color – Color** window, in the **Format Style** dropdown list, select **Field Value**.
 
-1. In the **What field should we base this on?** dropdown list, select **Product \| Formatting \| Background Color Format**, then **OK**.
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image36a.png" border="false":::
 
-	![Picture 114](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image36.png)
+1. In the **What field should we base this on?** dropdown list, in the _All data_ group, select the `Product | Formatting | Background Color Format` field.
 
-1. Repeat the previous steps to configure font color conditional formatting for the **Color** field, using the **Product \| Formatting \| Font Color Format** field
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image36.png" border="false":::
 
-*You may recall that the background and font colors were source from the **ColorFormats.csv** file in the **Prepare Data in Power BI Desktop** lab, and then integrated with the **Product** query in the **Load Data in Power BI Desktop** lab.*
+1. Repeat the previous steps to configure font color conditional formatting for the **Color** field by using the `Product | Formatting | Font Color Format` field.
 
-## Add Bookmarks and Buttons
+ > _You might recall that the background and font colors were source from the **ColorFormats.csv** file in the **Prepare Data in Power BI Desktop** lab, and then integrated with the **Product** query in the **Load Data in Power BI Desktop** lab._
 
-In this exercise you'll enhance the **My Performance** page with buttons, allowing the report user to select the visual type to display. When you’ve completed the design, the page will look like the following:
+## Add bookmarks and buttons
 
-![Image of an updated page 3, showing two buttons and now just two visuals.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image38.png)
+In this exercise, you'll enhance the _My Performance_ page with buttons, allowing the report user to select the visual type to display. When you've completed the design, the page will look like the following:
 
-1. Go to the **My Performance** page. On the **View** ribbon tab, from inside the **Show Panes** group, select **Bookmarks**.
+:::image type="content" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image38.png" alt-text="Image of an updated page 3, showing two buttons and now just two visuals." border="true":::
 
-	![Picture 118](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image39.png)
+1. Go to the _My Performance_ page.
 
-1. On the **View** ribbon tab, from inside the **Show Panes** group, select **Selection**.
+1. On the **View** ribbon tab, from inside the **Show Panes** group, select **Bookmarks**.
 
-1. In the **Selection** pane, beside one of the **Sales and Target by Month** items, to hide the visual, select the eye icon.
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image39.png" border="false":::
 
-	![Picture 120](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image41.png)
+1. On the **View** ribbon tab, from inside the **Show panes** group, select **Selection**.
+
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image40.png" border="false":::
+
+1. In the **Selection** pane, beside one of the _Sales and Target by Month_ items, to hide the visual, select the eye icon.
+
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image41.png" border="false":::
 
 1. In the **Bookmarks** pane, select **Add**.
 
-	> *To rename the bookmark, double-click the bookmark.*
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image42.png" border="false":::
 
-	![Picture 121](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image42.png)
+    > _Tip: To rename the bookmark, double-click the bookmark._
 
-1. If the visible chart is the bar chart, rename the bookmark as **Bar Chart ON**, otherwise rename the bookmark as **Column Chart ON**.
+1. If the visible chart is the bar chart, rename the bookmark as _Bar Chart ON_, otherwise rename the bookmark as _Column Chart ON_.
 
 1. To edit the bookmark, in the **Bookmarks** pane, hover the cursor over the bookmark, select the ellipsis, and then select **Data**.
 
-	> *Disabling the **Data** option means the bookmark won’t use the current filter state. That’s important because otherwise the bookmark would permanently lock in the filter currently applied by the **Year** slicer.*
+    > _Disabling the **Data** option means the bookmark won't use the current filter state. That's important because otherwise the bookmark would permanently lock in the filter currently applied by the Year slicer._
 
-     ![Picture 16](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image43.png)
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image43.png" border="false":::
 
 1. To update the bookmark, select the ellipsis again, and then select **Update**.
 
-	> *In the following steps, you’ll create and configure a second bookmark to show the second visual.*
+    > _In the following steps, you'll create and configure a second bookmark to show the second visual._
 
-1. In the **Selection** pane, toggle the visibility of the two **Sales and Target by Month** items.
+1. In the **Selection** pane, toggle the visibility of the two _Sales and Target by Month_ items.
 
-	> *In other words, make the visible visual hidden, and make the hidden visual visible.*
+    > _In other words, make the visible visual hidden, and make the hidden visual visible._
 
-	 ![Picture 122](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image45.png)
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image45.png" border="false":::
 
-1. Create a second bookmark, and name it appropriately (either **Column Chart ON** or **Bar Chart ON).**
+1. Create a second bookmark, and name it appropriately (either _Column Chart ON_ or _Bar Chart ON_.
 
-	 ![Picture 123](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image46.png)
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image46.png" border="false":::
 
 1. Configure the second bookmark to ignore filters (**Data** option off), and update the bookmark.
 
@@ -223,87 +204,91 @@ In this exercise you'll enhance the **My Performance** page with buttons, allowi
 
 1. Resize and reposition both visuals so they fill the page beneath the multi-card visual, and completely overlap one another.
 
-	*To select the visual that is covered up, select it in the **Selection** pane.*
+    > _To select the visual that is covered up, select it in the **Selection** pane._
 
-	![Picture 124](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image47.png)
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image47.png" border="false":::
 
 1. In the **Bookmarks** pane, select each of the bookmarks, and notice that only one of the visuals is visible.
 
-*The next stage of design is to add two buttons to the page, which will allow the report user to select the bookmarks.*
+    > _The next stage of design is to add two buttons to the page. These buttons will allow the report user to select the bookmarks._
 
 1. On the **Insert** ribbon, from inside the **Elements** group, select **Button**, and then select **Blank**.
 
-	 ![Picture 125](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image48.png)
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image48.png" border="false":::
 
-1. Position the button directly beneath the **Year** slicer.
+1. Position the button directly beneath the _Year_ slicer.
 
-1. Select the button, and then in the **Format button** pane, select **Button**, expand **Style** section and turn the **Text** property to **On**.
+1. Select the button, and then in the **Format button** pane, expand the **Style** section, and then set the **Text** section to **On**.
 
-	 ![Picture 126](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image49b.png)
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image49b.png" border="false":::
 
-1. Expand the **Text** section, and then in the **Text** box, enter **Bar Chart**.
+1. In the **Text** section, in the **Text** box, enter _Bar Chart_.
 
-1. Expand the **Fill** section, and then set a fill color using a complementary color.
+1. Set the **Fill** section to **On**, and then set a color by using a complementary color.
+
+1. Set the **Action** section to **On**, and then set the **Type** property to **Bookmark**.
 
 1. Select **Button** and turn the **Action** property to **On**.
-
-	![Picture 127](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image50.png)
 
 1. Expand the **Action** section, and then set the **Type** dropdown list to **Bookmark**.
 
 1. In the **Bookmark** dropdown list, select **Bar Chart ON**.
 
-	![Picture 128](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image51.png)
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image51.png" border="false":::
 
 1. Create a copy of the button by using copy and paste, and then configure the new button as follows:
 
-	*Tip: The shortcut commands for copy and paste are **Ctrl+C** followed by **Ctrl+V**.*
+    > _Tip: The shortcut commands for copy and paste are **Ctrl+C** followed by **Ctrl+V**._
 
-	- Set the **Button Text** property to **Column Chart**
-	- In the **Action** section, set the **Bookmark** dropdown list to **Column Chart ON**
+    - Set the button text to _Column Chart_.
+    - Set the action bookmark to **Column Chart ON**.
 
-*The design of the Sales Analysis report is now complete.*
+    > _The design of the Sales Analysis report is now complete._
 
 ## Publish and explore the report
 
 In this exercise, you'll publish the report to the Power BI service and explore the published report behavior.
 
-> **Note**: You can review the remainder of the exercise, even if you don't have access to the online Power BI service to perform the tasks directly.
+> _**Note**: You can review the remainder of the exercise, even if you don't have access to the Power BI service to perform the tasks directly._
 
-1. Select the **Overview** page.
+1. Select the _Overview_ page.
 
-1. In the **Year** slicer, select **FY2020**.
+1. In the _Year_ slicer, select **FY2020**.
 
-1. In the **Region** slicer, select **Select All**.
+1. In the _Region_ slicer, ensure no regions are selected.
 
 1. Save the Power BI Desktop file.
 
 1. On the **Home** ribbon tab, from inside the **Share** group, select **Publish**.
 
-    > *If you're not signed into Power BI Desktop already, you'll need to sign-in to publish.*
+    > _If you're not signed in to Power BI Desktop already, you'll need to first sign in before you publish the report._
 
-	 ![Picture 21](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image52.png)
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image52.png" border="false":::
 
-1. In the **Publish to Power** BI window, notice that **My Workspace** is selected.
+1. In the **Publish to Power BI** window, notice that _My workspace_ is selected.
 
-1. To publish the report, select **Select**.
-    1. If prompted to replace the semantic model, select **Replace**.
-    1. When the publication has succeeded, select **Got It**.
+1. To publish the report, select **Select**. Wait until the publication completes.
+
+1. When the publication succeeds, select **Got It**.
 
 1. Close Power BI Desktop.
 
-1. In a Microsoft Edge browser window, navigate to the Power BI service > **My Workspace**, then select the **Sales Analysis** report.
+1. Open the Microsoft Edge browser, then sign in at `https://app.powerbi.com` (or use an existing browser session).
 
-1. To test the drill through feature, navigate to **Overview** page > **Quantity by Category** visual. Then right-click the **Clothing** bar and select **Drill Through \| Product Details**.
+1. In the browser window, in the Power BI service, in the **Navigation** pane (located at the left, and it could be collapsed), select **My Workspace**.
 
-	 ![Picture 130](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image55.png)
+1. To explore the report, select the _07-Starter-Sales Analysis_ report.
 
-1. Notice that the **Product Details** page is for **Clothing**.
+1. To test the drill through feature, in the _Overview_ page, in the _Sum of Quantity by Category_ visual, right-click the _Clothing_ bar, and then select **Drill Through > Product Details**.
+
+    :::image type="icon" source="Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image55.png" border="false":::
+
+1. Notice that the _Product Details_ page filters visuals for _Clothing_.
 
 1. To return to the source page, at the top-left corner of the page, select the arrow button.
 
-1. Select the **My Performance** page.
+1. Go to the _My Performance_ page.
 
-     > *Select each of the buttons, and then notice that a different visual is displayed.*
+1. Select each of the buttons, and then notice that a different visual is displayed.
 
 ## Lab complete
