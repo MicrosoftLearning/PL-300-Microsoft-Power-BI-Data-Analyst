@@ -18,9 +18,9 @@ You will learn how to use various time intelligence functions to manipulate filt
 
 To complete this exercise, first open a web browser and enter the following URL to download the zip file:
 
-`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/05a-use-time-intelligence-functions/05a-use-time-intelligence-functions.zip`
+`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/05a-use-time-intelligence-functions/05a-time-intelligence.zip`
 
-Extract the file to the **C:\Users\Student\Downloads\05a-use-time-intelligence-functions** folder.
+Extract the file to the **C:\Users\Student\Downloads\05a-time-intelligence** folder.
 
 Open the **05a-Starter-Sales Analysis.pbix** file.
 
@@ -51,7 +51,7 @@ In this task, you'll create a sales year-to-date (YTD) measure by using time int
 
 4. Notice the accumulation of sales values within the year.
 
-    :::image type="icon" source="Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image21.png" border="false":::
+    ![Picture 1](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image21.png)
 
 > _The `TOTALYTD` function performs filter manipulation, specifically time filter manipulation. For example, to compute YTD sales for September 2017 (the third month of the fiscal year), all filters on the `Date` table are removed and replaced with a new filter of dates commencing at the beginning of the year (July 1, 2017) and extending through to the last date of the in-context date period (September 30, 2017)._
 >
@@ -88,7 +88,7 @@ In this task, you'll create a sales YoY growth measure by using a variable.
 
 1. Notice that the `Sales YoY Growth` measure value for _2018 Jul_ is the sales value for _2017 Jul_.
 
-    :::image type="icon" source="Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image22.png" border="false":::
+    ![Picture 2](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image22.png)
 
     > _Now that the "difficult part" of the formula has been tested, you can overwrite the measure with the final formula that computes the growth result._
 
@@ -116,13 +116,13 @@ In this task, you'll create a sales YoY growth measure by using a variable.
 
 1. Verify that the YoY growth for _2018 Jul_ is 392.83 percent.
 
-    :::image type="icon" source="Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image23.png" border="false":::
+    ![Picture 3](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image23.png)
 
     > _The YoY growth measure identifies almost 400 percent (or 4x) increase of sales during the same period of the previous year._
 
 1. In Model view, place the two new measures into a display folder named _Time intelligence_.
 
-    :::image type="icon" source="Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image24.png" border="false":::
+    ![Picture 4](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image24.png)
 
 1. Save the Power BI Desktop file.
 

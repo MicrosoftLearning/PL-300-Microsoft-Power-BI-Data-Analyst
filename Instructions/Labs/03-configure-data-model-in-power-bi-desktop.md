@@ -46,17 +46,17 @@ In this task, you'll create model relationships. The file was configured to not 
 
 1. Notice that the table visual lists four product categories, and that the sales value is the same for each, and the same for the total.
 
-    :::image type="icon" source="Linked_image_Files/03-table-no-relationship.png" border="false":::
+    ![Picture 1](Linked_image_Files/03-table-no-relationship.png)
 
     > _The issue is that the table is based on fields from different tables. The expectation is that each product category displays the sales for that category. However, because there isn't a model relationship between these tables, the `Sales` table isn't filtered. You'll now add a relationship to propagate filters between the tables._
 
 1. To switch to the model designer, at the left select the Model view icon.
 
-    :::image type="icon" source="Linked_image_Files/03-model-view.png" border="false":::
+    ![Picture 2](Linked_image_Files/03-model-view.png)
 
 1. On the **Home** ribbon, select **Manage Relationships**.
 
-    :::image type="icon" source="Linked_image_Files/03-manage-relationships.png" border="false":::
+    ![Picture 3](Linked_image_Files/03-manage-relationships.png)
 
 1. In the **Manage Relationships** window, notice that no relationships are yet defined.
 
@@ -64,7 +64,7 @@ In this task, you'll create model relationships. The file was configured to not 
 
 1. To configure a relationship from `Product` table to `Sales` table, in the **From table** dropdown list, select the `Product` table, and in the **To table** dropdown list, select the `Sales` table.
 
-    :::image type="icon" source="Linked_image_Files/03-create-relationships.png" border="false":::
+    ![Picture 4](Linked_image_Files/03-create-relationships.png)
 
 1. Notice the following properties were automatically configured:
 
@@ -73,17 +73,17 @@ In this task, you'll create model relationships. The file was configured to not 
     - **Cross Filter Direction type is Single**. _Single filter direction means that filters propagate from the "one side" to the "many side". In this case, it means filters applied to the `Product` table will propagate to the `Sales` table, but not in the opposite direction._
     - **Make This Relationship Active is checked**. _Active relationships propagate filters. It's possible to mark a relationship as inactive so filters don't propagate. Inactive relationships can exist when there are multiple relationship paths between tables. In this case, model calculations can use special functions to activate them._
 
-    :::image type="icon" source="Linked_image_Files/03-new-relationship.png" border="false":::
+    ![Picture 5](Linked_image_Files/03-new-relationship.png)
 
 1. Select **Save**, notice in the **Manage Relationships** window that the new relationship is listed, and then select **Close**.
 
 1. In the model diagram, notice there's now a connector between the two tables (you might choose to reposition the tables to see the relationship more clearly).
 
-    :::image type="icon" source="Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image21.png" border="false":::
+    ![Picture 6](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image21.png)
 
     > _You can interpret many of the relationship properties by looking at the relationship line in the diagram:_
     >
-    > - _Cardinality is represented by the **1** and **(*)** indicators._
+    > - _Cardinality is represented by the **1** and **(\*)** indicators._
     > - _Filter direction is represented by the arrow head._
     > - _A solid line represents an active relationship; a dotted line represents an inactive relationship._
     >
@@ -93,7 +93,7 @@ In this task, you'll create model relationships. The file was configured to not 
 
     > _Filters applied to the `Product` table now propagate to the `Sales` table._
 
-    :::image type="icon" source="Linked_image_Files/03-table-with-relationship.png" border="false":::
+    ![Picture 7](Linked_image_Files/03-table-with-relationship.png)
 
 ### Create additional relationships
 
@@ -105,7 +105,7 @@ There's an easier way to create a relationship. In the model diagram, you can dr
 
     > _**Important**: Sometime a column doesn't want to be dragged. If this situation arises, select a different column, and then select the column you intend to drag again, and then try again. Ensure that you see the new relationship added to the diagram._
 
-    :::image type="icon" source="Linked_image_Files/03-drag-relationship.png" border="false":::
+    ![Picture 8](Linked_image_Files/03-drag-relationship.png)
 
 1. In the **New relationship** window, review the configuration, and then select **Save**.
 
@@ -116,7 +116,7 @@ There's an easier way to create a relationship. In the model diagram, you can dr
 
 1. In the diagram, arrange the tables so that the `Sales` table is positioned in the center of the diagram, and the related tables are arranged about it. Position the disconnected tables to the side.
 
-    :::image type="icon" source="Linked_image_Files/03-relationships-configured.png" border="false":::
+    ![Picture 9](Linked_image_Files/03-relationships-configured.png)
 
 1. Save the Power BI Desktop file.
 
@@ -130,19 +130,19 @@ In this task, you'll configure the `Product` table with a hierarchy and display 
 
 1. In the `Product` table, right-click the `Year` column, and the select **Create hierarchy**.
 
-    :::image type="icon" source="Linked_image_Files/03-create-hierarchy.png" border="false":::
+    ![Picture 10](Linked_image_Files/03-create-hierarchy.png)
 
 1. In the **Properties** pane, in the **Name** box, replace the value with _Products_.
 
-    :::image type="icon" source="Linked_image_Files/03-create-hierarchy-rename.png" border="false":::
+    ![Picture 11](Linked_image_Files/03-create-hierarchy-rename.png)
 
 1. Two add levels to the hierarchy, in the **Hierarchy** dropdown list, select **Subcategory** and then select **Product**, and then select **Apply Level Changes**.
 
-    :::image type="icon" source="Linked_image_Files/03-create-hierarchy-levels.png" border="false":::
+    ![Picture 12](Linked_image_Files/03-create-hierarchy-levels.png)
 
 1. In the **Data** pane, notice the `Products` hierarchy. To reveal the hierarchy levels, expand it.
 
-    :::image type="icon" source="Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image28.png" border="false":::
+    ![Picture 13](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image28.png)
 
 1. To organize columns into a display folder, in the **Data** pane, first select the `Background Color Format` column.
 
@@ -152,7 +152,7 @@ In this task, you'll configure the `Product` table with a hierarchy and display 
 
 1. In the **Data** pane, notice that the two columns are now inside a folder.
 
-    :::image type="icon" source="Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image29.png" border="false":::
+    ![Picture 14](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image29.png)
 
     > _Display folders are a great way to organize tables, especially for tables that comprise many fields. They're logical presentation only._
 
@@ -170,7 +170,7 @@ In this task, you'll configure the `Region` table with a hierarchy and updated c
 
 1. In the **Properties** pane, expand the **Advanced** section (located at the bottom of the pane), and then in the **Data Category** dropdown list, select **Country/Region**.
 
-    :::image type="icon" source="Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image32.png" border="false":::
+    ![Picture 15](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image32.png)
 
     > _Data categorization can provide hints to the report designer. In this case, categorizing the column as country or region provides more accurate information to Power BI when it renders a map visualization._
 
@@ -271,7 +271,7 @@ In this task you'll switch to Report view, review the data model interface, and 
 
 1. Expand the `Sales | OrderDate` field, and then notice that it reveals a `Date Hierarchy`. The `Targets | TargetMonth` field delivers a similar hierarchy.
 
-    :::image type="icon" source="Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image40.png" border="false":::
+    ![Picture 16](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image40.png)
 
     > _**Important**: These hierarchies weren't created by you. They were created automatically as a default setting. There's a problem, however. The Adventure Works financial year commences on July 1 of each year. But, in these automatically created date hierarchies, the date hierarchy year commences on January 1 of each year._
 
@@ -279,7 +279,7 @@ In this task you'll switch to Report view, review the data model interface, and 
 
 1. In the **Options** window, om the **Current File** section, navigate to **Data Load > Time Intelligence**, and uncheck **Auto Date/Time**.
 
-    :::image type="icon" source="Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image43.png" border="false":::
+    ![Picture 17](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image43.png)
 
 1. In the **Data** pane, notice that the date hierarchies are no longer available.
 
@@ -289,19 +289,19 @@ In this task, you'll create two quick measures to calculate profit and profit ma
 
 1. In the **Data** pane, right-click the `Sales` table, and then select **New Quick Measure**.
 
-    :::image type="icon" source="Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image46.png" border="false":::
+    ![Picture 18](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image46.png)
 
 1. In the **Quick Measure** pane, in the **Select a Calculation** dropdown list, from inside the **Mathematical Operations** group, select **Subtraction**.
 
-    :::image type="icon" source="Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image47.png" border="false":::
+    ![Picture 19](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image47.png)
 
 1. From the **Data** pane, drag the `Sales | Sales` field into the **Base Value** well.
 
-    :::image type="icon" source="Linked_image_Files/03-quick-measure-add-sales-field.png" border="false":::
+    ![Picture 20](Linked_image_Files/03-quick-measure-add-sales-field.png)
 
 1. Drag the `Sales | Cost` field into the **Value to Subtract** box.  
 
-    :::image type="icon" source="Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image48.png" border="false":::
+    ![Picture 21](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image48.png)
 
 1. Select **Add**.
 
@@ -309,7 +309,7 @@ In this task, you'll create two quick measures to calculate profit and profit ma
 
     > _Measures are indicated by the calculator icon._
 
-    :::image type="icon" source="Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image50.png" border="false":::
+    ![Picture 22](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image50.png)
 
 1. To rename the measure, right-click it, select **Rename**, then rename as _Profit_.
 
@@ -326,21 +326,21 @@ In this task, you'll create two quick measures to calculate profit and profit ma
 
 1. Ensure the `Profit Margin` measure is selected, and then on the **Measure Tools** contextual ribbon, set the format to **Percentage**, with two decimal places.
 
-    :::image type="icon" source="Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image54.png" border="false":::
+    ![Picture 23](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image54.png)
 
 1. To test the two measures, first select the existing table visual on the page.
 
 1. In the **Data** pane, check the `Profit` and `Profit Margin` measures to add them to the table.
 
-    :::image type="icon" source="Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image55.png" border="false":::
+    ![Picture 24](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image55.png)
 
 1. Select and drag the right guide to widen the table visual.
 
-    :::image type="icon" source="Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image56.png" border="false":::
+    ![Picture 25](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image56.png)
 
 1. Verify that the measures produce reasonable results that are correctly formatted.
 
-    :::image type="icon" source="Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image57.png" border="false":::
+    ![Picture 26](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image57.png)
 
 ## Create a many-to-many relationship
 
@@ -353,7 +353,7 @@ In this task, you'll create a many-to-many relationship between the `Salesperson
      - `Salesperson | Salesperson`
      - `Sales | Sales`
 
-    :::image type="icon" source="Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image9.png" border="false":::
+    ![Picture 27](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image9.png)
 
     > _The table visual displays sales made by each salesperson. However, there's another relationship between salespeople and sales. Some salespeople belong to one, two, or possibly more sales regions. In addition, sales regions can have multiple salespeople assigned to them._
     >
@@ -376,7 +376,7 @@ In this task, you'll create a many-to-many relationship between the `Salesperson
 
     > _Consider that the `Salesperson` table filters the `Sales` table. It also filters the `SalespersonRegion` table, but it doesn't continue by propagating filters to the `Region` table (the arrowhead is pointing the wrong direction)._
 
-    :::image type="icon" source="Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image11.png" border="false":::
+    ![Picture 28](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image11.png)
 
 1. To edit the relationship between the `Region` and `SalespersonRegion` tables, double-click the relationship.
 
@@ -384,13 +384,13 @@ In this task, you'll create a many-to-many relationship between the `Salesperson
 
 1. Check the **Apply Security Filter in Both Directions** checkbox.
 
-    :::image type="icon" source="Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image12.png" border="false":::
+    ![Picture 29](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image12.png)
 
 1. Select **Save**.
 
 1. Notice that the relationship has a double arrowhead now.
 
-    :::image type="icon" source="Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image14.png" border="false":::
+    ![Picture 30](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image14.png)
 
 1. Switch to Report view, and then notice that the sales values have still not changed.
 
@@ -402,7 +402,7 @@ In this task, you'll create a many-to-many relationship between the `Salesperson
 
 1. In the **Edit Relationship** window, uncheck the **Make This Relationship Active** checkbox.
 
-    :::image type="icon" source="Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image14a.png" border="false":::
+    ![Picture 31](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image14a.png)
 
 1. Select **Save**.
 
@@ -410,7 +410,7 @@ In this task, you'll create a many-to-many relationship between the `Salesperson
 
 1. In the model diagram, notice that the inactive relationship is represented by a dotted line.
 
-    :::image type="icon" source="Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image17.png" border="false":::
+    ![Picture 32](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image17.png)
 
 1. Switch to Report view, and then notice that the sales for Michael Blythe are now nearly 22 million dollars.
 
@@ -436,7 +436,7 @@ In this task, you'll create a relationship to the `Targets` table.
 
 1. Resize the table visual so all columns are visible.
 
-    :::image type="icon" source="Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image19.png" border="false":::
+    ![Picture 33](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image19.png)
 
  > _It's now possible to visualize sales and targets—but for now take care for two reasons. First, there's no filter on a time period, and so targets also include future target amounts. Second, targets aren't additive, and so the total shouldn't be displayed. They can either be disabled by formatting the visual or removed by using calculation logic._
 

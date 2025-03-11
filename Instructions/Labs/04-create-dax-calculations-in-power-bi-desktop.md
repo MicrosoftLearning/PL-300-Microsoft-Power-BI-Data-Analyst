@@ -40,19 +40,19 @@ You enter a valid DAX formula in the _formula bar_. The formula bar includes fea
 
 1. In Power BI Desktop, in Report view, on the **Modeling** ribbon, from inside the **Calculations** group, select **New Table**.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image9.png" border="false":::
+    ![Picture 1](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image9.png)
 
 1. In the formula bar (which opens directly beneath the ribbon when you create or edit calculations), type `Salesperson =`, press **Shift+Enter**, type `'Salesperson (Performance)'`, and then press **Enter**.
 
     > _**Note**: For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in the **04-intro-dax\Snippets.txt** file._
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png" border="false":::
+    ![Picture 2](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png)
 
     > _This table definition creates a copy of the `Salesperson (Performance)` table. It copies the data only, however model properties like visibility, formatting, and others aren't copied._
 
 1. In the **Data** pane, notice that the icon for the new table has an additional calculator in front of it (denoting a calculated table).
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image11.png" border="false":::
+    ![Picture 3](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image11.png)
 
     > _**Note**: Calculated tables are defined by using a DAX formula that returns a table. It's important to understand that calculated tables increase the size of the data model because they materialize and store values. Also, they're recomputed whenever formula dependencies are refreshed, as will be the case for this data model when new (future) date values are loaded into tables._
     >
@@ -88,7 +88,7 @@ In this task, you'll create the `Date` table.
 
 1. Switch to Table view. On the **Home** ribbon tab, from inside the **Calculations** group, select **New Table**.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image15.png" border="false":::
+    ![Picture 4](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image15.png)
 
 1. In the formula bar, enter the following DAX:
 
@@ -97,7 +97,7 @@ In this task, you'll create the `Date` table.
     CALENDARAUTO(6)
     ```
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image16.png" border="false":::
+    ![Picture 5](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image16.png)
 
     > _The `CALENDARAUTO` function returns a single-column table comprising date values. The "auto" behavior scans all data model date columns to determine the earliest and latest date values stored in the data model. It then creates one row for each date within this range, extending the range in either direction to ensure full years of data is stored._
     >
@@ -105,11 +105,11 @@ In this task, you'll create the `Date` table.
 
 1. Notice the column of date values which might be formatted using US regional settings (that is, mm/dd/yyyy).
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image17.png" border="false":::
+    ![Picture 6](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image17.png)
 
 1. At the bottom-left corner, in the status bar, notice the table statistics, confirming that 1826 rows of data have been generated, which represents five full years' data.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image18.png" border="false":::
+    ![Picture 7](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image18.png)
 
 ## Create calculated columns
 
@@ -121,7 +121,7 @@ In this task, you'll add more columns to enable filtering and grouping by differ
 
     > _A calculated column is created by first entering the column name, followed by the equals symbol (=), followed by a DAX formula that returns a single-value result. The column name can't already exist in the table._
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image19.png" border="false":::
+    ![Picture 8](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image19.png)
 
 1. In the formula bar, type the following (or copy from the snippets file), and then press **Enter**:
 
@@ -139,33 +139,33 @@ In this task, you'll add more columns to enable filtering and grouping by differ
 
 1. Verify the new columns have been added.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image21.png" border="false":::
+    ![Picture 9](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image21.png)
 
 1. To validate the calculations, switch to Report view.
 
 1. To create a new report page, select the plus icon next to **Page 1**.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image22.png" border="false":::
+    ![Picture 10](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image22.png)
 
 1. To add a matrix visual to the new report page, in the **Visualizations** pane, select the matrix visual type.
 
     > _Tip: You can hover the cursor over each icon to reveal a tooltip describing the visual type._
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image23.png" border="false":::
+    ![Picture 11](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image23.png)
 
 1. In the **Data** pane, from inside the `Date` table, drag the `Year` field into the **Rows** well.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image24.png" border="false":::
+    ![Picture 12](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image24.png)
 
 1. Drag the `Month` field into the **Rows** well, directly beneath the `Year` field.
 
 1. At the top-right of the matrix visual (or bottom, depending on the location of the visual), select the forked-double arrow icon (which will expand all years down one level).
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image26.png" border="false":::
+    ![Picture 13](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image26.png)
 
 1. Notice that the years expand to months, and that the months are sorted alphabetically rather than chronologically.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image27.png" border="false":::
+    ![Picture 14](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image27.png)
 
     > _By default, text values sort alphabetically, numbers sort from smallest to largest, and dates sort from earliest to latest._
 
@@ -182,7 +182,7 @@ In this task, you'll add more columns to enable filtering and grouping by differ
 
 1. In Table view, verify that the new column contains numeric values (for example, 201707 for July 2017, and so on).
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image28.png" border="false":::
+    ![Picture 15](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image28.png)
 
 1. Switch back to Report view.
 
@@ -190,11 +190,11 @@ In this task, you'll add more columns to enable filtering and grouping by differ
 
 1. On the **Column Tools** contextual ribbon, from inside the **Sort** group, select **Sort by Column**, and then select **MonthKey**.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image29.png" border="false":::
+    ![Picture 16](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image29.png)
 
 1. In the matrix visual, notice that the months are now chronologically sorted.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image30.png" border="false":::
+    ![Picture 17](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image30.png)
 
 ## Complete the Date table
 
@@ -206,15 +206,15 @@ In this task, you'll complete the design of the `Date` table by hiding a column 
 
 1. In the **Data** pane, select the `Date` table, right-click the `Year` column, and the select **Create hierarchy**.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image30a.png" border="false":::
+    ![Picture 18](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image30a.png)
 
 1. In the **Properties** pane, in the **Name** box, replace the value with _Fiscal_.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image30b.png" border="false":::
+    ![Picture 19](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image30b.png)
 
 1. Two add levels to the hierarchy, in the **Hierarchy** dropdown list, select **Quarter** and then select **Month**, and then select **Apply Level Changes**.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image31.png" border="false":::
+    ![Picture 20](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image31.png)
 
 1. Create the following two model relationships:
 
@@ -236,13 +236,13 @@ In this task, you'll mark the `Date` table as a date table.
 
 1. On the **Table Tools** contextual ribbon, from inside the **Calendars** group, select **Mark as Date Table**.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image31a.png" border="false":::
+    ![Picture 21](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image31a.png)
 
 1. In the **Mark as a Date Table** window, slide the **Mark as a Date Table** property to _Yes_.
 
 1. In the **Choose a date column** dropdown list, select **Date**.
 
-    :::image type="icon" source="Linked_image_Files/04-create-dax-calculations-in-power-bi-desktop_date-table.png" border="false":::
+    ![Picture 22](Linked_image_Files/04-create-dax-calculations-in-power-bi-desktop_date-table.png)
 
 1. Select **Save**.
 
@@ -258,11 +258,11 @@ In this task, you'll create simple measures. Simple measures aggregate values in
 
 1. In Report view, on **Page 2**, from the **Data** pane, drag the `Sales | Unit Price` field into the matrix visual.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image35.png" border="false":::
+    ![Picture 23](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image35.png)
 
 1. In the visual fields pane (located in the **Visualizations** pane), in the **Values** well, notice that `Unit Price` field is configured as **Average of Unit Price**.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image36.png" border="false":::
+    ![Picture 24](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image36.png)
 
 1. Select the down-arrow for **Average of Unit Price**, and then notice the available menu options.
 
@@ -283,7 +283,7 @@ In this task, you'll create simple measures. Simple measures aggregate values in
 
 1. In the **Values** well, open the context menu for the `Avg Price` field, and notice that it isn't possible to change the aggregation technique.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image39.png" border="false":::
+    ![Picture 25](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image39.png)
 
     > _It's not possible to modify the aggregation behavior of a measure._
 
@@ -306,7 +306,7 @@ In this task, you'll create simple measures. Simple measures aggregate values in
     - Set the format to two decimal places.
     - Assign to a display folder named _Pricing_ (use the **Display folder** property in the **Properties** pane).
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image40.png" border="false":::
+    ![Picture 26](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image40.png)
 
 1. Hide the `Unit Price` column.
 
@@ -317,11 +317,11 @@ In this task, you'll create simple measures. Simple measures aggregate values in
     - Set the format use the thousands separator.
     - Assign to a display folder named _Counts_.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image41.png" border="false":::
+    ![Picture 27](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image41.png)
 
 1. In Report view, in the **Values** well of the matrix visual, for **Average of Unit Price**, select **X** to remove it.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image41a.png" border="false":::
+    ![Picture 28](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image41a.png)
 
 1. Increase the size of the matrix visual to fill the page width and height.
 
@@ -335,7 +335,7 @@ In this task, you'll create simple measures. Simple measures aggregate values in
 
 1. Verify that the results look sensible and are correctly formatted.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image43.png" border="false":::
+    ![Picture 29](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image43.png)
 
 ## Create additional measures
 
@@ -343,7 +343,7 @@ In this task, you'll create more measures that use more complex formulas.
 
 1. In Report view, select **Page 1** and review the table visual of salespeople (on the right), noticing the total for the **Sum of Target** column.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image45.png" border="false":::
+    ![Picture 30](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image45.png)
 
 1. Select the table visual, and then in the **Visualizations** pane, remove **Sum of Target**.
 
@@ -373,7 +373,7 @@ In this task, you'll create more measures that use more complex formulas.
 
 1. Notice that the `Targets` table now appears at the top of the list.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image50.png" border="false":::
+    ![Picture 31](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image50.png)
 
     > _Tables that comprise only visible measures are automatically listed at the top of the list._
 
@@ -381,7 +381,7 @@ In this task, you'll create more measures that use more complex formulas.
 
 1. Notice that the **Target** column total is now `BLANK`.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image47.png" border="false":::
+    ![Picture 32](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image47.png)
 
 1. Use the snippets file definitions to create the following two measures for the `Targets` table:
 
@@ -396,7 +396,7 @@ In this task, you'll create more measures that use more complex formulas.
 
 1. Resize the table visual so all columns and rows can be seen.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image48.png" border="false":::
+    ![Picture 33](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image48.png)
 
     > _While it appears all salespeople aren't meeting target, remember that the table visual isn't yet filtered by a specific time period. You'll produce sales performance reports that filter by a user-selected time period in the **Design a Report in Power BI Desktop** lab._
 

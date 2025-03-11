@@ -34,7 +34,7 @@ In this task, you'll create a matrix visual to support testing your new measures
 
 1. On **Page 3**, add a matrix visual.
 
-    :::image type="icon" source="Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image23.png" border="false":::
+    ![Picture 1](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image23.png)
 
 1. Resize the matrix visual to fill the entire page.
 
@@ -46,21 +46,21 @@ In this task, you'll create a matrix visual to support testing your new measures
 
 1. To expand the entire hierarchy, at the top-right of the matrix visual, select the forked-double arrow icon twice.
 
-    :::image type="icon" source="Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image11.png" border="false":::
+    ![Picture 2](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image11.png)
 
 1. To format the visual, in the **Visualizations** pane, select the **Format** pane.
 
-    :::image type="icon" source="Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image12.png" border="false":::
+    ![Picture 3](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image12.png)
 
 1. In the **Search** box, enter _Layout_.
 
 1. Set the **Layout** property to _Tabular_.
 
-    :::image type="icon" source="Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image14.png" border="false":::
+    ![Picture 4](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image14.png)
 
 1. Verify that the matrix visual now has 4 column headers.
 
-    :::image type="icon" source="Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image15.png" border="false":::
+    ![Picture 5](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image15.png)
 
     > _At Adventure Works, the sales regions are organized into groups, countries, and regions. All countries—except the United States—have just one region, which is named after the country. As the United States is such a large sales territory, it's divided into five sales regions._
 
@@ -90,7 +90,7 @@ In this task, you'll create several measures with DAX expressions that use the `
 
 1. Add the `Sales All Region` measure to the matrix visual.
 
-    :::image type="icon" source="Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image16.png" border="false":::
+    ![Picture 6](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image16.png)
 
 1. Notice that the measure computes the total of all region sales for each region, country (subtotal) and group (subtotal).
 
@@ -119,7 +119,7 @@ In this task, you'll create several measures with DAX expressions that use the `
 
 1. In the matrix visual, review the `Sales % All Region` measure values.
 
-    :::image type="icon" source="Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image17.png" border="false":::
+    ![Picture 7](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image17.png)
 
 1. Add another measure to the `Sales` table, based on the following expression, and format as a percentage:
 
@@ -142,7 +142,7 @@ In this task, you'll create several measures with DAX expressions that use the `
 
 1. Notice that only the regions of the United States produce a value that isn't 100 percent.
 
-    :::image type="icon" source="Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image18.png" border="false":::
+    ![Picture 8](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image18.png)
 
     > _You might recall that only the United States has multiple regions. All other countries comprise a single region, which explains why they're all 100 percent._
 
@@ -166,7 +166,7 @@ In this task, you'll create several measures with DAX expressions that use the `
 
 1. Notice that the `Sales % Country` measure now only returns a value when a region is in scope.
 
-    :::image type="icon" source="Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image19.png" border="false":::
+    ![Picture 9](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image19.png)
 
 1. Add another measure to the `Sales` table, based on the following expression, and format as a percentage:
 
@@ -212,7 +212,7 @@ In this task, you'll create several measures with DAX expressions that use the `
 
 1. In Model view, place the three new measures into a display folder named _Ratios_.
 
-    :::image type="icon" source="Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image20.png" border="false":::
+    ![Picture 10](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image20.png)
 
 1. Save the Power BI Desktop file.
 
