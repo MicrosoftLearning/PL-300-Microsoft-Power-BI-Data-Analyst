@@ -1,0 +1,43 @@
+>> Sales table: Sales YTD measure definition
+==================================================
+Sales YTD =
+TOTALYTD(
+	SUM(Sales[Sales]),
+	'Date'[Date],
+	"6-30"
+)
+
+
+>> Sales table: Sales YoY Growth
+==================================================
+Sales YoY Growth =
+VAR SalesPriorYear =
+	CALCULATE(
+		SUM(Sales[Sales]),
+		PARALLELPERIOD(
+			'Date'[Date],
+			-12,
+			MONTH
+		)
+	)
+RETURN
+	SalesPriorYear
+
+
+>> Sales table: Sales YoY Growth (2)
+==================================================
+Sales YoY Growth =
+VAR SalesPriorYear =
+	CALCULATE(
+		SUM(Sales[Sales]),
+		PARALLELPERIOD(
+			'Date'[Date],
+			-12,
+			MONTH
+		)
+	)
+RETURN
+	DIVIDE(
+		(SUM(Sales[Sales]) - SalesPriorYear),
+		SalesPriorYear
+	)
