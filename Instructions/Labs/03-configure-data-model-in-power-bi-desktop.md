@@ -128,7 +128,7 @@ In this task, you'll configure the `Product` table with a hierarchy and display 
 
 1. In the **Data** pane, if necessary, expand the `Product` table to reveal all fields.
 
-1. In the `Product` table, right-click the `Year` column, and the select **Create hierarchy**.
+1. In the `Product` table, right-click the `Category` column, and the select **Create hierarchy**.
 
     ![Picture 10](Linked_image_Files/03-create-hierarchy.png)
 
