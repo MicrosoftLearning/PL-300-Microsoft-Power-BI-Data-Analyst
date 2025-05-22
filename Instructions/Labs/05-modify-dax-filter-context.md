@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Modify DAX filter context in Power BI Desktop models'
-    module: 'Modify DAX filter context in Power BI Desktop models'
+    title: 'Modify DAX filter context in Power BI'
+    module: 'Modify DAX filter context in Power BI'
 ---
 
-# Modify DAX filter context in Power BI Desktop models
+# Modify DAX filter context in Power BI
 
 ## Lab story
 

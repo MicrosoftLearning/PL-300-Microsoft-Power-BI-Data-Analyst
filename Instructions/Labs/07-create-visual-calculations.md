@@ -1,14 +1,14 @@
 ---
 lab:
-    title: 'Create Visual Calculations in Power BI Desktop'
-    module: 'Create Visual Calculations in Power BI Desktop'
+    title: 'Create visual calculations in Power BI Desktop'
+    module: 'Create visual calculations in Power BI Desktop'
 ---
 
-# Create Visual Calculations in Power BI Desktop
+# Create visual calculations in Power BI Desktop
 
 ## **Lab story**
 
-In this lab, you'll create visual calculations using Data Analysis Expressions (DAX). 
+In this lab, you'll create visual calculations using Data Analysis Expressions (DAX).
 
 In this lab you learn how to:
 

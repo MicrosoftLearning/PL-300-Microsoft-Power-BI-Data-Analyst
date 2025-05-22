@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Get Data in Power BI Desktop'
-    module: 'Get Data in Power BI'
+    title: 'Get data in Power BI'
+    module: 'Get data in Power BI'
 ---
 
-# Get Data in Power BI Desktop
+# Get data in Power BI
 
 ## **Lab story**
 

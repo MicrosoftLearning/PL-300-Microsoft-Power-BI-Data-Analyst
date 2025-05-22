@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Use DAX time intelligence functions in Power BI Desktop models'
-    module: 'Use DAX time intelligence functions in Power BI Desktop models'
+    title: 'Use DAX time intelligence functions in Power BI'
+    module: 'Use DAX time intelligence functions in Power BI'
 ---
 
-# Use DAX time intelligence functions in Power BI Desktop models
+# Use DAX time intelligence functions in Power BI
 
 ## Lab story
 

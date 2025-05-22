@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Create a Power BI Dashboard'
-    module: 'Create Dashboards'
+    title: 'Create dashboards in Power BI'
+    module: 'Create dashboards in Power BI'
 ---
 
-# Create a Power BI Dashboard
+# Create dashboards in Power BI
 
 ## Lab story
 

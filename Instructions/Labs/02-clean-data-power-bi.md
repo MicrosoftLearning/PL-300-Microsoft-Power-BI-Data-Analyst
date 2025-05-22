@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Clean, transform, and load data in Power BI'
-    module: 'Clean, Transform, and Load Data in Power BI'
+    module: 'Clean, transform, and load data in Power BI'
 ---
 
 # Clean, transform, and load data in Power BI

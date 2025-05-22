@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Create DAX Calculations in Power BI Desktop'
-    module: 'Create Model Calculations using DAX in Power BI'
+    title: 'Create DAX calculations in Power BI Desktop'
+    module: 'Create DAX calculations in Power BI Desktop'
 ---
 
-# Create DAX Calculations in Power BI Desktop
+# Create DAX calculations in Power BI Desktop
 
 ## Lab story
 

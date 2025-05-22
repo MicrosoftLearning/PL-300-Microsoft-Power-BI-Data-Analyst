@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Enhance a Report in Power BI Desktop'
-    module: 'Create Reports in Power BI desktop'
+    title: 'Enhance Power BI report design'
+    module: 'Enhance Power BI report designs for the user experience'
 ---
 
-# Enhance a Report in Power BI Desktop
+# Enhance Power BI report design
 
 ## Lab story
 

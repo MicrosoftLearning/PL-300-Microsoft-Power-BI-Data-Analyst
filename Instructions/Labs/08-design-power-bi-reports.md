@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Design a Report in Power BI Desktop'
-    module: 'Create Reports in Power BI Desktop'
+    title: 'Design Power BI reports'
+    module: 'Design Power BI reports'
 ---
 
-# Design a Report in Power BI Desktop
+# Design Power BI reports
 
 ## Lab story
 
