@@ -21,9 +21,9 @@ In this lab you learn how to:
 
 To complete this exercise, first open a web browser and enter the following URL to download the zip folder:
 
-`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/02-clean-data-power-bi/02-clean-data.zip`
+`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/02-transform-data-power-bi/02-transform-data.zip`
 
-Extract the folder to the **C:\Users\Student\Downloads\02-clean-data** folder.
+Extract the folder to the **C:\Users\Student\Downloads\02-transform-data** folder.
 
 Open the **02-Starter-Sales Analysis.pbix** file.
 
@@ -37,11 +37,11 @@ In this task, you'll use Power Query Editor to configure the **Salesperson** que
 
 1. To open the **Power Query Editor** window, on the **Home** ribbon tab, from inside the **Queries** group, select the **Transform Data** icon.
 
-	![Transform Data on Home ribbon](Linked_image_Files/02-clean-data-power-bi_image10.png)
+	![Transform Data on Home ribbon](Linked_image_Files/02-transform-data-power-bi_image10.png)
 
 1. In the **Power Query Editor** window, in the **Queries** pane, select the **DimEmployee** query.
 
-	![Picture 1](Linked_image_Files/02-clean-data-power-bi_image11.png)
+	![Picture 1](Linked_image_Files/02-transform-data-power-bi_image11.png)
 
 	> **Note:** If you receive a warning message asking to specify how to connect, select **Edit Credentials**, connect using current credentials, and select **OK** to use an unencrypted connection.
  
@@ -53,11 +53,11 @@ In this task, you'll use Power Query Editor to configure the **Salesperson** que
 
 	> *Go to Column is a useful feature with many columns. Otherwise, you can horizontally scroll find columns.*
 
-	![Manage columns > Choose columns > Go to column](Linked_image_Files/02-clean-data-power-bi_image13.png)
+	![Manage columns > Choose columns > Go to column](Linked_image_Files/02-transform-data-power-bi_image13.png)
 
 1. In the **Go to Column** window, to order the list by column name, select the **AZ** sort button, and then select **Name** and **SalesPersonFlag**. Click **OK**.
 
-	![Go to column sort options](Linked_image_Files/02-clean-data-power-bi_image14.png)
+	![Go to column sort options](Linked_image_Files/02-transform-data-power-bi_image14.png)
 
 1. Locate the **SalesPersonFlag** column, then filter the column to select only Salespeople (that is, **TRUE**), and click **OK**.
 
@@ -65,7 +65,7 @@ In this task, you'll use Power Query Editor to configure the **Salesperson** que
 
 	> *Each transformation you create results in another step logic. It’s possible to edit or delete steps. It’s also possible to select a step to preview the query results at that stage of the query transformation.*
 
-	![Applied steps](Linked_image_Files/02-clean-data-power-bi_image17.png)
+	![Applied steps](Linked_image_Files/02-transform-data-power-bi_image17.png)
 
 1. To remove columns, on the **Home** ribbon tab, select the **Manage Columns** group, select the **Choose Columns** icon.
 
@@ -82,11 +82,11 @@ In this task, you'll use Power Query Editor to configure the **Salesperson** que
 
 1. In the **Applied Steps** list, notice the addition of another query step.
 
-	![Removed other columns step](Linked_image_Files/02-clean-data-power-bi_image21.png)
+	![Removed other columns step](Linked_image_Files/02-transform-data-power-bi_image21.png)
 
 1. To create a single name column, first select the **FirstName** column header. While pressing the **Ctrl** key, select the **LastName** column.
 
-	![Multi-select two columns to create single column](Linked_image_Files/02-clean-data-power-bi_image22.png)
+	![Multi-select two columns to create single column](Linked_image_Files/02-transform-data-power-bi_image22.png)
 
 1. Right-click either of the select column headers, and then in the context menu, select **Merge Columns**.
 
@@ -142,7 +142,7 @@ In this task, you'll configure the **Product** query.
 
 1. In the **DimProductSubcategory** column header, at the right of the column name, select the expand button.
 
-	![Column expand icon](Linked_image_Files/02-clean-data-power-bi_image31.png)
+	![Column expand icon](Linked_image_Files/02-transform-data-power-bi_image31.png)
 
 1. See the full list of columns, then select the **Select All Columns** box to unselect all columns.
 
@@ -193,7 +193,7 @@ In this task, you'll configure the **Reseller** query.
 	- In the **Value to Find** box, enter **Ware House**
 	- In the **Replace With** box, enter **Warehouse**
 
- 	![Replace values dialog](Linked_image_Files/02-clean-data-power-bi_image40.png)
+ 	![Replace values dialog](Linked_image_Files/02-transform-data-power-bi_image40.png)
 
 1. Rename the following four columns:
 
@@ -255,7 +255,7 @@ In this task, you'll configure the **Sales** query.
 
 1. To create a custom column, on the **Add Column** ribbon tab, from inside the **General** group, select **Custom Column**.
 
-	![Picture 5664](Linked_image_Files/02-clean-data-power-bi_image47.png)
+	![Picture 5664](Linked_image_Files/02-transform-data-power-bi_image47.png)
 
 1. In the **Custom Column** window, in the **New Column Name** box, replace the text with **Cost**.
 
@@ -263,7 +263,7 @@ In this task, you'll configure the **Sales** query.
 
    ` if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost] `
 
-	> ***Note**: You can copy the expression from the **Snippets.txt** file in the 02-clean-data folder.*
+	> ***Note**: You can copy the expression from the **Snippets.txt** file in the 02-transform-data folder.*
 
 	> *This expression tests if the **TotalProductCost** value is missing. If missing, it produces a value by multiplying the **OrderQuantity** value by the **StandardCost** value; otherwise, it uses the existing **TotalProductCost** value.*
 
@@ -282,7 +282,7 @@ In this task, you'll configure the **Sales** query.
 
 	> *Configuring the correct data type is important. When the column contains numeric value, it’s also important to choose the correct type if you expect to perform mathematic calculations.*
 
-	![Picture 5667](Linked_image_Files/02-clean-data-power-bi_image50.png)
+	![Picture 5667](Linked_image_Files/02-transform-data-power-bi_image50.png)
 
 1. Modify the following three column data types to **Fixed Decimal Number**.
 
@@ -327,7 +327,7 @@ In this task, you'll configure the **Targets** query.
 
 1. On the **Add Column** ribbon tab, from inside the **General** group, select The **Column From Examples** icon.
 
-	![Picture 5675](Linked_image_Files/02-clean-data-power-bi_image59.png)
+	![Picture 5675](Linked_image_Files/02-transform-data-power-bi_image59.png)
 
 1. Notice that the first row is for year **2017** and month number **7**.
 
@@ -341,7 +341,7 @@ In this task, you'll configure the **Targets** query.
 
 1. Notice also the formula presented above the query grid.
 
-	![Picture 5679](Linked_image_Files/02-clean-data-power-bi_image60.png)
+	![Picture 5679](Linked_image_Files/02-transform-data-power-bi_image60.png)
 
 1. To rename the new column, double-click the **Merged** column header and rename the column as **TargetMonth**.
 
@@ -359,7 +359,7 @@ In this task, you'll configure the **Targets** query.
 
 	> *You may recall that the target values were stored as thousands.*
 
-	![Picture 5682](Linked_image_Files/02-clean-data-power-bi_image63.png)
+	![Picture 5682](Linked_image_Files/02-transform-data-power-bi_image63.png)
 
 1. In the **Multiply** window, in the **Value** box, enter **1000**, and select **OK**.
 
@@ -373,7 +373,7 @@ In this task, you'll configure the **ColorFormats** query.
 
 1. On the **Home** ribbon tab, from inside the **Transform** group, select **Use First Row as Headers**.
 
-	![Picture 5688](Linked_image_Files/02-clean-data-power-bi_image68.png)
+	![Picture 5688](Linked_image_Files/02-transform-data-power-bi_image68.png)
 
 **In the status bar, verify that the query has 3 columns and 10 rows.**
 
@@ -387,15 +387,15 @@ In this task, you'll update the **Product** query by merging the **ColorFormats*
 
 	> *Merging queries allows integrating data, in this case from different data sources (SQL Server and a CSV file).*
 
-	![Picture 5654](Linked_image_Files/02-clean-data-power-bi_image71.png)
+	![Picture 5654](Linked_image_Files/02-transform-data-power-bi_image71.png)
 
 1. In the **Merge** window, in the **Product** query grid, select the **Color** column header.
 
-	![Picture 5655](Linked_image_Files/02-clean-data-power-bi_image72.png)
+	![Picture 5655](Linked_image_Files/02-transform-data-power-bi_image72.png)
 
 1. Beneath the **Product** query grid, in the dropdown list, select the **ColorFormats** query.
 
-	![Picture 21](Linked_image_Files/02-clean-data-power-bi_image73.png)
+	![Picture 21](Linked_image_Files/02-transform-data-power-bi_image73.png)
 
 1. In the **ColorFormats** query grid, select the **Color** column header.
 
@@ -403,7 +403,7 @@ In this task, you'll update the **Product** query by merging the **ColorFormats*
 
 	> *Privacy levels can be configured for data source to determine whether data can be shared between sources. Setting each data source as **Organizational** allows them to share data, if necessary. Private data sources can never be shared with other data sources. It doesn’t mean that Private data can't be shared; it means that the Power Query engine can't share data between the sources.*
 
-	![Picture 5691](Linked_image_Files/02-clean-data-power-bi_image74.png)
+	![Picture 5691](Linked_image_Files/02-transform-data-power-bi_image74.png)
 
 1. In the **Merge** window, use the default **Join Kind** - maintaining the selection of Left Outer and select **OK**.
 
@@ -422,13 +422,13 @@ In this task, you'll update the **ColorFormats** to disable its load.
 
 1. In the **Query Settings** pane, select the **All Properties** link.
 
-	![Picture 322](Linked_image_Files/02-clean-data-power-bi_image80.png)
+	![Picture 322](Linked_image_Files/02-transform-data-power-bi_image80.png)
 
 1. In the **Query Properties** window, uncheck the **Enable Load To Report** checkbox.
 
 	> *Disabling the load means it will not load as a table to the data model. This is done because the query was merged with the **Product** query, which is enabled to load to the data model.*
 
-	![Picture 323](Linked_image_Files/02-clean-data-power-bi_image81.png)
+	![Picture 323](Linked_image_Files/02-transform-data-power-bi_image81.png)
 
 ### Review final product
 
@@ -445,10 +445,10 @@ In this task, you'll update the **ColorFormats** to disable its load.
 
 1. Select **Close &amp; Apply** to load the data to the model, and close Power Query Editor window.
 
-	![Picture 326](Linked_image_Files/02-clean-data-power-bi_image83.png)
+	![Picture 326](Linked_image_Files/02-transform-data-power-bi_image83.png)
 
 1. You can now see the canvas in Power BI Desktop, with Filters, Visualizations, and Data panes on the right. In the Data pane, notice the **7 tables** loaded to the data model.
 
-	![Picture 3](Linked_image_Files/02-clean-data-power-bi_image84.png)
+	![Picture 3](Linked_image_Files/02-transform-data-power-bi_image84.png)
 
 ## Lab complete
