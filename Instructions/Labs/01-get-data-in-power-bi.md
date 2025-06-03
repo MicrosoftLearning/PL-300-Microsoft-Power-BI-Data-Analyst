@@ -21,9 +21,9 @@ This lab is designed to introduce you to Power BI Desktop application and how to
 
 To complete this exercise, first open a web browser and enter the following URL to download the zip folder:
 
-`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/01-get-data-in-power-bi/01-prepare-data.zip`
+`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/01-get-data-in-power-bi/01-get-data.zip`
 
-Extract the folder to the **C:\Users\Student\Downloads\01-prepare-data** folder.
+Extract the folder to the **C:\Users\Student\Downloads\01-get-data** folder.
 
 Open the **01-Starter-Sales Analysis.pbix** file.
 
@@ -145,7 +145,7 @@ In this task, you'll create a new query based on CSV files.
 
 1. To add a new query, in the **Power Query Editor** window, on the **Home** ribbon tab, from inside the **New Query** group, select the **New Source** down-arrow, and then select **Text/CSV**.
 
-1. Navigate to the **01-prepare-data > ResellerSalesTargets.csv** file. Select **Open**.
+1. Navigate to the **01-get-data > ResellerSalesTargets.csv** file. Select **Open**.
 
 1. In the **ResellerSalesTargets.csv** window, review the preview data. Select **OK**.
 
