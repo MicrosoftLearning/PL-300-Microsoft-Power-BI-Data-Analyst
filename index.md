@@ -8,7 +8,9 @@ layout: home
 
 Hyperlinks to each of the lab exercises and demos are listed below.
 
-## Labs
+> **Note**: Please [create a new issue in the GitHub repo](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/issues) to report any bugs or request improvements for the content.
+
+## Lab exercises
 
 {% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
 | Module | Lab |
