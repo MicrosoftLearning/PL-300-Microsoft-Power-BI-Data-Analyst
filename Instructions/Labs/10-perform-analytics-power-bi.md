@@ -21,9 +21,9 @@ In this lab you learn how to:
 
 To complete this exercise, first open a web browser and enter the following URL to download the zip folder:
 
-`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/10-perform-analytics-power-bi/10-perform-analysis.zip`
+`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/10-perform-analytics-power-bi/10-perform-analytics.zip`
 
-Extract the folder to the **C:\Users\Student\Downloads\10-perform-analysis** folder.
+Extract the folder to the **C:\Users\Student\Downloads\10-perform-analytics** folder.
 
 1. Open the **10-Starter-Sales Analysis.pbix** file.
 
