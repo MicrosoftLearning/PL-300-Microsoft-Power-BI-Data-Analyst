@@ -21,9 +21,9 @@ In this lab you learn how to:
 
 To complete this exercise, first open a web browser and enter the following URL to download the zip folder:
 
-`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/11-secure-data-access/11-row-level-security.zip`
+`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/11-secure-data-access/11-secure-data.zip`
 
-Extract the folder to the **C:\Users\Student\Downloads\11-row-level-security** folder.
+Extract the folder to the **C:\Users\Student\Downloads\11-secure-data** folder.
 
 Open the **11-Starter-Sales Analysis.pbix** file.
 
