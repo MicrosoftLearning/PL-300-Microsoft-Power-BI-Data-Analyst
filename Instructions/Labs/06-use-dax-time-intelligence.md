@@ -18,7 +18,7 @@ You will learn how to use various time intelligence functions to manipulate filt
 
 To complete this exercise, first open a web browser and enter the following URL to download the zip file:
 
-`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/06-use-dax-time-intelligence-functions/06-time-intelligence.zip`
+`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/06-use-dax-time-intelligence/06-time-intelligence.zip`
 
 Extract the file to the **C:\Users\Student\Downloads\06-time-intelligence** folder.
 
