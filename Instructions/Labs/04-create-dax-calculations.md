@@ -22,9 +22,9 @@ In this lab you learn how to:
 
 To complete this exercise, first open a web browser and enter the following URL to download the zip file:
 
-`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/04-create-dax-calculations\04-intro-dax.zip`
+`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/04-create-dax-calculations\04-dax-calculations.zip`
 
-Extract the file to the **C:\Users\Student\Downloads\04-intro-dax** folder.
+Extract the file to the **C:\Users\Student\Downloads\04-dax-calculations** folder.
 
 Open the **04-Starter-Sales Analysis.pbix** file.
 
@@ -44,7 +44,7 @@ You enter a valid DAX formula in the _formula bar_. The formula bar includes fea
 
 1. In the formula bar (which opens directly beneath the ribbon when you create or edit calculations), type `Salesperson =`, press **Shift+Enter**, type `'Salesperson (Performance)'`, and then press **Enter**.
 
-    > _**Note**: For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in the **04-intro-dax\Snippets.txt** file._
+    > _**Note**: For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in the **04-dax-calculations\Snippets.txt** file._
 
     ![Picture 2](Linked_image_Files/04-create-dax-calculations_image10.png)
 
