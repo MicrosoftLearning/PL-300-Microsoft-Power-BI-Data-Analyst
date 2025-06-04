@@ -15,7 +15,7 @@ Ideally, you should complete these labs in a hosted lab environment. If you want
 
 ## Instructions using Windows 11
 
-> &#128221; The instructions below are for a Windows 11 computer. Connecting from a different OS may not result in the same experience.
+> The instructions below are for a Windows 11 computer. Connecting from a different OS may not result in the same experience.
 
 ### Power BI Desktop
 
@@ -23,7 +23,7 @@ Ideally, you should complete these labs in a hosted lab environment. If you want
 
     - Use the default options in the installer.
 
-### M365 Developer Account
+### M365 Developer account
 
 For some of the exercises, you will need to log into Power BI with an organizational account. You can use your own, but if you don't have access, you can create a free [M365 Developer account](https://developer.microsoft.com/en-us/microsoft-365/dev-program).
 
@@ -34,7 +34,7 @@ For some of the exercises, you will need to log into Power BI with an organizati
     - Download the free [Developer copy of install media](https://www.microsoft.com/sql-server/sql-server-downloads?SilentAuth=1&f=255&MSPPError=-2147217396&rtc=1)
     - [Install SQL Server from the Installation Wizard (Setup)](https://learn.microsoft.com/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup)
 
-> &#128221; You can use an existing SQL Server instance if you have access, instead of installing a local version. However, you'll need to modify the connection string from "localhost" to your instance name.
+> You can use an existing SQL Server instance if you have access, instead of installing a local version. However, you'll need to modify the connection string from "localhost" to your instance name.
 
 ### Microsoft Edge
 
