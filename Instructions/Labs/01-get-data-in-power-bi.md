@@ -42,7 +42,7 @@ This task teaches you how to connect to a SQL Server database and import tables,
 
 1. In the **SQL Server Database** window, in the **Server** box, enter **localhost** and leave **Database** blank, then select **OK**.
 
-    > ***Note**: In this lab, you’ll connect to the SQL Server database by using **localhost** because gateway data sources can't resolve **localhost**. This isn’t a recommended practice when creating your own solutions.*
+    > ***Note**: In this lab, you’ll connect to the SQL Server database by using **localhost**. While this approach works here, it’s not recommended for your own solutions because gateway data sources can’t resolve **localhost**.*
 
 1. If prompted for credentials, select **Windows > Use my current credentials**, and then **Connect**.
 
@@ -89,7 +89,7 @@ This task introduces the Power Query Editor and allows you to review and profile
 
 1. In the data preview pane, scroll horizontally to review all columns. Notice that the last five columns contain **Table** or **Value** links.
 
-    > *These five columns represent relationships to other tables in the database. They can be used to join tables together. You’ll join tables in the **Load Transformed Data in Power BI Desktop** lab.*
+    > *These five columns represent relationships to other tables in the database. They can be used to join tables together. You’ll join these tables later in the **Load Transformed Data in Power BI Desktop** lab.*
 
 1. To assess column quality, on the **View** ribbon tab, from inside the **Data Preview** group, check **Column Quality**. The column quality feature allows you to easily determine the percentage of valid, error, or empty values found in columns.
 
@@ -145,7 +145,7 @@ In this task, you'll create a new query based on CSV files.
 
 1. To add a new query, in the **Power Query Editor** window, on the **Home** ribbon tab, from inside the **New Query** group, select the **New Source** down-arrow, and then select **Text/CSV**.
 
-1. Navigate to the **01-get-data > ResellerSalesTargets.csv** file. Select **Open**.
+1. Navigate to the **Downloads > 01-get-data** folder you extracted earlier and select the **ResellerSalesTargets.csv** file. Select **Open**.
 
 1. In the **ResellerSalesTargets.csv** window, review the preview data. Select **OK**.
 

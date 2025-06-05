@@ -49,7 +49,7 @@ In this task, you'll use Power Query Editor to configure the **Salesperson** que
 
 	> *The query name determines the model table name. It’s recommended to define concise and user-friendly names.*
 
-1. To locate a specific column, on the **Home** ribbon tab, select the **Manage Columns** down-arrow, select the **Choose Columns** down-arrow, and then select **Go to Column**.
+1. To locate a specific column, on the **Home** ribbon tab, from inside the **Manage Columns** group, select the **Choose Columns** down-arrow, and then select **Go to Column**.
 
 	> *Go to Column is a useful feature with many columns. Otherwise, you can horizontally scroll find columns.*
 
@@ -67,7 +67,7 @@ In this task, you'll use Power Query Editor to configure the **Salesperson** que
 
 	![Applied steps](Linked_image_Files/02-transform-data-power-bi_image17.png)
 
-1. To remove columns, on the **Home** ribbon tab, select the **Manage Columns** group, select the **Choose Columns** icon.
+1. To remove columns, on the **Home** ribbon tab, from inside the **Manage Columns** group, select the **Choose Columns** icon.
 
 1. In the **Choose Columns** window, to uncheck all columns, uncheck the **(Select All Columns)** item.
 
@@ -147,6 +147,8 @@ In this task, you'll configure the **Product** query.
 1. See the full list of columns, then select the **Select All Columns** box to unselect all columns.
 
 1. Select **EnglishProductSubcategoryName** and **DimProductCategory**, and uncheck the **Use Original Column Name as Prefix** checkbox before selecting **OK**.
+
+	![Expand column](Linked_image_Files/02-transform-data-power-bi_image23.png)
 
 	> *By selecting these two columns, a transformation will be applied to join to the **DimProductSubcategory** table, and then include these columns. The **DimProductCategory** column is, in fact, another related table in the data source.*
 
@@ -383,7 +385,7 @@ In this task, you'll update the **Product** query by merging the **ColorFormats*
 
 1. Select the **Product** query.
 
-1. To merge the **ColorFormats** query, on the **Home** ribbon tab, select the **Combine** down-arrow, then select **Merge Queries**.
+1. To merge the **ColorFormats** query, on the **Home** ribbon tab, from inside the **Combine** group, select **Merge Queries**.
 
 	> *Merging queries allows integrating data, in this case from different data sources (SQL Server and a CSV file).*
 
