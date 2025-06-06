@@ -36,7 +36,7 @@ Open the **03-Starter-Sales Analysis.pbix** file.
 
 In this task, you'll create model relationships. The file was configured to not identify relationships between tables, which isn't the default setting, but is recommended to prevent extra work creating the correct relationships for your model.
 
-> The labs use a shorthand notation to reference a field. It will look like this: `Product | Category`. In this example, `Product` is the table name and `Category` is the field name._
+> The labs use a shorthand notation to reference a field. It will look like this: `Product | Category`. In this example, `Product` is the table name and `Category` is the field name.
 
 1. In Power BI Desktop, to view all table fields, in the **Data** pane, right-click an empty area, and then select **Expand All**.
 
