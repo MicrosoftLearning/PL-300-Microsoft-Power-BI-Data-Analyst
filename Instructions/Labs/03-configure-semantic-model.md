@@ -150,6 +150,8 @@ In this task, you'll configure the `Product` table with a hierarchy and display 
 
 1. In the **Properties** pane, in the **Display Folder** box, enter _Formatting_.
 
+    ![Picture 30](Linked_image_Files/03-configure-semantic-model_image30.png)
+
 1. In the **Data** pane, notice that the two columns are now inside a folder.
 
     ![Picture 14](Linked_image_Files/03-configure-semantic-model_image29.png)
