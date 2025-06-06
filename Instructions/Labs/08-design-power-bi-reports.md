@@ -28,7 +28,7 @@ To complete this exercise, first open a web browser and enter the following URL 
 
 Extract the file to the **C:\Users\Student\Downloads\08-design-report** folder.
 
-Open the **08*-Starter-Sales Analysis.pbix** file.
+Open the **08-Starter-Sales Analysis.pbix** file.
 
 > _**Note**: You can dismiss the sign-in by selecting **Cancel**. Close any other informational windows. Select **Apply Later**, if prompted to apply changes._
 
