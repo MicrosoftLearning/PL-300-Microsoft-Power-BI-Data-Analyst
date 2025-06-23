@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Create DAX calculations in Power BI Desktop'
-    module: 'Create DAX calculations in Power BI Desktop'
+    title: 'Create DAX calculations in semantic models'
+    module: 'Create DAX calculations in semantic models'
 ---
 
-# Create DAX calculations in Power BI Desktop
+# Create DAX calculations in semantic models
 
 ## Lab story
 
