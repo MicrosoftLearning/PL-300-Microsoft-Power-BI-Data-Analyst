@@ -60,7 +60,7 @@ In this task, you’ll create a bar chart showing sales amount, total product co
 1. The visual calculations edit window opens. In the formula bar above the visual matrix enter the following expression and then Enter to commit the calculation:
 
     ```DAX
-   Profit = [Sum of Sales] – [Sum of Cost]
+   Profit = [Sum of Sales] - [Sum of Cost]
     ```
 
 1. Confirm you now see a Profit column on the visual matrix at the bottom of the screen:
