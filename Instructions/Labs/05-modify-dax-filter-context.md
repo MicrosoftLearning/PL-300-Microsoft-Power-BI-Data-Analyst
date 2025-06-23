@@ -10,7 +10,9 @@ lab:
 
 In this lab, you'll create measures with DAX expressions that involve filter context manipulation.
 
-You learn how to use the `CALCULATE` function to manipulate filter context.
+You learn how to:
+
+ - Use the `CALCULATE` function to manipulate filter context.
 
 **This lab should take approximately 30 minutes.**
 

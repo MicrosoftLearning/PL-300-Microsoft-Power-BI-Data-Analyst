@@ -1,7 +1,7 @@
 ---
 demo:
      title: 'Enforce Row-level security in Power BI'
-     module: 'Deploy and manage Power BI service items'
+     module: 'Secure data access in Power BI'
 ---
 
 # Enforce Row-level security in Power BI

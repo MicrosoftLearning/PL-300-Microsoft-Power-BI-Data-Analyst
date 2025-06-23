@@ -8,9 +8,9 @@ lab:
 
 ## Lab story
 
-In this lab you'll create calculated tables, calculated columns, and simple measures by using Data Analysis Expressions (DAX).
+In this lab, you'll create calculated tables, calculated columns, and simple measures by using Data Analysis Expressions (DAX).
 
-In this lab you learn how to:
+In this lab, you learn how to:
 
 - Create calculated tables.
 - Create calculated columns.

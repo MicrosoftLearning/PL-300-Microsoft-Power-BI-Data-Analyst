@@ -9,7 +9,7 @@ lab:
 Ideally, you should complete these labs in a hosted lab environment. If you want to complete them on your own computer, you can do so by installing the following software.
 
 - All setup and resource files can be [downloaded from GitHub](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/AllfilesDownload.zip).
-  - Extract the 'AllFiles' folder to D:/ and rename it to 'D:\Allfiles\'.
+  - Extract the 'AllFilesDownload' folder to D:/ and rename it to 'D:\Allfiles\'.
 
 ***You may experience unexpected dialogs and behavior when using your own environment. Due to the wide range of possible local configurations, the course team cannot support issues you may encounter in your own environment.***
 
@@ -19,13 +19,13 @@ Ideally, you should complete these labs in a hosted lab environment. If you want
 
 ### Power BI Desktop
 
-1. Download and install from the Microsoft store. If you do not have access to the Microsoft store, download from the [web](https://www.microsoft.com/download/details.aspx?id=58494). Power BI Desktop is the primary application for these labs.
+1. Download and install from the Microsoft store. If you do not have access to the Microsoft store, [download from the web](https://www.microsoft.com/download/details.aspx?id=58494). Power BI Desktop is the primary application for these labs.
 
     - Use the default options in the installer.
 
-### M365 Developer account
+### Microsoft 365 Developer account
 
-For some of the exercises, you will need to log into Power BI with an organizational account. You can use your own, but if you don't have access, you can create a free [M365 Developer account](https://developer.microsoft.com/en-us/microsoft-365/dev-program).
+For some of the exercises, you will need to log into Power BI with an organizational account. You can use your own, but if you don't have access, you can create a free [Microsoft 365 Developer account](https://developer.microsoft.com/microsoft-365/dev-program).
 
 ### SQL Server Database Engine
 

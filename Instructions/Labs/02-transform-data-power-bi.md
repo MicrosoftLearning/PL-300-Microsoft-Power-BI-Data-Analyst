@@ -10,10 +10,10 @@ lab:
 
 In this lab, you'll use data cleansing and transformation techniques to start shaping your data model. You'll then apply the queries to load each as a table to the semantic model.
 
-In this lab you learn how to:
+In this lab, you learn how to:
 
-- Apply various transformations
-- Load queries to the data model
+- Apply various data transformations.
+- Load queries to the semantic model.
 
 **This lab should take approximately 45 minutes.**
 
