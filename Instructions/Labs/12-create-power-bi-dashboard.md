@@ -10,10 +10,10 @@ lab:
 
 In this lab, you'll create the **Sales Monitoring** dashboard in the Power BI service using an existing report.
 
-In this lab you learn how to:
+In this lab, you learn how to:
 
-- Pin visuals to a dashboard
-- Use Q&A to create dashboard tiles
+- Pin visuals to a dashboard.
+- Use Q&A to create dashboard tiles.
 
 **This lab should take approximately 30 minutes.**
 

@@ -10,10 +10,10 @@ lab:
 
 In this lab, you'll create the **Sales Exploration** report.
 
-In this lab you learn how to:
+In this lab, you learn how to:
 
-- Create animated scatter charts
-- Use a visual to forecast values
+- Create animated scatter charts.
+- Use a visual to forecast values.
 
 **This lab should take approximately 30 minutes.**
 

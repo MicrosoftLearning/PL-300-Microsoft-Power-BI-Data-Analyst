@@ -8,12 +8,14 @@ lab:
 
 ## **Lab story**
 
-This lab is designed to introduce you to Power BI Desktop application and how to connect to data and how to use data preview techniques to understand the characteristics and quality of the source data. The learning objectives are:
+This lab is designed to introduce you to Power BI Desktop application and how to connect to data and how to use data preview techniques to understand the characteristics and quality of the source data.
 
-- Open Power BI Desktop
-- Connect to different data sources
-- Preview source data with Power Query
-- Use data profiling features in Power Query
+In this lab, you learn how to:
+
+- Open Power BI Desktop.
+- Connect to different data sources.
+- Preview source data with Power Query.
+- Use data profiling features in Power Query.
 
 **This lab should take approximately 30 minutes.**
 

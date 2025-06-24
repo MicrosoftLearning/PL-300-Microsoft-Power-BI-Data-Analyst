@@ -5,25 +5,9 @@ demo:
 ---
 # Manage files and semantic models in Power BI
 
-## Prepare for gateway data refresh
-
-> **Note** the following steps are not needed when using the data gateway in personal mode. You can proceed directly to the next objective (setup the gateway).
-
-1. In Power BI Desktop, open the Power Query Editor window, and select the **ProductCost** query.
-
-1. Edit the Source step, and then modify the file path to use the file share, as follows:
-
-    `\\DATA-AI\Data\ProductCost.xlsx`
-
-1. Close and apply the Power Query Editor window.
-
-1. Save the Power BI Desktop file.
-
-1. Publish the Power BI Desktop file to the workspace, overwriting the semantic model and report in the service.
-
 ## Setup the gateway (personal mode)
 
-1. In the Power BI service for the instructor, reload (F5) the semantic model settings page.
+1. In the Power BI service, reload (F5) the semantic model settings page.
 
 1. Expand the Gateway Connection section and point out that no gateway is installed.
 
@@ -33,7 +17,7 @@ demo:
 
 1. Once downloaded, open the downloaded file.
 
-1. Complete the gateway setup by using the credentials of the instructor account.
+1. Complete the gateway setup using your organizational account.
 
 1. Once setup, return to and reload the semantic model settings page.
 

@@ -10,10 +10,10 @@ lab:
 
 In this lab, you'll create visual calculations using Data Analysis Expressions (DAX).
 
-In this lab you learn how to:
+In this lab, you learn how to:
 
-- Create and edit visual calculations
-- Use PREVIOUS(), RUNNINGSUM() and MOVINGAVERAGE() functions to create comparison metrics between each fiscal year
+- Create and edit visual calculations.
+- Use PREVIOUS(), RUNNINGSUM() and MOVINGAVERAGE() functions to create comparison metrics between each fiscal year.
 - Use the optional Axis parameter when creating comparison metrics.
 - Use the optional Reset parameter to customize cumulative calculations in a multi-leveled axis.
 

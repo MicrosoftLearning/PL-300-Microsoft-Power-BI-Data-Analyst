@@ -10,7 +10,9 @@ lab:
 
 In this lab, you'll create measures with DAX expressions that involve time intelligence.
 
-You will learn how to use various time intelligence functions to manipulate filter context that specific concerns dates.
+In this lab, learn how to:
+
+ - Use various time intelligence functions to manipulate filter context that specific concerns dates.
 
 **This lab should take approximately 15 minutes.**
 

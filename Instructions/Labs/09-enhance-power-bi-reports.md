@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Enhance Power BI report design'
+    title: 'Enhance Power BI report designs'
     module: 'Enhance Power BI report designs for the user experience'
 ---
 
@@ -10,11 +10,11 @@ lab:
 
 In this lab, you'll enhance the _Sales Analysis_ report with advanced design features.
 
-In this lab you learn how to:
+In this lab, you learn how to:
 
-- Create a drill through page
-- Apply conditional formatting
-- Create and use bookmarks and buttons
+- Create a drill through page.
+- Apply conditional formatting.
+- Create and use bookmarks and buttons.
 
 **This lab should take approximately 45 minutes.**
 
