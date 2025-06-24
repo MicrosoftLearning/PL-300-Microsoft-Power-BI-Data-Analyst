@@ -103,7 +103,9 @@ In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a vis
 
 1. In the **Add a Tile** pane (located at the right), select the **Image** tile, then **Next**.
 
-1. In the **Add Image Tile** pane, in the **URL** box, enter the complete URL found in the **C:\Users\Student\Downloads\12-create-dashboard\AdventureWorksLogo_DataURL.txt** file, and then **Apply**.
+1.Navigate to the **C:\Users\Student\Downloads\12-create-dashboard** folder and open the **AdventureWorksLogo_DataURL.txt** file. 
+
+2. In the **Add Image Tile** pane, in the **URL** box, paste in the URL from the text file, and then **Apply**.
     
 	> *You can embed an image by using its URL, or you can use a data URL, which embeds content inline.*
 
