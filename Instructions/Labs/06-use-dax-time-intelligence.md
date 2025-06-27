@@ -47,7 +47,7 @@ In this task, you'll create a sales year-to-date (YTD) measure by using time int
 
     > _The `TOTALYTD` function evaluates an expression—in this case the sum of the `Sales` column—over a given date column. The date column must belong to a date table marked as a date table._
     >
-    > _The function can also take a third optional argument representing the last date of a year. The absence of this date means that December 31 is the last date of the year. For Adventure Works, June in the last month of their year, and so "6-30" is used._
+    > _The function can also take a third optional argument representing the last date of a year. The absence of this date means that December 31 is the last date of the year. For Adventure Works, June is in the last month of their year, and so "6-30" is used._
 
 3. Add the `Sales` field and the `Sales YTD` measure to the matrix visual.
 

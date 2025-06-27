@@ -163,7 +163,7 @@ In this task, you'll run a PowerShell script to update data in the **AdventureWo
 
 ## **Refresh the Power BI Desktop file**
 
-In this task you'll open the **09-Starter-Sales Analysis** Power BI Desktop file, perform a data refresh, and then upload the file to your **Sales Analysis** workspace.
+In this task you'll open the **12-Starter-Sales Analysis** Power BI Desktop file, perform a data refresh, and then upload the file to your **Sales Analysis** workspace.
 
 1. In Power BI Desktop file, in the **Data** pane, right-click the **Sales** table, and then select **Refresh Data**.
 

@@ -355,7 +355,7 @@ In this exercise, you'll publish the report to the Power BI service. You will th
     - You might need to refresh the browser if the semantic model isn't visible.
     - When you published the report, the data model was published as a semantic model.
 
-1. To explore the report, select the _06-Starter-Sales Analysis_ report.
+1. To explore the report, select the _08-Starter-Sales Analysis_ report.
 
 1. At the left, in the **Pages** pane, notice that the **Overview** page is selected.
 
