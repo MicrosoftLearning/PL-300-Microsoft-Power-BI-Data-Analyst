@@ -279,7 +279,7 @@ In this task you'll switch to Report view, review the data model interface, and 
 
 1. To turn off the auto date/time setting, navigate to **File > Options and Settings > Options**.
 
-1. In the **Options** window, om the **Current File** section, navigate to **Data Load > Time Intelligence**, and uncheck **Auto Date/Time**.
+1. In the **Options** window, on the **Current File** section, navigate to **Data Load > Time Intelligence**, and uncheck **Auto Date/Time**.
 
     ![Picture 17](Linked_image_Files/03-configure-semantic-model_image43.png)
 
@@ -418,7 +418,7 @@ In this task, you'll create a many-to-many relationship between the `Salesperson
 
 1. Notice also, that the sales for each salesperson—if added—would exceed the table total.
 
-     > _It's a common observation of a many-to-many relationship due to the double, triple, etc. counting of regional sales results. Consider Brian Welcker, the second salesperson listed. His sales amount equals the total sales amount. It's the correct result due to the fact the he's the Director of Sales; his sales are measured by the sales of all regions._
+     > _It's a common observation of a many-to-many relationship due to the double, triple, etc. counting of regional sales results. Consider Brian Welcker, the second salesperson listed. His sales amount equals the total sales amount. It's the correct result due to the fact that he's the Director of Sales; his sales are measured by the sales of all regions._
      >
      > _While the many-to-many relationship is now working, it's now not possible to analyze sales made by a salesperson (because the relationship is inactive). You'll be able to reactivate the relationship when you introduce a calculated table that will allow analyzing sales made in the sales region(s) assigned to the salesperson (for performance analysis) in the **Create DAX Calculations in Power BI Desktop** lab._
 
