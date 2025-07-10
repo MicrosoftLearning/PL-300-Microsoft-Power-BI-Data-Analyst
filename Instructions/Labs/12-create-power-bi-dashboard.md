@@ -25,6 +25,8 @@ To complete this exercise, first open a web browser and enter the following URL 
 
 Extract the folder to the **C:\Users\Student\Downloads\12-create-dashboard** folder.
 
+> _**Note**: You'll need at least a **Power BI Free** license to publish the report. Open the Microsoft Edge browser, then sign in at `https://app.powerbi.com`. When asked to solve a puzzle, or to start a free Fabric trial, you can skip this and close the browser.
+
 ## **Publish the report**
 
 In this task, you'll set up the environment for the lab by creating a semantic model.

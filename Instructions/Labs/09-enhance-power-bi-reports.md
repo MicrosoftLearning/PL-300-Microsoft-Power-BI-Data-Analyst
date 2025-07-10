@@ -249,6 +249,8 @@ In this exercise, you'll enhance the _My Performance_ page with buttons, allowin
 
 In this exercise, you'll publish the report to the Power BI service and explore the published report behavior.
 
+> _**Note**: You'll need at least a **Power BI Free** license to publish the report. Open the Microsoft Edge browser, then sign in at `https://app.powerbi.com`. When asked to solve a puzzle, or to start a free Fabric trial, you can skip this and close the browser.
+
 > _**Note**: You can review the remainder of the exercise, even if you don't have access to the Power BI service to perform the tasks directly._
 
 1. Select the _Overview_ page.
