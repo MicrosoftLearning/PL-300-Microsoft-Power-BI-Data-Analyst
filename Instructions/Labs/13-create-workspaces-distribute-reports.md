@@ -58,9 +58,7 @@ In this task, you'll create a new workspace that will serve as a collaborative e
 
 In this task, you'll upload a PBIX file to your new workspace and explore the published report.
 
-1. In the **Sales Analytics Workspace**, select **+ New** and then **Import Report**.
-
-1. Select **Browse**.
+1. In the **Sales Analytics Workspace**, select **Import** then **Report, Paginated Report, or Workbook** and **From this computer**. 
 
 1. Navigate to **C:\Users\Student\Downloads\13-workspace-app-distribution** folder.
 
@@ -71,6 +69,7 @@ In this task, you'll upload a PBIX file to your new workspace and explore the pu
 1. Once the upload is complete, notice that the workspace now contains:
     - A report named **13-Starter-Sales Analysis**
     - A semantic model with the same name
+    - <!-- A dasbhoard with the same name | why?? --> 
 
     ![Screenshot of workspace with uploaded content](Linked_image_Files/13-create-workspaces-distribute-reports_image02.png)
 
@@ -80,9 +79,7 @@ In this task, you'll explore the report within the workspace and understand the 
 
 1. In the workspace, select the **13-Starter-Sales Analysis** report to open it.
 
-1. Explore the different pages of the report by selecting the page tabs at the bottom.
-
-1. Notice the workspace name displayed in the top navigation, showing you're viewing the report within the **Sales Analytics Workspace**.
+1. Explore the different pages of the report by selecting the page tabs in the **Pages** navigation pane.
 
 1. In the top menu bar, observe the various options available for sharing and managing the report.
 
@@ -94,16 +91,27 @@ In this task, you'll learn how to share a report directly before creating an app
 
     ![Screenshot of share button](Linked_image_Files/13-create-workspaces-distribute-reports_image03.png)
 
-1. In the **Share report** dialog, notice the following options:
-    - **People in your organization**: You can enter email addresses
+1. In the **Send link** dialog box, notice the following options:
+    - **People in your organization**: Default setting can be changed
+    - **Enter a name of email address**: Choose select individuals or groups
     - **Copy link**: Provides a direct link to the report
-    - **Link settings**: Allows you to configure permissions
+    - **Mail**
+    - *Teams**
+    - **PowerPoint**
+  
+**Link settings**: Allows you to configure permissions
 
-1. Select **Copy link** to copy the direct report link.
+1. Select **People in your organization** to configure the default sharing permissions.
+
+1. Notice there are two additional options that are only available if sharing with people in your organization.
+    - **Allow recipients to share this report**
+    - **Allow recipients to build content with the data associated with this report**
+
+1. Select **Apply** and then **Copy link** from the Send link box and Copy the link. 
 
 1. Open a new browser tab (or incognito window) and paste the link to see how external users would access the report.
 
-    > *Note the URL structure - it points directly to the report in the workspace.*
+    > *Note the URL structure - it points directly to the report in the workspace, therefore the navigation pane includes "Workspaces, OneLake, Metrics," and other features report consumers might not be interested in.*
 
 1. Return to the original browser tab and close the **Share report** dialog by selecting **Cancel**.
 
@@ -122,51 +130,56 @@ In this task, you'll create a Power BI app to provide a better distribution expe
 ### Configure App Setup
 
 1. On the **Setup** tab, configure the following:
-    - **App name**: Enter **Sales Analytics App**
+    - **App name**: Enter **Sales Analytics Reporting App**
     - **Description**: Enter **Comprehensive sales analytics and reporting application**
     - **App logo**: You can upload a logo if desired (optional)
-    - **App theme color**: Select a color that represents your organization
+    - **App theme color**: Select a color that represents your organization (optional)
 
-1. Select **Next** to go to the **Navigation** tab.
+1. Select **Next: Add content** to continue configuration.
 
 ### Configure App Navigation
 
-1. On the **Navigation** tab, you'll organize how users navigate through your app content.
+1. Select **Add content**, choose the **13-Starter-Sales Analysis** report, and **Add**.
 
-1. Notice that the **13-Starter-Sales Analysis** report is already listed in the content area.
+1. In the drop-down arrow in the **Add content** button, you can **Add a new section** and **Add a link**.
 
-1. To create a section, select **+ New section**.
+    > These allow you to separate and group similar items, as well as provide relevant links to support your reporting needs.
 
-1. Name the section **Sales Reports**.
+1. Select **Add a new section** and rename the section **Sales Reports** by using the ellipsis `...` or double-clicking.
 
 1. Drag the **13-Starter-Sales Analysis** report into the **Sales Reports** section.
 
     ![Screenshot of app navigation configuration](Linked_image_Files/13-create-workspaces-distribute-reports_image05.png)
 
-1. You can reorder items by dragging them, and you can rename items by selecting them and editing the name.
-
-1. Select **Next** to go to the **Permissions** tab.
+1. Select **Next: Add audience** to configure permissions.
 
 ### Configure App Permissions and Audiences
 
-1. On the **Permissions** tab, you'll set up who can access your app.
+Audiences are the people who can access your app. You can create multiple audiences and show or hide different content based on each one.
 
-1. In the **Permissions** section, notice the options:
-    - **Entire organization**: Makes the app available to everyone in your organization
-    - **Specific individuals or groups**: Allows you to specify particular users or groups
+1. The default audience has visibility to the report you selected and all report pages.
 
-1. For this lab, select **Specific individuals or groups**.
+1. Use the **eye icon** to remove access to the report and notice how the section also disappears.
 
-1. In the **Enter names or email addresses** box, add yourself and any test users if available.
+1. Toggle the eye icon again to allow report access.
 
-1. Notice the **Audiences** section. Select **+ Create audience** to create different audiences with different access levels.
+1. In the **Edit Audience** pane, select **Entire organization**.
+
+1. Expand the **Advanced** section and notice two additional options:
+
+    - Allow people to share the datasets in this app audience
+    - Allow people to build content with the datasets in this app audience
+
+    > *These options are the same that were avaiable in the direct sharing link for the report, but may not apply to certain business users. The availability of multiple audiences lets you control which users can perform these actions, if desired.*
+
+1. Notice the **Audiences** section. Select **+ New Audience** to create different audiences with different access levels.
 
 1. Create an audience called **Sales Team** with the following settings:
-    - **Audience name**: Sales Team
+    - **Audience name**: Report developers
     - **Description**: Sales team members with full access
     - **Members**: Add relevant users or groups
-
-1. You can create additional audiences for different user groups (e.g., "Executives", "Regional Managers") with different content access.
+    - **Allow people to share the datasets in this app audience**
+    - **Allow people to build content with the datasets in this app audience**
 
 1. Review all settings and select **Publish app**.
 
@@ -181,10 +194,10 @@ In this task, you'll test the published app and compare it to direct report acce
 1. Select **Go to app** to see the end-user experience.
 
 1. Notice the following differences from the direct report link:
-    - **Cleaner URL**: The app has a more user-friendly URL structure
     - **Branded experience**: The app shows your custom name, description, and branding
-    - **Organized navigation**: Content is organized in the sections you created
+    - **Organized content**: Content is organized in the sections you created
     - **Consistent experience**: Users always see the same navigation and layout
+    - **Clean navigation**: The Power BI navigation pane for Workspaces and other options isn't visible.
 
 1. Navigate through the app content using the left navigation panel.
 
@@ -207,6 +220,8 @@ In this task, you'll learn how to manage and update your published app.
     - Republish the app with changes
 
 1. Make a small change (such as updating the app description) and republish to see how updates work.
+
+    > *Changes made to the workspace are not reflected in the app until you **Update app**. This is very useful for development before publishing for usage; however, this step can be overlooked and confusing when your changes don't appear in the app.*
 
 ## **Compare access methods**
 
