@@ -12,8 +12,8 @@ In this lab, you'll enforce row-level security to ensure that a salesperson can 
 
 In this lab, you learn how to:
 
-- Enforce row-level security.
-- Choose between dynamic and static methods.
+- Implement dynamic row-level security (RLS) in Power BI.
+- Create and test a role using USERPRINCIPALNAME().
 
 **This lab should take approximately 20 minutes.**
 
