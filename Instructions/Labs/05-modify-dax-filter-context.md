@@ -26,7 +26,7 @@ Extract the file to the **C:\Users\Student\Downloads\05-modify-dax-filter-contex
 
 Open the **05-Starter-Sales Analysis.pbix** file.
 
-> _**Note**: You can dismiss the sign-in by selecting **Cancel**. Close any other informational windows. Select **Apply Later**, if prompted to apply changes._
+> _**Note**: You may see a sign-in dialog as the file loads. Select **Cancel** to dismiss the sign-in dialog. Close any other informational windows. Select **Apply Later**, if prompted to apply changes._
 
 ## Create a matrix visual
 
@@ -212,7 +212,7 @@ In this task, you'll create several measures with DAX expressions that use the `
 
 1. Notice that the `Sales % Group` measure now only returns a value when a region or country is in scope.
 
-1. In Model view, place the three new measures into a display folder named _Ratios_.
+1. In **Model view**, place the three new measures into a display folder named _Ratios_.
 
     ![Picture 10](Linked_image_Files/05-modify-dax-filter-context_image20.png)
 
@@ -221,3 +221,12 @@ In this task, you'll create several measures with DAX expressions that use the `
 > _The measures added to the `Sales` table have modified filter context to achieve hierarchical navigation. Notice that the pattern to achieve the calculation of a subtotal requires removing some columns from the filter context, and to arrive at a grand total, all columns must be removed._
 
 ## Lab complete
+
+You may choose to save your Power BI report, though it’s not necessary for this lab. In the next exercise, you’ll work with a pre-made starter file.
+
+1. Navigate to the **"File"** menu in the top left corner and select **"Save As"**. 
+1. Select **Browse this device**.
+1. Select the folder where you want to save the file and give it a descriptive name. 
+1. Select the **Save** button to save your report as a .pbix file. 
+1. If a dialog box appears prompting you to apply pending query changes, select **Apply**.
+1. Close Power BI Desktop.

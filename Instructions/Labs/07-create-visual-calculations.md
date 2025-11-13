@@ -6,7 +6,7 @@ lab:
 
 # Create visual calculations in Power BI Desktop
 
-## **Lab story**
+## Lab story
 
 In this lab, you'll create visual calculations using Data Analysis Expressions (DAX).
 
@@ -29,7 +29,7 @@ Extract the folder to the **C:\Users\Student\Downloads\07-visual-calculations** 
 
 Open the **07-Starter-Sales Analysis.pbix** file.
 
-> ***Note**: You can dismiss the sign-in by selecting **Cancel**. Close any other informational windows. Select **Apply Later**, if prompted to apply changes.*
+> _**Note**: You may see a sign-in dialog as the file loads. Select **Cancel** to dismiss the sign-in dialog. Close any other informational windows. Select **Apply Later**, if prompted to apply changes._
 
 ## Create a bar chart visual
 
@@ -51,7 +51,7 @@ In this task, you’ll create a bar chart showing sales amount, total product co
 
     > You now have a bar chart showing the Sum of Sales and Sum of Cost by Year sorted chronologically.
 
-### Add calculations
+## Add calculations
 
 1. With the bar chart selected, select **New visual calculation** in the ribbon:
 
@@ -119,7 +119,7 @@ In this task, you'll create a matrix visual that compares the sales amount per c
 
     > *The labs use a shorthand notation to reference a field. It will look like this: **Date \| Year**. In this example, **Date** is the table name and **Year** is the field name.*
 
-### Add calculations
+## Add calculations
 
 1. With the matrix selected, select **New visual calculation** in the ribbon.
 
@@ -160,7 +160,7 @@ In this task, you'll create a line chart that shows the running sum for sales. T
     - X-axis: **Date \| Year** and **Date \| Quarter**
     - Y-axis: **Sales \| Sales**
 
-### Add running sum
+## Add running sum
 
 1. With the line chart selected, expand the menu under **New visual calculation** and select **Running sum** from the template options.
 
@@ -168,7 +168,7 @@ In this task, you'll create a line chart that shows the running sum for sales. T
 
    ![Picture 09](Linked_image_Files/07-create-visual-calculations_image09.png)
 
-### Update running sum to restart every new fiscal year
+## Update running sum to restart every new fiscal year
 
 1. While still in the visual calculations edit window, select the **Running sum** field under **Y-axis** and update the expression for this calculation by adding the HIGHESTPARENT reset parameter and commit the changes:
 
@@ -181,3 +181,12 @@ Verify that the running sum indeed restarts for every new fiscal year:
    ![Picture 10](Linked_image_Files/07-create-visual-calculations_image10.png)
 
 ## Lab complete
+
+You may choose to save your Power BI report, though it’s not necessary for this lab. In the next exercise, you’ll work with a pre-made starter file.
+
+1. Navigate to the **"File"** menu in the top left corner and select **"Save As"**. 
+1. Select **Browse this device**.
+1. Select the folder where you want to save the file and give it a descriptive name. 
+1. Select the **Save** button to save your report as a .pbix file. 
+1. If a dialog box appears prompting you to apply pending query changes, select **Apply**.
+1. Close Power BI Desktop.

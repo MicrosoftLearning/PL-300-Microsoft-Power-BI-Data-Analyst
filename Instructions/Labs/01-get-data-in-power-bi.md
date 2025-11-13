@@ -6,7 +6,7 @@ lab:
 
 # Get data in Power BI
 
-## **Lab story**
+## Lab story
 
 This lab is designed to introduce you to Power BI Desktop application and how to connect to data and how to use data preview techniques to understand the characteristics and quality of the source data.
 
@@ -44,7 +44,7 @@ This task teaches you how to connect to a SQL Server database and import tables,
 
 1. In the **SQL Server Database** window, in the **Server** box, enter **localhost** and leave **Database** blank, then select **OK**.
 
-    > ***Note**: In this lab, you’ll connect to the SQL Server database by using **localhost**. While this approach works here, it’s not recommended for your own solutions because gateway data sources can’t resolve **localhost**.*
+    > ***Note**: In this lab, you’ll connect to the SQL Server database by using **localhost**. While this is fine for the lab, it’s not considered a best practice for real-world solutions.*
 
 1. If prompted for credentials, select **Windows > Use my current credentials**, and then **Connect**.
 
@@ -60,7 +60,7 @@ This task teaches you how to connect to a SQL Server database and import tables,
 
     > ***Note**: The preview data allows you to see the columns and a sample of rows.*
 
-1. To import the table data, **select the checkbox** next to the following tables:
+1. Select the following tables by **checking the boxes** next to their names.
 
     - DimEmployee
     - DimEmployeeSalesTerritory
@@ -73,7 +73,7 @@ This task teaches you how to connect to a SQL Server database and import tables,
 
 You've now connected to six tables from a SQL Server database.
 
-## **Preview Data in Power Query Editor**
+## Preview Data in Power Query Editor
 
 This task introduces the Power Query Editor and allows you to review and profile the data. This helps you determine how to clean and transform the data later. You'll also review both dimension tables prefixed with "Dim" and fact tables prefixed with "Fact".
 
@@ -81,7 +81,7 @@ This task introduces the Power Query Editor and allows you to review and profile
 
      ![List of loaded queries](Linked_image_Files/01-get-data-in-power-bi_image20.png)
 
-1. Select the first query—**DimEmployee**.
+1. Select the **DimEmployee** query.
 
     > *The **DimEmployee** table in the SQL Server database stores one row for each employee. A subset of the rows from this table represents the salespeople, which will be relevant to the model you’ll develop.*
 
@@ -141,7 +141,7 @@ This task introduces the Power Query Editor and allows you to review and profile
 
     > *Missing **TotalProductCost** column values is a data quality issue.*
 
-## **Get data from a CSV file**
+## Get data from a CSV file
 
 In this task, you'll create a new query based on CSV files.
 
@@ -155,7 +155,7 @@ In this task, you'll create a new query based on CSV files.
 
     > *The **ResellerSalesTargets** CSV file contains one row per salesperson, per year. Each row records 12 monthly sales targets (expressed in thousands). The business year for the Adventure Works company commences on July 1.*
 
-1. Notice that no column contains empty values.  When there isn’t a monthly sales target, a hyphen character is stored instead.
+1. Notice that no column contains empty values.  If a monthly sales target is missing, the column shows a hyphen instead.
 
 1. Review the icons in each column header, to the left of the column name. The icons represent the column data type. **123** is whole number, and **ABC** is text.
 
@@ -170,3 +170,12 @@ You should now have two new queries, **ResellerSalesTargets** and **ColorFormats
  ![Queries list](Linked_image_Files/01-get-data-in-power-bi_image43.png)
 
 ## Lab complete
+
+You may choose to save your Power BI report, though it’s not necessary for this lab. In the next exercise, you’ll work with a pre-made starter file.
+
+1. Navigate to the **"File"** menu in the top left corner and select **"Save As"**. 
+1. Select **Browse this device**.
+1. Select the folder where you want to save the file and give it a descriptive name. 
+1. Select the **Save** button to save your report as a .pbix file. 
+1. If a dialog box appears prompting you to apply pending query changes, select **Apply**.
+1. Close Power BI Desktop.

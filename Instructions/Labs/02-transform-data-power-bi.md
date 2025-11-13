@@ -27,7 +27,7 @@ Extract the folder to the **C:\Users\Student\Downloads\02-transform-data** folde
 
 Open the **02-Starter-Sales Analysis.pbix** file.
 
-> ***Note**: You can dismiss the sign-in by selecting **Cancel**. Close any other informational windows. Select **Apply Later**, if prompted to apply changes.*
+> _**Note**: You may see a sign-in dialog as the file loads. Select **Cancel** to dismiss the sign-in dialog. Close any other informational windows. Select **Apply Later**, if prompted to apply changes._
 
 ## Configure the Salesperson query
 
@@ -51,11 +51,11 @@ In this task, you'll use Power Query Editor to configure the **Salesperson** que
 
 1. To locate a specific column, on the **Home** ribbon tab, from inside the **Manage Columns** group, select the **Choose Columns** down-arrow, and then select **Go to Column**.
 
-	> *Go to Column is a useful feature with many columns. Otherwise, you can horizontally scroll find columns.*
+	> _**Go to Column** is a useful feature with many columns. Otherwise, you can horizontally scroll to find columns._
 
 	![Manage columns > Choose columns > Go to column](Linked_image_Files/02-transform-data-power-bi_image13.png)
 
-1. In the **Go to Column** window, to order the list by column name, select the **AZ** sort button, and then select **Name** and **SalesPersonFlag**. Click **OK**.
+1. In the **Go to Column** window, to order the list by column name, select the **AZ** sort button, and then select **Name**. 
 
 	![Go to column sort options](Linked_image_Files/02-transform-data-power-bi_image14.png)
 
@@ -90,7 +90,7 @@ In this task, you'll use Power Query Editor to configure the **Salesperson** que
 
 1. Right-click either of the select column headers, and then in the context menu, select **Merge Columns**.
 
-	> *Many common transformations can be applied by right-clicking the column header, and then choosing them from the context menu. Note, however, more transformations are available in the ribbon.*
+	> *Many common transformations can be applied by right-clicking the column header, and then choosing them from the context menu. Note that additional transformations are available in the ribbon.*
 
 1. In the **Merge Columns** window, in the **Separator** dropdown list, select **Space**.
 
@@ -98,13 +98,13 @@ In this task, you'll use Power Query Editor to configure the **Salesperson** que
 
 1. To rename the **EmployeeNationalIDAlternateKey** column, double-click the **EmployeeNationalIDAlternateKey** column header and replace the text with **EmployeeID**, and then press **Enter**.
 
-1. Use the previous steps to rename the **EmailAddress** column to **UPN**.
+1. Rename the **EmailAddress** column to **UPN**.
 
 	> *UPN is an acronym for User Principal Name.*
 
-**At the bottom-left, in the status bar, verify that the query has 5 columns and 18 rows.**
+**In the status bar at the bottom-left corner of the Power Query Editor, verify that the query has 5 columns and 18 rows.**
 
-## **Configure the SalespersonRegion query**
+## Configure the SalespersonRegion query
 
 In this task, you'll configure the **SalespersonRegion** query.
 
@@ -186,9 +186,9 @@ In this task, you'll configure the **Reseller** query.
 	- StateProvinceName
 	- EnglishCountryRegionName
 
-1. On the **Business Type** column header, select the down-arrow, and then review the distinct column values, and notice both values **Warehouse** and **Ware House**.
+1. On the **BusinessType** column header, select the down-arrow, and then review the distinct column values, and notice both values **Warehouse** and **Ware House**.
 
-1. Right-click the **Business Type** column header, and then select **Replace Values**.
+1. Right-click the **BusinessType** column header, and then select **Replace Values**.
 
 1. In the **Replace Values** window, configure the following values:
 
@@ -432,7 +432,7 @@ In this task, you'll update the **ColorFormats** to disable its load.
 
 	![Picture 323](Linked_image_Files/02-transform-data-power-bi_image81.png)
 
-### Review final product
+## Review final product
 
 1. In Power Query Editor, verify that you have **8 queries**, correctly named as follows:
 
@@ -454,3 +454,12 @@ In this task, you'll update the **ColorFormats** to disable its load.
 	![Picture 3](Linked_image_Files/02-transform-data-power-bi_image84.png)
 
 ## Lab complete
+
+You may choose to save your Power BI report, though it’s not necessary for this lab. In the next exercise, you’ll work with a pre-made starter file.
+
+1. Navigate to the **"File"** menu in the top left corner and select **"Save As"**. 
+1. Select **Browse this device**.
+1. Select the folder where you want to save the file and give it a descriptive name. 
+1. Select the **Save** button to save your report as a .pbix file. 
+1. If a dialog box appears prompting you to apply pending query changes, select **Apply**.
+1. Close Power BI Desktop.

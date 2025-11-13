@@ -30,7 +30,7 @@ Extract the file to the **C:\Users\Student\Downloads\03-model-data** folder.
 
 Open the **03-Starter-Sales Analysis.pbix** file.
 
-> _**Note**: You can dismiss the sign-in by selecting **Cancel**. Close any other informational windows. Select **Apply Later**, if prompted to apply changes._
+> _**Note**: You may see a sign-in dialog as the file loads. Select **Cancel** to dismiss the sign-in dialog. Close any other informational windows. Select **Apply Later**, if prompted to apply changes._
 
 ## Create model relationships
 
@@ -50,7 +50,7 @@ In this task, you'll create model relationships. The file was configured to not 
 
     > _The issue is that the table is based on fields from different tables. The expectation is that each product category displays the sales for that category. However, because there isn't a model relationship between these tables, the `Sales` table isn't filtered. You'll now add a relationship to propagate filters between the tables._
 
-1. To switch to the model designer, at the left select the Model view icon.
+1. To switch to the model designer, at the left select the **Model view** icon.
 
     ![Picture 2](Linked_image_Files/03-configure-semantic-model-model-view.png)
 
@@ -89,17 +89,17 @@ In this task, you'll create model relationships. The file was configured to not 
     >
     > Tip: If you hover the cursor over the relationship to highlight the related columns._
 
-1. Switch to Report view, and then notice that the table visual updated to display different values for each product category.
+1. Switch to **Report view**, and then notice that the table visual updated to display different values for each product category.
 
     > _Filters applied to the `Product` table now propagate to the `Sales` table._
 
     ![Picture 7](Linked_image_Files/03-configure-semantic-model-table-with-relationship.png)
 
-### Create additional relationships
+## Create additional relationships
 
 There's an easier way to create a relationship. In the model diagram, you can drag and drop columns to create a new relationship.
 
-1. To create a new relationship using a different technique, switch to Model view.
+1. To create a new relationship using a different technique, switch to **Model view**.
 
 1. From the `Reseller` table, drag the `ResellerKey` column onto the `ResellerKey` column of the `Sales` table.
 
@@ -124,7 +124,7 @@ There's an easier way to create a relationship. In the model diagram, you can dr
 
 In this task, you'll configure the `Product` table with a hierarchy and display folder.
 
-1. Switch to Model view.
+1. Switch to **Model view**.
 
 1. In the **Data** pane, if necessary, expand the `Product` table to reveal all fields.
 
@@ -136,7 +136,7 @@ In this task, you'll configure the `Product` table with a hierarchy and display 
 
     ![Picture 11](Linked_image_Files/03-configure-semantic-model-create-hierarchy-rename.png)
 
-1. Two add levels to the hierarchy, in the **Hierarchy** dropdown list, select **Subcategory** and then select **Product**, and then select **Apply Level Changes**.
+1. To add levels to the hierarchy, in the **Hierarchy** dropdown list, select **Subcategory** and then select **Product**, and then select **Apply Level Changes**.
 
     ![Picture 12](Linked_image_Files/03-configure-semantic-model-create-hierarchy-levels.png)
 
@@ -258,9 +258,9 @@ In this task, you'll update multiple columns using single bulk updates. You'll u
 
 ## Explore the model interface
 
-In this task you'll switch to Report view, review the data model interface, and configure the auto date/time setting.
+In this task you'll switch to **Report view**, review the data model interface, and configure the auto date/time setting.
 
-1. Switch to Report view.
+1. Switch to **Report view**.
 
 1. In the **Data** pane, notice the following:
 
@@ -348,7 +348,7 @@ In this task, you'll create two quick measures to calculate profit and profit ma
 
 In this task, you'll create a many-to-many relationship between the `Salesperson` table and the `Sales` table.
 
-1. In Report view, select a blank area of the report page.
+1. In **Report view**, select a blank area of the report page.
 
 1. To create a new table visual, in the **Data** pane, check the following two fields:
 
@@ -363,7 +363,7 @@ In this task, you'll create a many-to-many relationship between the `Salesperson
 
 1. Notice that _Michael Blythe_ has generated almost 9 million dollars of sales.
 
-1. Switch to Model view, then drag the `SalespersonRegion` table to position it between the `Region` and `Salesperson` tables.
+1. Switch to **Model view**, then drag the `SalespersonRegion` table to position it between the `Region` and `Salesperson` tables.
 
 1. Use the drag-and-drop technique to create the following two model relationships:
 
@@ -372,9 +372,9 @@ In this task, you'll create a many-to-many relationship between the `Salesperson
 
     > _The `SalespersonRegion` table can be considered to be a bridging table._
 
-1. Switch to Report view, and then notice that the visual hasn't updated—the sales result for Michael Blythe hasn't changed.
+1. Switch to **Report view**, and then notice that the visual hasn't updated—the sales result for Michael Blythe hasn't changed.
 
-1. Switch back to Model view, and then follow the relationship filter directions (arrowhead) from the `Salesperson` table.
+1. Switch back to **Model view**, and then follow the relationship filter directions (arrowhead) from the `Salesperson` table.
 
     > _Consider that the `Salesperson` table filters the `Sales` table. It also filters the `SalespersonRegion` table, but it doesn't continue by propagating filters to the `Region` table (the arrowhead is pointing the wrong direction)._
 
@@ -394,11 +394,11 @@ In this task, you'll create a many-to-many relationship between the `Salesperson
 
     ![Picture 30](Linked_image_Files/03-configure-semantic-model_u_image14.png)
 
-1. Switch to Report view, and then notice that the sales values have still not changed.
+1. Switch to **Report view**, and then notice that the sales values have still not changed.
 
     > _The issue now relates to the fact that there are two possible filter propagation paths between the `Salesperson` and `Sales` tables. This ambiguity is internally resolved, based on a "least number of tables" assessment. To be clear, you shouldn't design models with this type of ambiguity—the issue will be addressed in part later in this lab, and by the completion of the **Create DAX Calculations in Power BI Desktop** lab._
 
-1. Switch to Model view.
+1. Switch to **Model view**.
 
 1. To force filter propagation via the bridging table, edit (double-click) the relationship between the `Salesperson` and `Sales` tables.
 
@@ -414,7 +414,7 @@ In this task, you'll create a many-to-many relationship between the `Salesperson
 
     ![Picture 32](Linked_image_Files/03-configure-semantic-model_u_image17.png)
 
-1. Switch to Report view, and then notice that the sales for Michael Blythe are now nearly 22 million dollars.
+1. Switch to **Report view**, and then notice that the sales for Michael Blythe are now nearly 22 million dollars.
 
 1. Notice also, that the sales for each salesperson—if added—would exceed the table total.
 
@@ -422,7 +422,7 @@ In this task, you'll create a many-to-many relationship between the `Salesperson
      >
      > _While the many-to-many relationship is now working, it's now not possible to analyze sales made by a salesperson (because the relationship is inactive). You'll be able to reactivate the relationship when you introduce a calculated table that will allow analyzing sales made in the sales region(s) assigned to the salesperson (for performance analysis) in the **Create DAX Calculations in Power BI Desktop** lab._
 
-1. Switch to Model view, and then in the model diagram, select the `Salesperson` table.
+1. Switch to **Model view**, and then in the model diagram, select the `Salesperson` table.
 
 1. In the **Properties** pane, in the **Name** box, replace the text with _Salesperson (Performance)_.
 
@@ -434,7 +434,7 @@ In this task, you'll create a relationship to the `Targets` table.
 
 1. Create a relationship from the `Salesperson (Performance) | EmployeeID` column and the `Targets | EmployeeID` column.
 
-1. In Report view, add the `Targets | Target` field to the table visual.
+1. In **Report view**, add the `Targets | Target` field to the table visual.
 
 1. Resize the table visual so all columns are visible.
 
@@ -445,3 +445,12 @@ In this task, you'll create a relationship to the `Targets` table.
 1. Save the Power BI Desktop file.
 
 ## Lab complete
+
+You may choose to save your Power BI report, though it’s not necessary for this lab. In the next exercise, you’ll work with a pre-made starter file.
+
+1. Navigate to the **"File"** menu in the top left corner and select **"Save As"**. 
+1. Select **Browse this device**.
+1. Select the folder where you want to save the file and give it a descriptive name. 
+1. Select the **Save** button to save your report as a .pbix file. 
+1. If a dialog box appears prompting you to apply pending query changes, select **Apply**.
+1. Close Power BI Desktop.

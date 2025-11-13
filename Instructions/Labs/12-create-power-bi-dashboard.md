@@ -27,13 +27,13 @@ Extract the folder to the **C:\Users\Student\Downloads\12-create-dashboard** fol
 
 > _**Note**: You'll need at least a **Power BI Free** license to publish the report. Open the Microsoft Edge browser, then sign in at `https://app.powerbi.com`. When asked to solve a puzzle, or to start a free Fabric trial, you can skip this and close the browser.
 
-## **Publish the report**
+## Publish the report
 
 In this task, you'll set up the environment for the lab by creating a semantic model.
 
 1. In the Microsoft Edge browser window, in the Power BI service, navigate to **My Workspace**.
 
-1. Select **Import > Report or Paginated Report > From this computer**.
+1. Select **Import > Report, Paginated Report or Workbook > From this computer**.
 
 1. Navigate to **C:\Users\Student\Downloads\12-create-dashboard** folder.
 
@@ -41,7 +41,7 @@ In this task, you'll set up the environment for the lab by creating a semantic m
 
     > *If prompted to replace the semantic model, select **Replace it**.*
 
-## **Create a dashboard**
+## Create a dashboard
 
 In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a visual from the report, and add a tile based on an image data URI, and use Q&A to create a tile.
 
@@ -95,7 +95,7 @@ In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a vis
 
     ![Picture 15](Linked_image_Files/12-create-power-bi-dashboard_image28.png)
 
-1. When prompted to pin the tile to the **Sales Monitoring** dashboard, select **Pin**.
+1. When prompted, select **Sales Monitoring** from the drop-down menu, select **Pin**.
 
 1. To return to the dashboard, at the top-left corner, select **Exit Q&amp;A**.
 
@@ -119,7 +119,7 @@ In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a vis
 
     ![Picture 52](Linked_image_Files/12-create-power-bi-dashboard_image35.png)
 
-## **Edit tile details**
+## Edit tile details
 
 In this task, you'll edit the details of two tiles.
 
@@ -143,13 +143,13 @@ In this task, you'll edit the details of two tiles.
 
 *You’ll refresh the semantic model in the next exercise. Depending on your data and report, you can do an adhoc data refresh anytime or set a schedule. However, scheduled refreshes require gateways that we aren't able to configure for this lab. So from Power BI Desktop, you'll perform a manual data refresh, and then upload the file to your workspace.*
 
-## **Refresh the Semantic model**
+## Refresh the Semantic model
 
 In this exercise, you'll first load sales order data for June 2020 into the **AdventureWorksDW2020** database. You'll then open your Power BI Desktop file, perform a data refresh, and then upload the file to your workspace.
 
 > ***Note**: If you're unable to connect to the database, you can use the **12-Solution-Sales-Analysis.pbix** file. Instead of updating the database and refreshing the semantic model, upload the solution file to **My workspace** and see the changes referenced in the following tasks.*
 
-## **Update the lab database**
+## Update the lab database
 
 In this task, you'll run a PowerShell script to update data in the **AdventureWorksDW2020** database.
 
@@ -163,11 +163,11 @@ In this task, you'll run a PowerShell script to update data in the **AdventureWo
 
 *The **AdventureWorksDW2020** database now includes sales orders made in June 2020.*
 
-## **Refresh the Power BI Desktop file**
+## Refresh the Power BI Desktop file
 
 In this task you'll open the **12-Starter-Sales Analysis** Power BI Desktop file, perform a data refresh, and then upload the file to your **Sales Analysis** workspace.
 
-1. In Power BI Desktop file, in the **Data** pane, right-click the **Sales** table, and then select **Refresh Data**.
+1. In Power BI Desktop file, in the **Data** pane, right-click the **Sales** table, and then select **Refresh > Data**.
 
     ![Picture 55](Linked_image_Files/12-create-power-bi-dashboard_image47.png)
 
@@ -183,7 +183,7 @@ In this task you'll open the **12-Starter-Sales Analysis** Power BI Desktop file
 
 *The semantic model in the Power BI service now has June 2020 sales data.*
 
-### **Review the dashboard**
+## Review the dashboard
 
 In this task, you'll review the dashboard to notice updated sales.
 
@@ -198,3 +198,5 @@ In this task, you'll review the dashboard to notice updated sales.
     ![Picture 33](Linked_image_Files/12-create-power-bi-dashboard_image50.png)
 
 ## Lab complete
+
+1. Close the Microsoft Edge browser window.

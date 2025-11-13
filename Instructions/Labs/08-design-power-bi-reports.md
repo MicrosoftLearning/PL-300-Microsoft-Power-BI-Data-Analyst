@@ -30,11 +30,11 @@ Extract the file to the **C:\Users\Student\Downloads\08-design-report** folder.
 
 Open the **08-Starter-Sales Analysis.pbix** file.
 
-> _**Note**: You can dismiss the sign-in by selecting **Cancel**. Close any other informational windows. Select **Apply Later**, if prompted to apply changes._
+> _**Note**: You may see a sign-in dialog as the file loads. Select **Cancel** to dismiss the sign-in dialog. Close any other informational windows. Select **Apply Later**, if prompted to apply changes._
 
 ## Design page 1
 
-In this exercise, you'll design the first report page. When you've completed the design, the page will look like the following:
+In this task, you'll design the first report page. When you've completed the design, the page will look like the following:
 
 ![Screenshot of page 1, comprising a logo, two slicers, and three visuals.](Linked_image_Files/06-finished-report-page.png)
 
@@ -62,7 +62,9 @@ In this exercise, you'll design the first report page. When you've completed the
 
     > _The labs use a shorthand notation to reference a field. It will look like this: `Date | Year`. In this example, `Date` is the table name and `Year` is the field name._
 
-1. To convert the slicer from a list to a dropdown, in the **Visualizations** pane, select **Format your visual**. Expand **Slicer settings**, and then set the **Style** dropdown to **Dropdown**.
+    ![Picture 17](Linked_image_Files/08-design-power-bi-reports_image16.png)
+
+1. To convert the slicer from a list to a dropdown, in the **Visualizations** pane, select **Format visual**. Expand **Slicer settings**, and then set the **Style** dropdown to **Dropdown**.
 
     ![Picture 4](Linked_image_Files/08-design-power-bi-reports_slicer_style.png)
 
@@ -166,7 +168,7 @@ In this exercise, you'll design the first report page. When you've completed the
 
 ## Design page 2
 
-In this exercise, you'll design the second report page. When you've completed the design, the page will look like the following:
+In this task, you'll design the second report page. When you've completed the design, the page will look like the following:
 
 ![Screenshot of page 2, comprising a slicer and matrix.](Linked_image_Files/08-design-power-bi-reports_image37.png)
 
@@ -224,7 +226,7 @@ In this exercise, you'll design the second report page. When you've completed th
 
 ## Design page 3
 
-In this exercise, you'll design the third—and final—report page. When you've completed the design, the page will look like the following:
+In this task, you'll design the third—and final—report page. When you've completed the design, the page will look like the following:
 
 ![Screenshot of page 3, comprising a slicer and three visuals.](Linked_image_Files/08-design-power-bi-reports_image47.png)
 
@@ -323,9 +325,9 @@ In this task, you'll sync the _Year_ and _Region_ slicers.
 
 ## Publish and explore the report
 
-In this exercise, you'll publish the report to the Power BI service. You will then explore the published report behavior.
+In this task, you'll publish the report to the Power BI service. You will then explore the published report behavior.
 
-> _**Note**: You'll need at least a **Power BI Free** license to publish the report. Open the Microsoft Edge browser, then sign in at `https://app.powerbi.com`. When asked to solve a puzzle, or to start a free Fabric trial, you can skip this and close the browser.
+> _**Note**: You'll need at least a **Power BI Free** license to publish the report. Open the Microsoft Edge browser, and navigate to_ `https://app.powerbi.com`_.  Sign in with the credentials for the Microsoft 365 tenant provided by your authorized lab hoster (ALH). When asked to solve a puzzle, or to start a free Fabric trial, you can skip this and close the browser._
 
 > _**Note**: You can review the remainder of the exercise, even if you don't have access to the Power BI service to perform the tasks directly._
 
@@ -345,7 +347,7 @@ In this exercise, you'll publish the report to the Power BI service. You will th
 
 1. When the publication succeeds, select **Got It**.
 
-1. Open the Microsoft Edge browser, then sign in at `https://app.powerbi.com`.
+1. Open the Microsoft Edge browser, then navigate to `https://app.powerbi.com`.
 
 1. In the browser window, in the Power BI service, in the **Navigation** pane (located at the left, and it could be collapsed), expand **My Workspace**.
 
@@ -426,3 +428,6 @@ In this exercise, you'll publish the report to the Power BI service. You will th
     ![Picture 48](Linked_image_Files/08-design-power-bi-reports_image71.png)
 
 ## Lab complete
+
+1. Close Microsoft Edge browser.
+1. Close Power BI Desktop.

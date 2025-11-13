@@ -28,7 +28,7 @@ Extract the file to the **C:\Users\Student\Downloads\04-dax-calculations** folde
 
 Open the **04-Starter-Sales Analysis.pbix** file.
 
-> _**Note**: You can dismiss the sign-in by selecting **Cancel**. Close any other informational windows. Select **Apply Later**, if prompted to apply changes._
+> _**Note**: You may see a sign-in dialog as the file loads. Select **Cancel** to dismiss the sign-in dialog. Close any other informational windows. Select **Apply Later**, if prompted to apply changes._
 
 ## Create the Salesperson calculated table
 
@@ -38,7 +38,7 @@ A calculated table is created by first entering the table name, followed by the 
 
 You enter a valid DAX formula in the _formula bar_. The formula bar includes features like auto-complete, Intellisense and color-coding, which allow you to quickly and accurately enter the formula.
 
-1. In Power BI Desktop, in Report view, on the **Modeling** ribbon, from inside the **Calculations** group, select **New Table**.
+1. In Power BI Desktop, in **Report view**, on the **Modeling** ribbon, from inside the **Calculations** group, select **New Table**.
 
     ![Picture 1](Linked_image_Files/04-create-dax-calculations_image9.png)
 
@@ -58,7 +58,7 @@ You enter a valid DAX formula in the _formula bar_. The formula bar includes fea
     >
     > _Unlike Power Query-sourced tables, calculated tables can't be used to load data from external data sources. They can only transform data based on what has already been loaded into the data model._
 
-1. Switch to Model view, and notice that the `Salesperson` table is available.
+1. Switch to **Model view**, and notice that the `Salesperson` table is available.
 
 1. Create a relationship from the `Salesperson | EmployeeKey` column to the `Sales | EmployeeKey` column.
 
@@ -86,7 +86,7 @@ You enter a valid DAX formula in the _formula bar_. The formula bar includes fea
 
 In this task, you'll create the `Date` table.
 
-1. Switch to Table view. On the **Home** ribbon tab, from inside the **Calculations** group, select **New Table**.
+1. Switch to **Table view**. On the **Home** ribbon tab, from inside the **Calculations** group, select **New Table**.
 
     ![Picture 4](Linked_image_Files/04-create-dax-calculations_image15.png)
 
@@ -141,7 +141,7 @@ In this task, you'll add more columns to enable filtering and grouping by differ
 
     ![Picture 9](Linked_image_Files/04-create-dax-calculations_image21.png)
 
-1. To validate the calculations, switch to Report view.
+1. To validate the calculations, switch to **Report view**.
 
 1. To create a new report page, select the plus icon next to **Page 1**.
 
@@ -169,7 +169,7 @@ In this task, you'll add more columns to enable filtering and grouping by differ
 
     > _By default, text values sort alphabetically, numbers sort from smallest to largest, and dates sort from earliest to latest._
 
-1. To customize the `Month` field sort order, switch to Table view.
+1. To customize the `Month` field sort order, switch to **Table view**.
 
 1. Add the `MonthKey` column to the `Date` table.
 
@@ -180,13 +180,13 @@ In this task, you'll add more columns to enable filtering and grouping by differ
 
     > _This formula computes a numeric value for each year/month combination._
 
-1. In Table view, verify that the new column contains numeric values (for example, 201707 for July 2017, and so on).
+1. In **Table view**, verify that the new column contains numeric values (for example, 201707 for July 2017, and so on).
 
     ![Picture 15](Linked_image_Files/04-create-dax-calculations_image28.png)
 
-1. Switch back to Report view.
+1. Switch back to **Report view**.
 
-1. In the **Data** pane and select the `Month` field.
+1. In the **Data** pane, select the `Month` field.
 
 1. On the **Column Tools** contextual ribbon, from inside the **Sort** group, select **Sort by Column**, and then select **MonthKey**.
 
@@ -200,7 +200,7 @@ In this task, you'll add more columns to enable filtering and grouping by differ
 
 In this task, you'll complete the design of the `Date` table by hiding a column and creating a hierarchy. You'll then create relationships to the `Sales` and `Targets` tables.
 
-1. Switch to Model view.
+1. Switch to **Model view**.
 
 1. In the `Date` table, hide the `MonthKey` column (set **Is Hidden** to _Yes_).
 
@@ -230,7 +230,7 @@ In this task, you'll complete the design of the `Date` table by hiding a column 
 
 In this task, you'll mark the `Date` table as a date table.
 
-1. Switch to Report view.
+1. Switch to **Report view**.
 
 1. In the **Data** pane, select the `Date` table (not the `Date` field).
 
@@ -238,7 +238,7 @@ In this task, you'll mark the `Date` table as a date table.
 
     ![Picture 21](Linked_image_Files/04-create-dax-calculations_image31a.png)
 
-1. In the **Mark as a Date Table** window, slide the **Mark as a Date Table** property to _Yes_.
+1. In the **Mark as a Date Table** window, slide the **Mark as a Date Table** property to _On_.
 
 1. In the **Choose a date column** dropdown list, select **Date**.
 
@@ -256,7 +256,7 @@ In this task, you'll mark the `Date` table as a date table.
 
 In this task, you'll create simple measures. Simple measures aggregate values in a single column or count rows of a table.
 
-1. In Report view, on **Page 2**, from the **Data** pane, drag the `Sales | Unit Price` field into the matrix visual.
+1. In **Report view**, on **Page 2**, from the **Data** pane, drag the `Sales | Unit Price` field into the matrix visual.
 
     ![Picture 23](Linked_image_Files/04-create-dax-calculations_image35.png)
 
@@ -299,7 +299,7 @@ In this task, you'll create simple measures. Simple measures aggregate values in
     >
     > _In this case, the number of orders is calculated by counting the distinct `SalesOrderNumber` column values, while the number of order lines is simply the number of table rows (each row is a line of an order)._
 
-1. Switch to Model view, and then multi-select the four price measures: `Avg Price`, `Max Price`, `Median Price`, and `Min Price`.
+1. Switch to **Model view**, and then multi-select the four price measures: `Avg Price`, `Max Price`, `Median Price`, and `Min Price`.
 
 1. For the multi-selection of measures, configure the following requirements:
 
@@ -319,7 +319,7 @@ In this task, you'll create simple measures. Simple measures aggregate values in
 
     ![Picture 27](Linked_image_Files/04-create-dax-calculations_image41.png)
 
-1. In Report view, in the **Values** well of the matrix visual, for **Average of Unit Price**, select **X** to remove it.
+1. In **Report view**, in the **Values** well of the matrix visual, for **Average of Unit Price**, select **X** to remove it.
 
     ![Picture 28](Linked_image_Files/04-create-dax-calculations_image41a.png)
 
@@ -341,7 +341,7 @@ In this task, you'll create simple measures. Simple measures aggregate values in
 
 In this task, you'll create more measures that use more complex formulas.
 
-1. In Report view, select **Page 1** and review the table visual of salespeople (on the right), noticing the total for the **Sum of Target** column.
+1. In **Report view**, select **Page 1** and review the table visual of salespeople (on the right), noticing the total for the **Sum of Target** column.
 
     ![Picture 30](Linked_image_Files/04-create-dax-calculations_image45.png)
 
@@ -349,7 +349,7 @@ In this task, you'll create more measures that use more complex formulas.
 
 1. Rename the `Targets | Target` column as _TargetAmount_.
 
-    > _Tip: There are several ways to rename the column in Report view: In the **Data** pane, you can right-click the column, and then select **Rename**—or, double-click the column, or press **F2**._
+    > _Tip: There are several ways to rename the column in **Report view**: In the **Data** pane, you can right-click the column, and then select **Rename**—or, double-click the column, or press **F2**._
 
 1. Create the following measure on the `Targets` table:
 
@@ -403,3 +403,12 @@ In this task, you'll create more measures that use more complex formulas.
 1. Save the Power BI Desktop file.
 
 ## Lab complete
+
+You may choose to save your Power BI report, though it’s not necessary for this lab. In the next exercise, you’ll work with a pre-made starter file.
+
+1. Navigate to the **"File"** menu in the top left corner and select **"Save As"**. 
+1. Select **Browse this device**.
+1. Select the folder where you want to save the file and give it a descriptive name. 
+1. Select the **Save** button to save your report as a .pbix file. 
+1. If a dialog box appears prompting you to apply pending query changes, select **Apply**.
+1. Close Power BI Desktop.

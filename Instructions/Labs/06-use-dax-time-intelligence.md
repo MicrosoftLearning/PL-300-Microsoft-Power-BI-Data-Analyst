@@ -26,13 +26,13 @@ Extract the file to the **C:\Users\Student\Downloads\06-time-intelligence** fold
 
 Open the **06-Starter-Sales Analysis.pbix** file.
 
-> _**Note**: You can dismiss the sign-in by selecting **Cancel**. Close any other informational windows. Select **Apply Later**, if prompted to apply changes._
+> _**Note**: You may see a sign-in dialog as the file loads. Select **Cancel** to dismiss the sign-in dialog. Close any other informational windows. Select **Apply Later**, if prompted to apply changes._
 
 ## Create a YTD measure
 
 In this task, you'll create a sales year-to-date (YTD) measure by using time intelligence functions.
 
-1. In Power BI Desktop, in Report view, on **Page 2**, notice the matrix visual that displays various measures with years and months grouped on the rows.
+1. In Power BI Desktop, in **Report view**, on **Page 2**, notice the matrix visual that displays various measures with years and months grouped on the rows.
 
 2. Add a measure to the `Sales` table, based on the following expression, and formatted to zero decimal places:
 
@@ -122,10 +122,19 @@ In this task, you'll create a sales YoY growth measure by using a variable.
 
     > _The YoY growth measure identifies almost 400 percent (or 4x) increase of sales during the same period of the previous year._
 
-1. In Model view, place the two new measures into a display folder named _Time intelligence_.
+1. In **Model view**, place the two new measures into a display folder named _Time intelligence_.
 
     ![Picture 4](Linked_image_Files/06-use-dax-time-intelligence-functions_image24.png)
 
 1. Save the Power BI Desktop file.
 
 ## Lab complete
+
+You may choose to save your Power BI report, though it’s not necessary for this lab. In the next exercise, you’ll work with a pre-made starter file.
+
+1. Navigate to the **"File"** menu in the top left corner and select **"Save As"**. 
+1. Select **Browse this device**.
+1. Select the folder where you want to save the file and give it a descriptive name. 
+1. Select the **Save** button to save your report as a .pbix file. 
+1. If a dialog box appears prompting you to apply pending query changes, select **Apply**.
+1. Close Power BI Desktop.
