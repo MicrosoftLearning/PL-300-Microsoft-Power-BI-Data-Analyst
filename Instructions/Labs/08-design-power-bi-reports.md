@@ -46,6 +46,10 @@ In this task, you'll design the first report page. When you've completed the des
 
     ![Picture 1](Linked_image_Files/08-design-power-bi-reports_image15.png)
 
+1. The **Format Image** pane will open beside the canvas. From this pane, select **Image > Browse** to select the image file in the next step.
+
+    ![Format Image pane](Linked_image_Files/08-design-power-bi-reports-format-image.png)
+
 1. In the **Open** window, navigate to the **C:\Users\Student\Downloads\08-design-report** folder.
 
 1. Select the **AdventureWorksLogo.jpg** file, and then select **Open**.
@@ -200,19 +204,21 @@ In this task, you'll design the second report page. When you've completed the de
      - `Profit` (from the `Pricing` folder)
      - `Profit Margin` (from the `Pricing` folder)
 
+    > _The fields will show in the visual with a prefix showing the aggregation type; "Sum of Sales."_
+
     ![Picture 22](Linked_image_Files/08-design-power-bi-reports_image43.png)
 
-1. In the **Filters** pane (located at the left of the **Visualizations** pane), notice the **Filters on this page** section (you may need to expand open the pane and scroll down).
+2. In the **Filters** pane (located at the left of the **Visualizations** pane), notice the **Filters on this page** section (you may need to expand open the pane and scroll down).
 
     ![Picture 23](Linked_image_Files/08-design-power-bi-reports_image44.png)
 
-1. From the **Data** pane, drag the `Product | Category` field into the **Filters on this page** well.
+3. From the **Data** pane, drag the `Product | Category` field into the **Filters on this page** well.
 
     > _Fields added to the **Filters** pane can achieve the same result as a slicer. One difference is they don't take up space on the report page. Another difference is that they can be configured to achieve more sophisticated filtering requirements._
 
-1. Inside the filter card, at the top right, select the arrow to collapse the card.
+4. Inside the filter card, at the top right, select the arrow to collapse the card.
 
-1. Add each of the following `Product` table fields to the **Filters on this page** well, collapsing each, directly beneath the `Category` field:
+5. Add each of the following `Product` table fields to the **Filters on this page** well, collapsing each, directly beneath the `Category` field:
 
      - `Subcategory`
      - `Product`
@@ -220,7 +226,7 @@ In this task, you'll design the second report page. When you've completed the de
 
     ![Picture 24](Linked_image_Files/08-design-power-bi-reports_image46.png)
 
-1. Save the Power BI Desktop file.
+6. Save the Power BI Desktop file.
 
     > _The design of the second page is now complete._
 
