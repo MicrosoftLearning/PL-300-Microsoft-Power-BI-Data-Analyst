@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Design Power BI reports'
-    module: 'Design Power BI reports'
+  title: Design Power BI reports
+  module: Design Power BI reports
+  description: In this lab, you'll create a three-page report. You'll then publish
+    it to the Power BI service, where you'll open and interact with the report.
+  duration: 45 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Power BI
 ---
 
 # Design Power BI reports
