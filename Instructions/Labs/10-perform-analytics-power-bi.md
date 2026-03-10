@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Perform analytics in Power BI'
-    module: 'Perform analytics in Power BI'
+  title: Perform analytics in Power BI
+  module: Perform analytics in Power BI
+  description: In this lab, you'll create the **Sales Exploration** report.
+  duration: 30 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Power BI
 ---
 
 # Perform analytics in Power BI
