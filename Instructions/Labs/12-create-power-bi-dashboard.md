@@ -1,7 +1,14 @@
 ---
 lab:
-    title: '(Optional) Create dashboards in Power BI'
-    module: 'Create dashboards in Power BI'
+  title: (Optional) Create dashboards in Power BI
+  module: Create dashboards in Power BI
+  description: In this lab, you'll create the **Sales Monitoring** dashboard in the
+    Power BI service using an existing report.
+  duration: 30 minutes
+  level: 200
+  islab: true
+  primarytopics:
+  - Power BI
 ---
 
 # Create dashboards in Power BI
