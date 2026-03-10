@@ -1,7 +1,15 @@
 ---
 lab:
-    title: 'Clean, transform, and load data in Power BI'
-    module: 'Clean, transform, and load data in Power BI'
+  title: Clean, transform, and load data in Power BI
+  module: Clean, transform, and load data in Power BI
+  description: In this lab, you'll use data cleansing and transformation techniques
+    to start shaping your data model. You'll then apply the queries to load each as
+    a table to the semantic model.
+  duration: 45 minutes
+  level: 200
+  islab: true
+  primarytopics:
+  - Power BI
 ---
 
 # Clean, transform, and load data in Power BI
