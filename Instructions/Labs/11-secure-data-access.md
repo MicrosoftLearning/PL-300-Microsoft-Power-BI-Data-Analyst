@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Secure data access in Power BI'
-    module: 'Secure data access in Power BI'
+  title: Secure data access in Power BI
+  module: Secure data access in Power BI
+  description: 'In this lab, you''ll enforce row-level security to ensure that a salesperson
+    can only analyze sales data for their assigned region(s). You learn how to:'
+  duration: 20 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Power BI
 ---
 
 # Secure data access in Power BI
