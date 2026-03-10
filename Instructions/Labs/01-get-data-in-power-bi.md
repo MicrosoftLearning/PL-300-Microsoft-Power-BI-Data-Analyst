@@ -1,7 +1,15 @@
 ---
 lab:
-    title: 'Get data in Power BI'
-    module: 'Get data in Power BI'
+  title: Get data in Power BI
+  module: Get data in Power BI
+  description: This lab is designed to introduce you to Power BI Desktop application
+    and how to connect to data and how to use data preview techniques to understand
+    the characteristics and quality of the source data.
+  duration: 30 minutes
+  level: 200
+  islab: true
+  primarytopics:
+  - Power BI
 ---
 
 # Get data in Power BI
