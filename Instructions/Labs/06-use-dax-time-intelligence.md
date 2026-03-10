@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Use DAX time intelligence functions in Power BI'
-    module: 'Use DAX time intelligence functions in Power BI'
+  title: Use DAX time intelligence functions in Power BI
+  module: Use DAX time intelligence functions in Power BI
+  description: In this lab, you'll create measures with DAX expressions that involve
+    time intelligence.
+  duration: 15 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Power BI
 ---
 
 # Use DAX time intelligence functions in Power BI
