@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Modify DAX filter context in Power BI'
-    module: 'Modify DAX filter context in Power BI'
+  title: Modify DAX filter context in Power BI
+  module: Modify DAX filter context in Power BI
+  description: In this lab, you'll create measures with DAX expressions that involve
+    filter context manipulation.
+  duration: 30 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Power BI
 ---
 
 # Modify DAX filter context in Power BI
