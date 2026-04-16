@@ -262,6 +262,8 @@ In this task, you'll design the third—and final—report page. When you've com
 
 1. Add a **Multi-row Card** visual to the page, and then resize and reposition it so it sits to the right of the slicer and fills the remaining width of the page.
 
+    > _If you don't see the **Multi-row Card** visual in the **Visualizations** pane, select the ellipsis (**...**) at the bottom of the pane, select **Restore default visuals**, and then select **Multi-row Card**._
+
     ![Picture 28](Linked_image_Files/08-design-power-bi-reports_image51.png)
 
     ![Picture 29](Linked_image_Files/08-design-power-bi-reports_image52.png)
