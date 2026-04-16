@@ -207,8 +207,8 @@ In this task, you'll design the second report page. When you've completed the de
      - `Orders` (from the `Counts` folder)
      - `Sales`
      - `Cost`
-     - `Profit` (from the `Pricing` folder)
-     - `Profit Margin` (from the `Pricing` folder)
+     - `Profit`
+     - `Profit Margin`
 
     > _The fields will show in the visual with a prefix showing the aggregation type; "Sum of Sales."_
 
