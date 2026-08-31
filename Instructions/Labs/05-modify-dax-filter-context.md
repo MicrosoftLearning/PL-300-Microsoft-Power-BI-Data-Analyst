@@ -62,7 +62,7 @@ In this task, you'll create a matrix visual to support testing your new measures
 
 1. In the **Search** box, enter _Layout_.
 
-1. Set the **Layout** property to _Tabular_.
+1. Set the **Matrix Layout** property to _Tabular_.
 
     ![Picture 4](Linked_image_Files/05-modify-dax-filter-context_image14.png)
 
