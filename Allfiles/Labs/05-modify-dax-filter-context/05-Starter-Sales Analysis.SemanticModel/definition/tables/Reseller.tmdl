@@ -1,0 +1,103 @@
+table Reseller
+	lineageTag: 8f18aec2-8698-42c2-a2d0-6e0ab97c60ed
+
+	column ResellerKey
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 6e7e9057-9f99-4e3d-b97a-8f1971657186
+		summarizeBy: none
+		sourceColumn: ResellerKey
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Business Type'
+		dataType: string
+		lineageTag: 22cb0578-d589-4fc7-8658-750d9783ca51
+		summarizeBy: none
+		sourceColumn: Business Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column Reseller
+		dataType: string
+		lineageTag: b487d3bb-83eb-4ca3-a470-8efb781d68d2
+		summarizeBy: none
+		sourceColumn: Reseller
+
+		annotation SummarizationSetBy = Automatic
+
+	column City
+		dataType: string
+		lineageTag: 35c811f8-8abf-442d-a31e-71b02f7e1af3
+		dataCategory: City
+		summarizeBy: none
+		sourceColumn: City
+
+		annotation SummarizationSetBy = Automatic
+
+	column State-Province
+		dataType: string
+		lineageTag: 987ad92b-87ef-4c9a-87aa-7cd7c9a3036b
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: State-Province
+
+		annotation SummarizationSetBy = Automatic
+
+	column Country-Region
+		dataType: string
+		lineageTag: aa6ac85c-86e5-4f58-b75a-8376c0c8ac42
+		dataCategory: Country
+		summarizeBy: none
+		sourceColumn: Country-Region
+
+		annotation SummarizationSetBy = Automatic
+
+	hierarchy Resellers
+		lineageTag: 43260477-c08a-4aee-ac91-d390468e3e33
+
+		level 'Business Type'
+			lineageTag: 694cd890-b849-497e-82fe-675716567eb4
+			column: 'Business Type'
+
+		level Reseller
+			lineageTag: 594af5ab-b2e3-4e05-870e-9645e4644509
+			column: Reseller
+
+	hierarchy Geography
+		lineageTag: 736e19d0-9804-41fa-b21b-15c9b718acf2
+
+		level Country-Region
+			lineageTag: 8ed792f7-334a-4dbb-838f-4de24adacb6f
+			column: Country-Region
+
+		level State-Province
+			lineageTag: da5d42ce-9488-42cd-8d77-769d1c110cb7
+			column: State-Province
+
+		level City
+			lineageTag: 2d1ad35f-d207-4471-b171-b8c9719e61c3
+			column: City
+
+		level Reseller
+			lineageTag: f97984a4-d7ca-4b66-9684-428bdca49808
+			column: Reseller
+
+	partition Reseller = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(Web.Contents(DataSourceBaseUrl & "Reseller.csv"),[Delimiter=",", Columns=6, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"ResellerKey", Int64.Type}, {"Business Type", type text}, {"Reseller", type text}, {"City", type text}, {"State-Province", type text}, {"Country-Region", type text}}),
+				    #"Replaced Value" = Table.ReplaceValue(#"Changed Type","Ware House","Warehouse",Replacer.ReplaceText,{"Business Type"})
+				in
+				    #"Replaced Value"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

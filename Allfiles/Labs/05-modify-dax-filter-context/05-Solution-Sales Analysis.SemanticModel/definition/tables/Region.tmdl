@@ -1,0 +1,69 @@
+table Region
+	lineageTag: 5f6774b0-7a2d-4c98-a680-f126af8c7e5c
+
+	column SalesTerritoryKey
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: f4528c79-1b41-49c4-85eb-37659b17b9ff
+		summarizeBy: none
+		sourceColumn: SalesTerritoryKey
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Region
+		dataType: string
+		lineageTag: bc3c173c-de85-4fda-a7b2-558608e12c73
+		summarizeBy: none
+		sourceColumn: Region
+
+		annotation SummarizationSetBy = Automatic
+
+	column Country
+		dataType: string
+		lineageTag: 2d895830-1ae2-4591-9e37-93ef1acd8059
+		dataCategory: Country
+		summarizeBy: none
+		sourceColumn: Country
+
+		annotation SummarizationSetBy = Automatic
+
+	column Group
+		dataType: string
+		lineageTag: baec4f43-4cd6-42b1-8acf-ce51387016ae
+		summarizeBy: none
+		sourceColumn: Group
+
+		annotation SummarizationSetBy = Automatic
+
+	hierarchy Regions
+		lineageTag: 625346fc-db8a-42e9-afb5-a3d03efc042b
+
+		level Group
+			lineageTag: 2874eda0-6bcd-47a5-b757-9196af99b003
+			column: Group
+
+		level Country
+			lineageTag: 6d61a6aa-6490-4cdb-ba70-622343adcbbc
+			column: Country
+
+		level Region
+			lineageTag: 33d0d7e7-ae18-42df-a9ad-201045d0e0f0
+			column: Region
+
+	partition Region = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(Web.Contents(DataSourceBaseUrl & "Region.csv"),[Delimiter=",", Columns=4, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"SalesTerritoryKey", Int64.Type}, {"Region", type text}, {"Country", type text}, {"Group", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+
