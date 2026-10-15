@@ -1,0 +1,193 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "0557c645f2395f220d36",
+  "position": {
+    "x": 23.272727272727273,
+    "y": 29.789090909090909,
+    "z": 0,
+    "height": 664.66909090909087,
+    "width": 1229.7309090909091,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Region"
+                        }
+                      },
+                      "Hierarchy": "Regions"
+                    }
+                  },
+                  "Level": "Group"
+                }
+              },
+              "queryRef": "Region.Regions.Group",
+              "nativeQueryRef": "Regions Group",
+              "active": true
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Region"
+                        }
+                      },
+                      "Hierarchy": "Regions"
+                    }
+                  },
+                  "Level": "Country"
+                }
+              },
+              "queryRef": "Region.Regions.Country",
+              "nativeQueryRef": "Regions Country",
+              "active": true
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Region"
+                        }
+                      },
+                      "Hierarchy": "Regions"
+                    }
+                  },
+                  "Level": "Region"
+                }
+              },
+              "queryRef": "Region.Regions.Region",
+              "nativeQueryRef": "Regions Region",
+              "active": true
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Sales"
+                        }
+                      },
+                      "Property": "Sales"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(Sales.Sales)",
+              "nativeQueryRef": "Sum of Sales"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Sales"
+                    }
+                  },
+                  "Property": "Sales % All Region"
+                }
+              },
+              "queryRef": "Sales.Sales All Region",
+              "nativeQueryRef": "Sales % All Region"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Sales"
+                    }
+                  },
+                  "Property": "Sales % Country"
+                }
+              },
+              "queryRef": "Sales.Sales % Country",
+              "nativeQueryRef": "Sales % Country"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Sales"
+                    }
+                  },
+                  "Property": "Sales % Group"
+                }
+              },
+              "queryRef": "Sales.Sales % Group",
+              "nativeQueryRef": "Sales % Group"
+            }
+          ]
+        }
+      }
+    },
+    "expansionStates": [
+      {
+        "roles": [
+          "Rows"
+        ],
+        "levels": [
+          {
+            "queryRefs": [
+              "Region.Regions.Group"
+            ],
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "Region.Regions.Country"
+            ],
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "Region.Regions.Region"
+            ],
+            "isCollapsed": true,
+            "isPinned": true
+          }
+        ],
+        "root": {}
+      }
+    ],
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "layout": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Tabular'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

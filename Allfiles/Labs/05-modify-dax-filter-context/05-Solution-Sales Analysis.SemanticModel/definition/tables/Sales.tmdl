@@ -1,0 +1,257 @@
+table Sales
+	lineageTag: c90c54c3-ecc7-4006-acae-213e629b2b9e
+
+	measure Profit =
+			
+			SUM('Sales'[Sales]) - SUM('Sales'[Cost])
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: cb608a6f-59ce-4595-a7a2-65dad7020149
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "MathematicalSubtraction"
+				}
+
+		changedProperty = FormatString
+
+	measure 'Profit Margin' =
+			
+			DIVIDE([Profit], SUM('Sales'[Sales]))
+		formatString: #,0.00%;-#,0.00%;#,0.00%
+		lineageTag: ee424faf-c9bf-4309-a6b4-088258944206
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "MathematicalDivision"
+				}
+
+		changedProperty = FormatString
+
+	measure 'Avg Price' =
+			
+			AVERAGE(Sales[Unit Price])
+		formatString: \$#,0.00;-\$#,0.00;\$#,0.00
+		displayFolder: Pricing
+		lineageTag: 06235fe0-ec6b-4480-9601-0b20fca1eaa3
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-AU"}
+
+	measure 'Median Price' =
+			
+			MEDIAN(Sales[Unit Price])
+		formatString: \$#,0.00;-\$#,0.00;\$#,0.00
+		displayFolder: Pricing
+		lineageTag: ceacc498-28dd-435f-b5b0-23a367b3a20c
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-AU"}
+
+	measure 'Min Price' =
+			
+			MIN(Sales[Unit Price])
+		formatString: \$#,0.00;-\$#,0.00;\$#,0.00
+		displayFolder: Pricing
+		lineageTag: 95899f18-b926-43ba-90d6-d0831c8cf34c
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-AU"}
+
+	measure 'Max Price' =
+			
+			MAX(Sales[Unit Price])
+		formatString: \$#,0.00;-\$#,0.00;\$#,0.00
+		displayFolder: Pricing
+		lineageTag: 10f2ab7f-ce1b-43cb-ade9-42967a141631
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-AU"}
+
+	measure Orders =
+			
+			DISTINCTCOUNT(Sales[SalesOrderNumber])
+		formatString: #,0
+		displayFolder: Counts
+		lineageTag: a17bce87-617a-4ada-b8bd-86a1532c1836
+
+	measure 'Order Lines' =
+			
+			COUNTROWS(Sales)
+		formatString: #,0
+		displayFolder: Counts
+		lineageTag: 8ba76031-b2f7-488d-849e-afee0cfbde36
+
+	measure 'Sales % All Region' =
+			
+			DIVIDE(
+				SUM(Sales[Sales]),
+				CALCULATE(
+					SUM(Sales[Sales]),
+					REMOVEFILTERS(Region)
+				)
+			)
+		formatString: #,0.00%;-#,0.00%;#,0.00%
+		displayFolder: Ratios
+		lineageTag: 1107edf8-cd88-4078-8252-d8c0b6c3fd4a
+
+	measure 'Sales % Country' =
+			
+			IF(
+				ISINSCOPE(Region[Region]),
+				DIVIDE(
+					SUM(Sales[Sales]),
+					CALCULATE(
+						SUM(Sales[Sales]),
+						REMOVEFILTERS(Region[Region])
+					)
+				)
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Ratios
+		lineageTag: b4db606d-64a3-43bc-b242-d48130373e12
+
+	measure 'Sales % Group' =
+			
+			IF(
+				ISINSCOPE(Region[Region])
+					|| ISINSCOPE(Region[Country]),
+				DIVIDE(
+					SUM(Sales[Sales]),
+					CALCULATE(
+						SUM(Sales[Sales]),
+						REMOVEFILTERS(
+							Region[Region],
+							Region[Country]
+						)
+					)
+				)
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Ratios
+		lineageTag: 7f1dad48-8df8-4bf4-8316-7a6126408e1d
+
+	column SalesOrderNumber
+		dataType: string
+		isHidden
+		lineageTag: f7a951a1-052d-44bb-911c-0f487977d8e6
+		summarizeBy: none
+		sourceColumn: SalesOrderNumber
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column OrderDate
+		dataType: dateTime
+		isHidden
+		formatString: Long Date
+		lineageTag: f09e25ae-d1b9-4233-80a0-f947efe49834
+		summarizeBy: none
+		sourceColumn: OrderDate
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column ProductKey
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 322e241e-6244-4cd7-bb79-bf30ad967c85
+		summarizeBy: none
+		sourceColumn: ProductKey
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column ResellerKey
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: fa69a045-873a-49b5-847a-2eda5565fab7
+		summarizeBy: none
+		sourceColumn: ResellerKey
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column EmployeeKey
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 84ab0fd3-0c83-4456-a495-f0e3817be1b3
+		summarizeBy: none
+		sourceColumn: EmployeeKey
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column SalesTerritoryKey
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: e2190568-d580-4d50-abaf-e366040afd52
+		summarizeBy: none
+		sourceColumn: SalesTerritoryKey
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quantity
+		dataType: int64
+		formatString: #,0
+		lineageTag: 1f8ac87e-c2b3-4d8f-bf03-f927b297974e
+		summarizeBy: sum
+		sourceColumn: Quantity
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Unit Price'
+		dataType: decimal
+		isHidden
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 914c5056-0675-4279-90b9-9b47f4096186
+		summarizeBy: average
+		sourceColumn: Unit Price
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = User
+
+	column Sales
+		dataType: decimal
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: 4465de7d-4f58-462b-8ddb-6207fcce0d92
+		summarizeBy: sum
+		sourceColumn: Sales
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Based on standard cost
+	column Cost
+		dataType: decimal
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: 4891cf60-2811-4a99-9d25-63cb318cbb38
+		summarizeBy: sum
+		sourceColumn: Cost
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Sales = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(Web.Contents(DataSourceBaseUrl & "Sales.csv"),[Delimiter=",", Columns=10, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"SalesOrderNumber", type text}, {"OrderDate", type date}, {"ProductKey", Int64.Type}, {"ResellerKey", Int64.Type}, {"EmployeeKey", Int64.Type}, {"SalesTerritoryKey", Int64.Type}, {"Quantity", Int64.Type}, {"Unit Price", Currency.Type}, {"Sales", Currency.Type}, {"Cost", Currency.Type}}, "en-US")
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

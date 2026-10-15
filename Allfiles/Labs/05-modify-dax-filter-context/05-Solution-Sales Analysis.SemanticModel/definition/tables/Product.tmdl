@@ -1,0 +1,105 @@
+table Product
+	lineageTag: dd665867-e7a6-4a52-9aad-35c90f0546d2
+
+	column ProductKey
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 678d8652-936a-4dba-a325-58e53bb3af87
+		summarizeBy: none
+		sourceColumn: ProductKey
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Product
+		dataType: string
+		lineageTag: a5e7dfaa-38f3-4305-91eb-04e3ccde571b
+		summarizeBy: none
+		sourceColumn: Product
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Standard Cost'
+		dataType: decimal
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: 75a01e1a-9dea-46b0-aca4-02d9fa627859
+		summarizeBy: none
+		sourceColumn: Standard Cost
+
+		annotation SummarizationSetBy = Automatic
+
+	column Color
+		dataType: string
+		lineageTag: 0fb9b24a-8122-4d20-b69f-7762edaced8c
+		summarizeBy: none
+		sourceColumn: Color
+
+		annotation SummarizationSetBy = Automatic
+
+	column Subcategory
+		dataType: string
+		lineageTag: 5b8c3cee-1210-4525-86c3-aca2b361607e
+		summarizeBy: none
+		sourceColumn: Subcategory
+
+		annotation SummarizationSetBy = Automatic
+
+	column Category
+		dataType: string
+		lineageTag: d56f91e3-f005-42c6-a26e-69acb2b654e8
+		summarizeBy: none
+		sourceColumn: Category
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Background Color Format'
+		dataType: string
+		displayFolder: Formatting
+		lineageTag: 4ee84a8b-24bc-4222-99a8-edd95f508a5c
+		summarizeBy: none
+		sourceColumn: Background Color Format
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Font Color Format'
+		dataType: string
+		displayFolder: Formatting
+		lineageTag: c45bccf0-8553-4d22-8593-e62f9b75f558
+		summarizeBy: none
+		sourceColumn: Font Color Format
+
+		annotation SummarizationSetBy = Automatic
+
+	hierarchy Products
+		lineageTag: c8f2dd60-ffbe-4ba2-a593-e3ee30a21528
+
+		level Category
+			lineageTag: 624021f3-b9bd-4265-988f-99287296444b
+			column: Category
+
+		level Subcategory
+			lineageTag: a2d2375a-b116-401b-b1e5-5b7b3c47f8ae
+			column: Subcategory
+
+		level Product
+			lineageTag: d5158e4d-3b25-4638-8e00-3e12c2493ceb
+			column: Product
+
+	partition Product = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(Web.Contents(DataSourceBaseUrl & "Product.csv"),[Delimiter=",", Columns=6, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"ProductKey", Int64.Type}, {"Product", type text}, {"Standard Cost", type number}, {"Color", type text}, {"Subcategory", type text}, {"Category", type text}}),
+				    #"Merged Queries" = Table.NestedJoin(#"Changed Type", {"Color"}, ColorFormats, {"Color"}, "ColorFormats", JoinKind.LeftOuter),
+				    #"Expanded ColorFormats" = Table.ExpandTableColumn(#"Merged Queries", "ColorFormats", {"Background Color Format", "Font Color Format"}, {"Background Color Format", "Font Color Format"})
+				in
+				    #"Expanded ColorFormats"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

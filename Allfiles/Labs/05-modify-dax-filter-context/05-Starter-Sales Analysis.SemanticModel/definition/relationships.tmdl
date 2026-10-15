@@ -1,0 +1,38 @@
+relationship 7e9ad06a-2dc5-5831-64a3-6d98d0da8f7f
+	fromColumn: Sales.ProductKey
+	toColumn: Product.ProductKey
+
+relationship 29d97fb5-6aa2-9d84-37d0-73270631b27a
+	fromColumn: Sales.SalesTerritoryKey
+	toColumn: Region.SalesTerritoryKey
+
+relationship 3e925182-487e-d131-8cea-513529f0fc76
+	fromColumn: Sales.ResellerKey
+	toColumn: Reseller.ResellerKey
+
+relationship 24710f3d-437c-36ed-a48d-2bd6e0ab3c89
+	fromColumn: SalespersonRegion.EmployeeKey
+	toColumn: 'Salesperson (Performance)'.EmployeeKey
+
+relationship 5c4aa86a-cf04-6fca-e382-646e528ab4a2
+	crossFilteringBehavior: bothDirections
+	securityFilteringBehavior: bothDirections
+	fromColumn: SalespersonRegion.SalesTerritoryKey
+	toColumn: Region.SalesTerritoryKey
+
+relationship 4f52607c-3a9c-3948-ed90-0b8083acef40
+	fromColumn: Targets.EmployeeID
+	toColumn: 'Salesperson (Performance)'.EmployeeID
+
+relationship b2b1ad75-abd7-f1f9-bbe4-98bbddd46156
+	fromColumn: Sales.EmployeeKey
+	toColumn: Salesperson.EmployeeKey
+
+relationship e6729b32-cf8c-dc03-7f32-384c435a4b23
+	fromColumn: Sales.OrderDate
+	toColumn: Date.Date
+
+relationship 1f4b7afd-5cf4-d2e5-afb5-c2cbb43fc255
+	fromColumn: Targets.TargetMonth
+	toColumn: Date.Date
+

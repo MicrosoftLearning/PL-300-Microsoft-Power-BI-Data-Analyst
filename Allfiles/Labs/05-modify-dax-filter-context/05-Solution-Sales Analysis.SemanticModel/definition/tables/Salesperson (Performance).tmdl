@@ -1,0 +1,71 @@
+/// Salesperson related to region(s)
+table 'Salesperson (Performance)'
+	lineageTag: 30cafbe7-1db4-40f7-a023-2211b63f024f
+
+	column EmployeeKey
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: c44af1bf-53ad-476e-b494-3839e0c3204c
+		summarizeBy: none
+		sourceColumn: EmployeeKey
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column EmployeeID
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 29d6a6cb-8d7c-4fac-bd97-824645bff4c3
+		summarizeBy: none
+		sourceColumn: EmployeeID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Title
+		dataType: string
+		lineageTag: 8efa946d-14e2-4138-bc8c-5136c2a775be
+		summarizeBy: none
+		sourceColumn: Title
+
+		annotation SummarizationSetBy = Automatic
+
+	column UPN
+		dataType: string
+		isHidden
+		lineageTag: b7627f0f-d6d9-4bcf-9d3c-dacff4ec08af
+		summarizeBy: none
+		sourceColumn: UPN
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Salesperson
+		dataType: string
+		lineageTag: 665b013f-c666-4d6b-bc2c-d3d668ba96c7
+		summarizeBy: none
+		sourceColumn: Salesperson
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Salesperson (Performance)' = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(Web.Contents(DataSourceBaseUrl & "SalespersonPerformance.csv"),[Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"EmployeeKey", Int64.Type}, {"EmployeeID", Int64.Type}, {"Salesperson", type text}, {"Title", type text}, {"UPN", type text}})
+				in
+				    #"Changed Type"
+
+	changedProperty = Name
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+
