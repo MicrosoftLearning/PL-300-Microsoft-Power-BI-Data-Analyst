@@ -68,9 +68,12 @@ In this exercise, you'll create a new page and configure it as a drillthrough pa
 
     ![Picture 4](Linked_image_Files/09-enhance-power-bi-reports_image24.png)
 
-1. Drag the `Product | Category` field into the card visual.
+1. Drag the `Product | Category` field into the **Value** box under visualization pane.
 
-1. Configure the format options for the visual to turn the **Category Label** property to **Off**.
+1. Configure the format options as the following:
+    - Under **Multi-card layout** disable **Fit to space** and select 1 for **columns**
+    - Under **Cards** disable all options.
+    - Under **Callout** disable **Label**, expand **Value** and center **Horizontal alignment**.
 
     ![Picture 5](Linked_image_Files/09-enhance-power-bi-reports_image36b.png)
 
